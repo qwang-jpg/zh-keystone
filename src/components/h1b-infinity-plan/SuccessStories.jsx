@@ -13,12 +13,12 @@ export default function SuccessStories() {
   return (
     <section id="success-stories" className="scroll-mt-24 bg-keystone-mist py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title="Real Businesses. Real H-1B Journeys." description="Explore how clients navigated layoffs, employer sponsorship challenges, and new business opportunities. These stories come from our shared case collection." />
+        <SectionHeading align="left" title="真实的企业。真实的H-1B历程。" description="了解客户如何应对裁员、雇主担保难题与全新的创业机会。这些故事均来自我们的共享案例库。" />
         <div className="mt-12 grid gap-5 md:grid-cols-2">
           {featuredCases.map((item) => <CaseCard key={item.num} c={item} onOpen={() => setOpenCase(item)} />)}
         </div>
         <Link to="/our-cases" className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline">
-          Explore All Client Cases <ArrowUpRight className="h-4 w-4" />
+          查看全部客户案例 <ArrowUpRight className="h-4 w-4" />
         </Link>
       </div>
       <CaseDrawer key={openCase?.num ?? "closed"} caseData={openCase} onClose={() => setOpenCase(null)} />

@@ -30,21 +30,21 @@ export default function H1BInfinityPlan() {
   return (
     <PageLayout>
       <Seo
-        title="H-1B Infinity Plan — Business Formation & Status Planning"
-        description="Our H-1B Infinity Plan is designed for individuals facing H-1B layoffs or planning self-employment through OPT or H-1B entrepreneurship, with full support from company formation to compliant operations."
+        title="H-1B无限续航计划 — 公司注册与身份规划"
+        description="H-1B无限续航计划专为面临H-1B裁员，或计划通过OPT/H-1B创业实现自雇的人群设计，从公司注册到合规运营提供全程支持。"
         path="/h-1b-status-protection-program"
         jsonLd={faqJsonLd}
       />
       <Hero />
       <StatsBar />
-      <nav aria-label="On this page" className="border-b border-border bg-white py-5">
+      <nav aria-label="本页导航" className="border-b border-border bg-white py-5">
         <div className="container flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold text-primary">
-          <a href="#about-plan">About the Plan</a>
-          <a href="#who-its-for">Who It’s For</a>
-          <a href="#included-services">What’s Included</a>
-          <a href="#service-process">Our Process</a>
-          <a href="#success-stories">Client Cases</a>
-          <a href="#h1b-faq">Common Questions</a>
+          <a href="#about-plan">计划介绍</a>
+          <a href="#who-its-for">适合人群</a>
+          <a href="#included-services">服务内容</a>
+          <a href="#service-process">服务流程</a>
+          <a href="#success-stories">客户案例</a>
+          <a href="#h1b-faq">常见问题</a>
         </div>
       </nav>
       <AboutPlan />
@@ -57,9 +57,9 @@ export default function H1BInfinityPlan() {
       <SuccessStories />
       <ProvenResults />
       <CompactCta
-        title="Your Guide to H-1B Self-Employment"
-        description={<p>Explore company formation, petition preparation, attorney coordination, and the steps involved in planning your H-1B journey.</p>}
-        ctaLabel="Read the Guide"
+        title="您的H-1B自雇指南"
+        description={<p>了解公司注册、申请材料准备、律师协调，以及规划您H-1B之路所涉及的各个步骤。</p>}
+        ctaLabel="阅读指南"
         ctaHref="/insights/h-1b-self-employment-complete-guide"
       />
       <STEMCrossSell />

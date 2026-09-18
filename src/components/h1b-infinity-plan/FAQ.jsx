@@ -7,36 +7,36 @@ import { cn } from "@/lib/utils";
 
 export const faqs = [
   {
-    "q": "What does a company need for an H-1B petition?",
-    "a": "The business must support a genuine job offer and demonstrate the operations, work, and resources behind the proposed role. We help organize business plans, formation records, and financial documentation so immigration counsel can assess the company and petition."
+    "q": "公司在办理H-1B申请时需要具备哪些条件？",
+    "a": "企业必须能够支撑一份真实的岗位聘用，并证明该职位背后的运营、工作内容与资源支持。我们协助整理商业计划、注册记录与财务文件，供移民律师评估公司与申请材料。"
   },
   {
-    "q": "Can I transfer an H-1B sponsored by my own company to another employer?",
-    "a": "Yes, if the applicable H-1B transfer requirements are met. A new employer must follow the appropriate petition process. We can help coordinate the company and payroll records your attorney needs."
+    "q": "我能把由自己公司担保的H-1B转移到其他雇主吗？",
+    "a": "可以，只要满足适用的H-1B转移要求。新雇主必须遵循相应的申请流程。我们可以协助整理律师所需的公司与薪资记录。"
   },
   {
-    "q": "Does an owner-sponsored H-1B petition use the annual cap?",
-    "a": "Owning the petitioning company does not itself make a petition cap-exempt. Cap-subject petitions follow the applicable annual registration and selection process; counsel should assess whether an exemption applies to your case."
+    "q": "由所有者担保的H-1B申请是否占用年度名额？",
+    "a": "拥有申请方公司本身并不会使申请自动豁免抽签名额。受名额限制的申请仍需遵循适用的年度注册与抽签流程；具体是否适用豁免，应由律师评估您的案件情况后判断。"
   },
   {
-    "q": "How should the role relate to my education and business?",
-    "a": "The offered position must qualify as a specialty occupation, and your qualifications must fit that position. Your business activities and supporting documents should explain the genuine need for the specialized work. We coordinate role and business documentation for attorney review."
+    "q": "职位应如何与我的学历和业务相关联？",
+    "a": "所提供的职位必须符合专业职位（specialty occupation）的资格要求，且您的资历必须与该职位相匹配。您的业务活动与支持文件应能说明该专业岗位的真实需求。我们协助整理职位与业务文件，供律师审核。"
   },
   {
-    "q": "Does the company have to hire other employees?",
-    "a": "There is no blanket requirement to hire additional employees solely because the H-1B beneficiary owns the company. The business still needs a credible operating plan and the ability to meet its employment and wage obligations. Your specific structure should be reviewed with counsel."
+    "q": "公司是否必须雇佣其他员工？",
+    "a": "并不存在\"仅因H-1B受益人拥有公司股权，就必须额外雇佣员工\"的一刀切要求。企业仍需具备可信的运营计划，并有能力履行相应的雇佣与薪资义务。您具体的架构应与律师一同审核确认。"
   },
   {
-    "q": "What if USCIS sends a request for evidence (RFE)?",
-    "a": "An RFE asks for additional information and is not a denial. Questions may concern status history, business operations, or the need for the position. We help organize company records and coordinate with your attorney on the response."
+    "q": "如果USCIS发出补件通知（RFE）该怎么办？",
+    "a": "补件通知是要求提供更多信息，并不等同于拒绝。问题可能涉及身份历史、企业运营，或该职位的真实需求。我们协助整理公司记录，并与您的律师协调完成回复。"
   },
   {
-    "q": "Do I need an existing business idea to join the plan?",
-    "a": "You do not need a fully developed business plan before the first assessment. We help explore a viable direction based on your background and goals. The plan requires a genuine business and a role that meets the relevant requirements."
+    "q": "加入该计划是否需要我已经有现成的创业想法？",
+    "a": "在首次评估之前，您并不需要有一份完整成型的商业计划。我们会根据您的背景与目标，帮您探索可行的方向。该计划要求的是一家真实的企业，以及一个符合相关要求的职位。"
   },
   {
-    "q": "What happens if I am not selected in the first registration cycle?",
-    "a": "Your company may prepare for a later registration cycle if it and you remain eligible. Maintaining lawful status and work authorization is a separate requirement; registration or company ownership does not extend either. We help you review the next steps with immigration counsel."
+    "q": "如果我在首次注册周期未被抽中会怎样？",
+    "a": "只要您与公司仍符合条件，就可以为之后的注册周期做准备。维持合法身份与工作授权是另一项独立的要求；注册或拥有公司股权本身并不会延长两者的有效期。我们会协助您与移民律师一同审视接下来的步骤。"
   }
 ];
 
@@ -48,7 +48,7 @@ export default function FAQ() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="H-1B Self-Employment FAQ"
+          title="H-1B自雇 常见问题"
         />
 
         <div className="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-4 md:grid-cols-2">
@@ -97,7 +97,7 @@ export default function FAQ() {
             to="/contact"
             className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline"
           >
-            Have more questions? Get answers
+            还有更多问题？获取解答
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>

@@ -4,18 +4,18 @@ import { ShieldCheck, Zap, Infinity as InfinityIcon } from "lucide-react";
 const props = [
   {
     icon: ShieldCheck,
-    title: "Plan Ahead for Changes in Status",
-    description: "Build the company foundation early and prepare for layoffs, unemployment, or an employer's decision not to sponsor. We connect your business plan with your OPT, STEM OPT, or H-1B timeline.",
+    title: "提前为身份变化做好规划",
+    description: "尽早搭建公司基础，为裁员、失业或雇主拒绝担保等情况提前做好准备。我们将您的创业计划与OPT、STEM OPT或H-1B时间线紧密衔接。",
   },
   {
     icon: Zap,
-    title: "One Team, From Setup to Operations",
-    description: "Coordinate company registration, EIN applications, remote banking, your website, and a company handbook in one place. Eligible company registrations can be completed in as little as 24 hours; agency and bank processing times vary.",
+    title: "一支团队，从搭建到运营全程负责",
+    description: "统筹公司注册、EIN申请、远程开户、网站建设与公司手册于一处。符合条件的公司注册最快可在24小时内完成；具体处理时间因政府机构与银行而异。",
   },
   {
     icon: InfinityIcon,
-    title: "A Foundation for Future Opportunities",
-    description: "Reduce reliance on a traditional employer and prepare for future H-1B registration cycles when eligible. We help align ongoing operations with your longer-term immigration goals.",
+    title: "为未来机会打下基础",
+    description: "减少对传统雇主的依赖，为符合条件后的未来H-1B注册周期做好准备。我们帮助您把持续运营与长期移民目标衔接起来。",
   },
 ];
 

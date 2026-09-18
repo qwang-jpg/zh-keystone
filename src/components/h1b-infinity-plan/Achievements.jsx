@@ -5,82 +5,82 @@ import SectionHeading from "@/components/common/SectionHeading";
 
 const tabs = [
   {
-    "title": "U.S. Company Registration",
+    "title": "美国公司注册",
     "bullets": [
-      "Review your business activities and choose an entity type aligned with your plans.",
-      "Check company name and domain availability.",
-      "Prepare and submit company formation documents and coordinate state filings.",
-      "Apply for an employer identification number (EIN) and support E-Verify enrollment where applicable.",
-      "Coordinate shareholder or operating agreements and other required corporate documents."
+      "审视您的业务活动，选择契合您计划的实体类型。",
+      "查询公司名称与域名的可用性。",
+      "准备并递交公司注册文件，协调州级备案。",
+      "申请雇主识别号（EIN），并在适用情况下协助E-Verify注册。",
+      "协调股东协议或运营协议及其他所需的公司文件。"
     ],
-    "calloutTitle": "What you gain",
-    "callout": "A company foundation for your next step, with organized registration records and a clear operational plan. Expedited formation may be available in as little as 24 hours, depending on the state and your circumstances."
+    "calloutTitle": "您将获得",
+    "callout": "为您的下一步打下公司基础，拥有整理有序的注册记录与清晰的运营计划。根据所在州及具体情况，加急注册最快可在24小时内完成。"
   },
   {
-    "title": "Business Bank Account Opening",
+    "title": "企业银行账户开设",
     "bullets": [
-      "Explore remote account-opening options through our U.S. banking relationships.",
-      "Prepare your passport, personal information, and company documents for the bank’s review.",
-      "Identify options for eligible founders without an SSN or an in-person visit.",
-      "Establish a dedicated business account to keep operating funds and transaction records organized."
+      "通过我们的美国银行合作关系，探索远程开户选项。",
+      "准备好您的护照、个人信息与公司文件，供银行审核。",
+      "为没有SSN或无法亲自到场的合格创始人找出可行方案。",
+      "开设专属企业账户，保持运营资金与交易记录井然有序。"
     ],
-    "calloutTitle": "What you gain",
-    "callout": "A business banking setup that supports real operations and traceable financial records. Eligibility, required documents, and approval depend on the bank."
+    "calloutTitle": "您将获得",
+    "callout": "一套支撑真实运营、财务记录可追溯的企业银行体系。具体资质要求、所需文件与审批结果，取决于银行本身的规定。"
   },
   {
-    "title": "Immigration & Status Guidance",
+    "title": "移民与身份指导",
     "bullets": [
-      "Coordinate guidance for OPT and STEM OPT reporting and status-maintenance requirements.",
-      "Organize H-1B document checklists and explain the preparation timeline.",
-      "Guide USCIS employer account setup and H-1B registration.",
-      "Help coordinate supporting materials and communication with immigration attorneys.",
-      "Connect you with immigration counsel for petition filing and longer-term EB-2 or EB-3 planning where applicable."
+      "协调OPT与STEM OPT的申报及身份维护要求指导。",
+      "整理H-1B文件清单，并说明准备时间线。",
+      "指导USCIS雇主账户搭建与H-1B注册。",
+      "协助整理支持材料，并与移民律师沟通对接。",
+      "在适用情况下，为您对接移民律师办理申请递交及长期的EB-2或EB-3规划。"
     ],
-    "calloutTitle": "What you gain",
-    "callout": "A coordinated preparation process, from document collection and registration to attorney communication and planning for the next stage."
+    "calloutTitle": "您将获得",
+    "callout": "一套协调有序的准备流程，从材料收集、注册，到与律师沟通及下一阶段规划。"
   },
   {
-    "title": "Website & Company Handbook",
+    "title": "网站与公司手册",
     "bullets": [
-      "Develop a company logo and professional visual identity.",
-      "Plan your website’s structure and write content that reflects your actual business.",
-      "Build responsive pages for desktop and mobile visitors.",
-      "Improve search visibility through on-page SEO.",
-      "Prepare a company handbook aligned with your operating practices."
+      "设计公司标志与专业视觉形象。",
+      "规划网站架构，撰写真实反映您业务的内容。",
+      "搭建适配桌面端与移动端访问者的响应式页面。",
+      "通过页面SEO优化提升搜索可见性。",
+      "准备契合您运营方式的公司手册。"
     ],
-    "calloutTitle": "What you gain",
-    "callout": "A credible business presence: a professional website and handbook that explain your services, team, and operations."
+    "calloutTitle": "您将获得",
+    "callout": "可信的企业形象：一个能够清晰说明您服务、团队与运营情况的专业网站与手册。"
   },
   {
-    "title": "Company Operations Support",
+    "title": "公司运营支持",
     "bullets": [
-      "Set up company-domain email and guide business phone registration.",
-      "Provide new-hire checklists and employee onboarding guidance.",
-      "Explain how to update an operating address across relevant government records.",
-      "Provide client service agreement and invoice templates, plus guidance on employment practices."
+      "搭建企业域名邮箱，并指导企业电话注册。",
+      "提供新员工入职清单与入职指导。",
+      "说明如何在相关政府记录中更新运营地址。",
+      "提供客户服务协议与发票模板，并给予雇佣实践方面的指导。"
     ],
-    "calloutTitle": "What you gain",
-    "callout": "Practical tools for daily operations, from onboarding and customer contracts to consistent company records."
+    "calloutTitle": "您将获得",
+    "callout": "日常运营的实用工具，从员工入职、客户合同到统一规范的公司记录。"
   },
   {
-    "title": "Financial & Tax Filing Guidance",
+    "title": "财务与税务申报指导",
     "bullets": [
-      "Explain basic bookkeeping workflows and recommend suitable software.",
-      "Outline tax-filing preparation and recordkeeping needs.",
-      "Connect you with certified public accountants for annual tax filings, financial reporting, and audits where applicable."
+      "说明基础记账流程，推荐合适的软件。",
+      "梳理报税准备与记录留存的相关需求。",
+      "在适用情况下，为您对接注册会计师办理年度报税、财务报告与审计。"
     ],
-    "calloutTitle": "What you gain",
-    "callout": "Organized, traceable financial records and access to CPA support for your company’s reporting obligations."
+    "calloutTitle": "您将获得",
+    "callout": "井然有序、可追溯的财务记录，以及支持公司申报义务的CPA专业支持。"
   },
   {
-    "title": "Additional Professional Resources",
+    "title": "其他专业资源",
     "bullets": [
-      "Connect you with workers’ compensation insurance providers where coverage is needed.",
-      "Coordinate CPA or payroll resources for pay stubs and W-2 forms.",
-      "Help organize financial and employment records for H-1B transfers, extensions, and attorney review."
+      "在需要投保时，为您对接工伤赔偿保险提供商。",
+      "协调CPA或薪资服务资源，办理工资单与W-2表格。",
+      "协助整理H-1B转移、延期及律师审核所需的财务与雇佣记录。"
     ],
-    "calloutTitle": "What you gain",
-    "callout": "Professional connections for the employment, insurance, and financial documentation your next step may require."
+    "calloutTitle": "您将获得",
+    "callout": "在雇佣、保险与财务文件方面，为您下一步可能需要的专业资源牵线搭桥。"
   }
 ];
 
@@ -93,7 +93,7 @@ export default function Achievements() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="What You’ll Achieve With H-1B Infinity Plan"
+          title="H-1B无限续航计划能为您带来什么"
         />
 
         <div className="mt-12 flex flex-wrap justify-center gap-2">

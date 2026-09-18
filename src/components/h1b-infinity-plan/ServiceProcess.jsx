@@ -4,33 +4,33 @@ import SectionHeading from "@/components/common/SectionHeading";
 const steps = [
   {
     "number": "01",
-    "title": "Assessment & Your Service Plan",
-    "description": "We review your education, professional experience, current status, and long-term goals. Together, we map out the company structure, service scope, professional resources, and deadlines for an actionable plan."
+    "title": "评估与您的专属服务方案",
+    "description": "我们审视您的教育背景、职业经历、当前身份与长期目标，共同规划出公司架构、服务范围、专业资源与截止日期，形成一份可执行的方案。"
   },
   {
     "number": "02",
-    "title": "Company Formation & Employer Setup",
-    "description": "We coordinate company registration, formation documents, shareholder or operating agreements, and the EIN application. We also support applicable corporate filings and E-Verify enrollment where needed for your employment plan."
+    "title": "公司注册与雇主搭建",
+    "description": "我们统筹公司注册、成立文件、股东或运营协议及EIN申请，并在您的雇佣方案需要时，协助完成适用的公司备案与E-Verify注册。"
   },
   {
     "number": "03",
-    "title": "Business Banking & Company Foundations",
-    "description": "We help you apply for a business bank account remotely and establish your website, company email, and handbook. These foundations give your business a professional presence and support genuine day-to-day operations."
+    "title": "企业银行开户与公司基础搭建",
+    "description": "我们协助您远程申请企业银行账户，并搭建网站、企业邮箱与公司手册。这些基础设施让您的企业具备专业形象，支撑真实的日常运营。"
   },
   {
     "number": "04",
-    "title": "Registration & Petition Preparation",
-    "description": "We guide employer account setup and H-1B registration, organize supporting documents, and coordinate with immigration attorneys for petition preparation and submission. Where applicable, we also help coordinate OPT or STEM OPT documentation and related work-authorization applications."
+    "title": "注册与申请材料准备",
+    "description": "我们指导雇主账户搭建与H-1B注册，整理支持材料，并与移民律师协调完成申请准备与递交。在适用情况下，我们也会协助协调OPT或STEM OPT相关文件及工作授权申请。"
   },
   {
     "number": "05",
-    "title": "Ongoing Operations & Tax Support",
-    "description": "We provide guidance on onboarding, payroll records, W-2 forms, workers’ compensation coverage, bookkeeping, and tax preparation. CPA and legal resources support your company’s ongoing responsibilities."
+    "title": "持续运营与税务支持",
+    "description": "我们提供员工入职、薪资记录、W-2表格、工伤赔偿保险、记账与报税准备方面的指导。CPA与法律资源将持续支持您公司的各项运营义务。"
   },
   {
     "number": "06",
-    "title": "Long-Term Status & Career Planning",
-    "description": "We help you plan ahead for H-1B extensions and explore longer-term options, including EB-2 or EB-3 pathways with immigration counsel, based on your eligibility, business development, and personal goals."
+    "title": "长期身份与职业规划",
+    "description": "我们帮助您提前规划H-1B延期，并根据您的资格条件、企业发展与个人目标，与移民律师一同探讨EB-2或EB-3等更长期的路径选择。"
   }
 ];
 
@@ -40,8 +40,8 @@ export default function ServiceProcess() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="Service Process"
-          description="From your first assessment to ongoing operations, six coordinated stages connect your business setup with your immigration plan."
+          title="服务流程"
+          description="从首次评估到持续运营，六个环环相扣的阶段，将您的企业搭建与移民规划紧密衔接。"
         />
 
         <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-2">

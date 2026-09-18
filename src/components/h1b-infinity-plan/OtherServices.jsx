@@ -5,24 +5,24 @@ import SectionHeading from "@/components/common/SectionHeading";
 
 const services = [
   {
-    title: "STEM OPT Ready Plan",
+    title: "STEM OPT就绪计划",
     description:
-      "The STEM OPT Ready Plan is a one-stop compliance solution for professionals who want to legally extend their STEM OPT status through self-employment while confidently entering the H-1B lottery.",
-    cta: "Explore the STEM OPT Ready Plan",
+      "STEM OPT就绪计划是一套一站式合规方案，帮助专业人士通过自雇合法延长STEM OPT身份，同时放心参与H-1B抽签。",
+    cta: "了解STEM OPT就绪计划",
     href: "/stem-opt-ready-plan",
   },
   {
-    title: "STEM OPT Status Safeguard Plan",
+    title: "STEM OPT身份保障计划",
     description:
-      "Through our established employer network and resources from over a hundred incubated companies, Keystone Strategies provides international students in STEM OPT with genuine, compliant positions and end-to-end status transition support.",
-    cta: "Explore the STEM OPT Status Safeguard Plan",
+      "通过我们成熟的雇主网络及上百家孵化企业的资源，Keystone Strategies为处于STEM OPT期间的国际学生提供真实合规的岗位与端到端的身份过渡支持。",
+    cta: "了解STEM OPT身份保障计划",
     href: "/stem-opt-employer-compliance-training",
   },
   {
-    title: "OPT Status Safeguard Plan",
+    title: "OPT身份保障计划",
     description:
-      "Through our established employer partner network and resources from over a hundred incubated companies, Keystone Strategies provides international students in OPT with genuine, compliant positions and end-to-end status transition support.",
-    cta: "Explore the OPT Status Safeguard Plan",
+      "通过我们成熟的合作雇主网络及上百家孵化企业的资源，Keystone Strategies为处于OPT期间的国际学生提供真实合规的岗位与端到端的身份过渡支持。",
+    cta: "了解OPT身份保障计划",
     href: "/opt-status-safeguard",
   },
 ];
@@ -33,8 +33,8 @@ export default function OtherServices() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="Other OPT / STEM OPT / H-1B Services"
-          description="One-stop compliance solutions spanning OPT, STEM OPT, H-1B, and long-term planning — safeguarding your status and career in the U.S. every step of the way."
+          title="其他OPT / STEM OPT / H-1B相关服务"
+          description="覆盖OPT、STEM OPT、H-1B及长期规划的一站式合规方案——在每一步为您的身份与职业发展保驾护航。"
         />
 
         <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-3">
