@@ -1,219 +1,219 @@
 export default {
   slug: `opt-unemployment-survival-guide`,
-  title: `The OPT Unemployment Survival Guide`,
-  description: `Everything you need to know about the OPT 90-day unemployment clock: how it's calculated, six legal ways to stay employed, and how self-employment can help you preserve your status.`,
-  category: `Guide`,
+  title: `OPT失业生存指南`,
+  description: `关于OPT 90天失业计时的完整解读：如何计算、六种合法维持就业的方式，以及自雇如何帮助您保住身份。`,
+  category: `指南`,
   date: `2025-07-08`,
-  readingTime: `10 min read`,
+  readingTime: `10分钟阅读`,
   content: [
     {
       type: `paragraph`,
-      html: `The number of unemployment days allowed during OPT has a firm cap: <strong>no more than 90 days total</strong>. Once you exceed it, your status lapses. That's why understanding how the OPT unemployment clock is calculated — and taking timely, compliant action while you're on it — is essential knowledge for every international student. If you're currently struggling to find work, facing the risk of losing your status, or considering <strong>self-employment to maintain lawful status</strong>, this article will walk you through: how the unemployment clock works, what "self-rescue" options exist, whether OPT self-employment is legal, and how to get started quickly. For a detailed breakdown of the STEM OPT unemployment clock and self-rescue strategies, see <a href="/insights/stem-opt-layoff-survival-guide"><em>The Complete STEM OPT Layoff Survival Guide (with a real 2025 case study of landing status in just 10 days after a layoff)</em></a>.`,
+      html: `OPT期间允许的失业天数有一条明确的上限：<strong>累计不得超过90天</strong>。一旦超出，您的身份就会失效。这正是为什么理解OPT失业计时的计算方式——并在计时期间及时采取合规行动——是每一位国际学生都必须掌握的知识。如果您目前正为找不到工作而发愁，面临失去身份的风险，或正在考虑<strong>通过自雇维持合法身份</strong>，本文将为您讲解：OPT失业计时是如何运作的、有哪些"自救"选项、OPT自雇是否合法，以及如何快速上手。关于STEM OPT失业计时与自救策略的详细讲解，请参阅<a href="/insights/stem-opt-layoff-survival-guide"><em>STEM OPT裁员生存完全指南（附2025年裁员后10天内成功落地身份的真实案例）</em></a>。`,
     },
-    { type: `heading`, level: 2, html: `Understanding the OPT unemployment period` },
-    { type: `heading`, level: 3, html: `1. What is the OPT Unemployment Period?` },
+    { type: `heading`, level: 2, html: `理解OPT失业期` },
+    { type: `heading`, level: 3, html: `1. 什么是OPT失业期？` },
     {
       type: `paragraph`,
-      html: `<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students" rel="noopener noreferrer" target="_blank">OPT (Optional Practical Training)</a> is a work authorization that allows F-1 students to legally work in a position related to their field of study in the United States. After an F-1 student graduates, <a href="https://www.uscis.gov/" rel="noopener noreferrer" target="_blank">USCIS</a> allows them a one-year period of practical training, which the student must apply for themselves. <strong>During this period, if you're not engaged in any legal, field-related work and accumulate more than 90 days of unemployment, you're considered to have lost F-1 status</strong>. This permitted "no-work" window is what's known as the <strong>OPT Unemployment Period</strong>.`,
+      html: `<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students" rel="noopener noreferrer" target="_blank">OPT（选择性实习训练）</a>是允许F-1学生在美国合法从事与所学专业相关工作的工作授权。F-1学生毕业后，<a href="https://www.uscis.gov/" rel="noopener noreferrer" target="_blank">USCIS</a>允许其完成为期一年的实习训练，学生需要自行申请。<strong>在此期间，如果您没有从事任何与专业相关的合法工作，且累计失业天数超过90天，将被视为失去F-1身份</strong>。这段被允许的"无工作"窗口期，就是所谓的<strong>OPT失业期</strong>。`,
     },
-    { type: `heading`, level: 4, html: `2. How is the OPT unemployment period calculated?` },
+    { type: `heading`, level: 4, html: `2. OPT失业期是如何计算的？` },
     {
       type: `paragraph`,
-      html: `The OPT unemployment clock starts running from <strong>the start date printed on your EAD (Employment Authorization Document) card</strong>:`,
+      html: `OPT失业计时从<strong>您EAD（工作许可）卡上印刷的开始日期</strong>起开始计算：`,
     },
     {
       type: `list`,
       ordered: false,
       items: [
-        `As long as you're not in a state of compliant employment, every single day counts toward your unemployment total.`,
-        `<strong>Unemployment days accumulate cumulatively</strong> — if you find a job and later become unemployed again, the days continue accumulating, and your <strong>total unemployment may not exceed 90 days</strong>.`,
-        `Once you exceed that, your F-1 status automatically terminates.`,
+        `只要您没有处于合规就业状态，每一天都会计入您的失业总天数。`,
+        `<strong>失业天数是累计计算的</strong>——如果您找到工作后又再次失业，天数会继续累加，<strong>失业总天数不得超过90天</strong>。`,
+        `一旦超出这一限制，您的F-1身份将自动终止。`,
       ],
     },
     {
       type: `paragraph`,
-      html: `We recommend two ways to check how many unemployment days you have left:`,
+      html: `我们建议通过以下两种方式核实剩余的失业天数：`,
     },
     {
       type: `list`,
       ordered: false,
       items: [
-        `<strong>Ask your DSO how many unemployment days you've used so far:</strong>`,
+        `<strong>向DSO询问您目前已使用的失业天数：</strong>`,
       ],
     },
     {
       type: `paragraph`,
-      html: `Only your DSO has access to the <a href="https://studyinthestates.dhs.gov/sevis-help-hub/student-records/fm-student-employment/unemployment-counter" rel="noopener noreferrer" target="_blank">Unemployment Counter</a> in SEVIS, so they can tell you exactly how many days you've used.`,
+      html: `只有您的DSO才能访问SEVIS中的<a href="https://studyinthestates.dhs.gov/sevis-help-hub/student-records/fm-student-employment/unemployment-counter" rel="noopener noreferrer" target="_blank">失业计数器</a>，因此他们可以准确告知您已使用的天数。`,
     },
     {
       type: `list`,
       ordered: false,
       items: [
-        `<strong>Cross-check your own employer records via the SEVP Portal:</strong>`,
+        `<strong>通过SEVP门户核查自己的雇主记录：</strong>`,
       ],
     },
     {
       type: `paragraph`,
-      html: `Starting from your OPT effective date on your EAD card, every day without employment during that period counts toward your unemployment total. Note in particular that switching jobs or being laid off during OPT, with no new employer on record, also counts toward your unemployment days.`,
+      html: `从您EAD卡上的OPT生效日期起，该期间内没有雇佣关系的每一天都会计入您的失业总天数。需要特别注意的是，OPT期间更换工作或被裁员、且没有新雇主在案的情况，同样会计入失业天数。`,
     },
-    { type: `heading`, level: 4, html: `3. Reporting unemployment` },
+    { type: `heading`, level: 4, html: `3. 报备失业情况` },
     {
       type: `paragraph`,
-      html: `If you receive your EAD card and still don't have a job, or you're laid off, <strong>you need to report your unemployed status within 10 days through your international student office or the SEVP Portal.</strong>
-<a href="/contact">Running low on OPT unemployment days? Get a free consultation on entering the lottery through self-employment.</a>`,
+      html: `如果您收到EAD卡后仍未找到工作，或者被裁员，<strong>需要在10天内通过国际学生办公室或SEVP门户报备失业状态。</strong>
+<a href="/contact">OPT失业天数快用完了？获取通过自雇进入抽签的免费咨询。</a>`,
     },
-    { type: `heading`, level: 2, html: `Six ways to stay employed during the OPT unemployment period` },
+    { type: `heading`, level: 2, html: `OPT失业期内维持就业的六种方式` },
     {
       type: `paragraph`,
-      html: `If you're facing a period of unemployment during OPT, the most important thing is to <strong>promptly pursue a legal path to employment</strong>, so you avoid accumulating more than 90 days of unemployment and losing your status. Below are six officially recognized approaches — <strong>as long as the work is related to your field and totals at least 20 hours a week, it counts as compliant employment and avoids the unemployment clock</strong>. That said, each option comes with its own degree of difficulty and limitations, so weigh them against your own situation:`,
+      html: `如果您正面临OPT期间的失业阶段，最重要的是<strong>尽快找到合法的就业途径</strong>，避免累计失业天数超过90天而失去身份。以下是六种官方认可的方式——<strong>只要工作与您的专业相关，且每周总工时不低于20小时，即可视为合规就业，从而暂停失业计时</strong>。不过，每种方式都有各自的难度与限制，请结合自身情况权衡：`,
     },
-    { type: `heading`, level: 3, html: `1. Paid full-time or part-time work related to your field` },
+    { type: `heading`, level: 3, html: `1. 与专业相关的有薪全职或兼职工作` },
     {
       type: `paragraph`,
-      html: `The most common and stable approach during OPT is finding a paid full-time or part-time job related to your field — as long as you work 20 hours a week or more and the work directly relates to your major, it counts as compliant employment. However, the current job market is highly competitive, and many companies are cautious about hiring international students, making it hard to land an offer quickly.`,
+      html: `OPT期间最常见、也最稳妥的方式，是找到一份与专业相关的有薪全职或兼职工作——只要每周工作20小时以上，且工作内容与专业直接相关，即可视为合规就业。不过，当前的就业市场竞争激烈，许多公司在招聘国际学生时也较为谨慎，快速拿到offer并不容易。`,
     },
-    { type: `heading`, level: 5, html: `2. Working for multiple employers at once (a combined-employment approach)` },
+    { type: `heading`, level: 5, html: `2. 同时为多个雇主工作（组合就业方式）` },
     {
       type: `paragraph`,
-      html: `Students can work for two or more employers at the same time in roles related to their field, as long as the combined hours across all jobs total at least 20 a week. This adds flexibility, but also raises the bar for time management, contract retention, and documentation. Each position needs its own job-duty description and employer verification — otherwise it can easily raise questions during a school or USCIS review.`,
+      html: `学生可以同时为两个或更多雇主从事与专业相关的工作，只要所有工作的总工时合计每周不低于20小时即可。这种方式增加了灵活性，但对时间管理、合同留存与材料记录的要求也更高。每份工作都需要单独的岗位职责说明与雇主核实材料——否则很容易在学校或USCIS审查时引发疑问。`,
     },
-    { type: `heading`, level: 5, html: `3. Independent contractor / freelance work (1099)` },
+    { type: `heading`, level: 5, html: `3. 独立承包商/自由职业（1099）` },
     {
       type: `paragraph`,
-      html: `Working as a 1099 independent contractor is also officially recognized. This kind of work offers a lot of flexibility and isn't tied to a traditional employer, making it well suited to short-term, project-based collaborations. But be aware that this arrangement comes with more demanding tax filing requirements and stricter client vetting, and some platforms reject non-citizens or non-green-card holders, which can make it hard for some students to sustain this type of work long-term.`,
+      html: `以1099独立承包商身份工作同样得到官方认可。这种工作方式灵活度高，不依赖传统雇主，非常适合短期、项目制的合作。但需要注意，这种安排对报税要求更严格，客户审核也更为谨慎，部分平台还会拒绝非美国公民或非绿卡持有者，这可能导致部分学生难以长期维持这类工作。`,
     },
-    { type: `heading`, level: 5, html: `4. Unpaid internships / volunteer positions` },
+    { type: `heading`, level: 5, html: `4. 无薪实习/志愿者岗位` },
     {
       type: `paragraph`,
-      html: `Students can also choose an unpaid internship or volunteer role related to their field, as long as it involves 20 hours a week or more and comes with documentation from the employer or organization describing the duties and hours. This type of position has a lower barrier to entry and can serve as a bridge option when a paid job isn't available. But be careful: if the role isn't related to your field, or the organization won't provide documentation, it may still be classified as "invalid employment" and counted toward your unemployment period.`,
+      html: `学生也可以选择与专业相关的无薪实习或志愿者岗位，只要每周工时达到20小时以上，并有雇主或机构提供说明职责与工时的证明文件即可。这类岗位入门门槛较低，在无法找到有薪工作时可以作为过渡方案。但需要注意：如果该岗位与专业无关，或机构无法提供证明文件，仍可能被认定为"无效就业"，计入失业期。`,
     },
-    { type: `heading`, level: 5, html: `5. Project-based positions through an agency or staffing firm` },
+    { type: `heading`, level: 5, html: `5. 通过中介或人力资源公司获得的项目制岗位` },
     {
       type: `paragraph`,
-      html: `Finding a short-term, project-based role through a staffing agency or HR firm is a common way for many students to stop the clock temporarily. For example, you might be placed at a tech company to work on a data analytics project for three months. The format varies, but the key is that you're actually doing the work, the work is related to your field, and you can provide complete documentation — the work arrangement, the staffing agreement, and project deliverables. Otherwise, USCIS may flag it as a "no-show" arrangement and refuse to recognize it.`,
+      html: `通过人力资源中介或猎头公司找到短期、项目制的岗位，是许多学生暂停计时的常见方式。例如，您可能被安排到一家科技公司参与为期三个月的数据分析项目。形式可以多样，但关键在于您确实在从事该工作、工作内容与专业相关，并且能够提供完整的材料——工作安排、派遣协议以及项目成果。否则，USCIS可能会将其判定为"挂名不实"的安排而不予认可。`,
     },
-    { type: `heading`, level: 5, html: `6. Self-employment / entrepreneurship` },
+    { type: `heading`, level: 5, html: `6. 自雇/创业` },
     {
       type: `paragraph`,
-      html: `For students with some resources or a genuine desire to take charge of their career path, self-employment is a compelling option. Under USCIS's official definition, students may engage in self-employment during OPT, with the following requirements: the work must be related to your field of study; you must work at least 20 hours per week; you may register a company and serve as your own employer; and you must retain employment records, contracts, invoices, company registration documents, and other evidence tying your employment to your field.`,
-    },
-    {
-      type: `paragraph`,
-      html: `For a full walkthrough, see our comprehensive 2025 guide to OPT self-employment (covering company registration, wages, the H-1B lottery application, tax filing, and common pitfalls), which walks you through the process from OPT self-employment all the way to the H-1B lottery.`,
+      html: `对于有一定资源、或真心希望掌控自己职业方向的学生而言，自雇是一个颇具吸引力的选择。根据USCIS的官方定义，学生在OPT期间可以从事自雇，需满足以下要求：工作必须与您的专业相关；每周工作时长至少20小时；可以注册公司并担任自己的雇主；必须保留雇佣记录、合同、发票、公司注册文件等能够证明雇佣关系与专业相关性的证据。`,
     },
     {
       type: `paragraph`,
-      html: `This path's advantages are a short setup timeline and a high degree of control — it can quickly "pick up" your status while also creating more room for future entrepreneurship, career growth, and visa transitions.`,
+      html: `完整的操作流程，请参阅我们撰写的2025年OPT自雇完整指南（涵盖公司注册、工资、H-1B抽签申请、报税与常见误区），该指南将带您走完从OPT自雇到H-1B抽签的全过程。`,
     },
     {
       type: `paragraph`,
-      html: `That said, it's worth stressing: unlike traditional employment, self-employment is a controllable, highly flexible path, but it also comes with a higher compliance bar. The company structure has to be well designed, and the process can't be faked or built from a generic template — executing it poorly risks scrutiny from your school or USCIS. We offer end-to-end support for company structure design, document preparation, and operational guidance — reach out to us for help completing your status transition securely.`,
+      html: `这条路径的优势在于搭建周期短、可控性高——既能快速"接住"您的身份，也能为未来的创业、职业发展与签证转换创造更多空间。`,
     },
     {
       type: `paragraph`,
-      html: `<a href="/contact">Running low on OPT unemployment days? Get a free consultation on entering the lottery through self-employment.</a>`,
+      html: `不过需要特别强调的是：与传统雇佣不同，自雇是一条可控、高度灵活的路径，但也伴随着更高的合规要求。公司架构必须设计得当，整个过程无法造假，也不能套用通用模板——一旦执行不当，就可能招致学校或USCIS的审查。我们提供公司架构设计、材料准备与运营指导的全程支持——欢迎联系我们，帮助您安全完成身份过渡。`,
     },
-    { type: `heading`, level: 2, html: `The complete OPT self-employment process` },
-    { type: `heading`, level: 3, html: `1. Who is this path a good fit for?` },
+    {
+      type: `paragraph`,
+      html: `<a href="/contact">OPT失业天数快用完了？获取通过自雇进入抽签的免费咨询。</a>`,
+    },
+    { type: `heading`, level: 2, html: `OPT自雇完整流程` },
+    { type: `heading`, level: 3, html: `1. 这条路径适合哪些人？` },
     {
       type: `list`,
       ordered: false,
       items: [
-        `<strong>Students who can't find an employer and are at risk of a status gap.</strong> For students who consistently can't land an offer during OPT, self-employment is an important way to avoid the 90-day unemployment limit. Rather than waiting passively, proactively building your own position not only stops the compliance clock in time, but also buys valuable breathing room for a future extension or visa application.`,
-        `<strong>Students who already have skills and project ideas.</strong> For students in fields like graphic design, programming, translation, or data analytics, self-employment lets them put existing skills to work right away without depending on a traditional employer. These fields are naturally suited to freelance work, and it also keeps your resume history continuous.`,
-        `<strong>Students planning to apply for STEM OPT and enter the H-1B lottery.</strong> Building a compliant company and role structure through self-employment ahead of time supports a smoother continuation of status down the road. This is especially true for STEM students — a self-employment company that's registered with E-Verify and has a solid oversight structure can transition smoothly into the 2-year extension.`,
-        `<strong>People who want control over their time and career direction.</strong> Self-employment lets you decide your own project pace, client base, and scope of services, and it can also help you explore entrepreneurial directions. For students who don't want to depend entirely on an employer and hope to build something of their own in the U.S., self-employment is a starting point for longer-term status planning.`,
-        `<strong>People laying groundwork for a future EB-2 / EB-3 green card application.</strong> Building a well-structured, financially compliant company with a clear management chain during the OPT/H-1B stage provides stronger support and documentation for future career planning and green card applications.`,
+        `<strong>找不到雇主、面临身份空窗风险的学生。</strong>对于在OPT期间一直无法拿到offer的学生来说，自雇是避免触及90天失业上限的重要方式。与其被动等待，不如主动搭建属于自己的岗位——这不仅能及时暂停合规计时，也能为未来的延期或签证申请争取宝贵的缓冲空间。`,
+        `<strong>已经具备技能与项目构想的学生。</strong>对于从事平面设计、编程、翻译或数据分析等领域的学生来说，自雇可以让他们立即将现有技能投入使用，而无需依赖传统雇主。这些领域天然适合自由职业形式，也能让简历履历保持连贯。`,
+        `<strong>计划申请STEM OPT并进入H-1B抽签的学生。</strong>通过自雇提前搭建合规的公司与岗位架构，有助于未来更顺利地延续身份。对STEM学生而言尤其如此——一家已注册E-Verify、具备扎实监督架构的自雇公司，能够顺利过渡到2年延期。`,
+        `<strong>希望掌控自己时间与职业方向的人。</strong>自雇能让您自主决定项目节奏、客户群体与服务范围，也有助于探索创业方向。对于不想完全依赖雇主、希望在美国打造属于自己事业的学生来说，自雇是长期身份规划的起点。`,
+        `<strong>为未来EB-2/EB-3绿卡申请提前打基础的人。</strong>在OPT/H-1B阶段搭建一家架构完整、财务合规、管理链条清晰的公司，能为未来的职业规划与绿卡申请提供更有力的支撑与材料依据。`,
       ],
     },
-    { type: `heading`, level: 4, html: `2. How does OPT self-employment actually work?` },
+    { type: `heading`, level: 4, html: `2. OPT自雇具体是如何运作的？` },
     {
       type: `paragraph`,
-      html: `During the first year of OPT, you'll need to build a compliant company structure, define your company's line of business, register the company, and make sure the role matches your field of study.`,
-    },
-    {
-      type: `list`,
-      ordered: false,
-      items: [
-        `<strong>Build a compliant company structure:</strong>`,
-      ],
-    },
-    {
-      type: `paragraph`,
-      html: `While policy does permit <a href="https://www.uscis.gov/working-in-the-united-states/entrepreneur-employment-pathways/nonimmigrant-or-parole-pathways-for-entrepreneur-employment-in-the-united-states" rel="noopener noreferrer" target="_blank">OPT self-employment</a>, where an applicant registers a company and employs themselves, given that many applicants will eventually want to apply for the STEM OPT extension, enter the H-1B lottery, or even apply for a green card, we recommend that the applicant not hold equity in the company, and instead have a trusted family member or friend register the company and serve as its legal representative and manager. The company then serves as the formal employer, offering a position aligned with the applicant's field, and taking responsibility for employing the applicant.`,
+      html: `在OPT第一年，您需要搭建合规的公司架构，明确公司的业务方向，完成公司注册，并确保岗位与您的专业相符。`,
     },
     {
       type: `list`,
       ordered: false,
       items: [
-        `<strong>Define your business direction and company type</strong>`,
+        `<strong>搭建合规的公司架构：</strong>`,
       ],
     },
     {
       type: `paragraph`,
-      html: `Before forming the company, first settle on its business direction and area of focus.`,
-    },
-    {
-      type: `paragraph`,
-      html: `The main company types to consider are:`,
-    },
-    {
-      type: `paragraph`,
-      html: `<strong><a href="https://www.investopedia.com/terms/c/corporation.asp#toc-liquidating-a-corporation" rel="noopener noreferrer" target="_blank">Corporation</a></strong>: can have shareholders (no limit on number), and enters into contracts and takes on debt in the company's own name.`,
-    },
-    {
-      type: `paragraph`,
-      html: `<strong><a href="https://dos.ny.gov/articles-organization-domestic-limited-liability-company-0#:~:text=An%20LLC%20is%20an%20unincorporated,lawful%20business%20purpose%20or%20purposes." rel="noopener noreferrer" target="_blank">LLC (Limited Liability Company)</a></strong>: a simpler structure suited to small businesses or startups without a complex ownership structure — though LLC equity arrangements are less precise.`,
-    },
-    {
-      type: `paragraph`,
-      html: `Choosing the right company type is worth doing carefully — feel free to contact us for guidance.`,
+      html: `虽然政策确实允许<a href="https://www.uscis.gov/working-in-the-united-states/entrepreneur-employment-pathways/nonimmigrant-or-parole-pathways-for-entrepreneur-employment-in-the-united-states" rel="noopener noreferrer" target="_blank">OPT自雇</a>，即申请人注册公司并雇佣自己，但考虑到许多申请人最终会希望申请STEM OPT延期、参加H-1B抽签，甚至申请绿卡，我们建议申请人本人不持有公司股权，而由信任的家人或朋友注册公司，并担任法定代表人与管理者。公司随后作为正式雇主，提供与申请人专业相符的岗位，并负责雇佣申请人。`,
     },
     {
       type: `list`,
       ordered: false,
       items: [
-        `<strong>Register the company</strong>`,
+        `<strong>明确业务方向与公司类型</strong>`,
       ],
     },
     {
       type: `paragraph`,
-      html: `<strong>Choose a state of registration</strong>: base this on your actual operating needs — whether you need a physical office address, whether the business will span multiple states, whether the registration state and operating state should match, and other factors.`,
+      html: `在成立公司之前，首先要确定其业务方向与重点领域。`,
     },
     {
       type: `paragraph`,
-      html: `<strong>Establish an office address:</strong> this must be a genuine office address that the company actually uses for operations. <strong>Register the company:</strong> complete registration and obtain your company registration document (Certificate of Incorporation or Articles of Organization).`,
+      html: `主要可考虑的公司类型包括：`,
+    },
+    {
+      type: `paragraph`,
+      html: `<strong><a href="https://www.investopedia.com/terms/c/corporation.asp#toc-liquidating-a-corporation" rel="noopener noreferrer" target="_blank">股份公司（Corporation）</a></strong>：可以拥有股东（数量不限），并以公司自身名义签订合同、承担债务。`,
+    },
+    {
+      type: `paragraph`,
+      html: `<strong><a href="https://dos.ny.gov/articles-organization-domestic-limited-liability-company-0#:~:text=An%20LLC%20is%20an%20unincorporated,lawful%20business%20purpose%20or%20purposes." rel="noopener noreferrer" target="_blank">有限责任公司（LLC）</a></strong>：结构更简单，适合没有复杂股权架构的小型企业或初创公司——不过LLC的股权安排相对不够精确。`,
+    },
+    {
+      type: `paragraph`,
+      html: `选择合适的公司类型值得慎重考虑——欢迎联系我们获取指导。`,
     },
     {
       type: `list`,
       ordered: false,
       items: [
-        `<strong>Apply for an EIN (Employer Identification Number)</strong>`,
+        `<strong>注册公司</strong>`,
       ],
     },
     {
       type: `paragraph`,
-      html: `An <a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-identification-number" rel="noopener noreferrer" target="_blank">EIN</a> is a unique nine-digit identifier the IRS assigns to a business or other entity, obtained through the <a href="https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number" rel="noopener noreferrer" target="_blank">IRS website</a>.`,
+      html: `<strong>选择注册州</strong>：应根据您实际的运营需求来确定——是否需要实体办公地址、业务是否跨多个州、注册州与运营州是否需要一致等因素都需要考虑。`,
     },
     {
       type: `paragraph`,
-      html: `*<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">BOIR filing</a> (Beneficial Ownership Information Report) refers to the requirement for U.S. companies to report information about their beneficial owners to the Treasury Department's <a href="https://www.fincen.gov/news/news-releases/fincen-removes-beneficial-ownership-reporting-requirements-us-companies-and-us" rel="noopener noreferrer" target="_blank">Financial Crimes Enforcement Network (FinCEN)</a>. In March 2025, FinCEN issued an Interim Final Rule exempting all domestic U.S. entities and U.S. persons from the BOI reporting requirement. So <strong>filing is not currently required, though this could change — follow our updates to stay current on any developments</strong>.`,
+      html: `<strong>确定办公地址：</strong>必须是公司实际用于运营的真实办公地址。<strong>完成公司注册：</strong>完成注册手续，取得公司注册文件（公司注册证书或组织章程）。`,
+    },
+    {
+      type: `list`,
+      ordered: false,
+      items: [
+        `<strong>申请EIN（雇主识别号）</strong>`,
+      ],
     },
     {
       type: `paragraph`,
-      html: `In summary, the common "self-rescue" paths for legally remaining in the U.S. and avoiding a status gap during the OPT unemployment period include: paid full-time or part-time work, working for multiple employers, independent contracting/freelancing, unpaid internships/volunteering, agency or staffing-firm project roles, and self-employment/entrepreneurship. Among these, self-employment stands out for many students because of its flexibility and control.`,
+      html: `<a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-identification-number" rel="noopener noreferrer" target="_blank">EIN</a>是美国国税局为企业或其他实体分配的一个独特的九位数标识符，可通过<a href="https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number" rel="noopener noreferrer" target="_blank">IRS官网</a>申请获得。`,
     },
     {
       type: `paragraph`,
-      html: `In fact, registering a company for self-employment to protect your status during the first year of OPT isn't complicated, and the barrier to entry isn't especially high. But if you want that company to also support a future <strong>STEM OPT extension</strong> or even an <strong>H-1B application</strong>, you need to plan out your company structure and compliance documentation properly from day one.`,
+      html: `*<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">BOIR申报</a>（受益所有权信息报告）指的是美国公司需要向财政部<a href="https://www.fincen.gov/news/news-releases/fincen-removes-beneficial-ownership-reporting-requirements-us-companies-and-us" rel="noopener noreferrer" target="_blank">金融犯罪执法网络（FinCEN）</a>报告其受益所有人信息的要求。2025年3月，FinCEN发布了一项临时最终规则，豁免所有美国境内实体及美国公民的BOI报告义务。因此<strong>目前无需申报，但这一政策可能会有所变化——请持续关注我们的更新，以掌握最新动态</strong>。`,
     },
     {
       type: `paragraph`,
-      html: `See <a href="/insights/opt-to-h1b-self-employment-transition"><em>From OPT Self-Employment to H-1B Self-Employment: One Company That Handles Your Entire Status Path — A Complete Breakdown for F-1 Entrepreneurs</em></a> for the key points, <strong>and feel free to contact us — we can design a sustainable company structure tailored to your background and goals.</strong>`,
+      html: `总的来说，在OPT失业期内合法留美、避免身份空窗的常见"自救"路径包括：有薪全职或兼职工作、同时为多个雇主工作、独立承包/自由职业、无薪实习/志愿者岗位、中介或人力资源公司提供的项目岗位，以及自雇/创业。其中，自雇因其灵活性与可控性，对许多学生来说尤为突出。`,
     },
     {
       type: `paragraph`,
-      html: `<a href="/contact">Can't find an employer for OPT? Get a free consultation on entering the lottery through self-employment.</a>`,
+      html: `事实上，在OPT第一年通过注册公司实现自雇以保护身份，并不复杂，入门门槛也不算太高。但如果您希望这家公司未来还能支持<strong>STEM OPT延期</strong>，甚至<strong>H-1B申请</strong>，就需要从一开始就妥善规划好公司架构与合规文件。`,
+    },
+    {
+      type: `paragraph`,
+      html: `关于其中的关键要点，请参阅<a href="/insights/opt-to-h1b-self-employment-transition"><em>从OPT自雇到H-1B自雇：一家公司如何撑起您完整的身份路径——写给F-1创业者的完整拆解</em></a>，<strong>也欢迎联系我们——我们可以根据您的背景与目标，为您设计一套可持续的公司架构。</strong>`,
+    },
+    {
+      type: `paragraph`,
+      html: `<a href="/contact">OPT期间找不到雇主？获取通过自雇进入抽签的免费咨询。</a>`,
     },
   ],
 };
