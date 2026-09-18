@@ -1,0 +1,197 @@
+export default {
+  slug: `concurrent-h-1b-self-employment-guide`,
+  title: `Concurrent H-1B Self-Employment: How to Explore Entrepreneurship Safely While Keeping Your Job`,
+  description: `A step-by-step guide to Concurrent H-1B self-employment — a way to keep your existing H-1B job while lawfully running your own company on the side, covering eligibility, process, and FAQs.`,
+  category: `Guide`,
+  date: `2025-11-18`,
+  readingTime: `9 min read`,
+  content: [
+    {
+      type: `paragraph`,
+      html: `<a href="/h-1b-status-protection-program">Learn more about our H-1B self-employment services.</a> If you're an <a href="/insights/h-1b-visa-guide-fy2027">H-1B</a> holder who's already been working in the U.S. for a while, you may have had a thought like this: your job is stable, but you don't want to stop there. Maybe you don't dislike your current job and aren't ready to quit, but you still find yourself wanting to explore something of your own — building your own brand, launching a small project, testing out a business idea, or simply earning some extra income. The particular risks and constraints of H-1B status, though, make that feel too risky, and you can't freely take on side work or freelance gigs without a lawful employment relationship in place. As it turns out, self-employment through a Concurrent H-1B opens up exactly that possibility. As of January 17, 2025, the <a href="https://www.federalregister.gov/documents/2024/12/18/2024-29354/modernizing-h-1b-requirements-providing-flexibility-in-the-f-1-program-and-program-improvements" rel="noopener noreferrer" target="_blank">H-1B modernization rule</a> officially took effect, clearly establishing <strong>H-1B self-employment</strong> as a legitimate and viable path. That means an H-1B holder can keep their existing employer's H-1B in place while having a company they've founded become a "second lawful employer" — allowing them to <strong>launch a side business or startup in a compliant way without quitting their job.</strong> <strong>For a complete walkthrough of H-1B self-employment and how to execute it, see our <a href="/insights/h-1b-self-employment-complete-guide">complete guide to H-1B self-employment</a>.</strong> This approach is especially well-suited for people who want to move forward steadily: those who don't want to quit impulsively or give up the security of their current status, but who want a compliant way to get a head start testing out their own venture. It also gives you a safety net in case of a future layoff or other disruption. <strong>Today's article covers, in detail, what Concurrent H-1B employment is, its eligibility requirements, and — specifically — what self-employment through a Concurrent H-1B means: who it's suited for, the process, and common questions.</strong>`,
+    },
+    { type: `heading`, level: 2, html: `What Is Concurrent H-1B Employment?` },
+    {
+      type: `paragraph`,
+      html: `Before discussing self-employment through a Concurrent H-1B, let's first clarify what <strong><a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/subpart-A/section-214.2?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">Concurrent H-1B Employment</a></strong> itself means. Concurrent H-1B refers to this situation: while you hold H-1B status sponsored by one employer, if a second employer is willing to file a new H-1B petition for you, allowing you to work for both your original and new employer at the same time, then the H-1B filed by that second employer is called a "Concurrent H-1B." When filing a Concurrent H-1B petition, the second employer's Form I-129 must be marked as "Concurrent Employment" and satisfy all H-1B requirements. Once the petition is filed and you receive a Receipt Notice, you can begin working for the second employer without waiting for approval. After approval, your original employer becomes your Primary H-1B, and the second employer becomes your Secondary H-1B. Unlike an "H-1B Transfer," which involves changing employers, Concurrent H-1B is about "holding two H-1B employers at the same time." It's worth noting that Concurrent H-1B isn't as simple as "you already have one H-1B, so you can just add any company on for some extra cash." A Concurrent H-1B still needs to satisfy all H-1B requirements, and <strong>while there's no legal limit on how many Concurrent H-1Bs a person can hold, in practice USCIS pays close attention to whether the applicant can realistically perform the duties of both positions within a reasonable amount of time.</strong> For example: if both your Concurrent and Primary H-1B positions are full-time, and a full-time job runs roughly 40 hours a week, having two full-time jobs would mean 80 hours a week — which clearly isn't reasonable or workable. <strong>That's why the more common Concurrent H-1B structure has the primary employer as full-time and the second employer as part-time — a much more reasonable and workable allocation of time.</strong>`,
+    },
+    { type: `heading`, level: 2, html: `What Are the Requirements for a Concurrent H-1B?` },
+    {
+      type: `paragraph`,
+      html: `In Concurrent H-1B Employment, <strong>every employer</strong> must independently satisfy <strong>all core H-1B requirements</strong>, including lawful registration, a compliant employment relationship, a genuine specialty-occupation position, and the Prevailing Wage.`,
+    },
+    { type: `heading`, level: 3, html: `1. Employer Requirements:` },
+    { type: `list`, ordered: false, items: [`<strong>Lawful registration and compliant operations</strong>`] },
+    {
+      type: `paragraph`,
+      html: `The company must be lawfully registered in the United States, hold an <a href="https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number" rel="noopener noreferrer" target="_blank">EIN</a> (Employer Identification Number), have an independent bank account, and operate in a compliant manner.`,
+    },
+    { type: `list`, ordered: false, items: [`<strong>Offering a genuine <a href="https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations" rel="noopener noreferrer" target="_blank">Specialty Occupation</a> position:</strong>`] },
+    {
+      type: `paragraph`,
+      html: `The position offered to the applicant must generally require a bachelor's degree or higher, demonstrate the specialized nature of the role, and be relevant to the applicant's background.`,
+    },
+    { type: `list`, ordered: false, items: [`<strong>Prevailing Wage and reasonable work hours</strong>`] },
+    {
+      type: `paragraph`,
+      html: `The employer must commit to paying no less than the <strong>Prevailing Wage</strong> for that position in that area. And while there's no explicit rule requiring a Concurrent H-1B to be part-time or full-time, we generally recommend applying for a Concurrent H-1B as part-time, given practical realities, so time can be allocated reasonably and flexibly.`,
+    },
+    { type: `list`, ordered: false, items: [`<strong>A compliant employment relationship:</strong>`] },
+    {
+      type: `paragraph`,
+      html: `The employer must have real hiring and supervisory authority over the beneficiary, including the power to hire, pay wages, evaluate performance, and terminate employment.`,
+    },
+    { type: `list`, ordered: false, items: [`<strong>Independence from the current employer</strong>`] },
+    {
+      type: `paragraph`,
+      html: `The Concurrent employer must be a genuinely separate employer from the primary employer, independent in structure and management.`,
+    },
+    { type: `heading`, level: 3, html: `2. Beneficiary Requirements` },
+    { type: `list`, ordered: false, items: [`<strong>Maintaining lawful H-1B status</strong>`] },
+    {
+      type: `paragraph`,
+      html: `The beneficiary must still be in valid H-1B status when the new employer files the petition. If you've already left your job or are within the 60-day grace period, you'll need to file the new petition before the grace period ends.`,
+    },
+    { type: `list`, ordered: false, items: [`<strong>A professional background related to the position</strong>`] },
+    {
+      type: `paragraph`,
+      html: `The beneficiary's professional background must align with the requirements of the position, and they must hold a bachelor's degree or higher, or equivalent relevant work experience (generally, three years of specialized work experience is treated as equivalent to one year of college education). <strong>This isn't a "take any side gig, earn a little extra cash" arrangement</strong>, so the following types of work do not qualify:`,
+    },
+    {
+      type: `list`,
+      ordered: false,
+      items: [
+        `<strong>1099 independent contractor work / gig-platform work (e.g., Uber, DoorDash, sponsored-content deals, per-project consulting)</strong>`,
+        `<strong>Positions unrelated to your field or that don't require a specialized degree (e.g., retail associate, service jobs, manual labor)</strong>`,
+        `<strong>A "title-only" position with no real duties or vaguely defined responsibilities</strong>`,
+      ],
+    },
+    { type: `list`, ordered: false, items: [`<strong>Genuine employment</strong>`] },
+    {
+      type: `paragraph`,
+      html: `The beneficiary must perform their duties as an employee and receive W-2 wages. <a href="/contact">Contact us for a free consultation.</a>`,
+    },
+    { type: `heading`, level: 2, html: `What Is a Self-Employment Concurrent H-1B?` },
+    {
+      type: `paragraph`,
+      html: `A self-employment Concurrent H-1B is when an H-1B holder <strong>keeps their existing employer while having a company they've founded become a second H-1B employer</strong>, filing a Concurrent petition with USCIS through that company to lawfully pursue entrepreneurial work. Strategically, self-employment through a Concurrent H-1B is more of a "walk on two legs" approach: you keep the status, income, and stability that come with your existing employer, while using the second employer (your own company) to test a business direction, validate a product or service, or try to gain traction in the market. The upside is a more controlled pace and lower risk. But if you're about to face, or have already faced, a layoff, are within the 60-day grace period, or genuinely can't continue in your current work environment, you'll need to consider a different path — <strong>an H-1B Transfer</strong>. <strong>Facing an urgent layoff situation, or already have an H-1B and want to start a company full-time? For the detailed self-employment H-1B transfer process, see 《<a href="/insights/h-1b-self-employment-transfer-guide">H-1B Self-Employment Transfer: Requirements, Timing, and Risks</a>》.</strong>`,
+    },
+    { type: `heading`, level: 2, html: `Requirements for a Self-Employment Concurrent H-1B` },
+    {
+      type: `paragraph`,
+      html: `A self-employment Concurrent H-1B, just like any Concurrent H-1B, must satisfy <strong>all core H-1B requirements.</strong> The company must be lawfully registered and actively operating in the United States, able to offer a genuine <strong><a href="https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations" rel="noopener noreferrer" target="_blank">Specialty Occupation</a></strong> position, and commit to paying no less than the Prevailing Wage for that position in that area. <strong>If the self-employment company is still early-stage and not yet profitable, it also needs sufficient funding on hand to cover the beneficiary's wages.</strong> <strong>On the employment relationship, even in a self-employment structure, it can't simply be "you making all the decisions by yourself" — the company needs a genuine oversight mechanism over you, which can be established through the company's bylaws, a shareholder agreement, or a board structure.</strong> A well-built self-employment company structure isn't assembled hastily just to file paperwork — it's built from day one to withstand close scrutiny. That's one of the central challenges of H-1B self-employment, and where most firms and DIY applicants fall short — but it's exactly where Keystone Strategies excels. Drawing on years of startup-incubation experience, we've supported 100+ successful cases — contact us to learn how to build an employment relationship that genuinely satisfies USCIS requirements. As for the beneficiary, they must maintain lawful H-1B status when filing, the duties of the position must match their academic or professional background, and they must actually perform the work as an employee and receive wages on a regular pay schedule.`,
+    },
+    { type: `heading`, level: 2, html: `Who a Self-Employment Concurrent H-1B Is Suited For` },
+    { type: `heading`, level: 3, html: `1. Those with a stable job who want to explore a side venture or business opportunity` },
+    {
+      type: `paragraph`,
+      html: `You're currently in a stable job, don't dislike it, but have a business idea you want to try, or want to boost your income, and want to pursue a side venture without giving up your status.`,
+    },
+    { type: `heading`, level: 3, html: `2. Those who want to strengthen their status security and hedge against risk` },
+    {
+      type: `paragraph`,
+      html: `Concurrent employment gives you two lawful employers at once. If your primary employer goes through layoffs, restructuring, or other disruption, your self-employment company can step in to carry your status with minimal delay.`,
+    },
+    { type: `heading`, level: 3, html: `3. Those planning to stay in the U.S. long-term and lay the groundwork for future status` },
+    {
+      type: `paragraph`,
+      html: `By establishing and continuously operating a company, you can prepare the ground for a future H-1B transfer or a longer-term green card application. <a href="/contact">Contact us for a free consultation.</a>`,
+    },
+    { type: `heading`, level: 2, html: `The Self-Employment Concurrent H-1B Process` },
+    { type: `heading`, level: 3, html: `1. Company Registration and Position Design` },
+    {
+      type: `paragraph`,
+      html: `The first and most important step of a self-employment Concurrent H-1B is establishing a company that can meet H-1B employment standards and offer a genuine, qualifying position. At this stage, you need to define the company's business direction, organizational structure, job duties, and day-to-day operations. Specific details — such as company structure, position design, choice of registration/office location, and the EIN application — will directly affect whether the Concurrent petition proceeds smoothly. The company and the position need to be built on a solid, internally consistent foundation. <strong>For company registration and position design, see our <a href="/insights/h-1b-self-employment-complete-guide">complete guide to H-1B self-employment</a>. If you're currently setting up a company, considering the self-employment Concurrent H-1B route, or unsure whether your company structure can withstand review, contact us for a free consultation.</strong>`,
+    },
+    { type: `heading`, level: 3, html: `2. Preparing Employer and Beneficiary Materials` },
+    { type: `paragraph`, html: `<strong>The employer needs to provide:</strong>` },
+    {
+      type: `list`,
+      ordered: false,
+      items: [
+        `Basic company information`,
+        `Company formation documents (Certificate of Incorporation / Articles of Organization)`,
+        `EIN`,
+        `A description of the position`,
+        `Company marketing materials (brochures, a company website)`,
+      ],
+    },
+    { type: `paragraph`, html: `<strong>The beneficiary needs to provide:</strong>` },
+    {
+      type: `list`,
+      ordered: false,
+      items: [
+        `Scanned copies of all passports (photo page and visa pages) and the I-94`,
+        `The employee's resume`,
+        `Diploma and transcripts for a bachelor's degree or higher`,
+        `Offer letter`,
+        `A copy of the F-1 visa and all I-20s and EAD cards`,
+        `A scanned copy of the I-797 Approval Notice from any prior H-1B petition`,
+        `2–3 months of pay stubs from the previous employer`,
+      ],
+    },
+    { type: `heading`, level: 3, html: `3. Filing the Labor Condition Application (LCA)` },
+    {
+      type: `paragraph`,
+      html: `You provide your attorney with your job title and main job duties at the company, and the attorney files a <strong><a href="https://flag.dol.gov/sites/default/files/2019-09/ETA_Form_9035.pdf" rel="noopener noreferrer" target="_blank">Labor Condition Application (LCA)</a></strong> with the U.S. Department of Labor. The LCA requires:`,
+    },
+    {
+      type: `list`,
+      ordered: false,
+      items: [
+        `Employer information: company name, EIN, address, and a company contact phone number`,
+        `The employee's wage level: amount, annual salary or hourly rate, full-time or part-time`,
+        `The anticipated period of employment (start and end dates)`,
+        `Position information: the number of H-1B positions requested, the occupational classification, and job title`,
+        `Worksite location(s): the initial worksite plus any additional or subsequent worksites`,
+        `The Prevailing Wage for every worksite listed`,
+      ],
+    },
+    { type: `heading`, level: 3, html: `4. The Attorney Prepares Form I-129 and Drafts the Petition Letter` },
+    {
+      type: `paragraph`,
+      html: `Once the LCA is certified, the attorney prepares the I-129 petition, <strong>checking the box for "Concurrent Employment,"</strong> and drafts the employer's petition letter, covering the company introduction, offer letter, job duties, the H-1B applicant's background (education, job description, why this position needs them), and the period of employment.`,
+    },
+    { type: `heading`, level: 3, html: `5. Filing the H-1B Transfer Petition` },
+    {
+      type: `paragraph`,
+      html: `The attorney packages the LCA, I-129, petition letter, and employer/employee materials and files them with USCIS, with the employer paying the filing fees. You can also use Premium Processing to get a decision within 15 days.`,
+    },
+    { type: `heading`, level: 3, html: `5. After Filing the H-1B Transfer Petition` },
+    {
+      type: `paragraph`,
+      html: `Once you receive the Receipt Notice, you can start working for the new company — but if the petition is ultimately denied, you must stop working immediately, and your H-1B status enters the 60-day grace period. To be safe, we generally recommend waiting for approval before starting at your new company. A self-employment Concurrent H-1B isn't just about "filing paperwork" — it's about designing the company structure, job duties, and employment relationship as a genuine, clear, compliant system from the very beginning. <strong>A genuinely compliant company is the best evidence you can have. Contact us for a free consultation, and we'll assess your status risk, self-employment path, and next steps. Clear direction makes every action count.</strong> <a href="/contact">Contact us for a free consultation.</a>`,
+    },
+    { type: `heading`, level: 2, html: `Self-Employment Concurrent H-1B FAQ` },
+    { type: `heading`, level: 3, html: `1. Do I need to notify my current employer that I'm filing for Concurrent employment?` },
+    {
+      type: `paragraph`,
+      html: `No, not necessarily. Concurrent employment is a lawful, independent H-1B employment relationship, and there's no legal requirement to notify your existing employer. That said, if your primary employer's internal agreements (such as a non-compete, conflict-of-interest policy, or employment policy) restrict side work or outside employment, you should review that contract language beforehand to make sure you're not violating your employment terms.`,
+    },
+    { type: `heading`, level: 3, html: `2. Can a Concurrent H-1B be in a different field than my primary job?` },
+    {
+      type: `paragraph`,
+      html: `Yes. The Concurrent H-1B doesn't need to be in the exact same role as your primary employer, but it must equally qualify as specialized work and be related to your professional background.`,
+    },
+    { type: `heading`, level: 3, html: `3. What happens if there's a change to my Concurrent H-1B job?` },
+    {
+      type: `paragraph`,
+      html: `Status maintenance for a Concurrent H-1B works exactly the same as for any H-1B. If the second employer's job duties, wage, or work hours change "materially," you'll need to file an Amendment with USCIS. If only the worksite changes: if you're still within the same metropolitan statistical area (MSA), you only need to re-post the LCA, with no Amendment required; if you're moving to a different MSA, you'll need to file a new LCA first, then submit an Amendment to USCIS. This ensures all your working conditions stay consistent with what's on file with the Department of Labor and USCIS.`,
+    },
+    { type: `heading`, level: 3, html: `4. If my Concurrent employment application is denied, does it affect my current employer's H-1B?` },
+    {
+      type: `paragraph`,
+      html: `No. Concurrent employment is an independent petition, so a denial only affects that petition — it does not affect your lawful H-1B status with your current employer.`,
+    },
+    { type: `heading`, level: 3, html: `5. If my primary employer terminates me under Concurrent employment, does that affect my Concurrent H-1B?` },
+    {
+      type: `paragraph`,
+      html: `Concurrent H-1B involves two independent H-1B employment relationships — it's not "one H-1B split into two uses." So if one is terminated, it doesn't affect the validity of the other, and you'll still hold valid H-1B status. This is actually one of the biggest advantages of Concurrent H-1B: it gives your status a built-in safety net.`,
+    },
+    { type: `heading`, level: 3, html: `6. Can I apply for a Concurrent H-1B if my self-employment company has no revenue yet?` },
+    {
+      type: `paragraph`,
+      html: `Yes, as long as both the company and the employee meet all H-1B compliance requirements.`,
+    },
+  ],
+};
