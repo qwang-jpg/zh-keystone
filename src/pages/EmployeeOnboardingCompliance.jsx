@@ -11,8 +11,8 @@ export default function EmployeeOnboardingCompliance() {
   return (
     <PageLayout>
       <Seo
-        title="Employee Onboarding & Employment Compliance"
-        description="Keystone Strategies builds a standardized hiring workflow and compliant onboarding for every new hire, from offer approval through Form I-9 and W-4, backed by a basic U.S. employment compliance guide."
+        title="招聘与入职体系"
+        description="Keystone Strategies 为每一位新员工搭建标准化的招聘流程与合规入职体系，从offer审批到I-9与W-4表格办理，并配套美国基础雇佣合规指南。"
         path="/employee-onboarding-compliance"
       />
       <Hero />
@@ -21,9 +21,9 @@ export default function EmployeeOnboardingCompliance() {
       <WhyKeystone />
       <FaqSection />
       <CompactCta
-        title="Onboard Your Next Hire the Right Way"
-        description={<p>A repeatable hiring workflow, offer letter, I-9, W-4, and the compliance guardrails behind them, ready before day one.</p>}
-        ctaLabel="Book an Onboarding Consultation"
+        title="以正确的方式迎接您的下一位新员工"
+        description={<p>可复用的招聘流程、offer信、I-9、W-4，以及背后的合规保障，全部在入职首日之前准备就绪。</p>}
+        ctaLabel="预约入职体系咨询"
       />
     </PageLayout>
   );

@@ -11,8 +11,8 @@ export default function Eb2Eb3GreenCardPlanning() {
   return (
     <PageLayout>
       <Seo
-        title="EB-2 / EB-3 Green Card Planning"
-        description="Keystone Strategies structures the employer and position behind an EB-2 or EB-3 green card petition, prepares the PERM-ready groundwork, and coordinates directly with immigration counsel through filing."
+        title="EB-2 / EB-3 绿卡规划"
+        description="Keystone Strategies 为EB-2或EB-3绿卡申请搭建雇主与职位架构，做好PERM前期准备工作，并在递交全程与移民律师直接协调对接。"
         path="/eb-2-eb-3-green-card-planning"
       />
       <Hero />
@@ -21,9 +21,9 @@ export default function Eb2Eb3GreenCardPlanning() {
       <WhyKeystone />
       <FaqSection />
       <CompactCta
-        title="Plan the Next Stage of Your Status Now"
-        description={<p>Category selection, PERM-ready position design, and employer structuring, built around your long-term timeline.</p>}
-        ctaLabel="Book a Green Card Planning Consultation"
+        title="现在就为您的下一阶段身份做好规划"
+        description={<p>类别选择、符合PERM要求的职位设计，以及雇主架构搭建，都围绕您的长期时间线量身打造。</p>}
+        ctaLabel="预约绿卡规划咨询"
       />
     </PageLayout>
   );

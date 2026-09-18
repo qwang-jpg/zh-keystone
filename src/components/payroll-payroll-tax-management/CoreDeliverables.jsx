@@ -4,42 +4,42 @@ import ServiceCoreDeliverables from "@/components/common/ServiceCoreDeliverables
 const deliverables = [
   {
     icon: Settings2,
-    title: "Payroll System Setup",
+    title: "薪资系统搭建",
     description:
-      "We plan your payroll system build-out around your actual hiring and pay schedule, so your company can legally issue W-2 wages from day one.",
-    items: ["Payroll system activation", "Pay schedule and employee classification set up correctly from the start"],
+      "我们根据您实际的招聘与发薪周期规划薪资系统搭建，确保公司从第一天起就能合法发放W-2薪资。",
+    items: ["薪资系统开通激活", "从一开始就正确设置发薪周期与员工分类"],
   },
   {
     icon: MapPinned,
-    title: "State Tax & Unemployment Insurance Registration",
+    title: "州税务与失业保险注册",
     description:
-      "Every state where an employee actually works has its own payroll tax and unemployment insurance account requirements. We identify and register for exactly the ones you need.",
+      "员工实际工作所在的每一个州，都有各自的薪资税与失业保险账户要求。我们会精准识别并为您注册所需的账户。",
     items: [
-      "Applicable state payroll tax account registration",
-      "State unemployment insurance (SUI) account registration",
-      "Coverage for multi-state and remote employees",
+      "注册适用的州薪资税账户",
+      "注册州失业保险（SUI）账户",
+      "覆盖多州及远程办公员工的相关注册",
     ],
   },
   {
     icon: ClipboardCheck,
-    title: "Wage & Withholding Process",
+    title: "薪酬与代扣流程",
     description:
-      "We build the repeatable mechanics of running payroll: calculating wages, issuing pay, withholding taxes correctly, and keeping records that survive an audit.",
+      "我们搭建可重复执行的薪资发放机制：计算薪酬、发放工资、正确代扣税款，并保留经得起审计的记录。",
     items: [
-      "\"Employee Wage Payment Guide\" document",
-      "\"Company Bank Account – Employee Payroll Setup\" document",
-      "Recordkeeping process for every pay run",
+      "《员工薪酬发放指南》文档",
+      "《公司银行账户 — 员工薪资设置》文档",
+      "每一次发薪的记录留存流程",
     ],
   },
   {
     icon: FileStack,
-    title: "Payroll Stub & W-2 Preparation",
+    title: "工资单与W-2准备",
     description:
-      "Come tax season, or whenever a pay stub is requested for a visa filing or lease application, your documentation is ready and accurate.",
+      "无论是报税季，还是签证申请或租房申请需要提供工资单时，您的文件都已准备就绪、准确无误。",
     items: [
-      "Payroll stub preparation guidance",
-      "Year-end W-2 preparation guidance",
-      "Key filing deadline reminders",
+      "工资单准备指导",
+      "年终W-2准备指导",
+      "关键申报截止日期提醒",
     ],
   },
 ];
@@ -47,7 +47,7 @@ const deliverables = [
 export default function CoreDeliverables() {
   return (
     <ServiceCoreDeliverables
-      description="From first pay run to year-end W-2s, every deliverable below is built to keep your payroll accurate, on time, and compliant."
+      description="从第一次发薪到年终W-2办理，以下每一项服务都致力于确保您的薪资准确、及时、合规。"
       items={deliverables}
       columns="sm:grid-cols-2"
     />

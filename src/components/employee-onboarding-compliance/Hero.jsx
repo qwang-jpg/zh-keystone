@@ -3,17 +3,16 @@ import ServiceHero from "@/components/common/ServiceHero";
 export default function Hero() {
   return (
     <ServiceHero
-      title="Employee Onboarding & Employment Compliance"
-      subtitle="A Standardized Hiring System, Not a One-Off Scramble Each Time"
+      title="招聘与入职体系"
+      subtitle="标准化的招聘体系，而非每次临时应付"
       description={
         <>
-          A missing I-9, an unsigned offer letter, or an outdated W-4 can quietly undermine
-          months of careful planning. We build a repeatable hiring workflow and onboarding
-          checklist, plus the paperwork and basic compliance practices every new hire needs,
-          from the offer letter through federal employment forms.
+          一份缺失的I-9、一封未签署的offer信，或是一份过期的W-4，都可能悄悄毁掉数月的周密规划。
+          我们搭建可复用的招聘流程与入职清单，以及每一位新员工从offer信到联邦雇佣表格所需的
+          文件与基础合规实践。
         </>
       }
-      ctaLabel="Book an Onboarding Consultation"
+      ctaLabel="预约入职体系咨询"
     />
   );
 }

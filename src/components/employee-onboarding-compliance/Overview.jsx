@@ -1,18 +1,18 @@
 import ServiceOverview from "@/components/common/ServiceOverview";
 
 const checklist = [
-  "A repeatable hiring workflow so every hire follows the same steps, not a process reinvented each time",
-  "A properly drafted offer letter that stands up as evidence of a genuine job offer",
-  "Form I-9 completed and retained the way federal law actually requires",
-  "Form W-4 collected so withholding starts correctly from the first paycheck",
-  "A basic compliance framework so hiring decisions don't create legal exposure down the line",
+  "可复用的招聘流程，确保每一次招聘都遵循相同步骤，而不是每次都从头摸索",
+  "一份撰写规范的offer信，足以作为真实岗位聘用的有力证明",
+  "按照联邦法律实际要求，完成并留存I-9表格",
+  "收集W-4表格，确保从第一笔薪资起就正确代扣代缴",
+  "基础合规框架，避免招聘决策在日后埋下法律隐患",
 ];
 
 export default function Overview() {
   return (
     <ServiceOverview
-      title="Onboarding Is a System, Not Just Paperwork"
-      description="Every new hire triggers federal and state employment obligations, and deserves the same consistent process. We build the hiring workflow and make sure the documentation is complete and correct before day one, not discovered as a gap during an audit or a visa filing."
+      title="入职是一套体系，而不只是文书工作"
+      description="每一位新员工的入职，都会触发联邦与州层面的雇佣义务，理应享有同样规范一致的流程。我们搭建招聘流程，确保文件在入职首日之前就完整无误，而不是等到审计或签证申请时才发现漏洞。"
       checklist={checklist}
     />
   );

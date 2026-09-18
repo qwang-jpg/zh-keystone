@@ -2,27 +2,27 @@ import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
 const faqs = [
   {
-    question: "Do I need a separate payroll account in every state my employees work in?",
+    question: "员工工作所在的每一个州，我都需要单独的薪资账户吗？",
     answer:
-      "Not a separate bank account, but you generally do need separate state payroll tax and unemployment insurance registrations for each state where an employee is physically working, including remote employees. We identify exactly which states apply to you.",
+      "不需要单独的银行账户，但通常确实需要为员工实际工作所在的每一个州（包括远程办公员工）分别注册州薪资税与失业保险账户。我们会为您精准识别适用的州。",
   },
   {
-    question: "Can I run payroll myself once it's set up, or do you manage it ongoing?",
+    question: "系统搭建完成后，我可以自己运行薪资发放吗，还是需要你们持续管理？",
     answer:
-      "We build and configure the system and the process, so you or your bookkeeper can run pay cycles going forward. Many clients also choose to keep us on for ongoing review, especially around tax filing deadlines and W-2 season.",
+      "我们负责搭建并配置好系统与流程，此后您或您的记账人员即可自行运行发薪周期。许多客户也会选择让我们持续提供审核支持，尤其是在报税截止日期与W-2季节前后。",
   },
   {
-    question: "Why does this matter for STEM OPT or H-1B compliance?",
+    question: "这对STEM OPT或H-1B合规为什么重要？",
     answer:
-      "STEM OPT and H-1B rules require a genuine, documentable employer-employee relationship, including comparable wages and proper compensation. Clean, compliant payroll records are the primary evidence USCIS and DSOs look at when confirming that relationship is real.",
+      "STEM OPT与H-1B的规定要求存在真实、可证明的雇主雇员关系，包括对等的薪资水平与合理的薪酬发放。规范合规的薪资记录，正是USCIS与国际学生顾问（DSO）在确认这一关系真实性时最主要的参考证据。",
   },
   {
-    question: "How soon after company formation should payroll be set up?",
+    question: "公司注册后，应该多快搭建薪资体系？",
     answer:
-      "As soon as you have a hiring date in mind. Payroll system activation and state registrations can take a few weeks to fully process, so we recommend starting well before your first employee's start date.",
+      "只要您心中有了大致的招聘时间，就应尽快启动。薪资系统开通与州注册可能需要几周时间才能完全生效，因此我们建议在第一位员工入职日期之前提前启动。",
   },
 ];
 
 export default function FaqSection() {
-  return <ServiceFaqSection title="Payroll & Payroll Tax — FAQ" faqs={faqs} />;
+  return <ServiceFaqSection title="薪资与薪资税务 — 常见问题" faqs={faqs} />;
 }

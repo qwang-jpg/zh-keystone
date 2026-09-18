@@ -2,32 +2,32 @@ import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
 const faqs = [
   {
-    question: "What's the actual difference between EB-2 and EB-3?",
+    question: "EB-2和EB-3到底有什么区别？",
     answer:
-      "EB-2 generally requires an advanced degree (or a bachelor's degree plus five years of progressive experience) or exceptional ability in the field. EB-3 covers skilled workers, professionals with a bachelor's degree, and other workers. The right category depends on your specific credentials and the job's actual requirements, not just your job title.",
+      "EB-2通常要求申请人拥有高等学位（或本科学位加五年递进式工作经验），或在相关领域具备特殊能力。EB-3则涵盖技术工人、拥有本科学位的专业人员以及其他类别劳工。选择哪个类别，取决于您具体的资历与职位的实际要求，而不仅仅是职称本身。",
   },
   {
-    question: "Can my own company sponsor me for a green card the way it sponsored my H-1B?",
+    question: "我自己的公司能像担保H-1B那样为我担保绿卡吗？",
     answer:
-      "Yes, a founder-led company can sponsor an EB-2 or EB-3 petition, but the employer side needs to show the same things a third-party employer would: a genuine job opening, an arm's-length hiring process where PERM applies, and documented ability to pay the offered wage. We structure this specifically for founder-led sponsors.",
+      "可以，创始人主导的公司可以担保EB-2或EB-3申请，但雇主一方需要证明与第三方雇主同等的条件：真实的岗位空缺、适用PERM要求的公平招聘流程，以及有据可查的薪资支付能力。我们会专门针对创始人担保型公司进行架构设计。",
   },
   {
-    question: "Do all EB-2 and EB-3 cases require PERM labor certification?",
+    question: "所有EB-2和EB-3案件都需要PERM劳工证吗？",
     answer:
-      "Most do. A limited set of EB-2 cases (National Interest Waiver) can skip PERM, but that path has its own, higher bar to clear. We help you understand which route actually fits your situation before committing to one.",
+      "大多数需要。少数EB-2案件（国家利益豁免）可以跳过PERM，但这条路径本身有更高的门槛要求。我们会帮助您在做出选择前，了解哪条路径真正适合您的情况。",
   },
   {
-    question: "How long does the EB-2 / EB-3 process typically take?",
+    question: "EB-2 / EB-3流程通常需要多长时间？",
     answer:
-      "It varies significantly by category, country of birth, and current visa bulletin backlogs, and can run from roughly one to several years across PERM, the I-140, and the final adjustment of status or consular stage. We build a realistic timeline for your specific case rather than a generic estimate.",
+      "耗时因类别、出生国家以及当前签证公告的排期积压情况而有很大差异，从PERM、I-140到最终的身份调整或领事馆程序，整个流程大约需要一年到数年不等。我们会为您的具体案件制定切实可行的时间线，而非笼统的估算。",
   },
   {
-    question: "Should I start EB-2 / EB-3 planning while I'm still on H-1B?",
+    question: "我是否应该在持有H-1B期间就开始EB-2 / EB-3规划？",
     answer:
-      "Generally yes. Starting the employer and position groundwork early, often while H-1B time remains, gives you room to correct course if an issue comes up and keeps your long-term status timeline from becoming a scramble.",
+      "通常建议如此。尽早开始雇主与职位方面的基础工作——往往可以趁着H-1B时间尚有余裕——一旦出现问题，也能留有调整空间，避免长期身份规划到最后变得手忙脚乱。",
   },
 ];
 
 export default function FaqSection() {
-  return <ServiceFaqSection title="EB-2 / EB-3 Green Card Planning — FAQ" faqs={faqs} />;
+  return <ServiceFaqSection title="EB-2 / EB-3 绿卡规划 — 常见问题" faqs={faqs} />;
 }

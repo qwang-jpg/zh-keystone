@@ -4,42 +4,42 @@ import ServiceCoreDeliverables from "@/components/common/ServiceCoreDeliverables
 const modules = [
   {
     icon: BookOpenCheck,
-    title: "Employee Handbook Development",
-    description: "A written handbook covering the policies every employer needs, matched to the state(s) where you actually employ people.",
+    title: "员工手册制定",
+    description: "涵盖每位雇主必备制度的书面手册，针对您实际用工所在州量身定制。",
     items: [
-      "At-will employment and code of conduct language",
-      "PTO, sick leave, and leave policy drafted to your state's requirements",
-      "Wage, hour, and pay schedule policy",
+      "自由雇佣关系与行为准则条款",
+      "按所在州要求撰写的带薪休假、病假与请假制度",
+      "薪资、工时与发薪周期制度",
     ],
   },
   {
     icon: ShieldAlert,
-    title: "Anti-Harassment & EEO Policy",
-    description: "A discrimination and harassment policy with a real complaint procedure, not a boilerplate paragraph.",
+    title: "反骚扰与EEO制度",
+    description: "配有真实投诉处理流程的反歧视与反骚扰制度，而非千篇一律的套话段落。",
     items: [
-      "Anti-harassment and equal employment opportunity policy",
-      "Complaint and investigation procedure",
-      "Manager guidance for handling a reported issue",
+      "反骚扰与平等就业机会制度",
+      "投诉与调查处理流程",
+      "为管理者提供处理举报问题的指导",
     ],
   },
   {
     icon: ClipboardList,
-    title: "Required Workplace Postings",
-    description: "The federal and state labor law notices you're required to display, identified for your specific state(s).",
+    title: "法定职场公示",
+    description: "根据您所在的具体州，确定必须张贴的联邦与州劳工法公示内容。",
     items: [
-      "Federal labor law poster checklist",
-      "State-specific posting requirements",
-      "Physical and remote-workplace posting guidance",
+      "联邦劳工法公示清单",
+      "各州具体的公示要求",
+      "针对实体办公场所与远程办公场景的公示指导",
     ],
   },
   {
     icon: UserCheck,
-    title: "Employee Classification Review",
-    description: "Misclassifying a worker is one of the most common, and most expensive, mistakes an early-stage employer makes.",
+    title: "员工分类审核",
+    description: "用工分类错误，是初创阶段雇主最常见、也是代价最高昂的错误之一。",
     items: [
-      "Exempt vs. non-exempt classification review",
-      "Employee vs. independent contractor classification review",
-      "Corrective guidance where a role is classified incorrectly",
+      "豁免与非豁免员工分类审核",
+      "员工与独立承包商分类审核",
+      "针对分类错误岗位提供更正指导",
     ],
   },
 ];
@@ -47,7 +47,7 @@ const modules = [
 export default function CoreDeliverables() {
   return (
     <ServiceCoreDeliverables
-      description="Four modules cover the handbook, policies, postings, and classification review every employer needs in place."
+      description="四大模块涵盖每位雇主都必须具备的员工手册、制度、公示与分类审核。"
       items={modules}
     />
   );

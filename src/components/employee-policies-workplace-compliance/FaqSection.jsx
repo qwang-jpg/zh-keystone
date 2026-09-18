@@ -2,27 +2,27 @@ import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
 const faqs = [
   {
-    question: "Am I legally required to have an employee handbook?",
+    question: "我是否有法律义务准备员工手册？",
     answer:
-      "Federal law doesn't require a handbook outright, but several states require specific written policies (like sick leave or harassment prevention training) once you have employees, and a handbook is the practical way to document and distribute them. It's also strong evidence of good-faith compliance if a dispute ever comes up.",
+      "联邦法律并未直接要求企业必须制定手册，但多个州要求企业一旦雇有员工，就必须具备特定的书面制度（例如病假或反骚扰培训），而手册正是记录并传达这些制度的实用方式。一旦发生纠纷，手册也是证明企业善意合规的有力证据。",
   },
   {
-    question: "What workplace posters am I actually required to display?",
+    question: "我实际上需要张贴哪些职场公示？",
     answer:
-      "Federal law requires several posters covering wage and hour, EEO, and safety topics, and most states add their own on top of that. Requirements also shift depending on whether your team works on-site or remotely. We identify exactly which ones apply to your state(s) and workplace setup.",
+      "联邦法律要求张贴涵盖薪资工时、EEO与安全等主题的多份公示，大多数州还会在此基础上增加各自的要求。具体要求也会因团队是现场办公还是远程办公而有所不同。我们会为您精确识别适用于您所在州及办公场景的公示内容。",
   },
   {
-    question: "What happens if I misclassify an employee as a contractor?",
+    question: "如果我把员工误分类为承包商会怎样？",
     answer:
-      "Misclassification can trigger back pay for overtime and benefits, back payroll taxes, and penalties from both the IRS and state labor agencies, sometimes years after the fact. We review each role against the actual legal test, not just how the relationship is labeled on paper.",
+      "分类错误可能引发加班费与福利的追溯补偿、代扣税款的追缴，以及来自IRS与州劳工部门的罚款——有时甚至是多年之后才被追溯。我们会依据真实的法律判定标准审核每一个岗位，而不只是看纸面上如何标注这段雇佣关系。",
   },
   {
-    question: "How often should workplace policies be updated?",
+    question: "职场制度多久需要更新一次？",
     answer:
-      "At minimum whenever employment law changes in your state, or when your company crosses a headcount threshold that triggers new requirements (many state and federal obligations kick in at specific employee counts). We flag these triggers so your policies don't quietly go stale.",
+      "至少应在您所在州的雇佣法律发生变化时更新，或者当公司员工人数跨过某个触发新义务的门槛时更新（许多州和联邦层面的义务，是按员工人数达到特定数值来触发的）。我们会为您标记出这些触发节点，避免制度在不知不觉中过时失效。",
   },
 ];
 
 export default function FaqSection() {
-  return <ServiceFaqSection title="Employee Policies & Workplace Compliance — FAQ" faqs={faqs} />;
+  return <ServiceFaqSection title="员工制度与职场合规 — 常见问题" faqs={faqs} />;
 }

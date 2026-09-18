@@ -4,34 +4,34 @@ import ServiceWhyKeystone from "@/components/common/ServiceWhyKeystone";
 const pillars = [
   {
     icon: Globe2,
-    title: "Extensive Experience Across 30+ Industries",
+    title: "深耕30多个行业的丰富经验",
     description:
-      "We bring deep, hands-on expertise across technology, finance, media, arts, education, manufacturing, and more. Our team understands the nuances between regulatory frameworks and commercial structures in each industry, translating policy and operational complexity into clear, actionable pathways.",
+      "我们在科技、金融、媒体、艺术、教育、制造业等众多领域拥有深厚的实战经验。团队深刻理解各行业监管框架与商业结构之间的差异，将政策与运营的复杂性转化为清晰、可执行的路径。",
   },
   {
     icon: GraduationCap,
-    title: "Top-Tier U.S. Educated Advisory Team",
+    title: "顶尖美国教育背景的顾问团队",
     description:
-      "Our advisory team of 60+ experts comes from top 30 U.S. institutions and brings over a decade of hands-on experience in immigration, corporate strategy, tax, and compliance. We act as strategic navigators who help clients land long-term plans in the real world.",
+      "我们60多位专家组成的顾问团队，均来自美国排名前30的院校，在移民、企业战略、税务与合规领域拥有超过十年的实战经验。我们是帮助客户把长期计划真正落地的战略引路人。",
   },
   {
     icon: TrendingUp,
-    title: "84.8% Retention Rate with Long-Term Partnerships",
+    title: "84.8%的长期合作续约率",
     description:
-      "Over 84.8% of our clients choose to continue their collaboration with Keystone after the first engagement. A green card pathway spans years, not months, and we build the enduring partnership that requires.",
+      "超过84.8%的客户在首次合作后，选择继续与Keystone携手前行。绿卡之路是以年为单位、而非以月为单位的旅程，我们搭建的正是能够支撑这段旅程的持久合作关系。",
   },
   {
     icon: Layers,
-    title: "End-to-End Resource Integration for Real Results",
+    title: "端到端资源整合，交付真实成果",
     description:
-      "We bring together top immigration attorneys, CPAs, and business consultants to build a seamless ecosystem for our clients, from entity and position structuring through PERM, the I-140, and beyond.",
+      "我们汇聚顶尖移民律师、注册会计师与商业顾问，为客户打造无缝衔接的服务生态，从公司与职位架构搭建，到PERM、I-140乃至后续阶段，全程护航。",
   },
 ];
 
 export default function WhyKeystone() {
   return (
     <ServiceWhyKeystone
-      description="At Keystone, we design pathways, not just complete transactions. Our edge comes from four pillars: expertise, trust, insight, and resources."
+      description="在Keystone，我们设计的是路径，而不仅仅是完成一笔交易。我们的优势来自四大支柱：专业能力、信任、洞察力与资源。"
       pillars={pillars}
     />
   );

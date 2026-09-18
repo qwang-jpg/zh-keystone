@@ -11,8 +11,8 @@ export default function EmployeePoliciesWorkplaceCompliance() {
   return (
     <PageLayout>
       <Seo
-        title="Employee Policies & Workplace Compliance"
-        description="Keystone Strategies builds your employee handbook, anti-harassment and EEO policy, required workplace postings, and worker classification review."
+        title="员工制度与职场合规"
+        description="Keystone Strategies 为您搭建员工手册、反骚扰与平等就业机会（EEO）制度、法定职场公示，以及用工分类审核。"
         path="/employee-policies-workplace-compliance"
       />
       <Hero />
@@ -21,9 +21,9 @@ export default function EmployeePoliciesWorkplaceCompliance() {
       <WhyKeystone />
       <FaqSection />
       <CompactCta
-        title="Put Your Workplace Policies in Writing"
-        description={<p>Handbook, EEO policy, required postings, and classification review, built for the state(s) where you actually employ people.</p>}
-        ctaLabel="Book a Workplace Compliance Consultation"
+        title="把您的职场制度落实成书面文件"
+        description={<p>员工手册、EEO制度、法定公示与用工分类审核，均针对您实际用工所在州量身搭建。</p>}
+        ctaLabel="预约职场合规咨询"
       />
     </PageLayout>
   );

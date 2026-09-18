@@ -3,17 +3,15 @@ import ServiceHero from "@/components/common/ServiceHero";
 export default function Hero() {
   return (
     <ServiceHero
-      title="Employee Policies & Workplace Compliance"
-      subtitle="Workplace Policies That Protect Your Company, Not Just Your New Hire's File"
+      title="员工制度与职场合规"
+      subtitle="真正保护公司的职场制度，而不只是新员工档案里的一份文件"
       description={
         <>
-          Onboarding paperwork gets one employee started. Workplace policies are what govern
-          every employee after that: an employee handbook, anti-harassment and EEO policy, the
-          labor law postings you're required to display, and a clean read on how each worker
-          should actually be classified.
+          入职文书只是让一位员工开始工作。而职场制度，才是此后规范每一位员工的核心：
+          员工手册、反骚扰与EEO制度、法定必须张贴的劳工法公示，以及每一位员工用工分类的清晰界定。
         </>
       }
-      ctaLabel="Book a Workplace Compliance Consultation"
+      ctaLabel="预约职场合规咨询"
     />
   );
 }

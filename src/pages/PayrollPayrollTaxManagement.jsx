@@ -11,8 +11,8 @@ export default function PayrollPayrollTaxManagement() {
   return (
     <PageLayout>
       <Seo
-        title="Payroll & Payroll Tax Management"
-        description="Keystone Strategies sets up your payroll system, registers the right state payroll tax and unemployment insurance accounts, and builds a compliant wage and W-2 process."
+        title="薪资与雇佣管理"
+        description="Keystone Strategies 为您搭建薪资系统，注册正确的州薪资税与失业保险账户，并建立合规的薪酬与W-2办理流程。"
         path="/payroll-payroll-tax-management"
       />
       <Hero />
@@ -21,14 +21,13 @@ export default function PayrollPayrollTaxManagement() {
       <WhyKeystone />
       <FaqSection />
       <CompactCta
-        title="Get Payroll Set Up Before Your First Hire Starts"
+        title="在第一位员工入职前，搭建好薪资体系"
         description={
           <p>
-            From system setup to state registrations to W-2 prep, we build the payroll process your company will
-            run on for years.
+            从系统搭建、州注册到W-2准备，我们为您搭建一套公司未来多年都能持续使用的薪资流程。
           </p>
         }
-        ctaLabel="Book a Payroll Setup Consultation"
+        ctaLabel="预约薪资体系咨询"
       />
     </PageLayout>
   );
