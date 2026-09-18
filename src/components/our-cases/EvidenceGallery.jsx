@@ -35,15 +35,15 @@ import approvalPerm2 from "@/assets/our-cases/approval-perm-2.png";
 // `import x from "@/assets/our-cases/<file>"` above, and set `src: x`
 // on that entry.
 const brochureRow = {
-  title: "Case Highlights from Our Company Brochure",
-  note: "Sample brochure pages from real client businesses, shown as low-resolution previews to protect client confidentiality.",
+  title: "企业宣传资料案例精选",
+  note: "真实客户企业的宣传册样张，以低分辨率预览展示，保护客户隐私。",
   images: [
-    { src: brochureSustainabilityConsulting, label: "Sustainability Consulting Brochure" },
-    { src: brochureTablewareEcommerce, label: "Global Tableware Brand Brochure" },
-    { src: brochureFinanceConsulting, label: "Financial Advisory Brochure" },
-    { sourceFile: "music-studio-brochure.jpg", label: "Music Studio Brochure" },
-    { src: brochureUiUxDesign, label: "Design Studio Brochure" },
-    { src: brochureSupplyChainWarehousing, label: "Warehousing & Supply Chain Brochure" },
+    { src: brochureSustainabilityConsulting, label: "可持续发展咨询宣传册" },
+    { src: brochureTablewareEcommerce, label: "全球餐具品牌宣传册" },
+    { src: brochureFinanceConsulting, label: "财务顾问宣传册" },
+    { sourceFile: "music-studio-brochure.jpg", label: "音乐工作室宣传册" },
+    { src: brochureUiUxDesign, label: "设计工作室宣传册" },
+    { src: brochureSupplyChainWarehousing, label: "仓储与供应链宣传册" },
   ],
 };
 
@@ -53,24 +53,24 @@ const brochureRow = {
 // src/assets/our-cases/; the rest are still-pending originals.
 const documentRows = [
   {
-    title: "Company Registration File",
+    title: "公司注册文件",
     images: [
       { sourceFile: "01.jpeg", label: "01" },
       { sourceFile: "02.jpeg", label: "02" },
       { sourceFile: "03.jpeg", label: "03" },
       { sourceFile: "04.jpeg", label: "04" },
-      { src: registrationCalifornia, label: "California — Articles of Incorporation" },
-      { src: registrationTexas, label: "Texas — Certificate of Filing" },
-      { src: registrationIllinois, label: "Illinois — Articles of Incorporation" },
-      { src: registrationNewYork, label: "New York — Certificate of Incorporation" },
-      { src: registrationGeorgia, label: "Georgia — Certificate of Incorporation" },
-      { src: registrationMassachusetts, label: "Massachusetts — Articles of Organization" },
-      { src: registrationNewJersey, label: "New Jersey — Certificate of Incorporation" },
-      { src: registrationDc, label: "Washington, D.C. — Certificate of Incorporation" },
+      { src: registrationCalifornia, label: "加利福尼亚州 — 公司注册证书" },
+      { src: registrationTexas, label: "德克萨斯州 — 备案证明" },
+      { src: registrationIllinois, label: "伊利诺伊州 — 公司注册证书" },
+      { src: registrationNewYork, label: "纽约州 — 公司注册证书" },
+      { src: registrationGeorgia, label: "佐治亚州 — 公司注册证书" },
+      { src: registrationMassachusetts, label: "马萨诸塞州 — 公司组织证书" },
+      { src: registrationNewJersey, label: "新泽西州 — 公司注册证书" },
+      { src: registrationDc, label: "华盛顿特区 — 公司注册证书" },
     ],
   },
   {
-    title: "H-1B Approved — I-797 Approval Notice",
+    title: "H-1B获批 — I-797批准通知书",
     images: [
       { sourceFile: "2024-1.png", label: "2024-1" },
       { sourceFile: "2024-2.png", label: "2024-2" },
@@ -80,22 +80,22 @@ const documentRows = [
       { sourceFile: "2024-6.png", label: "2024-6" },
       { sourceFile: "2024-7.png", label: "2024-7" },
       { sourceFile: "2024-8.png", label: "2024-8" },
-      { sourceFile: "2025-1.png", label: "H-1B Registration & Lottery Guidance" },
+      { sourceFile: "2025-1.png", label: "H-1B注册与抽签指南" },
       { sourceFile: "2025-2.png", label: "2025-2" },
       { sourceFile: "2025-3.png", label: "2025-3" },
       { sourceFile: "2025-4.png", label: "2025-4" },
-      { src: approvalI797a, label: "I-797A Approval Notice" },
-      { src: approvalI797b, label: "I-797B Approval Notice" },
+      { src: approvalI797a, label: "I-797A批准通知书" },
+      { src: approvalI797b, label: "I-797B批准通知书" },
     ],
   },
   {
-    title: "Beyond H-1B — PERM & I-140 Approvals",
+    title: "H-1B之外 — PERM与I-140获批",
     images: [
-      { src: approvalPerm1, label: "PERM Labor Certification, Approved" },
-      { src: approvalPerm2, label: "PERM Labor Certification, Approved" },
-      { src: approvalI140_1, label: "I-140 Immigrant Petition, Approved" },
-      { src: approvalI140_2, label: "I-140 Immigrant Petition, Approved" },
-      { src: approvalI140_3, label: "I-140 Immigrant Petition, Approved" },
+      { src: approvalPerm1, label: "PERM劳工证，已批准" },
+      { src: approvalPerm2, label: "PERM劳工证，已批准" },
+      { src: approvalI140_1, label: "I-140移民申请，已批准" },
+      { src: approvalI140_2, label: "I-140移民申请，已批准" },
+      { src: approvalI140_3, label: "I-140移民申请，已批准" },
     ],
   },
 ];
@@ -132,7 +132,7 @@ function EvidenceLightbox({ item, onClose }) {
         >
           <button
             type="button"
-            aria-label="Close"
+            aria-label="关闭"
             onClick={onClose}
             className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white transition-colors hover:bg-white/10 md:right-8 md:top-8"
           >
@@ -148,7 +148,7 @@ function EvidenceLightbox({ item, onClose }) {
           >
             <img
               src={item.src}
-              alt={item.label ?? "Evidence document"}
+              alt={item.label ?? "证明文件"}
               className="max-h-[82vh] max-w-full rounded-lg object-contain shadow-2xl"
             />
             {item.label && <figcaption className="text-sm font-medium text-white/80">{item.label}</figcaption>}
@@ -168,10 +168,10 @@ export default function EvidenceGallery({ h1bOnly = false }) {
   return (
     <section className="bg-keystone-mist py-20 md:py-28">
       <div className="container">
-        <h2 className="text-xl font-bold text-keystone-ink md:text-2xl">Evidence on file</h2>
+        <h2 className="text-xl font-bold text-keystone-ink md:text-2xl">存档证明材料</h2>
         <p className="mt-1.5 max-w-2xl text-sm text-muted-foreground">
-          Low-resolution previews; client-identifying details scrubbed at the source. Each row
-          scrolls on its own — hover to pause, or click a document to view it larger.
+          以下为低分辨率预览，客户身份信息已在源头处理。每一行独立滚动——悬停可暂停，
+          点击文件可查看大图。
         </p>
       </div>
 

@@ -55,7 +55,7 @@ export default function EvidenceCard({ src, label, sourceFile, onClick, classNam
           <>
             <img
               src={src}
-              alt={label ?? "Evidence document"}
+              alt={label ?? "证明文件"}
               loading="lazy"
               onLoad={(e) => setRatio(e.currentTarget.naturalWidth / e.currentTarget.naturalHeight)}
               style={width ? { width } : undefined}

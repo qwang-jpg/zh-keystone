@@ -9,8 +9,8 @@ export default function OurCases() {
   return (
     <PageLayout>
       <Seo
-        title="Our Cases — Real Self-Employment H-1B Success Stories"
-        description="A collection of real self-employment H-1B success stories showing how Keystone Strategies clients secured their status and built lasting careers in the U.S."
+        title="成功案例 — 真实的自雇型H-1B成功故事"
+        description="精选真实的自雇型H-1B成功案例，展示Keystone Strategies客户如何获得身份保障，并在美国建立长久的职业发展。"
         path="/our-cases"
       />
       <CasesHero />

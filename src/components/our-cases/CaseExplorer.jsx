@@ -22,7 +22,7 @@ function FilterPill({ label, active, onClick }) {
 }
 
 export function CaseCard({ c, onOpen }) {
-  const durationLabel = c.outcome.startsWith("Selected") ? "Start → selection" : "Start → approval";
+  const durationLabel = c.outcome.includes("中签") ? "签约 → 中签" : "签约 → 获批";
 
   return (
     <article className="flex flex-col rounded-2xl border border-border bg-white p-6 shadow-sm">
@@ -40,7 +40,7 @@ export function CaseCard({ c, onOpen }) {
 
       <div className="mt-4 grid grid-cols-3 gap-px overflow-hidden rounded-xl bg-border">
         <div className="bg-keystone-mist px-3 py-2.5">
-          <div className="text-2xs font-bold uppercase tracking-wide text-muted-foreground">Lottery</div>
+          <div className="text-2xs font-bold uppercase tracking-wide text-muted-foreground">抽签结果</div>
           <div className="mt-0.5 text-sm font-bold text-keystone-ink">{c.attemptShort}</div>
         </div>
         <div className="bg-keystone-mist px-3 py-2.5">
@@ -48,7 +48,7 @@ export function CaseCard({ c, onOpen }) {
           <div className="mt-0.5 text-sm font-bold text-keystone-ink">{c.duration}</div>
         </div>
         <div className="bg-keystone-mist px-3 py-2.5">
-          <div className="text-2xs font-bold uppercase tracking-wide text-muted-foreground">Fiscal year</div>
+          <div className="text-2xs font-bold uppercase tracking-wide text-muted-foreground">财年</div>
           <div className="mt-0.5 text-sm font-bold text-keystone-ink">{c.season}</div>
         </div>
       </div>
@@ -69,7 +69,7 @@ export function CaseCard({ c, onOpen }) {
         onClick={onOpen}
         className="mt-5 inline-flex w-fit items-center gap-1.5 rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-keystone-ink"
       >
-        Open full case
+        查看完整案例
         <ArrowRight className="h-3.5 w-3.5" />
       </button>
     </article>
@@ -85,7 +85,7 @@ export function CaseDrawer({ caseData, onClose }) {
         <div className="fixed inset-0 z-[60] flex justify-end">
           <motion.button
             type="button"
-            aria-label="Close case"
+            aria-label="关闭案例"
             onClick={onClose}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -103,7 +103,7 @@ export function CaseDrawer({ caseData, onClose }) {
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-wide text-keystone-green">
-                    Case {caseData.num} · {caseData.season}
+                    案例{caseData.num} · {caseData.season}
                   </p>
                   <h3 className="mt-1.5 text-2xl font-bold text-white">{caseData.name}</h3>
                   <p className="mt-1 text-sm text-white/65">{caseData.meta}</p>
@@ -111,7 +111,7 @@ export function CaseDrawer({ caseData, onClose }) {
                 <button
                   type="button"
                   onClick={onClose}
-                  aria-label="Close case"
+                  aria-label="关闭案例"
                   className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-white/20 text-white transition-colors hover:bg-white/10"
                 >
                   <X className="h-4 w-4" />
@@ -131,12 +131,12 @@ export function CaseDrawer({ caseData, onClose }) {
 
             <div className="flex flex-col gap-4 p-6 md:p-8">
               <div className="rounded-2xl border border-destructive/25 p-4">
-                <p className="text-xs font-bold uppercase tracking-wide text-destructive">The problem</p>
+                <p className="text-xs font-bold uppercase tracking-wide text-destructive">面临的问题</p>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{caseData.problem}</p>
               </div>
 
               <div className="rounded-2xl border border-primary/30 bg-keystone-mist p-4">
-                <p className="text-xs font-bold uppercase tracking-wide text-primary">Our plan</p>
+                <p className="text-xs font-bold uppercase tracking-wide text-primary">我们的方案</p>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{caseData.plan}</p>
                 <div className="mt-4 flex flex-col gap-2">
                   {caseData.timeline.map((t) => (
@@ -149,7 +149,7 @@ export function CaseDrawer({ caseData, onClose }) {
               </div>
 
               <div className="rounded-2xl border border-keystone-green/35 bg-keystone-green/10 p-4">
-                <p className="text-xs font-bold uppercase tracking-wide text-keystone-forest">The result</p>
+                <p className="text-xs font-bold uppercase tracking-wide text-keystone-forest">最终结果</p>
                 <p className="mt-2 text-sm leading-relaxed text-keystone-ink">{caseData.result}</p>
               </div>
 
@@ -158,7 +158,7 @@ export function CaseDrawer({ caseData, onClose }) {
                 onClick={() => setFull((f) => !f)}
                 className="w-fit rounded-lg border border-border px-4 py-2 text-xs font-semibold text-keystone-ink transition-colors hover:border-primary hover:text-primary"
               >
-                {full ? "Hide the full story" : "Read the full story"}
+                {full ? "收起完整故事" : "查看完整故事"}
               </button>
 
               {full && (
@@ -189,9 +189,9 @@ export default function CaseExplorer() {
     <>
       <section className="border-b border-border bg-keystone-mist py-10 md:py-12">
         <div className="container">
-          <h2 className="text-xl font-bold text-keystone-ink md:text-2xl">Find the case closest to your goal</h2>
+          <h2 className="text-xl font-bold text-keystone-ink md:text-2xl">查找与您目标最相近的案例</h2>
           <p className="mt-1.5 text-sm text-muted-foreground">
-            Pick your goal and we'll surface the clients who shared it.
+            选择您的目标，我们将为您展示有相同经历的客户案例。
           </p>
 
           <div className="mt-6 flex flex-wrap gap-2">

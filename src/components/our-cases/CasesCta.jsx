@@ -3,15 +3,14 @@ import CompactCta from "@/components/common/CompactCta";
 export default function CasesCta() {
   return (
     <CompactCta
-      title="Success Stories Like These — You Could Be Next."
+      title="这些成功故事的下一位，也许就是您。"
       description={
         <p>
-          Stop waiting for an employer to decide your future. Take control through self-employment
-          H-1B — unlimited lottery entries, lasting relief from status anxiety, and a career and
-          life path that&apos;s truly your own.
+          不要再把未来交给雇主决定。通过自雇型H-1B掌控主动权——无限次抽签机会，彻底摆脱身份焦虑，
+          走出真正属于您自己的职业与人生道路。
         </p>
       }
-      ctaLabel="Contact Us and Start Your H-1B Assurance Plan Today!"
+      ctaLabel="立即联系我们，开启您的H-1B保障计划！"
     />
   );
 }

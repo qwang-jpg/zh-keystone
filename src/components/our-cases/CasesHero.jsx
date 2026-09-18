@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "7 yrs", label: "hands-on experience in status and business planning" },
-  { value: "1,200+", label: "clients supported across immigration and business" },
-  { value: "84.8%", label: "retention rate with long-term client partnerships" },
-  { value: "100%", label: "approval rate on every case that has completed filing" },
+  { value: "7年", label: "身份与商业规划实战经验" },
+  { value: "1,200+", label: "位客户获得移民与商业支持" },
+  { value: "84.8%", label: "长期客户续约率" },
+  { value: "100%", label: "已完成递交案件的获批率" },
 ];
 
 export default function CasesHero() {
@@ -27,9 +27,9 @@ export default function CasesHero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="max-w-3xl text-4xl font-bold leading-[1.1] text-white sm:text-5xl md:text-6xl"
         >
-          Real Cases.
+          真实案例。
           <br />
-          Proven Expertise.
+          实力见证。
         </motion.h1>
 
         <motion.p
@@ -38,7 +38,7 @@ export default function CasesHero() {
           transition={{ duration: 0.6, delay: 0.15 }}
           className="mt-4 max-w-2xl text-lg font-semibold text-keystone-green md:text-xl"
         >
-          Self-employment H-1B · 19 documented cases
+          自雇型H-1B · 19个真实案例存档
         </motion.p>
 
         <motion.p
@@ -47,10 +47,9 @@ export default function CasesHero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mt-5 max-w-2xl text-base leading-relaxed text-white/70 md:text-lg"
         >
-          Every case below is a real client who built a company of their own — some couldn&apos;t
-          find an employer to sponsor them, others walked away from one that no longer fit. Same
-          three-part structure each time: the problem they walked in with, the plan we built, the
-          status they hold today.
+          以下每一个案例都是真实客户创办的企业——有些是找不到愿意担保的雇主，有些是主动离开了
+          不再合适的雇主。每个故事都遵循相同的三段式结构：客户带来的问题、我们搭建的方案，
+          以及他们如今持有的身份。
         </motion.p>
 
         <motion.div
