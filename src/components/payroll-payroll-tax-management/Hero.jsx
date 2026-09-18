@@ -3,7 +3,7 @@ import ServiceHero from "@/components/common/ServiceHero";
 export default function Hero() {
   return (
     <ServiceHero
-      title="薪资与雇佣管理"
+      title="薪资与薪资税务管理"
       subtitle="为每一位员工、每一个州提供准确合规的薪资服务"
       description={
         <>

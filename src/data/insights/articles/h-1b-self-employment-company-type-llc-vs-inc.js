@@ -156,7 +156,7 @@ export default {
     { type: `paragraph`, html: `——申请EIN：公司的联邦税号，是合法雇佣任何人的前提条件。` },
     {
       type: `paragraph`,
-      html: `*完成BOIR申报：<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">BOIR申报</a>指的是向财政部<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">金融犯罪执法网络（FinCEN）</a>报告美国公司受益所有权信息的要求。2025年3月，FinCEN发布了一项<a href="https://www.fincen.gov/news/news-releases/fincen-removes-beneficial-ownership-reporting-requirements-us-companies-and-us" rel="noopener noreferrer" target="_blank">临时最终规则</a>，豁免所有美国境内实体及美国公民的BOI报告义务。因此目前无需申报，但这一政策可能会有所变化——请持续关注我们的最新动态。`,
+      html: `*完成BOIR申报：<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">BOIR申报</a>指的是向财政部<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">金融犯罪执法网络（FinCEN）</a>报告美国公司受益所有权信息的要求。2025年3月，FinCEN发布了一项<a href="https://www.fincen.gov/news/news-releases/fincen-removes-beneficial-ownership-reporting-requirements-us-companies-and-us" rel="noopener noreferrer" target="_blank">临时最终规则</a>，豁免所有美国境内实体及美国人士的BOI报告义务。因此目前无需申报，但这一政策可能会有所变化——请持续关注我们的最新动态。`,
     },
     { type: `list`, ordered: false, items: [`<strong>第二步：注册参与H-1B抽签</strong>`] },
     {

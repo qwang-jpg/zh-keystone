@@ -11,7 +11,7 @@ export default function PayrollPayrollTaxManagement() {
   return (
     <PageLayout>
       <Seo
-        title="薪资与雇佣管理"
+        title="薪资与薪资税务管理"
         description="Keystone Strategies 为您搭建薪资系统，注册正确的州薪资税与失业保险账户，并建立合规的薪酬与W-2办理流程。"
         path="/payroll-payroll-tax-management"
       />

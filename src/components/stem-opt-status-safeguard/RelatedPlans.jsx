@@ -13,10 +13,10 @@ const plans = [
     sourceFile: "josh-connor-1hTtmzyufyM-unsplash.jpg",
   },
   {
-    title: "自雇型H-1B规划",
+    title: "职业签证岗位与申请规划",
     description:
       "当您准备从STEM OPT迈向H-1B或其他职业类签证时，我们为您设计能够延续推进的职位与申请策略。",
-    cta: "了解自雇型H-1B规划",
+    cta: "了解职业签证岗位与申请规划",
     href: "/employment-visa-position-petition-planning",
     sourceFile: "nicolas-jehly-VwIF0Ls7LVo-unsplash.jpg",
   },

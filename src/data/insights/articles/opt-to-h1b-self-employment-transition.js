@@ -30,7 +30,7 @@ export default {
       type: `paragraph`,
       html: `关于OPT自雇的详细讲解，请参阅我们的OPT自雇完全指南，涵盖公司注册、工资、H-1B抽签参与、报税及常见误区。<a href="/contact">对合规的OPT自雇感兴趣？联系我们了解更多。</a>`,
     },
-    { type: `heading`, level: 3, html: `2. STEM OPT自雇：理论上存在，实际上不可行` },
+    { type: `heading`, level: 3, html: `2. STEM OPT自雇：理论上也不可行` },
     {
       type: `paragraph`,
       html: `<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt" rel="noopener noreferrer" target="_blank">STEM OPT</a>允许科学、技术、工程或数学专业的国际学生，在完成为期12个月的初始OPT后，再申请24个月的工作授权延期。其核心目的，是通过一份"结构化培训计划"，让STEM学生在雇主持续的监督与评估下获得进一步的行业经验，从而防止该项目被滥用。因此，STEM OPT对雇佣结构与雇主资质都设定了严格要求。这意味着<strong>STEM OPT自雇受到极大限制</strong>，任何形式的自雇——包括自己创办公司、一人公司，或以远程顾问身份工作——都被排除在外。*为什么OPT自雇被允许，而STEM OPT自雇却受到限制？虽然OPT与STEM OPT都属于F-1实习训练的范畴，但二者的目的截然不同。与此同时，政府之所以严格限制STEM OPT自雇，是出于以下几类常见的风险考量：`,
@@ -140,7 +140,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `<a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-identification-number" rel="noopener noreferrer" target="_blank">EIN（"雇主识别号"）</a>是IRS为企业或其他实体分配的一个唯一的九位数号码，可通过<a href="https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number" rel="noopener noreferrer" target="_blank">IRS官网</a>申请。<em>*BOIR申报（受益所有权信息报告）：<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">BOIR申报</a>指的是美国公司需要向财政部<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">金融犯罪执法网络（FinCEN）</a>报告其受益所有人信息的要求。2025年3月，FinCEN发布了<a href="https://www.fincen.gov/news/news-releases/fincen-removes-beneficial-ownership-reporting-requirements-us-companies-and-us" rel="noopener noreferrer" target="_blank">临时最终规则</a>，豁免所有美国境内实体及美国公民的BOI报告义务，因此<strong>目前无需申报，但这一政策可能会有所变化——请持续关注我们的最新动态。</strong></em>如果您需要在OPT第一年就参加H-1B抽签，请直接跳转到下方的"阶段三：H-1B流程"部分。`,
+      html: `<a href="https://www.irs.gov/businesses/small-businesses-self-employed/employer-identification-number" rel="noopener noreferrer" target="_blank">EIN（"雇主识别号"）</a>是IRS为企业或其他实体分配的一个唯一的九位数号码，可通过<a href="https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number" rel="noopener noreferrer" target="_blank">IRS官网</a>申请。<em>*BOIR申报（受益所有权信息报告）：<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">BOIR申报</a>指的是美国公司需要向财政部<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">金融犯罪执法网络（FinCEN）</a>报告其受益所有人信息的要求。2025年3月，FinCEN发布了<a href="https://www.fincen.gov/news/news-releases/fincen-removes-beneficial-ownership-reporting-requirements-us-companies-and-us" rel="noopener noreferrer" target="_blank">临时最终规则</a>，豁免所有美国境内实体及美国人士的BOI报告义务，因此<strong>目前无需申报，但这一政策可能会有所变化——请持续关注我们的最新动态。</strong></em>如果您需要在OPT第一年就参加H-1B抽签，请直接跳转到下方的"阶段三：H-1B流程"部分。`,
     },
     { type: `heading`, level: 3, html: `阶段二：STEM OPT延期——完善公司架构，搭建合规的培训体系` },
     {

@@ -10,7 +10,7 @@ export default function StemHero() {
           合规、有保障。
         </>
       }
-      subtitle="STEM OPT就绪计划"
+      subtitle="STEM OPT身份保障计划"
       description={
         <>
           STEM OPT不仅仅是一份延期申请。它需要正确的雇主、正确的雇佣架构，以及正确的合规框架

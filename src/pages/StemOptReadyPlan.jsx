@@ -20,7 +20,7 @@ export default function StemOptReadyPlan() {
   return (
     <PageLayout>
       <Seo
-        title="STEM OPT就绪计划"
+        title="STEM OPT身份保障计划"
         description="Keystone Strategies 帮助国际STEM毕业生搭建获得并维持STEM OPT身份所需的雇主、雇佣、培训、文件与持续合规架构。"
         path="/stem-opt-ready-plan"
       />

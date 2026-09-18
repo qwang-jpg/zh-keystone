@@ -197,7 +197,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `*<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">BOIR申报</a>（受益所有权信息报告）指的是美国公司需要向财政部<a href="https://www.fincen.gov/news/news-releases/fincen-removes-beneficial-ownership-reporting-requirements-us-companies-and-us" rel="noopener noreferrer" target="_blank">金融犯罪执法网络（FinCEN）</a>报告其受益所有人信息的要求。2025年3月，FinCEN发布了一项临时最终规则，豁免所有美国境内实体及美国公民的BOI报告义务。因此<strong>目前无需申报，但这一政策可能会有所变化——请持续关注我们的更新，以掌握最新动态</strong>。`,
+      html: `*<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">BOIR申报</a>（受益所有权信息报告）指的是美国公司需要向财政部<a href="https://www.fincen.gov/news/news-releases/fincen-removes-beneficial-ownership-reporting-requirements-us-companies-and-us" rel="noopener noreferrer" target="_blank">金融犯罪执法网络（FinCEN）</a>报告其受益所有人信息的要求。2025年3月，FinCEN发布了一项临时最终规则，豁免所有美国境内实体及美国人士的BOI报告义务。因此<strong>目前无需申报，但这一政策可能会有所变化——请持续关注我们的更新，以掌握最新动态</strong>。`,
     },
     {
       type: `paragraph`,

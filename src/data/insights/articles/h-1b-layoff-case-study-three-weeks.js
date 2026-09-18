@@ -47,7 +47,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `客户认真考虑过申请Day-1 CPT，将身份从H-1B转为F-1学生身份，作为短期内合法留美的方式。但她很快意识到，这只能暂时延长合法停留时间——并不能真正解决身份问题的根本，因为最终她仍然需要找到愿意担保H-1B的新雇主，并重新完成一次转移才能恢复工作授权。更何况，这条路径还伴随着实实在在的时间与经济成本：学费通常每年超过1万美元，还需要实际到校上课，并按时完成课程、作业与考试。对于希望专注求职、转行或创业的人来说，这些要求负担不小，灵活性也十分有限。`,
+      html: `客户认真考虑过申请Day-1 CPT，将身份从H-1B转为F-1学生身份，作为短期内合法留美的方式。但客户很快意识到，这只能暂时延长合法停留时间——并不能真正解决身份问题的根本，因为最终客户仍然需要找到愿意担保H-1B的新雇主，并重新完成一次转移才能恢复工作授权。更何况，这条路径还伴随着实实在在的时间与经济成本：学费通常每年超过1万美元，还需要实际到校上课，并按时完成课程、作业与考试。对于希望专注求职、转行或创业的人来说，这些要求负担不小，灵活性也十分有限。`,
     },
     {
       type: `list`,
@@ -74,7 +74,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `通过朋友的介绍，客户了解到可以通过自雇的方式留在美国。由于此前也考虑过在某个阶段创业，客户最终决定不再被动等待雇主，而是自己成为雇主。她联系我们，了解H-1B自雇的合规要求、公司成立标准、岗位匹配逻辑与完整流程。在完成材料准备、搭建公司架构、明确岗位并落实配套材料之后，客户最终通过<a href="https://www.uscis.gov/green-card/green-card-processes-and-procedures/consular-processing" rel="noopener noreferrer" target="_blank">境外领事馆程序</a>递交了申请。在我们的支持下，凭借充分的准备、架构合理的公司，以及与客户学术背景高度匹配的岗位，H-1B自雇申请在递交后仅三周就获得了USCIS的批准。对于想要留在美国、拥有扎实专业技能、并愿意考虑创业的人来说，自雇型H-1B是一条相对灵活的路径——但同样有着较高的合规门槛。与短时间内依赖他人担保相比，自雇能让您掌握更多主动权，也为自己的职业发展开辟了新的可能性。`,
+      html: `通过朋友的介绍，客户了解到可以通过自雇的方式留在美国。由于此前也考虑过在某个阶段创业，客户最终决定不再被动等待雇主，而是自己成为雇主，并联系我们，了解H-1B自雇的合规要求、公司成立标准、岗位匹配逻辑与完整流程。在完成材料准备、搭建公司架构、明确岗位并落实配套材料之后，客户最终通过<a href="https://www.uscis.gov/green-card/green-card-processes-and-procedures/consular-processing" rel="noopener noreferrer" target="_blank">境外领事馆程序</a>递交了申请。在我们的支持下，凭借充分的准备、架构合理的公司，以及与客户学术背景高度匹配的岗位，H-1B自雇申请在递交后仅三周就获得了USCIS的批准。对于想要留在美国、拥有扎实专业技能、并愿意考虑创业的人来说，自雇型H-1B是一条相对灵活的路径——但同样有着较高的合规门槛。与短时间内依赖他人担保相比，自雇能让您掌握更多主动权，也为自己的职业发展开辟了新的可能性。`,
     },
     {
       type: `paragraph`,
@@ -150,7 +150,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `结合客户的实际情况，我们指导她成立了一家<strong><a href="https://www.investopedia.com/terms/c/corporation.asp#toc-liquidating-a-corporation" rel="noopener noreferrer" target="_blank">股份公司（Corporation）</a></strong>。`,
+      html: `结合客户的实际情况，我们指导客户成立了一家<strong><a href="https://www.investopedia.com/terms/c/corporation.asp#toc-liquidating-a-corporation" rel="noopener noreferrer" target="_blank">股份公司（Corporation）</a></strong>。`,
     },
     { type: `paragraph`, html: `<strong>——选择注册州：</strong>` },
     {
@@ -173,7 +173,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `*BOIR申报（受益所有权信息报告）：<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">BOIR申报</a>指的是美国公司需要向财政部<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">金融犯罪执法网络（FinCEN）</a>报告其受益所有人信息的要求。2025年3月，FinCEN发布了<a href="https://www.fincen.gov/news/news-releases/fincen-removes-beneficial-ownership-reporting-requirements-us-companies-and-us" rel="noopener noreferrer" target="_blank">临时最终规则</a>，豁免所有美国境内实体及美国公民的BOIR申报义务，因此我们无需为客户递交BOIR申报。不过这一领域仍有可能发生变化，建议持续关注我们的最新动态。`,
+      html: `*BOIR申报（受益所有权信息报告）：<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">BOIR申报</a>指的是美国公司需要向财政部<a href="https://boiefiling.fincen.gov/fileboir" rel="noopener noreferrer" target="_blank">金融犯罪执法网络（FinCEN）</a>报告其受益所有人信息的要求。2025年3月，FinCEN发布了<a href="https://www.fincen.gov/news/news-releases/fincen-removes-beneficial-ownership-reporting-requirements-us-companies-and-us" rel="noopener noreferrer" target="_blank">临时最终规则</a>，豁免所有美国境内实体及美国人士的BOIR申报义务，因此我们无需为客户递交BOIR申报。不过这一领域仍有可能发生变化，建议持续关注我们的最新动态。`,
     },
     {
       type: `paragraph`,
@@ -186,7 +186,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `由于客户对自己的商业计划十分认真，她在宽限期结束前回到了母国推进业务开发，包括<strong>与潜在投资合作方进行洽谈</strong>并<strong>签署合作协议</strong>，<strong>为后续申请打下了扎实的商业基础。</strong>与此同时，我们指导客户起草商业计划书，并协助制作了专业的公司网站、宣传手册及其他运营材料。从2月中旬到5月底，客户在母国全力投入这些准备工作，我们则提供远程的法律与运营指导，确保每个节点都按计划推进。`,
+      html: `由于客户对自己的商业计划十分认真，在宽限期结束前回到了母国推进业务开发，包括<strong>与潜在投资合作方进行洽谈</strong>并<strong>签署合作协议</strong>，<strong>为后续申请打下了扎实的商业基础。</strong>与此同时，我们指导客户起草商业计划书，并协助制作了专业的公司网站、宣传手册及其他运营材料。从2月中旬到5月底，客户在母国全力投入这些准备工作，我们则提供远程的法律与运营指导，确保每个节点都按计划推进。`,
     },
     {
       type: `list`,
