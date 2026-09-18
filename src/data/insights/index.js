@@ -38,7 +38,7 @@ export function getRelatedInsights(article, count = 3) {
 }
 
 export function formatInsightDate(isoDate) {
-  return new Date(`${isoDate}T00:00:00Z`).toLocaleDateString("en-US", {
+  return new Date(`${isoDate}T00:00:00Z`).toLocaleDateString("zh-CN", {
     year: "numeric",
     month: "long",
     day: "numeric",

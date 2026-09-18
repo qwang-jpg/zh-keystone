@@ -41,16 +41,16 @@ export default function Insights() {
   return (
     <PageLayout>
       <Seo
-        title="Insights — Immigration, H-1B & OPT Guides"
-        description="Practical guides, policy updates, and real case studies on OPT, STEM OPT, H-1B self-employment, and immigration strategy for international professionals."
+        title="行业洞察 — 移民、H-1B与OPT指南"
+        description="面向国际专业人才的实用指南、政策解读与真实案例，涵盖OPT、STEM OPT、H-1B自雇与移民策略。"
         path="/insights"
       />
 
       <section className="border-b border-border bg-keystone-mist py-16 md:py-20">
         <div className="container">
           <SectionHeading
-            title="Immigration & Career Guidance for Global Talent"
-            description="In-depth guides, policy breakdowns, and real client success stories on OPT, STEM OPT, and H-1B self-employment."
+            title="为全球人才提供的移民与职业指导"
+            description="深度指南、政策解读与真实客户成功案例，涵盖OPT、STEM OPT与H-1B自雇。"
             align="left"
             className="max-w-3xl"
           />
@@ -83,8 +83,8 @@ export default function Insights() {
                 type="search"
                 value={query}
                 onChange={(e) => handleQueryChange(e.target.value)}
-                placeholder="Search Insights..."
-                aria-label="Search Insights"
+                placeholder="搜索行业洞察..."
+                aria-label="搜索行业洞察"
                 className="w-full rounded-full border border-border bg-white py-2.5 pl-10 pr-4 text-sm text-keystone-ink placeholder:text-muted-foreground focus:border-primary focus:outline-none"
               />
             </div>
@@ -97,13 +97,13 @@ export default function Insights() {
               ))}
             </div>
           ) : (
-            <p className="mt-10 text-sm text-muted-foreground">No articles match your search.</p>
+            <p className="mt-10 text-sm text-muted-foreground">没有找到符合条件的文章。</p>
           )}
 
           {visibleCount < filtered.length && (
             <div className="mt-10 flex justify-center">
               <Button variant="outline" size="lg" onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}>
-                Read More
+                查看更多
               </Button>
             </div>
           )}
@@ -111,9 +111,9 @@ export default function Insights() {
       </section>
 
       <CompactCta
-        title="Talk to our team about your status options."
-        description="Every case is different — get a personalized read on OPT, STEM OPT, and H-1B self-employment paths that fit your situation."
-        ctaLabel="Free Consultation"
+        title="与我们的团队聊聊您的身份选择。"
+        description="每一个案例都各不相同——获取针对您具体情况的OPT、STEM OPT与H-1B自雇路径专属解读。"
+        ctaLabel="免费咨询"
       />
     </PageLayout>
   );

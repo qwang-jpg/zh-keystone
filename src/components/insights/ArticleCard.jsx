@@ -22,7 +22,7 @@ export default function ArticleCard({ article }) {
           {formatInsightDate(article.date)} · {article.readingTime}
         </span>
         <span className="inline-flex items-center gap-1 text-primary opacity-0 transition-opacity group-hover:opacity-100">
-          Read <ArrowRight className="h-3.5 w-3.5" />
+          阅读 <ArrowRight className="h-3.5 w-3.5" />
         </span>
       </div>
     </Link>

@@ -14,7 +14,7 @@ function NavCard({ article, direction }) {
     >
       <span className="inline-flex items-center gap-1.5 text-2xs font-semibold uppercase tracking-widest text-muted-foreground group-hover:text-primary">
         {!isNext && <ArrowLeft className="h-3.5 w-3.5" />}
-        {isNext ? "Next" : "Previous"}
+        {isNext ? "下一篇" : "上一篇"}
         {isNext && <ArrowRight className="h-3.5 w-3.5" />}
       </span>
       <span className="text-base font-bold leading-snug text-keystone-ink group-hover:text-primary">

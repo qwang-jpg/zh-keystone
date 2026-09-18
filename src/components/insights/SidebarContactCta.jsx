@@ -8,11 +8,11 @@ import { Button } from "@/components/ui/button";
 export default function SidebarContactCta() {
   return (
     <div className="mt-6 rounded-2xl bg-keystone-ink p-5 text-white">
-      <p className="text-2xs font-semibold uppercase tracking-widest text-keystone-green">Have questions?</p>
-      <p className="mt-2 text-sm font-bold leading-snug">Get a free consultation with our team.</p>
+      <p className="text-2xs font-semibold uppercase tracking-widest text-keystone-green">有疑问？</p>
+      <p className="mt-2 text-sm font-bold leading-snug">获取我们团队的免费咨询。</p>
       <Button asChild size="sm" className="mt-4 w-full bg-white text-keystone-ink hover:bg-white/90">
         <Link to="/contact">
-          Free Consultation
+          免费咨询
           <ArrowRight className="h-3.5 w-3.5" />
         </Link>
       </Button>

@@ -66,7 +66,7 @@ export default function InsightArticle() {
             className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-primary"
           >
             <ArrowLeft className="h-4 w-4" />
-            Back to Insights
+            返回行业洞察
           </Link>
 
           <span className="mt-6 inline-flex w-fit items-center rounded-full bg-primary/10 px-3 py-1 text-2xs font-semibold uppercase tracking-wide text-primary">
@@ -93,14 +93,14 @@ export default function InsightArticle() {
       </article>
 
       <CompactCta
-        title="Get a personalized immigration & business strategy consultation."
-        ctaLabel="Free Consultation"
+        title="获取专属于您的移民与商业战略咨询。"
+        ctaLabel="免费咨询"
       />
 
       {related.length > 0 && (
         <section className="py-14 md:py-16">
           <div className="container">
-            <h2 className="text-2xl font-bold text-keystone-ink">More Insights</h2>
+            <h2 className="text-2xl font-bold text-keystone-ink">更多洞察</h2>
             <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {related.map((a) => (
                 <ArticleCard key={a.slug} article={a} />

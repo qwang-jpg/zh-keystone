@@ -36,14 +36,14 @@ export default function TableOfContents({ content, className }) {
   const tree = buildTree(items);
 
   return (
-    <nav className={cn("rounded-2xl border border-border bg-keystone-mist", className)} aria-label="Table of contents">
+    <nav className={cn("rounded-2xl border border-border bg-keystone-mist", className)} aria-label="本页目录">
       <button
         type="button"
         onClick={() => setCollapsed((v) => !v)}
         className="flex w-full items-center justify-between gap-2 p-5"
         aria-expanded={!collapsed}
       >
-        <span className="text-2xs font-semibold uppercase tracking-widest text-primary">On this page</span>
+        <span className="text-2xs font-semibold uppercase tracking-widest text-primary">本页导航</span>
         <ChevronDown className={cn("h-4 w-4 shrink-0 text-primary transition-transform", collapsed && "-rotate-90")} />
       </button>
       {!collapsed && (
