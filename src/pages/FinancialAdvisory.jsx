@@ -22,8 +22,8 @@ export default function FinancialAdvisory() {
   return (
     <PageLayout>
       <Seo
-        title="Business Tax & Financial Management"
-        description="Keystone Strategies builds your startup's basic financial management framework and maps out your annual tax filing and company renewal compliance calendar."
+        title="企业财税体系搭建"
+        description="Keystone Strategies 为您的初创企业搭建基础财务管理框架，并规划好年度报税与公司续期的合规日历。"
         path="/business-tax-financial-management"
         jsonLd={faqJsonLd}
       />

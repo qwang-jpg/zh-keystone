@@ -5,24 +5,24 @@ import { cn } from "@/lib/utils";
 
 export const faqs = [
   {
-    question: "Are you a CPA firm? Can you file taxes for me?",
+    question: "你们是会计师事务所吗？能帮我报税吗？",
     answer:
-      "We are not a CPA firm. Keystone provides strategic financial and tax advisory services based on your company's development stage and structure. We help identify risks, design frameworks, and connect you with licensed CPA partners when needed for tax filings and compliance.",
+      "我们不是会计师事务所。Keystone根据您公司的发展阶段与架构，提供战略性的财务与税务顾问服务。我们帮助识别风险、设计框架，并在需要报税与合规办理时，为您对接持牌CPA合作伙伴。",
   },
   {
-    question: "If my company already has an accountant, do I still need your services?",
+    question: "如果我的公司已经有会计了，还需要你们的服务吗？",
     answer:
-      "We step in before accounting operations, building a strategic financial framework from a compliance and immigration planning perspective. Our role complements your accountant's, supporting both business growth and legal compliance.",
+      "我们的介入时机在会计日常操作之前，从合规与移民规划的角度搭建战略性财务框架。我们的角色是对您会计工作的补充，同时支持业务成长与法律合规两个方面。",
   },
   {
-    question: "At what stage should I consider financial strategy consulting?",
+    question: "什么阶段应该考虑财务战略咨询？",
     answer:
-      "The earlier, the better. We provide tailored support before, during, and after company formation to help you avoid early-stage risks and save significant future adjustment costs.",
+      "越早越好。我们在公司注册前、注册中及注册后都能提供量身定制的支持，帮助您规避初创阶段的风险，并为未来节省大量调整成本。",
   },
   {
-    question: "Is this a one-time service or long-term collaboration?",
+    question: "这是一次性服务，还是长期合作？",
     answer:
-      "We offer both one-time strategic advisory and long-term partnerships. Many clients keep us on for ongoing bookkeeping oversight and annual compliance calendar management as their business grows.",
+      "我们同时提供一次性战略咨询与长期合作两种模式。许多客户会在业务成长过程中，持续保留我们提供记账监督与年度合规日历管理服务。",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function FaqSection() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="Keystone Strategies Financial Advisory — FAQ"
+          title="Keystone Strategies 财务顾问 — 常见问题"
         />
 
         <div className="mx-auto mt-12 max-w-3xl space-y-4">

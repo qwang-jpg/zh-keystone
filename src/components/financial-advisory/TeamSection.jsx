@@ -3,18 +3,18 @@ import SectionHeading from "@/components/common/SectionHeading";
 import ImagePlaceholder from "@/components/common/ImagePlaceholder";
 
 const team = [
-  { name: "Adrian Navarro", role: "Administrative Support", sourceFile: "an.jpg" },
-  { name: "Carlos Rivera", role: "Project Manager", sourceFile: "cr.jpg" },
-  { name: "Elena Sanchez", role: "Director of Immigration Services", sourceFile: "es.jpg" },
-  { name: "Laura Bennett", role: "Director of Business Consulting", sourceFile: "lb.jpg" },
-  { name: "William Huang", role: "Director of Client Relations", sourceFile: "wh.jpg" },
+  { name: "Adrian Navarro", role: "行政支持", sourceFile: "an.jpg" },
+  { name: "Carlos Rivera", role: "项目经理", sourceFile: "cr.jpg" },
+  { name: "Elena Sanchez", role: "移民服务总监", sourceFile: "es.jpg" },
+  { name: "Laura Bennett", role: "商业咨询总监", sourceFile: "lb.jpg" },
+  { name: "William Huang", role: "客户关系总监", sourceFile: "wh.jpg" },
 ];
 
 export default function TeamSection() {
   return (
     <section className="bg-white py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title="Our Team Experts" />
+        <SectionHeading align="left" title="我们的专家团队" />
 
         <div className="mt-14 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
           {team.map((member, i) => (
