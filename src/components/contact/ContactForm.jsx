@@ -19,9 +19,9 @@ export default function ContactForm() {
   if (submitted) {
     return (
       <div className="rounded-2xl border border-primary/20 bg-primary/5 p-8 text-center">
-        <h3 className="text-lg font-bold text-keystone-ink">Message sent</h3>
+        <h3 className="text-lg font-bold text-keystone-ink">消息已发送</h3>
         <p className="mt-2 text-sm text-muted-foreground">
-          Thank you for reaching out. Our team will get back to you within 24 hours.
+          感谢您的留言，我们的团队将在24小时内回复您。
         </p>
       </div>
     );
@@ -30,23 +30,23 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
       <div className="space-y-2">
-        <Label htmlFor="first_name">Full Name</Label>
-        <Input id="first_name" name="first_name" placeholder="Enter your full name" />
+        <Label htmlFor="first_name">姓名</Label>
+        <Input id="first_name" name="first_name" placeholder="请输入您的姓名" />
       </div>
       <div className="space-y-2">
-        <Label htmlFor="email">Email Address *</Label>
-        <Input id="email" name="email" type="email" required placeholder="Enter your email address" />
+        <Label htmlFor="email">邮箱地址 *</Label>
+        <Input id="email" name="email" type="email" required placeholder="请输入您的邮箱地址" />
       </div>
       <div className="space-y-2">
-        <Label htmlFor="subject">Subject</Label>
-        <Input id="subject" name="subject" placeholder="Enter your subject" />
+        <Label htmlFor="subject">主题</Label>
+        <Input id="subject" name="subject" placeholder="请输入主题" />
       </div>
       <div className="space-y-2">
-        <Label htmlFor="message">Message</Label>
-        <Textarea id="message" name="message" rows={4} placeholder="Write your message here" />
+        <Label htmlFor="message">留言内容</Label>
+        <Textarea id="message" name="message" rows={4} placeholder="请在此输入您的留言" />
       </div>
       <Button type="submit" className="w-full">
-        Send Message
+        发送消息
       </Button>
     </form>
   );

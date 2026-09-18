@@ -2,9 +2,9 @@ import { Phone, Clock, Mail } from "lucide-react";
 import wechatQr from "@/assets/WeChatQR.webp";
 
 const details = [
-  { icon: Phone, label: "Phone", value: "+1 (646) - 294 - 7091", href: "tel:+16462947091" },
-  { icon: Clock, label: "Operating Hours", value: "Mon–Fri: 10:00 AM – 6:00 PM" },
-  { icon: Mail, label: "Email", value: "contact@keystonestrategies.us", href: "mailto:contact@keystonestrategies.us" },
+  { icon: Phone, label: "电话", value: "+1 (646) - 294 - 7091", href: "tel:+16462947091" },
+  { icon: Clock, label: "服务时间", value: "周一至周五 上午10:00 - 下午6:00" },
+  { icon: Mail, label: "邮箱", value: "contact@keystonestrategies.us", href: "mailto:contact@keystonestrategies.us" },
 ];
 
 export default function ContactDetails() {
@@ -39,9 +39,9 @@ export default function ContactDetails() {
           </svg>
         </div>
         <div>
-          <p className="text-xs font-semibold uppercase tracking-widest text-primary">WeChat</p>
+          <p className="text-xs font-semibold uppercase tracking-widest text-primary">微信</p>
           <div className="mt-2 w-28 overflow-hidden rounded-xl border border-border">
-            <img src={wechatQr} alt="Scan to add us on WeChat" className="aspect-square w-full object-cover" />
+            <img src={wechatQr} alt="扫码添加我们的微信" className="aspect-square w-full object-cover" />
           </div>
         </div>
       </div>

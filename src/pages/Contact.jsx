@@ -8,8 +8,8 @@ export default function Contact() {
   return (
     <PageLayout>
       <Seo
-        title="Contact Us — Book a Free Consultation"
-        description="Whether you're planning your immigration pathway, launching a new venture, or seeking legal and tax guidance for your business, the Keystone Strategies team is here to help."
+        title="联系我们 — 预约免费咨询"
+        description="无论您是在规划移民路径、筹备新的创业项目，还是需要企业法律与税务方面的指导，Keystone Strategies 团队都随时为您提供帮助。"
         path="/contact"
       />
       <ContactHero />
