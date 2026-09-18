@@ -3,14 +3,14 @@ import CompactCta from "@/components/common/CompactCta";
 export default function MidCta() {
   return (
     <CompactCta
-      title="One Expert Answer Beats Ten Web Searches"
+      title="一次专家解答，胜过十次网络搜索"
       description={
         <p>
-          STEM OPT Employer Compliance Training is built for companies structuring a new STEM OPT
-          position, and for founders who need their own company to hold up as a genuine employer.
+          STEM OPT雇主合规培训专为正在搭建新STEM OPT岗位的企业，以及需要让自己公司经得起
+          真实雇主考验的创始人打造。
         </p>
       }
-      ctaLabel="Book a Compliance Consultation"
+      ctaLabel="预约合规咨询"
     />
   );
 }

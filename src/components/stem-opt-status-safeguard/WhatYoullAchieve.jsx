@@ -7,26 +7,26 @@ import ImagePlaceholder from "@/components/common/ImagePlaceholder";
 const items = [
   {
     number: "01",
-    title: "A Job Description That Genuinely Fits the Degree",
+    title: "真正契合学位的岗位描述",
     body:
-      "We design STEM-related job duties and a job title that authentically match the employee's field of study and the company's actual business, delivered as a finished \"Job Description\" document ready to support the I-983 and any future petition.",
-    cta: "Get Your Job Description Designed",
+      "我们设计与员工专业方向及公司实际业务真实契合的STEM相关岗位职责与职称，交付一份完整的《岗位描述》文档，可直接支持I-983及未来的申请。",
+    cta: "获取您的岗位描述设计",
     sourceFile: "radission-us-_XeQ8XEWb4Q-unsplash.jpg",
   },
   {
     number: "02",
-    title: "A Genuine Employment Relationship, Clearly Structured",
+    title: "清晰架构的真实雇佣关系",
     body:
-      "We help you organize a real employer-employee relationship that meets STEM OPT requirements, complete with a designated supervisor and a management structure that shows real oversight, not a nominal arrangement built only on paper.",
-    cta: "Structure Your Employment Relationship",
+      "我们帮您搭建符合STEM OPT要求的真实雇佣关系，配备指定主管及能够体现真实监督的管理架构，而非仅停留在纸面的名义安排。",
+    cta: "搭建您的雇佣关系架构",
     sourceFile: "Screenshot-2025-07-16-at-16.30.51.png",
   },
   {
     number: "03",
-    title: "Ongoing STEM OPT Status Maintenance",
+    title: "持续的STEM OPT身份维护",
     body:
-      "Once the position is in place, we provide regular STEM OPT compliance check-ins and day-to-day Q&A support, so the employer structure stays defensible for the full length of the extension.",
-    cta: "Get Ongoing Compliance Support",
+      "岗位搭建完成后，我们提供定期的STEM OPT合规跟进与日常答疑支持，确保雇主架构在整个延期期间都经得起审查。",
+    cta: "获取持续合规支持",
     sourceFile: "william-bout-TbTgtx7kmes-unsplash.jpg",
   },
 ];
@@ -35,7 +35,7 @@ export default function WhatYoullAchieve() {
   return (
     <section className="bg-white py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title={<>STEM OPT Employer Compliance Training<br />Here's What You'll Get</>} />
+        <SectionHeading align="left" title={<>STEM OPT雇主合规培训<br />您将获得什么</>} />
 
         <div className="mt-14 space-y-16">
           {items.map((it, i) => (

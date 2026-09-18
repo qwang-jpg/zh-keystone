@@ -6,24 +6,24 @@ import SectionHeading from "@/components/common/SectionHeading";
 const audiences = [
   {
     number: "01",
-    title: "Companies About to Hire a STEM OPT Student",
+    title: "即将雇佣STEM OPT学生的企业",
     description:
-      "You have a genuine role to fill and want the job description, supervision structure, and I-983 groundwork built correctly before you extend an offer.",
-    cta: "Book a Compliance Consultation",
+      "您有一个真实的岗位空缺，希望在发出offer之前，先正确搭建好岗位描述、监督架构与I-983基础工作。",
+    cta: "预约合规咨询",
   },
   {
     number: "02",
-    title: "Founders Structuring Their Own Company as a STEM OPT Employer",
+    title: "希望搭建自有公司作为STEM OPT雇主的创始人",
     description:
-      "You're forming or already run a company and need the employer side of your own STEM OPT extension to be genuinely compliant, not just filed.",
-    cta: "Book a Founder Employer Consultation",
+      "您正在创办或已经运营一家公司，需要让自己STEM OPT延期背后的雇主一方真正合规，而不仅仅是完成递交。",
+    cta: "预约创始人雇主咨询",
   },
   {
     number: "03",
-    title: "Employers with an Existing STEM OPT Employee Facing a Review or Audit",
+    title: "面临审查或核查的现有STEM OPT雇主",
     description:
-      "You need to confirm your current job duties, supervision records, and documentation would hold up under DSO or USCIS scrutiny.",
-    cta: "Book a Compliance Review",
+      "您需要确认现有的岗位职责、监督记录与文件材料，能否经得起DSO或USCIS的审查。",
+    cta: "预约合规审查",
   },
 ];
 
@@ -31,7 +31,7 @@ export default function WhoItsFor() {
   return (
     <section className="bg-keystone-mist py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title="Who Is STEM OPT Employer Compliance Training For?" />
+        <SectionHeading align="left" title="STEM OPT雇主合规培训适合哪些人？" />
 
         <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-3">
           {audiences.map((a, i) => (

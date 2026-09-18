@@ -4,27 +4,27 @@ import SectionHeading from "@/components/common/SectionHeading";
 const steps = [
   {
     number: "01",
-    title: "Role & Background Review",
+    title: "岗位与背景审核",
     description:
-      "We review the employee's STEM degree and the company's actual business so any job duties we design are genuinely, not superficially, connected.",
+      "我们审核员工的STEM学位与公司的实际业务，确保我们设计的岗位职责真实相关，而非表面关联。",
   },
   {
     number: "02",
-    title: "Job Description Design",
+    title: "岗位描述设计",
     description:
-      "We draft the job title and duties, then finalize a \"Job Description\" document that supports the I-983 training plan and any future immigration filing.",
+      "我们起草职称与岗位职责，并最终定稿一份支持I-983培训计划及未来移民申请的《岗位描述》文档。",
   },
   {
     number: "03",
-    title: "Supervision Structure Setup",
+    title: "监督架构搭建",
     description:
-      "We designate a qualified supervisor and define the management structure needed to show real, ongoing oversight of the employee's work.",
+      "我们指定合格的主管，并设计能够体现对员工工作进行真实、持续监督所需的管理架构。",
   },
   {
     number: "04",
-    title: "Ongoing Status Maintenance",
+    title: "持续身份维护",
     description:
-      "Once the position is live, we provide periodic compliance check-ins and day-to-day Q&A support for the length of the STEM OPT extension.",
+      "岗位正式生效后，我们在整个STEM OPT延期期间提供定期合规跟进与日常答疑支持。",
   },
 ];
 
@@ -32,7 +32,7 @@ export default function ServiceProcess() {
   return (
     <section className="bg-white py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title="STEM OPT Employer Compliance Training Service Process" />
+        <SectionHeading align="left" title="STEM OPT雇主合规培训服务流程" />
 
         <div className="mt-14 space-y-6">
           {steps.map((s, i) => (

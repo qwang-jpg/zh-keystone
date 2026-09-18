@@ -18,8 +18,8 @@ export default function StemOptStatusSafeguard() {
   return (
     <PageLayout>
       <Seo
-        title="STEM OPT Employer Compliance Training"
-        description="Keystone Strategies designs compliant STEM OPT job descriptions, supervision structures, and ongoing status maintenance guidance for employers and self-sponsoring founders alike."
+        title="STEM OPT雇主合规"
+        description="Keystone Strategies 为雇主与自雇型创始人设计合规的STEM OPT岗位描述、监督架构，并提供持续的身份维护指导。"
         path="/stem-opt-employer-compliance-training"
       />
       <Hero />

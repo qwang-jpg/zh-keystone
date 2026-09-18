@@ -7,26 +7,23 @@ export default function ComplianceClosing() {
     <section className="relative overflow-hidden bg-keystone-ink py-24">
       <div className="absolute inset-0 bg-keystone-gradient opacity-15" />
       <div className="container relative mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold leading-tight text-white md:text-4xl">STEM OPT Compliant Employment</h2>
+        <h2 className="text-3xl font-bold leading-tight text-white md:text-4xl">合规的STEM OPT就业</h2>
         <p className="mt-6 text-sm leading-relaxed text-white/70 md:text-base">
-          STEM OPT Employer Compliance Training is built for companies about to bring on a STEM OPT
-          employee, and for founders whose own company needs to function as a genuinely compliant
-          employer. We focus on the parts of the relationship USCIS and DSOs actually scrutinize:
-          a job description that fits the degree, a real supervisor, and documentation that reflects
-          how the work actually happens.
+          STEM OPT雇主合规培训专为即将雇佣STEM OPT员工的企业，以及需要让自己公司真正作为合规雇主运作的
+          创始人打造。我们专注于USCIS与DSO真正审查的核心环节：契合学位的岗位描述、真实的主管，
+          以及真实反映工作实际情况的文件记录。
         </p>
         <p className="mt-4 text-sm leading-relaxed text-white/70 md:text-base">
-          Our support doesn&rsquo;t end once the I-983 is filed. We stay engaged through periodic
-          check-ins and ongoing Q&A, so the employment relationship remains defensible for the full
-          length of the STEM OPT extension and any subsequent H-1B filing that builds on it.
+          我们的支持不会在I-983递交后就结束。我们会通过定期跟进与持续答疑保持全程参与，
+          确保雇佣关系在整个STEM OPT延期期间，乃至后续在此基础上递交的H-1B申请中，都经得起考验。
         </p>
         <p className="mt-4 text-sm leading-relaxed text-white/70 md:text-base">
-          We reject any form of illegal shell employment. Every structure we help build is designed
-          to be genuine, documented, and able to withstand review.
+          我们拒绝任何形式的非法挂靠就业。我们协助搭建的每一套架构，都力求真实、有据可查，
+          并经得起审查。
         </p>
         <Button asChild size="lg" className="mt-8 bg-white text-keystone-ink hover:bg-white/90">
           <Link to="/contact">
-            Book a Compliance Consultation
+            预约合规咨询
             <ArrowRight className="h-4 w-4" />
           </Link>
         </Button>

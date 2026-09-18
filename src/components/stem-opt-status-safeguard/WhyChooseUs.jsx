@@ -4,34 +4,34 @@ import TabbedFeatureList from "@/components/common/TabbedFeatureList";
 const advantages = [
   {
     icon: FileText,
-    title: "Job Description Design That Withstands Scrutiny",
+    title: "经得起审查的岗位描述设计",
     description:
-      "We write job duties and titles that genuinely connect to the employee's STEM degree and the company's real business, the foundation every I-983 and STEM OPT review comes back to.",
+      "我们撰写的岗位职责与职称，真正与员工的STEM学位及公司实际业务相关联——这正是每一次I-983与STEM OPT审查都会回归的核心基础。",
   },
   {
     icon: Users2,
-    title: "Real Supervision Structures, Not Paper Arrangements",
+    title: "真实的监督架构，而非纸面安排",
     description:
-      "We help you designate a qualified supervisor and build a management structure that reflects actual day-to-day oversight, which is what separates a compliant employment relationship from a nominal one.",
+      "我们帮您指定合格的主管，并搭建能够真实反映日常监督工作的管理架构——这正是区分合规雇佣关系与名义安排的关键。",
   },
   {
     icon: ShieldCheck,
-    title: "Ongoing Compliance, Not a One-Time Filing",
+    title: "持续合规，而非一次性递交",
     description:
-      "We provide continued Q&A support and periodic check-ins through the life of the STEM OPT extension, so the employer structure stays compliant as circumstances change.",
+      "我们在整个STEM OPT延期期间提供持续答疑支持与定期跟进，确保雇主架构在情况变化时依然保持合规。",
   },
   {
     icon: Award,
-    title: "Backed by a Full Immigration & Business Advisory Team",
+    title: "背靠完整的移民与企业顾问团队",
     description:
-      "Job description design, supervision structuring, and status maintenance guidance are coordinated with our broader company formation, payroll, and immigration petition teams, so nothing falls between the cracks.",
+      "岗位描述设计、监督架构搭建与身份维护指导，均与我们更广泛的公司注册、薪资与移民申请团队协同配合，确保万无一失。",
   },
 ];
 
 export default function WhyChooseUs() {
   return (
     <TabbedFeatureList
-      title="Core Advantages of STEM OPT Employer Compliance Training"
+      title="STEM OPT雇主合规培训的核心优势"
       items={advantages}
     />
   );

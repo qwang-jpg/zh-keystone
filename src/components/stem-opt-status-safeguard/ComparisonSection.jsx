@@ -6,29 +6,30 @@ import SectionHeading from "@/components/common/SectionHeading";
 const points = [
   {
     number: "01",
-    title: "STEM OPT Is Limited to Qualifying Majors",
+    title: "STEM OPT仅限符合条件的专业",
     description: (
       <>
-        OPT is available to F-1 visa holders in any field of study, and any degree holder can apply for the standard
-        12-month OPT period. STEM OPT, however, is limited to students with a
+        OPT适用于任何专业方向的F-1签证持有者，任何学位获得者均可申请标准的12个月OPT期限。
+        而STEM OPT则仅限持有
         <a
           href="https://www.ice.gov/sevis/schools#dhs-stem-designated-degree-program-list-and-cip-code-nomination-process"
           target="_blank"
           rel="noreferrer"
           className="text-primary underline"
         >
-          Science, Technology, Engineering, or Mathematics (STEM) degree
+          科学、技术、工程或数学（STEM）学位
         </a>
-        , who may extend their initial OPT by an additional 24 months.
+        的学生申请，可将初次OPT额外延长24个月。
       </>
     ),
   },
   {
     number: "02",
-    title: "Stricter Employer Requirements",
+    title: "更严格的雇主要求",
     description: (
       <>
-        During OPT, employers are not required to participate in E-Verify, unpaid positions are allowed, and students may work for any lawful company. During STEM OPT, however, the employer must be enrolled in
+        在OPT期间，雇主不必参与E-Verify，允许无薪岗位，学生可为任何合法企业工作。而在STEM OPT期间，
+        雇主必须注册
         <a
           href="https://www.e-verify.gov/"
           target="_blank"
@@ -37,8 +38,8 @@ const points = [
         >
           E-Verify
         </a>
-        , must offer the student <strong className="text-keystone-ink">compensation</strong>
-        {" "}and working conditions comparable to those of similarly situated U.S. workers, and must submit an
+        ，必须为学生提供与同岗位美国员工相当的<strong className="text-keystone-ink">薪酬</strong>
+        {" "}与工作条件，并且必须递交
         <a
           href="https://www.ice.gov/doclib/sevis/pdf/i983.pdf"
           target="_blank"
@@ -47,19 +48,19 @@ const points = [
         >
           I-983
         </a>
-        {" "}training plan.
+        {" "}培训计划。
       </>
     ),
   },
   {
     number: "03",
-    title: "An Extra 60 Days of Unemployment Allowance",
+    title: "额外增加60天失业宽限",
     description: (
       <>
-        During OPT, students are allowed up to <strong className="text-keystone-ink">90</strong> days of unemployment. During the STEM
-        OPT extension, an additional <strong className="text-keystone-ink">60</strong>
-        {" "}days become available, combined with the 90 days accrued during OPT — so the total unemployment time across the entire OPT and STEM OPT period may not exceed
-        <strong className="text-keystone-ink">150</strong> days.
+        在OPT期间，学生最多允许<strong className="text-keystone-ink">90</strong>天失业。在STEM
+        OPT延期期间，可额外获得<strong className="text-keystone-ink">60</strong>
+        {" "}天，与OPT期间累计的90天合并计算——因此整个OPT加STEM OPT期间的累计失业时长不得超过
+        <strong className="text-keystone-ink">150</strong>天。
       </>
     ),
   },
@@ -73,9 +74,9 @@ export default function ComparisonSection() {
           align="left"
           title={
             <>
-              STEM OPT vs. OPT
+              STEM OPT与OPT
               <br />
-              What's the Difference?
+              有什么区别？
             </>
           }
         />
@@ -99,7 +100,7 @@ export default function ComparisonSection() {
 
         <div className="mt-10 text-center">
           <Button asChild variant="outline">
-            <Link to="/employment-visa-position-petition-planning">Learn More About the Policies</Link>
+            <Link to="/employment-visa-position-petition-planning">了解更多政策详情</Link>
           </Button>
         </div>
       </div>

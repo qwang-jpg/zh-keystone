@@ -5,26 +5,26 @@ import SectionHeading from "@/components/common/SectionHeading";
 
 const plans = [
   {
-    title: "Form I-983 Training Plan & Application Support",
+    title: "I-983培训计划与申请支持",
     description:
-      "Full support preparing and filing your STEM OPT extension application itself, from the I-983 training plan through I-765 filing and final evaluation.",
-    cta: "Explore I-983 Training Plan & Application Support",
+      "全程支持准备并递交您的STEM OPT延期申请本身，从I-983培训计划到I-765递交及最终评估。",
+    cta: "了解I-983培训计划与申请支持",
     href: "/stem-opt-ready-plan",
     sourceFile: "josh-connor-1hTtmzyufyM-unsplash.jpg",
   },
   {
-    title: "Employment Visa Position & Petition Planning",
+    title: "自雇型H-1B规划",
     description:
-      "When it's time to move from STEM OPT toward H-1B or another employment-based visa, we design the position and petition strategy that carries you forward.",
-    cta: "Explore Employment Visa Position & Petition Planning",
+      "当您准备从STEM OPT迈向H-1B或其他职业类签证时，我们为您设计能够延续推进的职位与申请策略。",
+    cta: "了解自雇型H-1B规划",
     href: "/employment-visa-position-petition-planning",
     sourceFile: "nicolas-jehly-VwIF0Ls7LVo-unsplash.jpg",
   },
   {
-    title: "Company Formation & Corporate Structure",
+    title: "公司注册与架构设计",
     description:
-      "If your STEM OPT position runs through your own company, we handle entity formation and governance so the employer side of the relationship is built correctly from the start.",
-    cta: "Explore Company Formation & Corporate Structure",
+      "如果您的STEM OPT岗位依托自己的公司运作，我们负责实体注册与治理搭建，确保这段雇佣关系背后的雇主一方从一开始就正确搭建。",
+    cta: "了解公司注册与架构设计",
     href: "/company-formation-corporate-structure",
     sourceFile: "sam-jotham-sutharson-pjjVerDno5Q-unsplash.jpg",
   },
@@ -36,8 +36,8 @@ export default function RelatedPlans() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="Related Services"
-          description="STEM OPT compliance rarely stands alone, here's what most clients pair it with."
+          title="相关服务"
+          description="STEM OPT合规很少是孤立存在的，以下是大多数客户会一并选择的服务。"
         />
 
         <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-3">
