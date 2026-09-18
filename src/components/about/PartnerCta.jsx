@@ -3,14 +3,14 @@ import CompactCta from "@/components/common/CompactCta";
 export default function PartnerCta() {
   return (
     <CompactCta
-      title="Partner with Keystone Strategies"
+      title="与Keystone Strategies建立合作"
       description={
         <p>
-          We welcome immigration attorneys, M&amp;A advisors, CPA firms, financial consultants, and
-          HR advisors who share our commitment to empowering global entrepreneurs and talent.
+          我们欢迎移民律师、并购顾问、会计师事务所、财务顾问以及人力资源顾问加入，
+          与我们共同致力于赋能全球创业者与人才。
         </p>
       }
-      ctaLabel="Partner with Us"
+      ctaLabel="与我们合作"
     />
   );
 }

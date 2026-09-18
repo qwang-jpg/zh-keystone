@@ -6,25 +6,25 @@ import { cn } from "@/lib/utils";
 
 const VM = [
   {
-    label: "Vision",
-    headline: "Remove the systemic barriers, not just the paperwork",
-    body: "Keystone Strategies is committed to empowering international entrepreneurs and professionals to overcome systemic barriers and achieve transformative goals through innovative and personalized strategies.",
+    label: "愿景",
+    headline: "破除的不只是流程障碍，更是系统性壁垒",
+    body: "Keystone Strategies 致力于帮助国际创业者与专业人才，通过创新且个性化的策略，克服系统性壁垒，实现具有变革意义的目标。",
     points: [
-      { icon: Compass, title: "Personalized strategy", body: "No templates — each pathway is designed around one client's goal." },
-      { icon: Unlock, title: "Barriers removed", body: "We work on the structure behind the filing, not only the filing." },
-      { icon: Sparkles, title: "Transformative goals", body: "Ambition treated as a plan, with the steps written down." },
-      { icon: Globe2, title: "Global talent", body: "Built for professionals and founders moving across borders." },
+      { icon: Compass, title: "个性化策略", body: "拒绝模板化——每一条路径都围绕客户的目标量身设计。" },
+      { icon: Unlock, title: "破除壁垒", body: "我们关注申请背后的架构，而不只是申请本身。" },
+      { icon: Sparkles, title: "变革性目标", body: "把远大志向落地为写清楚每一步的计划。" },
+      { icon: Globe2, title: "全球人才", body: "为跨国流动的专业人才与创业者而生。" },
     ],
   },
   {
-    label: "Mission",
-    headline: "Stable, long-term trajectories in complex regulatory environments",
-    body: "We provide systematic, specialized, and tailored strategic solutions for global talents, businesses, and organizations, bridging critical pathways across immigration, employment, compliance, and growth. Our mission is to help clients build stable, long-term trajectories in complex regulatory environments.",
+    label: "使命",
+    headline: "在复杂监管环境中，构建稳定的长期发展轨迹",
+    body: "我们为全球人才、企业与机构提供系统化、专业化、定制化的战略解决方案，贯通移民、雇佣、合规与成长的关键路径。我们的使命是帮助客户在复杂的监管环境中，建立稳定的长期发展轨迹。",
     points: [
-      { icon: Layers, title: "Systematic", body: "Immigration, entity, payroll, and tax handled as one structure." },
-      { icon: ShieldCheck, title: "Compliance-first", body: "Every deliverable built to stand up to scrutiny." },
-      { icon: Route, title: "Bridged pathways", body: "Status, employment, and growth planned on one timeline." },
-      { icon: TrendingUp, title: "Long-term", body: "Engagements that continue past the first approval." },
+      { icon: Layers, title: "系统化", body: "移民、公司架构、薪资与税务被视为同一套体系统一处理。" },
+      { icon: ShieldCheck, title: "合规优先", body: "每一项交付成果都经得起审查。" },
+      { icon: Route, title: "路径贯通", body: "身份、雇佣与成长规划在同一条时间线上统筹推进。" },
+      { icon: TrendingUp, title: "长期主义", body: "合作不止于首次获批。" },
     ],
   },
 ];
@@ -37,7 +37,7 @@ export default function VisionMission() {
     <section className="bg-keystone-mist py-20 md:py-28">
       <div className="container">
         <div className="flex flex-wrap items-end justify-between gap-6">
-          <SectionHeading title="Our Vision & Mission" align="left" className="max-w-none" />
+          <SectionHeading title="我们的愿景与使命" align="left" className="max-w-none" />
           <div className="flex gap-2 rounded-xl border border-border bg-white p-1.5">
             {VM.map((v, i) => (
               <button

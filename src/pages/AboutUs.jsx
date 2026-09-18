@@ -13,8 +13,8 @@ export default function AboutUs() {
   return (
     <PageLayout>
       <Seo
-        title="About Us — Your Partner in Building a U.S. Presence"
-        description="Keystone Strategies empowers global talents and entrepreneurs to build a sustainable future in the U.S., combining immigration status planning, business structuring, and financial advisory into one integrated team."
+        title="关于我们 — 您在美国立足的战略伙伴"
+        description="Keystone Strategies 助力全球人才与创业者在美国建立可持续的未来，将身份规划、企业架构与财务顾问整合为一支团队。"
         path="/about-us"
       />
       <AboutHero />

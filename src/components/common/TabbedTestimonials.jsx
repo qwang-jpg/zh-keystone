@@ -26,14 +26,14 @@ export default function TabbedTestimonials({ title, description, stories, render
           <div className="flex items-center gap-3">
             <button
               onClick={() => go(-1)}
-              aria-label="Previous testimonial"
+              aria-label="上一条客户评价"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-border text-keystone-ink transition-colors hover:border-primary hover:text-primary"
             >
               <ChevronLeft className="h-4 w-4" />
             </button>
             <button
               onClick={() => go(1)}
-              aria-label="Next testimonial"
+              aria-label="下一条客户评价"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-border text-keystone-ink transition-colors hover:border-primary hover:text-primary"
             >
               <ChevronRight className="h-4 w-4" />

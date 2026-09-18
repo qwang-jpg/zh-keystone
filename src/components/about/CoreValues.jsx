@@ -6,24 +6,24 @@ import { cn } from "@/lib/utils";
 const values = [
   {
     icon: Handshake,
-    title: "Client-Centered, Co-Creative by Design",
+    title: "以客户为中心，共创式设计",
     description:
-      "We place our clients' end goals at the heart of every strategy. Rather than relying on templates or quick fixes, we build pathways that are tailored, structured, and truly work in practice.",
-    chips: ["Goal-first planning", "No templates", "Built with you"],
+      "我们把客户的最终目标置于每一项策略的核心。不依赖模板或权宜之计，而是构建量身定制、结构清晰、真正行之有效的路径。",
+    chips: ["目标优先规划", "拒绝模板化", "与您共同搭建"],
   },
   {
     icon: ShieldCheck,
-    title: "Detail-Oriented, Accountability-Driven",
+    title: "注重细节，以责任为导向",
     description:
-      "We believe real solutions live in the details. Every decision and every deliverable is rooted in expertise, accountability, and a standard that stands up to scrutiny.",
-    chips: ["Documented decisions", "Audit-ready", "Owned outcomes"],
+      "我们相信真正有效的解决方案藏在细节之中。每一项决策与交付成果，都建立在专业能力、责任担当以及经得起审查的标准之上。",
+    chips: ["决策有据可查", "随时可供审计", "结果自负其责"],
   },
   {
     icon: Target,
-    title: "Systems Thinking, Endgame Focused",
+    title: "系统性思维，着眼终局",
     description:
-      "We look beyond immediate problems to design sustainable, future-proof strategies. Through structured thinking and cross-domain integration, we help clients chart clear, strategic long-term pathways.",
-    chips: ["Cross-domain", "Future-proof", "Long-horizon"],
+      "我们的视野超越眼前问题，致力于设计可持续、面向未来的战略。通过结构化思维与跨领域整合，帮助客户规划清晰的长期战略路径。",
+    chips: ["跨领域整合", "面向未来", "着眼长远"],
   },
 ];
 
@@ -34,8 +34,8 @@ export default function CoreValues() {
     <section className="bg-keystone-mist py-20 md:py-28">
       <div className="container">
         <SectionHeading
-          title="Our Core Values"
-          description="In a world defined by complexity, we guide our clients forward not with slogans or shortcuts, but with strategies that withstand scrutiny and deliver real results. We believe that client-centered design, professional rigor, and structural thinking create clarity, and turn uncertainty into opportunity."
+          title="我们的核心价值观"
+          description="在这个充满复杂性的世界里，我们带领客户前行的方式，不是口号或捷径，而是经得起审视、能带来真实成果的战略。我们相信，以客户为中心的设计、专业的严谨态度与结构化思维，能够带来清晰的方向，把不确定性转化为机遇。"
           align="left"
           className="max-w-none"
         />
@@ -68,7 +68,7 @@ export default function CoreValues() {
                   </span>
                   <span className="min-w-0 flex-1">
                     <span className="block text-xs font-bold uppercase tracking-wide text-primary">
-                      Value {String(i + 1).padStart(2, "0")}
+                      价值观 {String(i + 1).padStart(2, "0")}
                     </span>
                     <span className="mt-1.5 block text-lg font-bold leading-snug text-keystone-ink md:text-xl">
                       {v.title}
