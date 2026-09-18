@@ -4,35 +4,35 @@ import ServiceCoreDeliverables from "@/components/common/ServiceCoreDeliverables
 const deliverables = [
   {
     icon: ClipboardList,
-    title: "Pre-Filing Document & Information Prep",
+    title: "开户前材料与信息准备",
     description:
-      "Before you ever speak to a bank, we gather every piece of company and individual information a banker will ask for, so the opening call is fast instead of a scavenger hunt.",
+      "在您与银行接触之前，我们会收集齐银行会要求的所有公司及个人信息，让开户通话快速高效，而不是临时东拼西凑。",
     items: [
-      "1 dedicated banking-setup consultation",
-      "\"Business Banking Information Form\" completed together",
-      "Formation documents, EIN letter, and ownership details organized and ready to present",
+      "1次专属银行开户咨询",
+      "共同完成《企业银行信息表》",
+      "整理并备齐公司注册文件、EIN确认信及股权信息",
     ],
   },
   {
     icon: Video,
-    title: "Guided Account Opening",
+    title: "全程指导开户",
     description:
-      "We coordinate directly with a bank relationship manager and walk you (or your designated agent) through the entire opening process, remote or in person.",
+      "我们直接与银行客户经理对接，全程指导您（或您指定的代理人）远程或线下完成整个开户流程。",
     items: [
-      "Online account-opening meeting scheduled with a bank manager",
-      "Live guidance through the bank's application and verification steps",
-      "Company banking account fully set up and confirmed",
+      "预约银行经理的线上开户会议",
+      "实时指导完成银行的申请与核验步骤",
+      "企业银行账户完全开通并确认",
     ],
   },
   {
     icon: Gift,
-    title: "New-Account Bonus Capture",
+    title: "把握新账户奖励",
     description:
-      "Major U.S. banks regularly offer new business-account cash bonuses. We make sure you qualify for and actually receive one instead of missing the fine print.",
+      "美国各大银行经常为新开企业账户提供现金奖励。我们确保您符合条件并真正拿到奖励，而不会因为条款细则而错失机会。",
     items: [
-      "Bonus-eligible account and offer identified upfront",
-      "Qualifying activity requirements explained clearly",
-      "Typical bonus range: $400–$500",
+      "提前锁定符合奖励条件的账户与优惠方案",
+      "清楚说明达标所需的活动要求",
+      "典型奖励金额区间：400-500美元",
     ],
   },
 ];
@@ -40,7 +40,7 @@ const deliverables = [
 export default function CoreDeliverables() {
   return (
     <ServiceCoreDeliverables
-      description="Every deliverable below is scoped from document prep through a funded, operating account — not just an introduction to a banker."
+      description="以下每一项服务，都覆盖从材料准备到账户成功注资运营的全过程——而不只是为您引荐一位银行经理。"
       items={deliverables}
       columns="lg:grid-cols-3"
     />

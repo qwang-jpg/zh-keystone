@@ -11,8 +11,8 @@ export default function BusinessBankAccountSetup() {
   return (
     <PageLayout>
       <Seo
-        title="Business Bank Account Setup Support"
-        description="Keystone Strategies prepares your documents and guides you through opening a U.S. business bank account, remotely or in person, so your company is funded and ready to operate."
+        title="企业银行账户开设支持"
+        description="Keystone Strategies 为您准备所需材料，并全程指导您远程或线下开设美国企业银行账户，确保公司获得资金并具备运营条件。"
         path="/business-bank-account-setup"
       />
       <Hero />
@@ -21,14 +21,14 @@ export default function BusinessBankAccountSetup() {
       <WhyKeystone />
       <FaqSection />
       <CompactCta
-        title="Get Your Company Banking Set Up the Right Way"
+        title="正确地为您的公司搭建银行体系"
         description={
           <p>
-            One consultation is all it takes to get your document checklist ready. We&rsquo;ll match you with the
-            right bank and stay on the call until your account is open and funded.
+            只需一次咨询，即可准备好您的材料清单。我们会为您匹配合适的银行，并全程陪同，
+            直至账户成功开通并完成注资。
           </p>
         }
-        ctaLabel="Book a Banking Setup Consultation"
+        ctaLabel="预约银行开户咨询"
       />
     </PageLayout>
   );

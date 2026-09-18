@@ -2,42 +2,42 @@ import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
 const faqs = [
   {
-    question: "What is a registered agent, and do I need one?",
+    question: "什么是注册代理人？我需要吗？",
     answer:
-      "A registered agent is the person or company designated to receive legal notices and state correspondence on your company's behalf in its state of formation. Most states require one, and it's especially important if you don't have a physical presence there. We handle this as part of your governance setup.",
+      "注册代理人是在公司注册州被指定代表公司接收法律通知与州政府信函的个人或机构。大多数州都要求设立注册代理人，如果您在当地没有实际办公场所，这一点尤为重要。我们会将其作为治理搭建工作的一部分为您办理。",
   },
   {
-    question: "What happens if I miss an annual report or franchise tax deadline?",
+    question: "如果错过年度报告或特许经营税截止日期会怎样？",
     answer:
-      "Missing a state's annual report or franchise tax deadline can put your company into bad standing, which can block financing, delay a visa petition, or even lead to administrative dissolution if left too long. We track these deadlines for you and send reminders well ahead of time.",
+      "错过州政府的年度报告或特许经营税截止日期，可能导致公司丧失良好信誉状态，进而阻碍融资、拖延签证申请，若拖延过久甚至可能导致公司被行政解散。我们会为您跟踪这些截止日期，并提前发送提醒。",
   },
   {
-    question: "Do I need to update my bylaws or operating agreement after formation?",
+    question: "公司注册后是否需要更新章程或运营协议？",
     answer:
-      "Yes, whenever ownership, management, or your business scope changes materially, your governance documents should be updated and the decision documented with a resolution. We review these documents periodically and help you keep them aligned with how the company actually operates.",
+      "需要。只要股权、管理层或业务范围发生实质性变化，治理文件就应相应更新，并通过决议记录该决定。我们会定期审核这些文件，帮助您确保文件内容与公司实际运营情况保持一致。",
   },
   {
-    question: "Do I need a physical office for my operating address?",
+    question: "运营地址是否需要实体办公室？",
     answer:
-      "Not necessarily. Many companies use a registered agent or virtual mailbox address that satisfies state and federal requirements. We help you choose an option that fits your situation and update your filings accordingly.",
+      "不一定。许多公司使用注册代理人地址或虚拟邮箱地址，同样能满足州与联邦的要求。我们会帮您选择适合自身情况的方案，并相应更新备案信息。",
   },
   {
-    question: "Are the contract and invoice templates customized to my business?",
+    question: "合同与发票模板是否会根据我的业务定制？",
     answer:
-      "We provide our standard, attorney-reviewed templates for a Client Service Agreement, invoices, and employee work records, adapted to your entity type and industry so they're ready to use, not generic boilerplate.",
+      "我们提供经过律师审核的标准客户服务协议、发票与员工工时记录模板，并会根据您的公司类型与所在行业进行调整，确保开箱即用，而非千篇一律的通用模板。",
   },
   {
-    question: "Is Workers' Compensation Insurance legally required?",
+    question: "工伤赔偿保险是否为法律强制要求？",
     answer:
-      "Requirements vary by state and by whether you have employees, but most states require coverage once you hire your first employee. We help you understand your state's threshold and connect you with a suitable carrier.",
+      "具体要求因州而异，也取决于您是否雇有员工，但大多数州在您雇佣第一位员工后就要求投保。我们会帮您了解所在州的具体门槛，并为您对接合适的承保商。",
   },
   {
-    question: "What happens if I don't keep my government filings updated?",
+    question: "如果不及时更新政府备案信息会怎样？",
     answer:
-      "Outdated company information with the state or IRS can cause missed notices, lapsed good standing, and complications during a future visa petition or bank review. We help you keep records current as your company changes.",
+      "州政府或IRS留存的公司信息若过时，可能导致错过重要通知、良好信誉状态失效，并在未来的签证申请或银行审核中引发麻烦。我们会帮助您在公司发生变化时持续更新相关记录。",
   },
 ];
 
 export default function FaqSection() {
-  return <ServiceFaqSection title="Business Operations Setup — FAQ" faqs={faqs} />;
+  return <ServiceFaqSection title="公司运营搭建 — 常见问题" faqs={faqs} />;
 }

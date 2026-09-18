@@ -1,23 +1,23 @@
 import ServiceOverview from "@/components/common/ServiceOverview";
 
 const stats = [
-  { value: "$500", label: "Typical New-Account Cash Bonus Secured" },
-  { value: "1", label: "Consultation to Prep Every Document" },
-  { value: "100%", label: "Remote-Friendly Account Opening" },
+  { value: "$500", label: "典型新账户现金奖励金额" },
+  { value: "1", label: "次咨询即可准备好全部材料" },
+  { value: "100%", label: "支持远程开户" },
 ];
 
 const checklist = [
-  "Avoid commingling personal and business funds, a common trigger for both IRS scrutiny and \"piercing the corporate veil\" liability risk",
-  "Open with a bank that actually supports non-resident founders and remote onboarding",
-  "Walk into the opening call with every document a banker will ask for already prepared",
-  "Capture available new-account cash bonuses instead of leaving them on the table",
+  "避免个人与公司资金混用——这是引发IRS审查以及\"揭开公司面纱\"责任风险的常见诱因",
+  "选择真正支持非居民创始人和远程开户的银行",
+  "开户通话前，银行要求的所有材料均已备齐",
+  "抓住可获得的新账户现金奖励，而不是白白错过",
 ];
 
 export default function Overview() {
   return (
     <ServiceOverview
-      title="Why Business Banking Can't Wait"
-      description="Your EIN and formation documents open the door — a dedicated business bank account is what actually lets your company operate, get paid, and stay compliant."
+      title="企业银行账户为何刻不容缓"
+      description="EIN与公司注册文件只是打开了大门——真正让公司能够运营、收款并保持合规的，是一个专属的企业银行账户。"
       checklist={checklist}
       stats={stats}
     />

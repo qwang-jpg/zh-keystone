@@ -11,8 +11,8 @@ export default function BusinessOperationsSetup() {
   return (
     <PageLayout>
       <Seo
-        title="Business Operations Setup"
-        description="Keystone Strategies keeps your governance documents, registered agent, and annual filings current, and builds the operating infrastructure your business runs on: domain, email, phone, registered address, contract templates, and insurance guidance."
+        title="公司治理与持续合规"
+        description="Keystone Strategies 帮您维护治理文件、注册代理人与年度申报的持续合规，并搭建企业日常运营所需的基础设施：域名、邮箱、电话、注册地址、合同模板与保险指导。"
         path="/business-operations-setup"
       />
       <Hero />
@@ -21,9 +21,9 @@ export default function BusinessOperationsSetup() {
       <WhyKeystone />
       <FaqSection />
       <CompactCta
-        title="Turn Your Registered Entity Into an Operating Business"
-        description={<p>Domain, email, phone, address, templates, and insurance guidance, set up in one coordinated pass.</p>}
-        ctaLabel="Book an Operations Setup Consultation"
+        title="把已注册的实体，变成真正运营的企业"
+        description={<p>域名、邮箱、电话、地址、合同模板与保险指导，一次性协调搭建完成。</p>}
+        ctaLabel="预约运营搭建咨询"
       />
     </PageLayout>
   );

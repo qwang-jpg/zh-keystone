@@ -2,27 +2,27 @@ import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
 const faqs = [
   {
-    question: "How long does it take to design and launch a website?",
+    question: "设计并上线一个网站通常需要多长时间？",
     answer:
-      "Timelines depend on scope and how quickly content and feedback come back to us, but a basic company site typically moves from kickoff to launch within a few weeks once your brand direction is approved.",
+      "具体时间取决于项目范围，以及内容与反馈的往返速度，但在品牌方向确定后，一个基础的公司官网通常在几周内即可从启动完成到上线。",
   },
   {
-    question: "What if I already have a logo or brand direction I like?",
+    question: "如果我已经有喜欢的标志或品牌方向怎么办？",
     answer:
-      "We're happy to build around an existing logo or brand direction. The logo design and revision rounds apply if you're starting from scratch or want a refresh.",
+      "我们很乐意在您现有的标志或品牌方向基础上搭建。标志设计与修改轮次的服务，适用于从零开始设计或希望进行品牌焕新的客户。",
   },
   {
-    question: "Do you write the website content, or do I need to provide it?",
+    question: "网站内容是由你们撰写，还是需要我自己提供？",
     answer:
-      "We handle full content planning and production for your site and Company Profile, working from an intake conversation about your business, services, and background, so you don't have to write it yourself.",
+      "我们会与您深入沟通业务、服务与背景信息后，负责网站与公司简介的完整内容规划与撰写制作，您无需自己动笔。",
   },
   {
-    question: "Will the website hold up for an immigration petition review?",
+    question: "这个网站能否经得起移民申请审查？",
     answer:
-      "We build sites to clearly and accurately reflect your company's real business scope and operations, which is exactly what stands up well when a website is reviewed as supporting evidence.",
+      "我们搭建的网站会清晰、准确地反映公司真实的业务范围与运营情况，这正是网站作为辅助证明材料在审查中能够经得起考验的关键。",
   },
 ];
 
 export default function FaqSection() {
-  return <ServiceFaqSection title="Website & Brand Development — FAQ" faqs={faqs} />;
+  return <ServiceFaqSection title="网站与品牌建设 — 常见问题" faqs={faqs} />;
 }

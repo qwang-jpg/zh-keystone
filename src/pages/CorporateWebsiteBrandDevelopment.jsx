@@ -11,8 +11,8 @@ export default function CorporateWebsiteBrandDevelopment() {
   return (
     <PageLayout>
       <Seo
-        title="Corporate Website & Brand Presence Development"
-        description="Keystone Strategies designs your logo and builds your company website end to end, from architecture and content through SEO setup and launch."
+        title="品牌与线上形象建设"
+        description="Keystone Strategies 为您设计品牌标志，并端到端搭建公司官网，从架构与内容规划到SEO配置与上线全程负责。"
         path="/corporate-website-brand-development"
       />
       <Hero />
@@ -21,9 +21,9 @@ export default function CorporateWebsiteBrandDevelopment() {
       <WhyKeystone />
       <FaqSection />
       <CompactCta
-        title="Give Your Company a Website That Backs Up Your Story"
-        description={<p>Logo, full site build, content, SEO basics, and a polished Company Profile, delivered launch-ready.</p>}
-        ctaLabel="Book a Website & Brand Consultation"
+        title="为您的公司打造一个能够佐证故事的官网"
+        description={<p>品牌标志、完整网站搭建、内容撰写、SEO基础配置，以及一份精美的公司简介，交付即可上线。</p>}
+        ctaLabel="预约网站与品牌咨询"
       />
     </PageLayout>
   );

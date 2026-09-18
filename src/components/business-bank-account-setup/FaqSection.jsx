@@ -2,27 +2,27 @@ import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
 const faqs = [
   {
-    question: "Do I need to be physically in the U.S. to open a business bank account?",
+    question: "开设企业银行账户是否必须人在美国？",
     answer:
-      "Not always. Several major U.S. banks support fully remote onboarding for founders outside the country, provided your formation documents, EIN, and ID verification are in order. We help you pick a bank that matches your situation and walk you through whichever path applies.",
+      "不一定。多家美国主要银行支持境外创始人完全远程开户，只要您的公司注册文件、EIN与身份核验材料齐全。我们会帮您挑选适合自身情况的银行，并全程指导相应的开户流程。",
   },
   {
-    question: "What do I need before the account-opening call?",
+    question: "开户通话前需要准备哪些材料？",
     answer:
-      "Typically your Articles of Organization/Incorporation, your EIN confirmation letter, ownership and management information, and a government-issued ID for each signer. We confirm the exact list with your chosen bank and help you gather everything ahead of time.",
+      "通常需要公司章程/注册证书、EIN确认信、股权与管理层信息，以及每位签字人的政府颁发身份证件。我们会与您选定的银行确认具体清单，并提前协助您备齐所有材料。",
   },
   {
-    question: "How long does account opening usually take?",
+    question: "开户通常需要多长时间？",
     answer:
-      "Once your documents are ready, most business accounts open within one scheduled call with a bank relationship manager. Verification and card/check issuance afterward can take a few additional business days depending on the bank.",
+      "材料准备就绪后，大多数企业账户可以在与银行经理预约的一次通话内完成开户。后续的核验及卡片/支票发放可能还需几个工作日，具体取决于银行。",
   },
   {
-    question: "Is the new-account cash bonus guaranteed?",
+    question: "新账户现金奖励是否有保证？",
     answer:
-      "Bonus offers and qualifying requirements are set by the bank and change over time. We check current offers when we set up your account and make sure you understand and meet the requirements, but the bank makes the final determination.",
+      "奖励优惠及达标条件由银行设定，且会不时变化。我们在为您开户时会核查当前的优惠信息，并确保您理解并满足相应条件，但最终决定权在银行。",
   },
 ];
 
 export default function FaqSection() {
-  return <ServiceFaqSection title="Business Banking Setup — FAQ" faqs={faqs} />;
+  return <ServiceFaqSection title="企业银行开户 — 常见问题" faqs={faqs} />;
 }

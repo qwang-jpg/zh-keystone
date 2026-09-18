@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 // for icon-only cards with no sub-list, and `showCta` adds a "Talk to an
 // Expert" link to every card for pages that want one.
 export default function ServiceCoreDeliverables({
-  title = "What's Included",
+  title = "服务内容",
   description,
   items,
   columns = "md:grid-cols-2",
@@ -44,7 +44,7 @@ export default function ServiceCoreDeliverables({
                 )}
                 {showCta && (
                   <Link to="/contact" className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-primary">
-                    Talk to an Expert Today
+                    立即咨询专家
                     <ArrowUpRight className="h-4 w-4" />
                   </Link>
                 )}

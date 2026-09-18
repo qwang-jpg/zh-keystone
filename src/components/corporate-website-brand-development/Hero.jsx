@@ -3,16 +3,15 @@ import ServiceHero from "@/components/common/ServiceHero";
 export default function Hero() {
   return (
     <ServiceHero
-      title="Corporate Website & Brand Presence Development"
-      subtitle="A Professional Website and Brand Identity That Supports Growth"
+      title="品牌与线上形象建设"
+      subtitle="支撑企业成长的专业网站与品牌形象"
       description={
         <>
-          A real business needs a real online presence, for clients, banks, and immigration
-          reviewers alike. We design your logo, build your website end to end, and get it
-          live with the SEO fundamentals and content in place.
+          一家真实的企业需要真实的线上形象——无论是面对客户、银行还是移民审查官。我们为您设计
+          品牌标志，端到端搭建官网，并配备好SEO基础与内容，确保网站顺利上线。
         </>
       }
-      ctaLabel="Book a Website & Brand Consultation"
+      ctaLabel="预约网站与品牌咨询"
     />
   );
 }

@@ -32,14 +32,14 @@ export default function TabbedFeatureList({ title, description, items, className
           <div className="flex items-center gap-3">
             <button
               onClick={() => go(-1)}
-              aria-label="Previous"
+              aria-label="上一项"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 text-white transition-colors hover:bg-white/10"
             >
               <ChevronLeft className="h-4 w-4" />
             </button>
             <button
               onClick={() => go(1)}
-              aria-label="Next"
+              aria-label="下一项"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 text-white transition-colors hover:bg-white/10"
             >
               <ChevronRight className="h-4 w-4" />
