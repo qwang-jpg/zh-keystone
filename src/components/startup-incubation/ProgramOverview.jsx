@@ -14,18 +14,16 @@ export default function ProgramOverview() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="text-3xl font-bold leading-tight text-keystone-ink md:text-4xl">
-            Why Your Entity Structure Decision Matters
+            为什么公司架构的决策至关重要
           </h2>
           <p className="mt-5 leading-relaxed text-muted-foreground">
-            Entity type, registration state, and ownership structure aren&rsquo;t just paperwork
-            choices, they shape everything that follows. These decisions determine your tax
-            exposure, your ability to hire and run payroll, and whether your company can support a
-            future H-1B petition or investor relationship. Get them right from day one, and
-            banking, hiring, and every filing after all build on solid ground instead of a
-            structure you have to unwind later.
+            实体类型、注册州与股权架构，绝不仅仅是文书上的选择，它们会影响此后的一切。
+            这些决策决定了您的税务负担、招聘与发放薪资的能力，以及公司未来能否支撑H-1B申请
+            或投资人关系。从第一天起就把这些决策做对，此后的开户、招聘与每一次申报，
+            才能建立在坚实的基础之上，而不必日后再重新拆解架构。
           </p>
           <Button asChild size="lg" className="mt-8">
-            <Link to="/contact">Book a Free Consultation Now</Link>
+            <Link to="/contact">立即预约免费咨询</Link>
           </Button>
         </motion.div>
 

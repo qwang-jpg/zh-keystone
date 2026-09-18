@@ -12,8 +12,8 @@ export default function StartupIncubation() {
   return (
     <PageLayout>
       <Seo
-        title="Company Formation & Corporate Structure"
-        description="Keystone Strategies handles entity selection, state filing, governance documents, and your federal EIN, building a compliant, scalable foundation for your U.S. company."
+        title="公司注册与架构设计"
+        description="Keystone Strategies 负责实体类型选择、州注册递交、治理文件起草及联邦EIN申请，为您的美国公司搭建合规、可扩展的基础架构。"
         path="/company-formation-corporate-structure"
       />
       <Hero />

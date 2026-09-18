@@ -3,14 +3,14 @@ import CompactCta from "@/components/common/CompactCta";
 export default function FinalCta() {
   return (
     <CompactCta
-      title="Form Your Company on a Foundation That Actually Holds Up"
+      title="以经得起考验的基础，注册您的公司"
       description={
         <p>
-          Entity type, filing, governance documents, and your EIN, handled correctly from day one so
-          banking, hiring, and future immigration filings all build on solid ground.
+          实体类型、递交申请、治理文件与EIN，从第一天起就正确处理，让开户、招聘与未来的
+          移民申请都能建立在坚实的基础之上。
         </p>
       }
-      ctaLabel="Book a Free Formation Consultation"
+      ctaLabel="预约免费注册咨询"
     />
   );
 }

@@ -3,23 +3,23 @@ import TabbedTestimonials from "@/components/common/TabbedTestimonials";
 const testimonials = [
   {
     name: "Jason Liu",
-    role: "Founder, AI Engineering Startup",
-    headline: "From F-1 Startup Attempt to Securing Formal Funding",
-    quote: "Keystone helped me turn a vague idea into a company truly ready to raise capital.",
-    body: "I started my F-1 entrepreneurial journey with nothing more than a rough concept. It wasn't until Keystone stepped in that I was able to structure everything properly, immigration status, incorporation, equity structure, and financing strategy. With their help, I secured my H-1B, launched my company as a legal U.S. entity, and built the foundation for real operations. Today, we've completed a formal seed round and our business is steadily growing. Keystone isn't just a service provider, they're long-term partners who help entrepreneurs navigate each critical step with strategy and clarity.",
+    role: "创始人，AI工程初创公司",
+    headline: "从F-1创业尝试到正式获得融资",
+    quote: "Keystone帮助我把一个模糊的想法，变成了真正具备融资能力的公司。",
+    body: "我在F-1身份下开始创业时，手上只有一个粗略的想法。直到Keystone介入后，我才真正把一切理顺——身份规划、公司注册、股权架构和融资策略。在他们的帮助下，我成功获得了H-1B身份，将公司注册为合法的美国实体，并搭建起真实运营的基础。如今，我们已完成正式的种子轮融资，业务也在稳步增长。Keystone不仅仅是服务提供方，更是长期合作伙伴，用清晰的策略陪伴创业者走过每一个关键步骤。",
   },
   {
     name: "Cecilia Yan",
-    role: "Founder, Education Consulting Startup",
-    headline: "From Service Prototype to a Million-Dollar Business",
+    role: "创始人，教育咨询初创公司",
+    headline: "从服务雏形到百万美元营收企业",
     quote:
-      "Keystone designed a structure around my immigration status and business model. Every step felt like building a company together.",
-    body: "I started with a simple education service idea. Keystone helped me formalize everything from company structure and business strategy to legal agreements and fundraising. They didn't just offer templates, they worked with me through every detail: incorporation, operations, tax compliance, and market entry. Within a year, our company achieved over $1M in annual revenue. Keystone has been more than an agency; they've been a true strategic partner, walking through every milestone side by side.",
+      "Keystone围绕我的身份和商业模式量身设计架构，每一步都像是在共同搭建一家公司。",
+    body: "我最初只有一个简单的教育服务想法。Keystone帮助我把公司架构、商业策略、法律协议到融资的每一个环节都正式落地。他们提供的不只是模板，而是与我一起打磨每一个细节：公司注册、运营管理、税务合规和市场准入。一年之内，公司实现了超过一百万美元的年营收。Keystone不只是一家服务机构，更是真正的战略伙伴，陪伴我走过每一个里程碑。",
   },
 ];
 
 export default function Testimonials() {
   return (
-    <TabbedTestimonials title="What Our Clients Say About Us" stories={testimonials} />
+    <TabbedTestimonials title="客户真实评价" stories={testimonials} />
   );
 }

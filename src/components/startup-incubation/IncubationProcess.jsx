@@ -3,43 +3,43 @@ import SectionHeading from "@/components/common/SectionHeading";
 
 const steps = [
   {
-    title: "Entity Strategy Consultation",
+    title: "实体架构咨询",
     description:
-      "We review your goals, industry, and ownership plans to recommend the right entity type and registration state before anything is filed.",
+      "我们审视您的目标、行业与股权规划，在递交任何申请之前，为您推荐合适的实体类型与注册州。",
     items: [
-      "Entity type and registration state recommendation",
-      "\"Company Registration Info & Business Scope\" document",
-      "Company name conflict search and availability confirmation",
+      "实体类型与注册州建议",
+      "《公司注册信息与业务范围》文档",
+      "公司名称冲突检索与可用性确认",
     ],
   },
   {
-    title: "State Filing & Approval",
+    title: "州注册递交与批准",
     description:
-      "We prepare and submit your formation filing with the state and track it through to approval.",
+      "我们负责准备并向州政府递交注册申请，并全程跟踪至批准完成。",
     items: [
-      "Formation application preparation and submission",
-      "Ongoing tracking of state review status",
-      "Filing confirmation once your entity is officially formed",
+      "准备并递交注册申请",
+      "持续跟踪州审批状态",
+      "公司正式成立后确认递交结果",
     ],
   },
   {
-    title: "Governance Documentation",
+    title: "治理文件起草",
     description:
-      "We draft the documents that establish how your company is owned, managed, and operated.",
+      "我们起草确立公司股权、管理与运营方式的相关文件。",
     items: [
-      "Articles of Organization / Incorporation",
-      "Operating Agreement, Bylaws, or Shareholder Agreement",
-      "Ownership and management structure documented in writing",
+      "公司注册证书/组织章程",
+      "运营协议、公司章程或股东协议",
+      "以书面形式记录股权与管理架构",
     ],
   },
   {
-    title: "EIN & Company Records",
+    title: "EIN与公司档案",
     description:
-      "We secure your federal tax ID and consolidate your formation records into one reference file.",
+      "我们为您申请联邦税号，并将注册档案整理成一份统一的参考文件。",
     items: [
-      "Federal EIN application and approval",
-      "Company information file assembled for future use",
-      "Ready-to-hand-off records for your bank, accountant, or attorney",
+      "联邦EIN申请与批准",
+      "整理好日后可用的公司信息档案",
+      "可直接交付银行、会计师或律师的完整档案",
     ],
   },
 ];
@@ -49,8 +49,8 @@ export default function IncubationProcess() {
     <section className="bg-keystone-mist py-20 md:py-28">
       <div className="container">
         <SectionHeading
-          title="Company Formation Process"
-          description="From choosing the right structure to a fully documented, EIN-ready company, here's how each engagement moves forward."
+          title="公司注册流程"
+          description="从选择正确的架构，到一家文件齐备、EIN就绪的公司，以下是每次合作推进的具体步骤。"
           align="left"
           className="max-w-2xl"
         />

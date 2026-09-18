@@ -6,49 +6,49 @@ const modules = [
   {
     icon: Building2,
     step: "01",
-    title: "Entity Selection & Registration Strategy",
+    title: "实体选择与注册策略",
     description:
-      "We help you determine the right entity type, registration state, and other key structuring decisions before anything gets filed.",
+      "在递交任何申请之前，我们帮您确定正确的实体类型、注册州及其他关键架构决策。",
     items: [
-      "1–2 consultations to confirm entity type and registration state",
-      "\"Company Registration Info & Business Scope\" document",
-      "Company name conflict search and availability confirmation",
+      "1-2次咨询，确认实体类型与注册州",
+      "《公司注册信息与业务范围》文档",
+      "公司名称冲突检索与可用性确认",
     ],
   },
   {
     icon: FileCheck2,
     step: "02",
-    title: "State Filing & Formation",
+    title: "州注册递交与成立",
     description:
-      "We prepare and submit your formation filing, track it through state approval, and confirm your company is officially formed.",
+      "我们负责准备并递交您的注册申请，全程跟踪州审批进度，并确认公司正式成立。",
     items: [
-      "State registration application preparation and filing",
-      "Progress tracking through state approval",
-      "Filing confirmation and approval documentation",
+      "准备并递交州注册申请",
+      "跟踪州审批进度",
+      "递交确认与批准文件",
     ],
   },
   {
     icon: ScrollText,
     step: "03",
-    title: "Formation & Governance Documents",
+    title: "成立与治理文件",
     description:
-      "We prepare the legal documents that establish your company and govern how it's owned and run.",
+      "我们准备用于确立公司、规范股权与管理方式的法律文件。",
     items: [
-      "Articles of Organization / Articles of Incorporation",
-      "Operating Agreement, Bylaws, or Shareholder Agreement",
-      "Governance template matched to your entity type",
+      "公司注册证书/组织章程",
+      "运营协议、公司章程或股东协议",
+      "匹配您实体类型的治理文件模板",
     ],
   },
   {
     icon: Landmark,
     step: "04",
-    title: "Federal EIN & Company Records",
+    title: "联邦EIN与公司档案",
     description:
-      "We file for your federal tax ID and organize your company's key information into one reference record.",
+      "我们为您申请联邦税号，并将公司关键信息整理成一份统一的参考档案。",
     items: [
-      "Federal EIN application",
-      "IRS EIN approval / confirmation document",
-      "Consolidated company information file",
+      "联邦EIN申请",
+      "IRS EIN批准/确认文件",
+      "整合后的公司信息档案",
     ],
   },
 ];
@@ -58,8 +58,8 @@ export default function CoreServiceModules() {
     <section className="bg-keystone-mist py-20 md:py-28">
       <div className="container">
         <SectionHeading
-          title="Core Service Modules"
-          description="Every module below covers a stage of forming your company, from choosing the right structure through the documents and records you'll rely on going forward."
+          title="核心服务模块"
+          description="以下每个模块，都覆盖公司注册的一个阶段——从选择正确的架构，到您此后将持续依赖的文件与档案。"
           align="left"
           className="max-w-2xl"
         />
