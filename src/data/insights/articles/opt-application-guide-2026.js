@@ -1,211 +1,211 @@
 export default {
   slug: `opt-application-guide-2026`,
-  title: `The Complete 2026 OPT Application Guide`,
-  description: `A full walkthrough of the OPT application process for 2026: eligibility requirements, the step-by-step timeline, every legal type of work you can do, and the most common compliance mistakes to avoid.`,
-  category: `Guide`,
+  title: `2026年OPT申请完全指南`,
+  description: `一份关于2026年OPT申请流程的全面讲解：资格条件、逐步时间安排、每一种合法的工作类型，以及最需要避免的合规错误。`,
+  category: `指南`,
   date: `2025-07-07`,
-  readingTime: `13 min read`,
+  readingTime: `13分钟阅读`,
   content: [
     {
       type: `paragraph`,
-      html: `For international students in the U.S., OPT isn't just your job-search pass after graduation — it's also the bridge connecting your student status to a longer-term work visa. Whether you're preparing for a full-time role, an internship, or planning ahead for an eventual H-1B filing, understanding the OPT application process and its key deadlines is essential. This article walks through OPT eligibility requirements, the application steps and timeline, every category of legal work, and the compliance red lines to avoid, so you can take your first confident step into the U.S. workforce.`,
+      html: `对于在美国的国际学生来说，OPT不仅仅是毕业后求职的通行证——它更是连接学生身份与更长期工作签证之间的桥梁。无论您是在为一份全职工作、一段实习做准备，还是正在为日后的H-1B申请提前规划，理解OPT申请流程及其关键截止日期都至关重要。本文将梳理OPT的资格条件、申请步骤与时间安排、每一类合法工作方式，以及需要避开的合规红线，帮助您自信地迈出进入美国职场的第一步。`,
     },
-    { type: `heading`, level: 2, html: `What is OPT?` },
+    { type: `heading`, level: 2, html: `什么是OPT？` },
     {
       type: `paragraph`,
-      html: `<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students" rel="noopener noreferrer" target="_blank">OPT (Optional Practical Training)</a> is a work authorization that allows F-1 students to legally work in a position related to their field of study in the United States. After an F-1 student graduates, <a href="https://www.uscis.gov/" rel="noopener noreferrer" target="_blank">USCIS</a> allows them a one-year period of practical training, which the student must apply for themselves.`,
-    },
-    {
-      type: `paragraph`,
-      html: `<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt" rel="noopener noreferrer" target="_blank">STEM OPT</a> is an additional 24-month work authorization extension available to international students in Science, Technology, Engineering, or Mathematics fields, once they complete their initial 12 months of OPT. Its core purpose is to give STEM students further industry experience through a "structured training plan," with the employer providing ongoing supervision and evaluation.`,
+      html: `<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students" rel="noopener noreferrer" target="_blank">OPT（选择性实习训练）</a>是允许F-1学生在美国合法从事与所学专业相关工作的工作授权。F-1学生毕业后，<a href="https://www.uscis.gov/" rel="noopener noreferrer" target="_blank">USCIS</a>允许其完成为期一年的实习训练，学生需要自行申请。`,
     },
     {
       type: `paragraph`,
-      html: `Can't find an employer for OPT? <a href="/contact">Contact us to enter the lottery directly through self-employment.</a>`,
-    },
-    { type: `heading`, level: 2, html: `What are the requirements for OPT?` },
-    { type: `heading`, level: 3, html: `1. Standard OPT` },
-    {
-      type: `paragraph`,
-      html: `Standard OPT is split into Pre-completion OPT and Post-completion OPT. To apply for Pre-completion OPT, you must meet the following requirements: you must have been lawfully enrolled full-time and continuously for at least one full academic year at a college, university, conservatory, or seminary certified by SEVP (Student and Exchange Visitor Program) under ICE; and the time used to satisfy that "one full academic year" requirement doesn't have to have been spent in F-1 status — even if you held a different nonimmigrant status during that period, it still counts.`,
+      html: `<a href="https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-extension-for-stem-students-stem-opt" rel="noopener noreferrer" target="_blank">STEM OPT</a>是科学、技术、工程或数学专业的国际学生，在完成初始12个月OPT后，可以额外申请的24个月工作授权延期。其核心目的，是通过一份"结构化培训计划"，让STEM学生在雇主持续的监督与评估下，获得进一步的行业经验。`,
     },
     {
       type: `paragraph`,
-      html: `Note that Pre-OPT and Post-OPT time combine to a total of 12 months — if a student used Pre-OPT before graduating, that time is deducted from the 12-month total, leaving the remaining balance for Post-OPT.`,
+      html: `OPT期间找不到雇主？<a href="/contact">联系我们，直接通过自雇进入抽签。</a>`,
+    },
+    { type: `heading`, level: 2, html: `OPT的申请条件是什么？` },
+    { type: `heading`, level: 3, html: `1. 标准OPT` },
+    {
+      type: `paragraph`,
+      html: `标准OPT分为完成学业前OPT（Pre-completion OPT）与完成学业后OPT（Post-completion OPT）。要申请完成学业前OPT，您必须满足以下条件：您必须在经ICE下属SEVP（学生与交流访问者项目）认证的学院、大学、音乐学院或神学院，合法全日制连续就读至少一个完整学年；用于满足这"一个完整学年"要求的时间，不一定必须是在F-1身份下度过的——即便您在这段时间内持有其他非移民身份，同样计入。`,
     },
     {
       type: `paragraph`,
-      html: `Post-completion OPT is by far the most common, so the rest of this article focuses on it. Under DHS rules, to apply for Post-completion OPT you must: have completed at least one academic year of full-time study in F-1 status at a SEVP-certified school (i.e., 3 quarters or 2 semesters); not be enrolled in an "English as a Second Language" (ESL) program; be applying to work in a job directly related to your major (see SEVP policy guidance for details); not have already used up all of your OPT at your current education level; and not have previously been approved for 12 months or more of full-time Curricular Practical Training (CPT).`,
+      html: `请注意，完成学业前OPT与完成学业后OPT的时长合计共12个月——如果学生在毕业前使用了完成学业前OPT，该时长会从12个月总额中扣除，剩余部分用于完成学业后OPT。`,
+    },
+    {
+      type: `paragraph`,
+      html: `完成学业后OPT是目前最常见的类型，因此本文其余部分将重点讲解这一类型。根据DHS的规定，申请完成学业后OPT需要满足：在经SEVP认证的学校，以F-1身份全日制就读至少一个学年（即3个季度或2个学期）；未在读"英语作为第二语言"（ESL）项目；申请从事与所学专业直接相关的工作（详见SEVP政策指引）；在当前学历层次尚未用完全部OPT时长；此前未曾获批12个月及以上的全日制课程实习训练（CPT）。`,
     },
     { type: `heading`, level: 3, html: `2. STEM OPT` },
     {
       type: `paragraph`,
-      html: `To apply for STEM OPT, you must meet the following requirements: you must hold a STEM degree that appears on the DHS list (the full list is available in the DHS STEM Designated Degree Program List); you must currently be in valid initial OPT status; and you must have a qualifying employer that meets the following conditions: (1) is enrolled in E-Verify; (2) offers a paid position, with a wage consistent with what the company pays other U.S. workers in that role; and (3) is willing to jointly submit and carry out a Form I-983 training plan.`,
+      html: `要申请STEM OPT，您必须满足以下条件：持有一个出现在DHS名单上的STEM学位（完整名单请参阅DHS STEM认定学位项目清单）；目前处于有效的初始OPT状态；并拥有一位满足以下条件的合格雇主：（1）已注册E-Verify；（2）提供有薪岗位，工资与公司支付给该岗位其他美国员工的水平一致；（3）愿意共同递交并履行I-983表格所规定的培训计划。`,
     },
     {
       type: `paragraph`,
-      html: `For a section-by-section template for filling out I-983, see <a href="/insights/stem-opt-i983-form-guide">The STEM OPT Self-Employment I-983 Guide: Common Pitfalls and a Ready-to-Use Template (2025 Edition)</a>.`,
+      html: `关于逐部分填写I-983的模板，请参阅<a href="/insights/stem-opt-i983-form-guide">STEM OPT自雇I-983指南：常见误区与可直接套用的模板（2025版）</a>。`,
     },
     {
       type: `paragraph`,
-      html: `No offer yet for OPT? <a href="/contact">Contact us for compliant options.</a>`,
+      html: `OPT还没有offer？<a href="/contact">联系我们了解合规方案。</a>`,
     },
-    { type: `heading`, level: 2, html: `A full breakdown of the OPT application process` },
-    { type: `heading`, level: 3, html: `1. OPT timeline overview` },
+    { type: `heading`, level: 2, html: `OPT申请流程完整拆解` },
+    { type: `heading`, level: 3, html: `1. OPT时间安排概览` },
     {
       type: `paragraph`,
-      html: `The OPT application window runs from <strong>90 days before your Program End Date through 60 days after it</strong>. Note that "Program End Date" here means <strong>the Program End Date printed on your I-20</strong>. If a student doesn't submit their OPT application within <strong>60 days of graduation</strong>, USCIS treats this as an automatic forfeiture of OPT eligibility, and F-1 status will lapse as well. Once your OPT application is approved, USCIS will mail you an <strong>EAD card (Employment Authorization Document) — the official work permit</strong>, showing your name, category of status, and the start and end dates you're authorized to work. <strong>You may only begin working legally once you've received your EAD card and the start date printed on it has arrived</strong>. Working before that point is unlawful and can affect future visa or immigration applications. Standard OPT is valid for <strong>12 months</strong>, during which a student may accumulate up to <strong>90 days of unemployment</strong>. <strong>You only qualify for the 60-day grace period if your OPT runs its full natural course to the expiration date on your EAD card — meaning your cumulative unemployment never exceeded 90 days</strong>. In other words, <strong>if your cumulative unemployment during OPT exceeds 90 days, your F-1 status terminates immediately, and you do not get the 60-day grace period</strong>. You may not work during the grace period, and should be prepared to depart the U.S. or change status. If you're a STEM major, you can apply for the <strong>STEM OPT Extension</strong> before your first year of OPT ends, gaining an additional 24 months of work authorization. Combined, OPT plus the STEM OPT Extension total 3 years, with a <strong>cumulative allowed unemployment period of 150 days</strong> (including the 90 days from the first year of OPT). There's also a 60-day grace period after STEM OPT ends. This article focuses on the OPT application process; for the STEM OPT extension application process specifically, see our dedicated guide (link to come). Although you can submit your OPT application at any point in the window, because <strong>application volume spikes every May graduation season</strong>, USCIS processing times can stretch out, making EAD card delivery timing less predictable. We recommend <strong>preparing and submitting your application two months before graduation</strong> to help ensure you receive it on time.`,
+      html: `OPT的申请窗口是<strong>项目结束日期前90天到之后60天</strong>。请注意，这里的"项目结束日期"指的是<strong>I-20上印刷的项目结束日期</strong>。如果学生没有在<strong>毕业后60天内</strong>递交OPT申请，USCIS会将此视为自动放弃OPT资格，F-1身份也会随之失效。一旦您的OPT申请获批，USCIS会邮寄给您一张<strong>EAD卡（工作许可证）——正式的工作许可证件</strong>，上面显示您的姓名、身份类别，以及被授权工作的起止日期。<strong>您只能在收到EAD卡、且卡上印刷的开始日期到达之后才能合法开始工作</strong>。在此之前工作属于非法行为，可能影响未来的签证或移民申请。标准OPT有效期为<strong>12个月</strong>，期间学生最多可累积<strong>90天失业天数</strong>。<strong>只有当您的OPT自然完整地持续到EAD卡上的到期日期——也就是说累计失业天数从未超过90天——您才有资格享受60天宽限期</strong>。换句话说，<strong>如果您在OPT期间累计失业天数超过90天，您的F-1身份将立即终止，且不再享有60天宽限期</strong>。宽限期内不能工作，您应该做好离境或转换身份的准备。如果您是STEM专业，可以在OPT第一年结束前申请<strong>STEM OPT延期</strong>，获得额外24个月的工作授权。OPT加上STEM OPT延期，合计共3年，<strong>累计允许的失业期为150天</strong>（含OPT第一年的90天）。STEM OPT结束后同样有60天宽限期。本文重点讲解OPT申请流程；关于STEM OPT延期申请流程，请参阅我们的专门指南（链接稍后提供）。虽然您可以在窗口期内任意时间递交OPT申请，但由于<strong>每年5月毕业季申请量会激增</strong>，USCIS的审理时间可能会拉长，EAD卡送达的时间也因此更难预测。我们建议<strong>在毕业前两个月就准备并递交申请</strong>，以确保按时收到。`,
     },
-    { type: `heading`, level: 4, html: `2. The OPT application process` },
+    { type: `heading`, level: 4, html: `2. OPT申请流程` },
     {
       type: `paragraph`,
-      html: `<strong>Step 1: Check with your school for OPT application information</strong>`,
+      html: `<strong>第一步：向学校确认OPT申请信息</strong>`,
     },
     {
       type: `paragraph`,
-      html: `Before applying for OPT, you need to review your school's OPT requirements and related information, and confirm that your coursework, credits, and graduation status are all in order.`,
+      html: `在申请OPT之前，您需要了解学校的OPT要求及相关信息，并确认自己的课程、学分与毕业状态都已就绪。`,
     },
     {
       type: `list`,
       ordered: false,
       items: [
-        `Be sure to confirm with your advisor that you've completed your degree requirements and are eligible to graduate, meeting your school's credit and course requirements.`,
-        `Also confirm your Program End Date, to be clear on the timeframe in which you can apply for OPT. Applicants should also look out for and attend any Info Sessions their school hosts on OPT, to understand the key considerations, timeline, and required materials for the application.`,
+        `务必与您的导师确认，您已完成学位要求、符合毕业条件，满足学校的学分与课程要求。`,
+        `同时确认您的项目结束日期，明确可以申请OPT的时间范围。申请人还应留意并参加学校举办的任何OPT说明会，了解申请过程中的关键注意事项、时间安排与所需材料。`,
       ],
     },
     {
       type: `paragraph`,
-      html: `<strong>Step 2: Get a new I-20 from your DSO.</strong> Before submitting your application to USCIS, you should first request a new I-20 from your school's DSO — this is a key document for the OPT application, and includes the OPT Recommendation. Worth noting specifically: <strong>an OPT application does not require that you already have a job offer</strong> — as long as you meet the basic requirements, you can proceed with the application. The materials needed at this stage vary by school, but generally include:`,
+      html: `<strong>第二步：向DSO申请一份新的I-20。</strong>在向USCIS递交申请之前，您应先向学校DSO申请一份新的I-20——这是OPT申请的关键文件，其中包含OPT推荐信息。特别值得注意的是：<strong>申请OPT并不要求您已经拿到工作offer</strong>——只要满足基本条件，即可继续申请。这一阶段所需材料因学校而异，但通常包括：`,
     },
     {
       type: `list`,
       ordered: false,
       items: [
-        `OPT Request Form`,
-        `Your previous I-20`,
-        `Copies of all prior EAD cards (Employment Authorization Documents), CPT documents, etc. (if any)`,
+        `OPT申请表`,
+        `此前的I-20`,
+        `此前所有EAD卡（工作许可证）、CPT文件等的副本（如有）`,
       ],
     },
     {
       type: `paragraph`,
-      html: `Applicants typically receive their newly issued I-20 from the DSO within 7 business days. <strong>Once you receive the I-20, be sure to check it for errors and sign it.</strong>
-<strong>Step 3: Submit your OPT application to USCIS.</strong> <strong>You must submit your application to USCIS within 30 days of your DSO issuing the new I-20</strong> — if you exceed 30 days, the new I-20 becomes invalid, and your OPT eligibility is automatically canceled. Applicants can choose to file online or by mail:`,
+      html: `申请人通常会在7个工作日内收到DSO新签发的I-20。<strong>收到I-20后，请务必仔细核对是否有错误并签字。</strong>
+<strong>第三步：向USCIS递交OPT申请。</strong><strong>您必须在DSO签发新I-20之日起30天内向USCIS递交申请</strong>——超过30天，新I-20将失效，您的OPT资格也会自动取消。申请人可以选择在线递交或邮寄递交：`,
     },
     {
       type: `list`,
       ordered: false,
       items: [
-        `Online: Applicants can file <a href="https://my.uscis.gov/" rel="noopener noreferrer" target="_blank">online</a> through the USCIS website — registering an account and following the guided steps to upload the required materials, which mainly include:`,
+        `在线递交：申请人可以通过USCIS网站<a href="https://my.uscis.gov/" rel="noopener noreferrer" target="_blank">在线</a>递交——注册账户，按照系统引导上传所需材料，主要包括：`,
       ],
     },
     {
       type: `paragraph`,
-      html: `– New I-20&nbsp;&nbsp;&nbsp;&nbsp;– Passport biographic page&nbsp;&nbsp;&nbsp;&nbsp;– F-1 visa page&nbsp;&nbsp;&nbsp;&nbsp;– Most recent I-94&nbsp;&nbsp;&nbsp;&nbsp;– A photo taken within the last 30 days that meets <a href="https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/employment-and-tax/optional-practical-training/photo-requirements-for-ead-application.html?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">the required standards</a> (you can use the <a href="https://tsg.phototool.state.gov/photo" rel="noopener noreferrer" target="_blank">official tool</a> to process your photo before uploading)&nbsp;&nbsp;&nbsp;&nbsp;– Copies of all prior EAD cards, I-20s, CPT I-20s, etc.&nbsp;&nbsp;&nbsp;&nbsp;– <a href="https://www.uscis.gov/sites/default/files/document/forms/i-765.pdf?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">Form I-765</a>`,
+      html: `– 新I-20&nbsp;&nbsp;&nbsp;&nbsp;– 护照信息页&nbsp;&nbsp;&nbsp;&nbsp;– F-1签证页&nbsp;&nbsp;&nbsp;&nbsp;– 最近一次的I-94&nbsp;&nbsp;&nbsp;&nbsp;– 一张在过去30天内拍摄、符合<a href="https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/employment-and-tax/optional-practical-training/photo-requirements-for-ead-application.html?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">规定标准</a>的照片（上传前可使用<a href="https://tsg.phototool.state.gov/photo" rel="noopener noreferrer" target="_blank">官方工具</a>处理照片）&nbsp;&nbsp;&nbsp;&nbsp;– 此前所有EAD卡、I-20、CPT I-20等的副本&nbsp;&nbsp;&nbsp;&nbsp;– <a href="https://www.uscis.gov/sites/default/files/document/forms/i-765.pdf?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">I-765表格</a>`,
     },
     {
       type: `paragraph`,
-      html: `For a section-by-section guide to filling out I-765, see <a href="/insights/opt-i765-form-guide">The Most Complete Guide to Filling Out Form I-765 for OPT (2025 Edition): EAD Card Application Walkthrough and Common Mistakes to Avoid</a>.`,
+      html: `关于逐部分填写I-765的指南，请参阅<a href="/insights/opt-i765-form-guide">OPT表格I-765最完整填写指南（2025版）：EAD卡申请逐步讲解与常见错误</a>。`,
     },
     {
       type: `paragraph`,
-      html: `After paying the $470 filing fee and submitting your materials, you'll receive a Receipt Notice (Form I-797) from USCIS within 1-4 weeks, containing your case's <strong>Receipt Number</strong>, and your OPT status in SEVIS will update to "Pending." If USCIS needs more information, you'll receive a <strong>Request for Evidence (RFE)</strong>, which will detail exactly what's needed and the deadline to respond — you must respond by that deadline.`,
+      html: `支付470美元申请费用并递交材料后，您会在1-4周内收到USCIS的受理通知（I-797表格），其中包含您案件的<strong>收据编号</strong>，SEVIS中的OPT状态也会更新为"审理中"。如果USCIS需要更多信息，您会收到一份<strong>补件通知（RFE）</strong>，其中会详细说明所需材料及回复截止日期——您必须在截止日期前回复。`,
     },
     {
       type: `list`,
       ordered: false,
       items: [
-        `By mail: If filing by mail, make sure to sign the signature section of Form I-765 in black ink. Note that USCIS does not accept cash payments; applicants may pay by:`,
+        `邮寄递交：如果选择邮寄递交，请务必用黑色墨水笔在I-765表格的签名处签字。请注意，USCIS不接受现金支付；申请人可以选择以下方式付款：`,
       ],
     },
     {
       type: `paragraph`,
-      html: `– Personal check&nbsp;&nbsp;&nbsp;&nbsp;– Money order&nbsp;&nbsp;&nbsp;&nbsp;– Cashier's check, made payable in full to "U.S. Department of Homeland Security" (do not abbreviate), noting "USCIS I-765 + SEVIS ID number" in the memo line. See a <a href="https://global.upenn.edu/isss/tips-writing-check-or-money-order/" rel="noopener noreferrer" target="_blank">template here</a>.
-<strong>Step 4: Wait for USCIS approval and receive your EAD card.</strong> Approval typically takes around 60 days on average, and the EAD card is usually mailed roughly ten days after that. The card will show your OPT effective date — be sure to check that all the information on the card is correct.
-<strong>Step 5: Report your employer information.</strong> This is a step many students forget — <strong>within 10 days of receiving your EAD card, you need to report your employment status through your international student office or the SEVP Portal:</strong> – If you've found a job: report your employer's name, address, job duties, and hours. – If you're not yet employed: you still need to report "unemployed" status, and the system will begin counting your unemployment days.
-<a href="/contact">In your OPT unemployment period? Get free help from us.</a>`,
+      html: `– 个人支票&nbsp;&nbsp;&nbsp;&nbsp;– 汇票&nbsp;&nbsp;&nbsp;&nbsp;– 银行本票，收款方需完整填写为"U.S. Department of Homeland Security"（请勿缩写），并在备注栏注明"USCIS I-765 + SEVIS编号"。可参考<a href="https://global.upenn.edu/isss/tips-writing-check-or-money-order/" rel="noopener noreferrer" target="_blank">此模板</a>。
+<strong>第四步：等待USCIS批准，收到EAD卡。</strong>批准通常平均需要约60天，EAD卡一般会在此后约十天内邮寄送达。卡片上会显示您的OPT生效日期——请务必仔细核对卡上所有信息是否正确无误。
+<strong>第五步：报告雇主信息。</strong>这是许多学生容易遗忘的一步——<strong>收到EAD卡后10天内，您需要通过国际学生办公室或SEVP门户报告您的就业状态：</strong>– 如果已找到工作：报告雇主名称、地址、工作职责及工作时长。– 如果尚未就业：仍需报告"失业"状态，系统将开始计算您的失业天数。
+<a href="/contact">正处于OPT失业期？联系我们获取免费帮助。</a>`,
     },
-    { type: `heading`, level: 4, html: `3. OPT application timeline at a glance` },
-    { type: `heading`, level: 2, html: `What kinds of work can you do during OPT?` },
+    { type: `heading`, level: 4, html: `3. OPT申请时间安排一览` },
+    { type: `heading`, level: 2, html: `OPT期间可以从事哪些工作？` },
     {
       type: `paragraph`,
-      html: `From the day your OPT takes effect, you cannot exceed 90 cumulative days of unemployment. To avoid running over that limit and jeopardizing your status, students should thoroughly understand what qualifies as compliant employment and pursue as many legitimate work opportunities as possible. This section lays out every type of work you can legally do during OPT:`,
+      html: `从OPT生效之日起，您的累计失业天数不能超过90天。为避免超出这一限制而危及身份，学生应充分了解哪些工作类型属于合规就业，并尽可能多地寻找合法的工作机会。以下列出了OPT期间所有合法可从事的工作类型：`,
     },
-    { type: `heading`, level: 3, html: `1. Paid full-time or part-time work related to your field` },
+    { type: `heading`, level: 3, html: `1. 与专业相关的有薪全职或兼职工作` },
     {
       type: `paragraph`,
-      html: `The most common form of work during OPT is being employed by a company in a full-time or part-time role directly related to your major, working a minimum of 20 cumulative hours per week.`,
+      html: `OPT期间最常见的工作形式，是受雇于一家公司，从事与专业直接相关的全职或兼职工作，每周累计工作时长至少20小时。`,
     },
-    { type: `heading`, level: 4, html: `2. Working for multiple employers at once` },
+    { type: `heading`, level: 4, html: `2. 同时为多个雇主工作` },
     {
       type: `paragraph`,
-      html: `F-1 students on OPT can work for multiple employers simultaneously, as long as all the work is directly related to their field and totals at least 20 hours a week combined. For example, a graphic design student could remotely design marketing materials for two different startups at the same time. Each job needs to be able to provide proof of employment, a description of duties, and the dates worked.`,
+      html: `处于OPT期间的F-1学生可以同时为多个雇主工作，只要所有工作都与专业直接相关，且总工时合计每周至少20小时。例如，一名平面设计专业学生可以同时远程为两家不同的初创公司设计营销材料。每份工作都需要能够提供雇佣证明、职责描述及工作日期。`,
     },
-    { type: `heading`, level: 4, html: `3. Independent contractor / freelance work (1099)` },
+    { type: `heading`, level: 4, html: `3. 独立承包商/自由职业（1099）` },
     {
       type: `paragraph`,
-      html: `Students can also take on project-based work as a 1099 independent contractor. This work must likewise be related to your field, and you should keep records such as contracts, delivered work product, and invoices, while maintaining at least 20 hours of work per week to stay in status.`,
+      html: `学生也可以以1099独立承包商的身份从事项目制工作。这类工作同样必须与专业相关，您应保留合同、交付成果及发票等记录，并保持每周至少20小时的工作时长以维持身份合规。`,
     },
-    { type: `heading`, level: 4, html: `4. Unpaid internships / volunteer positions` },
+    { type: `heading`, level: 4, html: `4. 无薪实习/志愿者岗位` },
     {
       type: `paragraph`,
-      html: `Students may also take on unpaid internships or volunteer work, but it must be directly related to their field, involve at least 20 hours a week, and come with documentation from the employer or organization describing the duties and hours — or a record of volunteer hours — in order to avoid being counted toward unemployment days.`,
+      html: `学生也可以从事无薪实习或志愿者工作，但必须与专业直接相关，每周至少20小时，并由雇主或机构提供说明职责与工时的证明文件——或志愿服务时长记录——以避免被计入失业天数。`,
     },
-    { type: `heading`, level: 4, html: `5. Employment through an agency or staffing firm` },
+    { type: `heading`, level: 4, html: `5. 通过中介或人力资源公司就业` },
     {
       type: `paragraph`,
-      html: `During OPT, students can work through a staffing agency or HR firm, as long as they're actually placed in field-related work and average at least 20 hours a week. This is common in fields like tech, marketing, and design, in the form of outsourced roles, project-based roles, or contract positions — for example, registering as a data analytics consultant with a staffing firm that places you at a client company doing data-cleaning work. As long as there's a clear set of responsibilities and time records, this arrangement is compliant.`,
+      html: `OPT期间，学生可以通过人力资源中介公司就业，只要实际从事与专业相关的工作，且平均每周至少20小时。这种形式在科技、市场营销与设计等领域较为常见，通常以外包岗位、项目制岗位或合同岗位的形式出现——例如，注册为一名数据分析顾问，由人力资源公司将您派遣到一家客户公司从事数据清理工作。只要有明确的职责范围与工时记录，这种安排即为合规。`,
     },
-    { type: `heading`, level: 4, html: `6. Self-employment / entrepreneurship` },
+    { type: `heading`, level: 4, html: `6. 自雇/创业` },
     {
       type: `paragraph`,
-      html: `Under USCIS's official definition, students may engage in self-employment during OPT, with the following requirements: the work must be related to your field of study; you must work at least 20 hours per week; you may register a company and serve as your own employer; and you must retain employment records, contracts, invoices, company registration documents, and other evidence tying your employment to your field.`,
-    },
-    {
-      type: `paragraph`,
-      html: `Because of the flexibility and control it offers, many students use self-employment as their employment record during their first year. But one important note: <strong>if you're planning to eventually apply for the STEM OPT extension, the H-1B lottery, or a green card, the compliance bar for the self-employment path only gets higher</strong> — we recommend building out your company structure and documentation properly from the very start. See <a href="/insights/opt-to-h1b-self-employment-transition">From OPT Self-Employment to H-1B Self-Employment: One Company That Handles Your Entire Status Path — A Complete Breakdown for F-1 Entrepreneurs</a> to understand the key elements of building a compliant structure, and reach out to our team — we've already helped many self-employed OPT/STEM OPT applicants build compliant structures. Contact us today to learn the full path from OPT self-employment to H-1B.`,
+      html: `根据USCIS的官方定义，学生在OPT期间可以从事自雇，需满足以下要求：工作必须与您的专业相关；每周工作时长至少20小时；可以注册公司并担任自己的雇主；必须保留雇佣记录、合同、发票、公司注册文件等能够证明雇佣关系与专业相关性的证据。`,
     },
     {
       type: `paragraph`,
-      html: `For a full walkthrough of OPT self-employment, see our comprehensive 2025 guide to OPT self-employment (covering company registration, wages, the H-1B lottery application, tax filing, and common pitfalls).`,
+      html: `由于其灵活性与可控性，许多学生在OPT第一年会选择以自雇作为自己的就业记录。但有一点需要特别注意：<strong>如果您计划日后申请STEM OPT延期、参加H-1B抽签或申请绿卡，自雇路径的合规要求只会越来越高</strong>——我们建议从一开始就妥善搭建公司架构与相关文件。请参阅<a href="/insights/opt-to-h1b-self-employment-transition">从OPT自雇到H-1B自雇：一家公司如何撑起您完整的身份路径——写给F-1创业者的完整拆解</a>，了解搭建合规架构的关键要点，并欢迎联系我们的团队——我们已经帮助许多自雇的OPT/STEM OPT申请人搭建了合规架构。立即联系我们，了解从OPT自雇到H-1B的完整路径。`,
     },
     {
       type: `paragraph`,
-      html: `Can't find an employer for OPT? <a href="/contact">Contact us to enter the lottery directly through self-employment.</a>`,
-    },
-    { type: `heading`, level: 2, html: `Common compliance violations during OPT` },
-    { type: `heading`, level: 4, html: `1. Working in a job unrelated to your field of study` },
-    {
-      type: `paragraph`,
-      html: `Even if you have an employer and are getting paid, if the work itself is unrelated to the major listed on your I-20, it's still non-compliant.`,
-    },
-    { type: `heading`, level: 4, html: `2. Working fewer than 20 hours per week (below the minimum)` },
-    {
-      type: `paragraph`,
-      html: `Post-completion OPT requires a minimum of 20 cumulative hours of work per week. Falling below that threshold is treated as "unemployed," and the time counts toward your 90-day unemployment limit.`,
-    },
-    { type: `heading`, level: 4, html: `3. "No-show" positions with no actual work being done` },
-    {
-      type: `paragraph`,
-      html: `Some students arrange a "fake employment letter" through a friend or third-party company without actually doing any work. Even if employer information is submitted, this still constitutes fraud and carries very high risk. Consequences can include: being treated as unemployed, leading to F-1 status termination once cumulative unemployment exceeds the limit; being flagged in a school or USCIS audit, damaging future visa or immigration records; and OPT revocation, which can affect subsequent H-1B or green card applications.`,
-    },
-    { type: `heading`, level: 4, html: `4. "Volunteer work" with no job description, contract, or project records` },
-    {
-      type: `paragraph`,
-      html: `OPT allows unpaid internships or volunteer positions, but they must come with a clear description of duties, a work schedule, and a role description, and must be related to your field. If you can't provide any supporting documentation, it may still be treated as unemployment.`,
-    },
-    { type: `heading`, level: 4, html: `5. Starting work before your EAD card takes effect` },
-    {
-      type: `paragraph`,
-      html: `Your EAD card shows a work start date, and you may only begin working legally from that date onward. If you start working before receiving the card or before its effective date, it will be treated as unauthorized employment, with serious consequences.`,
-    },
-    { type: `heading`, level: 4, html: `6. Unlawful self-employment / independent contractor work with no real business substance` },
-    {
-      type: `paragraph`,
-      html: `If you report your status as "self-employed" or a "contractor" without actually registering a company, having clients, or generating real project work or income, that's also non-compliant. Self-employment isn't automatically legal just because you say "I started a company" — it requires evidence of genuine business operations.`,
+      html: `关于OPT自雇的完整讲解，请参阅我们撰写的2025年OPT自雇完整指南（涵盖公司注册、工资、H-1B抽签申请、报税与常见误区）。`,
     },
     {
       type: `paragraph`,
-      html: `Worried a no-show arrangement puts you at risk? <a href="/contact">Contact us for compliant support.</a>`,
+      html: `OPT期间找不到雇主？<a href="/contact">联系我们，直接通过自雇进入抽签。</a>`,
+    },
+    { type: `heading`, level: 2, html: `OPT期间常见的合规违规情况` },
+    { type: `heading`, level: 4, html: `1. 从事与专业无关的工作` },
+    {
+      type: `paragraph`,
+      html: `即使您有雇主且获得薪酬，如果工作内容本身与您I-20上所列的专业无关，仍然属于不合规行为。`,
+    },
+    { type: `heading`, level: 4, html: `2. 每周工作不足20小时（低于最低要求）` },
+    {
+      type: `paragraph`,
+      html: `完成学业后OPT要求每周累计至少工作20小时。低于这一门槛将被视为"失业"，该时间会计入您90天失业天数的限额。`,
+    },
+    { type: `heading`, level: 4, html: `3. 没有实际工作内容的"挂名"岗位` },
+    {
+      type: `paragraph`,
+      html: `一些学生会通过朋友或第三方公司安排一份"虚假的雇佣证明信"，但实际上并没有从事任何工作。即使提交了雇主信息，这种行为仍然构成欺诈，风险极高。可能导致的后果包括：被视为失业，一旦累计失业天数超出限额，F-1身份即被终止；在学校或USCIS审计中被标记，损害未来的签证或移民记录；以及OPT被撤销，进而影响日后的H-1B或绿卡申请。`,
+    },
+    { type: `heading`, level: 4, html: `4. 没有职责说明、合同或项目记录的"志愿者工作"` },
+    {
+      type: `paragraph`,
+      html: `OPT允许无薪实习或志愿者岗位，但必须附有清晰的职责说明、工作时间安排及岗位描述，并且必须与您的专业相关。如果您无法提供任何支持材料，仍可能被视为失业。`,
+    },
+    { type: `heading`, level: 4, html: `5. 在EAD卡生效之前开始工作` },
+    {
+      type: `paragraph`,
+      html: `您的EAD卡上会显示工作开始日期，您只能从该日期起才能合法开始工作。如果在收到卡片之前或生效日期之前开始工作，将被视为未经授权的雇佣，后果十分严重。`,
+    },
+    { type: `heading`, level: 4, html: `6. 没有真实业务实质的非法自雇/独立承包工作` },
+    {
+      type: `paragraph`,
+      html: `如果您声称自己"自雇"或是"承包商"，但实际上并未注册公司、没有客户，也没有产生真实的项目工作或收入，这同样属于不合规。自雇并不会仅仅因为您声称"我开了公司"就自动合法——它需要有真实业务运营的证据。`,
+    },
+    {
+      type: `paragraph`,
+      html: `担心挂名安排让您陷入风险？<a href="/contact">联系我们获取合规支持。</a>`,
     },
   ],
 };
