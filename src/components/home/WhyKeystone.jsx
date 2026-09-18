@@ -5,56 +5,56 @@ const pillars = [
   {
     icon: ShieldCheck,
     num: "01",
-    title: "Contract-Backed Long-Term Protection",
-    meta: "Results · protection · long-term commitment",
-    panelTitle: "Protection That Goes Beyond a One-Time Service",
+    title: "合同保障的长期身份保护",
+    meta: "成果 · 保障 · 长期承诺",
+    panelTitle: "超越一次性服务的长期保障",
     description:
-      "We are built around outcomes, not one-time deliverables. Where applicable, our service commitments and protection mechanisms are clearly defined in the service agreement, giving clients continued support beyond the initial engagement as their employment and status needs evolve.",
+      "我们以结果为导向，而非一次性交付。在适用情况下，我们的服务承诺与保障机制会在服务协议中明确列明，让客户在雇佣与身份需求不断变化的过程中，持续获得初次合作之外的支持。",
     facts: [
-      { value: "6–36 MONTHS", label: "Long-Term Protection Period" },
-      { value: "CONTRACT-BACKED", label: "Protection terms defined in writing" },
-      { value: "84.8%", label: "Client retention rate" },
+      { value: "6–36 个月", label: "长期保障周期" },
+      { value: "合同保障", label: "保障条款书面明确" },
+      { value: "84.8%", label: "客户续约率" },
     ],
   },
   {
     icon: Building2,
     num: "02",
-    title: "Pioneering Employer Infrastructure Model",
-    meta: "Employer setup · operations · employment · status readiness",
-    panelTitle: "Building the Employer Infrastructure Behind Immigration Needs",
+    title: "开创性的雇主架构模式",
+    meta: "雇主搭建 · 运营 · 雇佣 · 身份就绪",
+    panelTitle: "搭建支撑移民需求的雇主架构",
     description:
-      "Keystone pioneered an integrated model that connects company formation, business operations, payroll, workforce compliance, and immigration readiness. Instead of treating immigration and employment as separate issues, we build the employer infrastructure needed to support both from the ground up.",
+      "Keystone率先打造了融合公司注册、企业运营、薪资管理、劳工合规与移民就绪的一体化模式。我们不将移民与雇佣视为两个独立问题，而是从根基出发，搭建能够同时支撑二者的雇主架构。",
     facts: [
-      { value: "1 MODEL", label: "Integrated employer infrastructure" },
-      { value: "4 LAYERS", label: "Business · Operations · Employment · Status" },
-      { value: "END-TO-END", label: "From company setup to employer readiness" },
+      { value: "1套模式", label: "一体化雇主架构" },
+      { value: "4重架构", label: "商业 · 运营 · 雇佣 · 身份" },
+      { value: "全流程覆盖", label: "从公司注册到雇主就绪" },
     ],
   },
   {
     icon: Award,
     num: "03",
-    title: "100% Proven H-1B & STEM OPT Track Record",
-    meta: "Execution · H-1B · STEM OPT · OPT",
-    panelTitle: "Proven Through Real Client Outcomes",
+    title: "100%成功的H-1B与STEM OPT履历",
+    meta: "执行力 · H-1B · STEM OPT · OPT",
+    panelTitle: "以真实客户成果验证实力",
     description:
-      "Our H-1B and OPT/STEM OPT solutions are built on pathways that have been repeatedly executed in real client cases. From employer readiness and employment structuring to ongoing compliance support, our approach is designed around practical execution rather than theoretical planning.",
+      "我们的H-1B与OPT/STEM OPT解决方案，均建立在已被真实客户案例反复验证的路径之上。从雇主就绪、雇佣架构设计到持续的合规支持，我们的方法始终围绕实际执行，而非纸上谈兵。",
     facts: [
-      { value: "100%", label: "H-1B & STEM OPT success rate" },
-      { value: "300+", label: "H-1B client cases supported" },
-      { value: "2", label: "Core Employment-Based Status Pathways" },
+      { value: "100%", label: "H-1B与STEM OPT成功率" },
+      { value: "300+", label: "已支持H-1B客户案例数" },
+      { value: "2", label: "核心职业类身份路径" },
     ],
   },
   {
     icon: GraduationCap,
     num: "04",
-    title: "Experienced U.S.-Based Advisory Team",
-    meta: "10+ years in the U.S. · 5+ years of industry experience",
-    panelTitle: "Advisors Who Understand Both the Client and the Employer",
+    title: "经验丰富的美国本土顾问团队",
+    meta: "10年以上美国生活经验 · 5年以上行业经验",
+    panelTitle: "同时理解客户与雇主视角的顾问团队",
     description:
-      "Our advisory team brings more than a decade of firsthand U.S. experience and at least five years of professional industry experience. This allows us to understand both sides of the equation — the immigration challenges international professionals face and the operational realities U.S. employers must navigate.",
+      "我们的顾问团队拥有超过十年的美国本土生活经验，以及至少五年的行业从业经验。这让我们能够同时理解国际专业人才面临的移民挑战，以及美国雇主必须应对的运营现实。",
     facts: [
-      { value: "2 PERSPECTIVES", label: "Client needs + employer realities" },
-      { value: "30+", label: "Industries Represented Across Our Experience" },
+      { value: "双重视角", label: "客户需求 + 雇主现实" },
+      { value: "30+", label: "覆盖行业数量" },
     ],
   },
 ];
@@ -63,8 +63,8 @@ export default function WhyKeystone() {
   return (
     <PillarShowcase
       id="why"
-      title="Why Keystone Strategies"
-      description="At Keystone, we focus on outcomes — not one-time transactions. Our model combines contract-backed protection, proven execution, pioneering employer infrastructure, and experienced advisors to provide clients with long-term support through complex immigration and employment needs."
+      title="为什么选择Keystone Strategies"
+      description="在Keystone，我们专注于结果，而非一次性交易。我们的模式融合了合同保障、成熟的执行经验、开创性的雇主架构体系，以及经验丰富的顾问团队，为客户在复杂的移民与雇佣需求中提供长期支持。"
       items={pillars}
     />
   );

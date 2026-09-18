@@ -9,59 +9,59 @@ import { cn } from "@/lib/utils";
 const stories = [
   {
     name: "Jason Liu",
-    role: "Founder, AI Engineering Startup",
-    headline: "From F-1 Startup Attempt to Securing Formal Funding",
-    from: "An F-1 student with a rough concept",
-    bridge: "Status, incorporation, equity structure, financing strategy",
-    to: "H-1B secured and a formal seed round closed",
-    quote: "Keystone helped me turn a vague idea into a company truly ready to raise capital.",
-    body: "I started my F-1 entrepreneurial journey with nothing more than a rough concept. It wasn't until Keystone stepped in that I was able to structure everything properly, immigration status, incorporation, equity structure, and financing strategy. With their help, I secured my H-1B, launched my company as a legal U.S. entity, and built the foundation for real operations. Today, we've completed a formal seed round and our business is steadily growing. Keystone isn't just a service provider, they're long-term partners who help entrepreneurs navigate each critical step with strategy and clarity.",
-    tags: ["Company Formation", "Equity Structure", "H-1B", "Seed Round"],
+    role: "创始人，AI工程初创公司",
+    headline: "从F-1创业尝试到正式获得融资",
+    from: "一位仅有初步构想的F-1学生",
+    bridge: "身份规划、公司注册、股权架构、融资策略",
+    to: "成功获得H-1B并完成正式种子轮融资",
+    quote: "Keystone帮助我把一个模糊的想法，变成了真正具备融资能力的公司。",
+    body: "我在F-1身份下开始创业时，手上只有一个粗略的想法。直到Keystone介入后，我才真正把一切理顺——身份规划、公司注册、股权架构和融资策略。在他们的帮助下，我成功获得了H-1B身份，将公司注册为合法的美国实体，并搭建起真实运营的基础。如今，我们已完成正式的种子轮融资，业务也在稳步增长。Keystone不仅仅是服务提供方，更是长期合作伙伴，用清晰的策略陪伴创业者走过每一个关键步骤。",
+    tags: ["公司注册", "股权架构", "H-1B", "种子轮融资"],
   },
   {
     name: "Cecilia Yan",
-    role: "Founder, Education Consulting Startup",
-    headline: "From Service Prototype to a Million-Dollar Business",
-    from: "A simple education service idea",
-    bridge: "Incorporation, operations, tax compliance, market entry",
-    to: "Over $1M in annual revenue within a year",
+    role: "创始人，教育咨询初创公司",
+    headline: "从服务雏形到百万美元营收企业",
+    from: "一个简单的教育服务想法",
+    bridge: "公司注册、运营管理、税务合规、市场准入",
+    to: "一年内实现超百万美元的年营收",
     quote:
-      "Keystone designed a structure around my immigration status and business model. Every step felt like building a company together.",
-    body: "I started with a simple education service idea. Keystone helped me formalize everything from company structure and business strategy to legal agreements and fundraising. They didn't just offer templates, they worked with me through every detail: incorporation, operations, tax compliance, and market entry. Within a year, our company achieved over $1M in annual revenue. Keystone has been more than an agency; they've been a true strategic partner, walking through every milestone side by side.",
-    tags: ["Business Modeling", "Legal Agreements", "Tax Compliance", "Market Entry"],
+      "Keystone围绕我的身份和商业模式量身设计架构，每一步都像是在共同搭建一家公司。",
+    body: "我最初只有一个简单的教育服务想法。Keystone帮助我把公司架构、商业策略、法律协议到融资的每一个环节都正式落地。他们提供的不只是模板，而是与我一起打磨每一个细节：公司注册、运营管理、税务合规和市场准入。一年之内，公司实现了超过一百万美元的年营收。Keystone不只是一家服务机构，更是真正的战略伙伴，陪伴我走过每一个里程碑。",
+    tags: ["商业模式设计", "法律协议", "税务合规", "市场准入"],
   },
   {
     name: "Kevin He",
-    role: "Data Scientist, NYU",
-    headline: "From STEM OPT Layoff to H-1B Approval and Green Card Pathway",
-    from: "Laid off mid-STEM OPT, status expiring",
-    bridge: "Compliant employment structure, H-1B filing, long-term plan",
-    to: "H-1B approved and back on a green card track",
-    quote: "I was laid off during my STEM OPT, but Keystone helped me rebuild my structure and get back on track.",
-    body: "After losing my job, I faced both status expiration and uncertainty. Keystone quickly helped me design a compliant employment structure, file my H-1B, and stabilize my situation. Their team supported me through every step, from status transition to business planning and long-term immigration strategy. Today, I'm back on a secure track toward my green card. They truly helped me find a sustainable way forward.",
-    tags: ["STEM OPT", "Status Compliance", "H-1B", "Green Card Pathway"],
+    role: "数据科学家，纽约大学",
+    headline: "从STEM OPT失业到H-1B获批并迈向绿卡之路",
+    from: "STEM OPT期间遭遇裁员，身份即将到期",
+    bridge: "合规雇佣架构、H-1B申请、长期规划",
+    to: "H-1B获批，重回绿卡轨道",
+    quote: "我在STEM OPT期间被裁员，但Keystone帮我重新搭建架构，让一切重回正轨。",
+    body: "失业后，我同时面临身份到期和未来的不确定性。Keystone迅速帮我设计合规的雇佣架构、递交H-1B申请，并稳定住了局面。从身份过渡、商业规划到长期移民策略，他们的团队全程陪伴。如今，我已重新走上通往绿卡的稳健轨道。他们真正帮我找到了一条可持续发展的道路。",
+    tags: ["STEM OPT", "身份合规", "H-1B", "绿卡之路"],
   },
   {
     name: "Zach Zhang",
-    role: "Founder, E-commerce Brand",
-    headline: "From Concept to Investment-Ready Structure",
-    from: "Just a concept on paper",
-    bridge: "Corporate and immigration structure, equity plan, tax planning",
-    to: "An investment-ready company built to scale",
-    quote: "Keystone didn't just give me a model, they built the entire structure that made financing possible.",
-    body: "I came to Keystone with just a concept. They helped me build out the corporate and immigration structure, design the equity plan, and get investor-ready. Their legal, business, and tax planning made the fundraising process smooth and structured. Within months, we had a company that could truly scale, not just an idea on paper.",
-    tags: ["Corporate Structure", "Equity Plan", "Fundraising Support", "Tax Planning"],
+    role: "创始人，电商品牌",
+    headline: "从创意构想到具备融资能力的企业架构",
+    from: "仅停留在纸面上的一个构想",
+    bridge: "公司与移民架构、股权方案、税务规划",
+    to: "一家具备融资能力、可规模化发展的企业",
+    quote: "Keystone给我的不只是一个模型，而是搭建了让融资真正成为可能的完整架构。",
+    body: "我找到Keystone时，手上只有一个构想。他们帮我搭建了公司与移民架构、设计股权方案，并让企业具备了融资条件。他们在法律、商业和税务规划上的专业支持，让整个融资过程顺畅而有序。几个月内，我们就拥有了一家真正可规模化发展的企业，而不只是纸面上的想法。",
+    tags: ["公司架构", "股权方案", "融资支持", "税务规划"],
   },
   {
     name: "Mandy Rao",
-    role: "Founder, Consulting Firm",
-    headline: "From Layoff to Launching My Own Company",
-    from: "Laid off 40 days before status expiry",
-    bridge: "New entity, rebuilt immigration structure, petition prepared",
-    to: "Running her own firm, status uninterrupted",
-    quote: "I got laid off just 40 days before my status expired. Keystone helped me regain control of my future.",
-    body: "When I lost my job while on H-1B, I felt like everything was falling apart. Keystone quickly helped me set up my own company, rebuild my immigration structure, and prepare my petition. They guided me through strategy, documentation, and execution with precision. Today, I'm running my own business and maintaining legal status without interruption. Keystone gave me more than a plan, they gave me back agency over my future.",
-    tags: ["Company Formation", "Status Compliance", "Petition Prep", "Payroll Setup"],
+    role: "创始人，咨询公司",
+    headline: "从被裁员到创立自己的公司",
+    from: "身份到期前40天遭遇裁员",
+    bridge: "新公司注册、重建移民架构、申请材料准备",
+    to: "如今独立经营公司，身份从未中断",
+    quote: "我在身份到期前40天被裁员，Keystone帮我重新掌控了自己的未来。",
+    body: "在H-1B期间失业时，我感觉一切都要崩塌了。Keystone迅速帮我注册了自己的公司，重建移民架构并准备好申请材料。从策略制定、材料准备到执行落地，他们精准地引导我完成每一步。如今，我经营着自己的公司，身份也从未中断。Keystone给我的不仅是一份方案，更是重新掌控未来的能力。",
+    tags: ["公司注册", "身份合规", "申请材料准备", "薪资体系搭建"],
   },
 ];
 
@@ -78,22 +78,22 @@ export default function Testimonials() {
       <div className="container">
         <div className="flex flex-wrap items-end justify-between gap-7">
           <SectionHeading
-            title="What Our Clients Say About Us"
-            description="Five journeys, from where each client started to where they are now. Pick a story to follow it."
+            title="客户真实评价"
+            description="五段真实历程，见证客户从起点到今天的转变，点击查看每一个故事。"
             align="left"
             className="max-w-2xl"
           />
           <div className="flex items-center gap-3">
             <button
               onClick={() => go(-1)}
-              aria-label="Previous story"
+              aria-label="上一个故事"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-border text-keystone-ink transition-colors hover:border-primary hover:text-primary"
             >
               <ChevronLeft className="h-4 w-4" />
             </button>
             <button
               onClick={() => go(1)}
-              aria-label="Next story"
+              aria-label="下一个故事"
               className="flex h-11 w-11 items-center justify-center rounded-full border border-border text-keystone-ink transition-colors hover:border-primary hover:text-primary"
             >
               <ChevronRight className="h-4 w-4" />
@@ -147,7 +147,7 @@ export default function Testimonials() {
             <p className="text-xs font-semibold uppercase tracking-widest text-keystone-green">{story.headline}</p>
             <div className="flex flex-col gap-3.5">
               <div className="rounded-2xl border border-white/10 bg-white/5 p-5">
-                <p className="text-xs font-semibold uppercase tracking-wide text-white/70">Where they started</p>
+                <p className="text-xs font-semibold uppercase tracking-wide text-white/70">起点</p>
                 <p className="mt-2 text-lg font-bold leading-snug text-white">{story.from}</p>
               </div>
               <div className="flex items-center gap-2.5 pl-1.5">
@@ -155,7 +155,7 @@ export default function Testimonials() {
                 <span className="text-xs font-medium text-white/70">{story.bridge}</span>
               </div>
               <div className="rounded-2xl bg-primary p-5">
-                <p className="text-xs font-semibold uppercase tracking-wide text-white/70">Where they are now</p>
+                <p className="text-xs font-semibold uppercase tracking-wide text-white/70">现状</p>
                 <p className="mt-2 text-lg font-bold leading-snug text-white">{story.to}</p>
               </div>
             </div>
@@ -188,7 +188,7 @@ export default function Testimonials() {
             </div>
             <Button asChild className="mt-6 self-start">
               <Link to="/contact">
-                Start a story like this
+                开启属于您的故事
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>

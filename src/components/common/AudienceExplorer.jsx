@@ -99,12 +99,12 @@ export default function AudienceExplorer({
                     key={step.label}
                     className="flex flex-col rounded-2xl border border-border bg-keystone-mist p-5 transition-transform hover:-translate-y-1 hover:shadow-md"
                   >
-                    <span className="text-xs font-bold uppercase tracking-widest text-primary">Step {i + 1}</span>
+                    <span className="text-xs font-bold uppercase tracking-widest text-primary">第 {i + 1} 步</span>
                     <p className="mt-2.5 text-sm font-bold leading-snug text-keystone-ink">{step.label}</p>
                     <p className="mt-2 flex-1 text-xs leading-relaxed text-muted-foreground">{step.description}</p>
                     {step.href && (
                       <Link to={step.href} className="mt-3 inline-flex items-center gap-1 text-xs font-semibold text-primary">
-                        Learn more
+                        了解更多
                         <ArrowUpRight className="h-3.5 w-3.5" />
                       </Link>
                     )}

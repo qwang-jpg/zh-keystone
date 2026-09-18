@@ -25,9 +25,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl font-bold leading-[1.1] text-white sm:text-5xl md:text-6xl"
           >
-            Plan Your Status.
+            规划您的身份。
             <br />
-            Build Your Future.
+            成就您的未来。
           </motion.h1>
 
           <motion.p
@@ -36,10 +36,8 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-6 text-base leading-relaxed text-white/70 md:text-lg"
           >
-            Keystone Strategies provides integrated support for international professionals
-            navigating STEM OPT, H-1B, self-employment, business setup, and long-term U.S.
-            immigration planning. We bring immigration strategy, employer compliance, and
-            business infrastructure together in one coordinated solution.
+            Keystone Strategies 为国际专业人才提供一体化支持，覆盖STEM OPT、H-1B、自雇创业、
+            企业注册以及长期美国移民规划。我们将移民策略、雇主合规与企业架构整合为一套协同解决方案。
           </motion.p>
 
           <motion.div
@@ -50,7 +48,7 @@ export default function Hero() {
           >
             <Button asChild size="lg" className="bg-white text-keystone-ink hover:bg-white/90">
               <Link to="/contact">
-                Book a Free Consultation
+                预约免费咨询
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
@@ -61,7 +59,7 @@ export default function Hero() {
               className="border-white/30 bg-transparent text-white hover:bg-white/10"
             >
               <a href="#path">
-                What is my goal?
+                我的目标是什么？
                 <Target className="h-4 w-4" />
               </a>
             </Button>
@@ -73,7 +71,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="mt-5 text-sm text-white/60"
           >
-            Mon–Fri 10:00 AM – 6:00 PM <span className="text-white/30">|</span>{" "}
+            周一至周五 上午10:00 - 下午6:00 <span className="text-white/30">|</span>{" "}
             <a href="tel:+16462947091" className="hover:text-white transition-colors">
               +1 (646) - 294 - 7091
             </a>
@@ -91,11 +89,11 @@ export default function Hero() {
       >
         <img
           src={heroImage}
-          alt="Keystone Strategies team presenting in a conference room"
+          alt="Keystone Strategies 团队在会议室进行汇报"
           className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
         <div className="absolute inset-x-6 bottom-6 rounded-xl bg-keystone-ink/70 px-4 py-3 text-sm font-semibold text-white backdrop-blur sm:inset-x-10">
-          500 successful cases · 7 years of hands-on experience
+          500个成功案例 · 7年实战经验
         </div>
       </motion.div>
     </section>

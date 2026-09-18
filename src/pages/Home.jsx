@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <PageLayout>
       <Seo
-        title="Immigration, Business & Financial Strategy for Global Talent"
-        description="Keystone Strategies provides integrated, end-to-end solutions for international professionals and growth-driven enterprises, spanning OPT, STEM OPT, H-1B, self-employment, and long-term immigration planning."
+        title="为全球人才提供移民、商业与财务战略"
+        description="Keystone Strategies 为国际专业人才与成长型企业提供一体化、全流程解决方案，涵盖OPT、STEM OPT、H-1B、自雇创业以及长期移民规划。"
         path="/"
       />
       <Hero />

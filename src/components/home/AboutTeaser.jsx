@@ -16,21 +16,18 @@ export default function AboutTeaser() {
           className="lg:col-span-3"
         >
           <h2 className="text-3xl font-bold leading-tight text-keystone-ink md:text-4xl">
-            About Keystone Strategies
+            关于 Keystone Strategies
           </h2>
           <p className="mt-5 leading-relaxed text-muted-foreground">
-            Keystone Strategies is dedicated to helping global talents and entrepreneurs build
-            lasting foundations and professional trajectories in the United States.
+            Keystone Strategies 致力于帮助全球人才与创业者，在美国建立持久的根基与职业发展轨迹。
           </p>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            We combine deep understanding of U.S. immigration pathways, business development, and
-            industry-specific challenges with over 500 successful cases and 7 years of hands-on
-            experience. Our goal is to design customized, compliant solutions that simplify
-            complex processes, eliminate detours, and accelerate your path to success.
+            我们将对美国移民路径、商业发展及行业特定挑战的深刻理解，与超过500个成功案例及7年的实战经验相结合。
+            我们的目标是设计定制化、合规的解决方案，简化复杂流程、减少弯路，加速您通往成功的道路。
           </p>
           <Button asChild variant="outline" className="mt-8">
             <Link to="/about-us">
-              Learn More About Us
+              了解更多关于我们
               <ArrowRight className="h-4 w-4" />
             </Link>
           </Button>
@@ -46,15 +43,15 @@ export default function AboutTeaser() {
           <div className="aspect-square overflow-hidden rounded-2xl shadow-lg">
             <img
               src={aboutKeystoneBackground}
-              alt="Keystone Strategies reception desk"
+              alt="Keystone Strategies 前台"
               loading="lazy"
               draggable={false}
               className="pointer-events-none h-full w-full select-none object-cover"
             />
           </div>
           <div className="absolute -bottom-5 -left-5 rounded-xl bg-white px-5 py-3 shadow-md">
-            <p className="text-2xl font-bold text-primary">7+ yrs</p>
-            <p className="text-xs text-muted-foreground">hands-on experience</p>
+            <p className="text-2xl font-bold text-primary">7年+</p>
+            <p className="text-xs text-muted-foreground">实战经验</p>
           </div>
         </motion.div>
       </div>

@@ -3,97 +3,97 @@
 // for a given service only has to change in one place.
 export const serviceGroups = [
   {
-    heading: "Immigration & Mobility Advisory",
-    count: "4 services",
-    cta: "Explore Mobility Advisory",
+    heading: "移民与身份规划咨询",
+    count: "4项服务",
+    cta: "了解身份规划服务",
     summary:
-      "OPT and STEM OPT employer compliance, founder-led H-1B structuring, and long-term green card planning.",
+      "OPT与STEM OPT雇主合规、创始人主导的H-1B架构设计，以及长期绿卡规划。",
     sourceFile: "pouria-UENYI2DL1RA-unsplash.jpg",
     items: [
       {
-        label: "OPT Status & Employment Support",
+        label: "OPT身份与就业支持",
         href: "/opt-status-safeguard",
-        description: "Support for compliant OPT employment arrangements, documentation, and status continuity throughout the OPT period.",
+        description: "为OPT期间的合规就业安排、材料准备与身份延续提供全程支持。",
       },
       {
-        label: "STEM OPT Employer Compliance",
+        label: "STEM OPT雇主合规",
         href: "/stem-opt-employer-compliance-training",
-        description: "Employer compliance support covering E-Verify, Form I-983, training, supervision, and ongoing STEM OPT requirements.",
+        description: "涵盖E-Verify、I-983表格、培训与监督等STEM OPT雇主合规全流程支持。",
       },
       {
-        label: "Self-Employed H-1B Planning",
+        label: "自雇型H-1B规划",
         href: "/employment-visa-position-petition-planning",
-        description: "Employer structure, business operations, and position planning designed to support a founder-led H-1B pathway.",
+        description: "为创始人主导的H-1B路径设计雇主架构、企业运营与职位规划。",
       },
       {
-        label: "EB-2 / EB-3 Green Card Planning",
+        label: "EB-2 / EB-3 绿卡规划",
         href: "/eb-2-eb-3-green-card-planning",
-        description: "Employer and position planning for a structured, long-term EB-2 or EB-3 employment-based green card pathway.",
+        description: "为长期、结构化的EB-2或EB-3职业绿卡路径提供雇主与职位规划。",
       },
     ],
   },
   {
-    heading: "Business Infrastructure & Operations",
-    count: "5 services",
-    cta: "Explore Business Infrastructure",
+    heading: "企业架构与运营",
+    count: "5项服务",
+    cta: "了解企业架构服务",
     summary:
-      "Entity formation, banking, tax infrastructure, governance, and brand presence for a real U.S. business.",
+      "涵盖公司注册、银行开户、财税体系、公司治理与品牌建设，打造真实运营的美国企业。",
     sourceFile: "helen-cramer-ljXkKfbOlXs-unsplash.jpg",
     items: [
       {
-        label: "Company Formation & Corporate Structure",
+        label: "公司注册与架构设计",
         href: "/company-formation-corporate-structure",
-        description: "Establish the legal entity, ownership structure, and foundational corporate framework for a U.S. business.",
+        description: "为美国企业搭建法律实体、股权结构与基础公司架构。",
       },
       {
-        label: "Business Bank Account Setup Support",
+        label: "企业银行账户开设支持",
         href: "/business-bank-account-setup",
-        description: "Support the setup of business banking and payment infrastructure needed for day-to-day company operations.",
+        description: "协助搭建日常运营所需的企业银行与支付体系。",
       },
       {
-        label: "Business Finance & Tax Infrastructure",
+        label: "企业财税体系搭建",
         href: "/business-tax-financial-management",
-        description: "Build the financial, tax, and recordkeeping foundation required for compliant and sustainable business operations.",
+        description: "建立合规、可持续运营所需的财务、税务与记账基础。",
       },
       {
-        label: "Corporate Governance & Ongoing Compliance",
+        label: "公司治理与持续合规",
         href: "/business-operations-setup",
-        description: "Establish governance documents, internal policies, and operating processes that support consistent business management.",
+        description: "制定治理文件、内部制度与运营流程，支持企业规范化管理。",
       },
       {
-        label: "Brand & Digital Presence",
+        label: "品牌与线上形象建设",
         href: "/corporate-website-brand-development",
-        description: "Build a credible business presence through brand identity, domain, business email, website, and core digital assets.",
+        description: "通过品牌形象、域名、企业邮箱、官网等核心数字资产，建立可信的企业形象。",
       },
     ],
   },
   {
-    heading: "Employment & Workforce Compliance",
-    count: "4 services",
-    cta: "View Workforce Compliance",
+    heading: "雇佣与劳工合规",
+    count: "4项服务",
+    cta: "了解劳工合规服务",
     summary:
-      "Employer registration, hiring systems, payroll administration, and workplace policy compliance.",
+      "涵盖雇主注册、招聘体系、薪资管理与职场制度合规。",
     sourceFile: "traf-4k3jBXHMEwo-unsplash.jpg",
     items: [
       {
-        label: "Employment Eligibility & Employer Registration",
+        label: "雇佣资格与雇主注册",
         href: "/e-verify-employer-account-setup",
-        description: "Establish the employer registrations and verification systems required to hire and maintain a compliant workforce.",
+        description: "建立招聘与维持合规员工所需的雇主注册与核验体系。",
       },
       {
-        label: "Hiring & Onboarding Systems",
+        label: "招聘与入职体系",
         href: "/employee-onboarding-compliance",
-        description: "Build standardized hiring, documentation, and onboarding processes for consistent and compliant employee integration.",
+        description: "搭建标准化的招聘、文件与入职流程，确保员工合规、稳定融入。",
       },
       {
-        label: "Payroll & Employment Administration",
+        label: "薪资与雇佣管理",
         href: "/payroll-payroll-tax-management",
-        description: "Establish payroll and employment administration processes for accurate compensation, tax handling, and employee records.",
+        description: "建立薪资与雇佣管理流程，确保薪酬发放、税务处理与员工档案准确无误。",
       },
       {
-        label: "Employee Policies & Workplace Compliance",
+        label: "员工制度与职场合规",
         href: "/employee-policies-workplace-compliance",
-        description: "Develop workplace policies, employee guidelines, and compliance practices that support responsible workforce management.",
+        description: "制定职场制度、员工守则与合规实践，支持负责任的团队管理。",
       },
     ],
   },
@@ -104,15 +104,15 @@ export const serviceGroups = [
 // service section.
 export const featuredServices = [
   {
-    label: "H-1B Infinity Plan",
+    label: "H-1B无限续航计划",
     href: "/h-1b-status-protection-program",
     description:
-      "A structured pathway to secure and maintain H-1B status through compliant employer planning and ongoing support.",
+      "通过合规的雇主规划与持续支持，助您获取并长期维持H-1B身份的结构化方案。",
   },
   {
-    label: "STEM OPT Ready Plan",
+    label: "STEM OPT就绪计划",
     href: "/stem-opt-ready-plan",
     description:
-      "An employer-readiness solution designed to support compliant STEM OPT employment and extension requirements.",
+      "面向雇主就绪的解决方案，支持合规的STEM OPT就业与延期需求。",
   },
 ];

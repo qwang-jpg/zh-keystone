@@ -12,22 +12,22 @@ const allServiceLinks = [
 ];
 
 const navLinks = [
-  { label: "Our Cases", href: "/our-cases" },
-  { label: "About Us", href: "/about-us" },
-  { label: "Insights", href: "/insights" },
+  { label: "成功案例", href: "/our-cases" },
+  { label: "关于我们", href: "/about-us" },
+  { label: "行业洞察", href: "/insights" },
 ];
 
 // Separate from the marketing nav above: this is a login entry point for
 // existing clients, not a page for prospects, so it's styled as a smaller
 // secondary link next to the language switcher instead of sitting among
 // About Us / Insights.
-const clientPortalLink = { label: "Client Portal", href: "/client-portal" };
+const clientPortalLink = { label: "客户门户", href: "/client-portal" };
 
-// The site itself is English-only; "中文" links out to Keystone's separate
-// Chinese-language site. More languages can be appended here later.
+// The site itself is Chinese-only; "EN" links out to Keystone's separate
+// English-language site. More languages can be appended here later.
 const languages = [
-  { code: "EN", label: "English", current: true },
-  { code: "中文", label: "中文", href: "https://pathway.keystonestrategies.us/", external: true },
+  { code: "中文", label: "中文", current: true },
+  { code: "EN", label: "English", href: "https://keystonestrategies.us/", external: true },
 ];
 
 export default function Header() {
@@ -125,7 +125,7 @@ export default function Header() {
                   isServiceActive ? "text-primary" : "text-keystone-ink/80"
                 )}
               >
-                Service
+                服务
                 <ChevronDown
                   className={cn("h-3.5 w-3.5 transition-transform", servicesOpen && "rotate-180")}
                 />
@@ -139,7 +139,7 @@ export default function Header() {
                 <div className="container grid grid-cols-4 gap-10 py-10">
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-wide text-primary">
-                      Featured Solutions
+                      核心方案
                     </p>
                     <div className="mt-4 flex flex-col gap-3">
                       {featuredServices.map((s) => (
@@ -235,11 +235,11 @@ export default function Header() {
                 type="button"
                 onClick={() => setLangOpen(true)}
                 className="flex items-center gap-1 text-sm font-medium text-keystone-ink/70 transition-colors hover:text-primary"
-                aria-label="Change language"
+                aria-label="切换语言"
                 aria-haspopup="true"
                 aria-expanded={langOpen}
               >
-                EN
+                中文
                 <ChevronDown className={cn("h-3.5 w-3.5 transition-transform", langOpen && "rotate-180")} />
               </button>
               <div
@@ -275,7 +275,7 @@ export default function Header() {
             </div>
 
             <Button asChild size="default">
-              <Link to="/contact">Free Consultation</Link>
+              <Link to="/contact">预约免费咨询</Link>
             </Button>
           </div>
         </div>
@@ -283,7 +283,7 @@ export default function Header() {
         <button
           className="lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-md text-keystone-ink"
           onClick={() => setMobileOpen((v) => !v)}
-          aria-label="Toggle navigation menu"
+          aria-label="切换导航菜单"
         >
           {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
@@ -303,7 +303,7 @@ export default function Header() {
               className="flex items-center justify-between py-3 text-base font-medium text-keystone-ink/80 border-b border-border/60"
               onClick={() => setMobileServicesOpen((v) => !v)}
             >
-              Service
+              服务
               <ChevronDown className={cn("h-4 w-4 transition-transform", mobileServicesOpen && "rotate-180")} />
             </button>
             {mobileServicesOpen && (
@@ -349,7 +349,7 @@ export default function Header() {
 
             <Button asChild className="mt-4 w-full">
               <Link to="/contact" onClick={() => setMobileOpen(false)}>
-                Free Consultation
+                预约免费咨询
               </Link>
             </Button>
 

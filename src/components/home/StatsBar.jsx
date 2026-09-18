@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
 const stats = [
-  { target: 1200, suffix: "+", label: "clients supported across immigration and business" },
-  { target: 80, suffix: "+", label: "startups incubated across tech, education, and e-commerce" },
-  { target: 60, suffix: "+", label: "cross-functional consultants supporting every engagement" },
-  { target: 84.8, suffix: "%", label: "retention rate with long-term client partnerships", decimals: true },
+  { target: 1200, suffix: "+", label: "位客户获得移民与商业支持" },
+  { target: 80, suffix: "+", label: "家企业获科技、教育、电商领域孵化支持" },
+  { target: 60, suffix: "+", label: "位跨领域顾问参与每一次服务" },
+  { target: 84.8, suffix: "%", label: "长期客户续约率", decimals: true },
 ];
 
 function format({ target, suffix, decimals }, t) {

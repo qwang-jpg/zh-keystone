@@ -11,7 +11,7 @@ const schema = {
   url: SITE_URL,
   logo: `${SITE_URL}/Icon.png`,
   description:
-    "Integrated immigration, business formation, and financial strategy for international professionals and growth-driven enterprises, spanning OPT, STEM OPT, H-1B, self-employment, and long-term immigration planning.",
+    "为国际专业人才与成长型企业提供一体化的移民、公司注册与财务战略，涵盖OPT、STEM OPT、H-1B、自雇创业以及长期移民规划。",
   telephone: "+1-646-294-7091",
   email: "contact@keystonestrategies.us",
   areaServed: "US",

@@ -27,14 +27,14 @@ export default function CoreServices() {
       <div className="container">
         <div className="flex flex-wrap items-end justify-between gap-7">
           <SectionHeading
-            title="Our Services"
-            description="From company formation to long-term immigration status protection, our services cover every stage of your journey with both professionalism and execution."
+            title="我们的服务"
+            description="从公司注册到长期身份保障，我们的服务专业且高效地覆盖您旅程的每一个阶段。"
             align="left"
             className="max-w-xl"
           />
           <Button asChild>
             <Link to="/contact">
-              Tell Us Your Concern
+              告诉我们您的需求
               <MessageCircle className="h-4 w-4" />
             </Link>
           </Button>
@@ -49,7 +49,7 @@ export default function CoreServices() {
                 className="group relative flex flex-col gap-4 overflow-hidden bg-white p-8 transition-colors hover:bg-keystone-mist"
               >
                 <span className="absolute -right-12 top-6 w-44 rotate-45 bg-keystone-green py-1.5 text-center text-[11px] font-bold uppercase tracking-wider text-white shadow-md">
-                  Core Service
+                  核心服务
                 </span>
                 <span className="text-sm font-bold tracking-wide text-keystone-ink/35">0{i + 1}</span>
                 <div>
@@ -61,7 +61,7 @@ export default function CoreServices() {
                   </p>
                 </div>
                 <span className="mt-1 inline-flex w-fit items-center gap-1 text-sm font-semibold text-primary">
-                  Explore the plan
+                  查看详情
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </span>
               </Link>
