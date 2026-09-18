@@ -1,9 +1,9 @@
 import AnimatedStatsBar from "@/components/common/AnimatedStatsBar";
 
 const stats = [
-  { value: "3+", label: "Dedicated Consultations Per Job Description Buildout" },
-  { value: "100%", label: "USCIS Employer Account Registrations Completed" },
-  { value: "2", label: "Visa Pathways Planned On Average Per Client" },
+  { value: "3+", label: "次专属咨询用于搭建每一份职位描述" },
+  { value: "100%", label: "完成USCIS雇主账户注册" },
+  { value: "2", label: "平均每位客户规划的签证路径数量" },
 ];
 
 export default function StatsBar() {

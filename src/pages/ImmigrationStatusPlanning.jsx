@@ -13,8 +13,8 @@ export default function ImmigrationStatusPlanning() {
   return (
     <PageLayout>
       <Seo
-        title="Employment Visa Position & Petition Planning"
-        description="Keystone Strategies structures the position, employer relationship, and petition materials behind H-1B and other employment-based visa filings, including founder-led, self-sponsored companies, then coordinates directly with immigration counsel."
+        title="自雇型H-1B规划"
+        description="Keystone Strategies 为H-1B及其他职业类签证申请搭建职位架构、雇主关系与申请材料，包括创始人主导的自雇型公司，并直接与移民律师协调对接。"
         path="/employment-visa-position-petition-planning"
       />
       <Hero />

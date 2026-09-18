@@ -3,45 +3,45 @@ import TabbedTestimonials from "@/components/common/TabbedTestimonials";
 const testimonials = [
   {
     name: "Jason Liu",
-    role: "Founder, AI Content Tools Company",
-    headline: "From F-1 Startup Attempt to a Completed Funding Round",
-    quote: "Keystone helped me turn a vague idea into a company that was truly ready to raise capital.",
-    body: "I tried to start a business on F-1 status and kept running into roadblocks — until Keystone stepped in and mapped out a complete path covering status compliance, company registration, equity structure, and funding preparation. With their support, I successfully obtained H-1B status and closed my first funding round within a year and a half of starting the company. We now have three full-time employees and our business keeps growing. Keystone isn't just a paperwork service — they're a partner who truly understands the intersection of entrepreneurship and immigration status, and who stays with you for the long run.",
+    role: "创始人，AI内容工具公司",
+    headline: "从F-1创业尝试到完成融资轮次",
+    quote: "Keystone帮助我把一个模糊的想法，变成了一家真正具备融资能力的公司。",
+    body: "我曾尝试以F-1身份创业，却屡屡碰壁——直到Keystone介入，为我规划出涵盖身份合规、公司注册、股权架构与融资准备的完整路径。在他们的支持下，我成功获得了H-1B身份，并在创业一年半内完成了首轮融资。如今我们已有三名全职员工，业务持续增长。Keystone不只是一项文书服务，更是真正理解创业与移民身份交汇点、并愿意长期陪伴的合作伙伴。",
   },
   {
     name: "Cecilia Yan",
-    role: "Founder, Education Consulting",
-    headline: "From an Education Service Prototype to a Million-Dollar Startup",
-    quote: "From positioning the product to designing our status structure, they were involved in every step — it felt like building the company together.",
-    body: "My co-founder and I started with nothing more than a prototype for an education service — we knew almost nothing about company registration, business models, compliance agreements, or status requirements. Keystone stepped in early on and delivered a complete execution plan, from market positioning and service packaging to contract templates, our website build, and marketing. When we later hired international team members, they also helped us sort out OPT, H-1B, and other status arrangements. We passed $1 million in revenue in our very first year. Keystone isn't an agency that just \"hands you templates\" — they're a genuine partner who builds the system with you, step by step, and sees it through to execution.",
+    role: "创始人，教育咨询公司",
+    headline: "从教育服务雏形到百万美元营收的创业公司",
+    quote: "从产品定位到身份架构设计，他们全程参与每一步——感觉就像在共同搭建这家公司。",
+    body: "我和联合创始人最初只有一个教育服务的雏形——对公司注册、商业模式、合规协议或身份要求几乎一无所知。Keystone很早就介入，为我们提供了完整的执行方案，从市场定位、服务打包，到合同模板、网站搭建与市场推广。后来我们招聘国际团队成员时，他们也帮我们理清了OPT、H-1B等身份安排。我们在创立第一年就突破了一百万美元营收。Keystone不是那种只“甩给你模板”的机构，而是真正与你一步步共同搭建体系、并跟进到底的合作伙伴。",
   },
   {
     name: "Kevin He",
-    role: "NYU | M.S. in Data Science",
-    headline: "From STEM OPT Unemployment to an H-1B Selection and On to a Green Card",
+    role: "纽约大学 | 数据科学硕士",
+    headline: "从STEM OPT失业到H-1B中签并迈向绿卡",
     quote: null,
-    body: "\"As an international student on STEM OPT, my company made it clear they wouldn't sponsor an H-1B. With only a year of eligibility left, the risk of unemployment and the anxiety over my status were almost suffocating. Keystone helped me find a clear direction, planning every step ahead of time, from forming a company to preparing my petition materials. I was selected in the lottery last April, completed my change of status in October, and we're now moving forward with my green card. That's when I realized there really was another path to staying in the U.S.\"",
+    body: "\"作为一名STEM OPT身份的国际学生，我的公司明确表示不会担保H-1B。当时只剩一年的资格期限，失业风险和身份焦虑几乎让我喘不过气。Keystone帮我找到了清晰的方向，提前规划好每一步——从公司注册到申请材料准备。我在去年四月的抽签中中签，十月完成了身份转换，现在正在推进绿卡进程。那一刻我才真正意识到，留在美国真的还有另一条路可走。\"",
   },
   {
     name: "Zach Zhang",
-    role: "Founder, E-commerce Logistics Consulting",
-    headline: "From Idea to Funding | Building the Full Startup Structure, Model, and Materials",
+    role: "创始人，电商物流咨询公司",
+    headline: "从一个想法到获得融资｜搭建完整的创业架构、模式与材料",
     quote: null,
-    body: "\"I started out with just a business direction — I hadn't even registered a company yet. Keystone helped me work through my business model step by step, built out my equity structure and financial model, and prepared the materials I needed to meet with investors. Six months after launch, I secured $400,000 in investment from two angel investors. I wouldn't have gotten here without Keystone.\"",
+    body: "\"我最初只有一个业务方向——公司都还没有注册。Keystone帮我一步步理清商业模式，搭建股权架构与财务模型，并准备好与投资人会面所需的材料。上线六个月后，我从两位天使投资人处获得了40万美元投资。没有Keystone，我不可能走到这一步。\"",
   },
   {
     name: "Mandy Rao",
-    role: "Business Analyst | Founder, Consulting Firm",
-    headline: "From an H-1B Layoff to Founding My Own Company and Keeping My Status",
+    role: "商业分析师｜创始人，咨询公司",
+    headline: "从H-1B被裁员到创立自己的公司并保住身份",
     quote: null,
-    body: "\"The day I was laid off, I had just 40 days to find a new job. I hit dead end after dead end, and the pressure on my status was enormous. Keystone got my company registered within that tight window and quickly stabilized my status. But they didn't stop at solving the status problem — they walked with me step by step as I built my business: how to pitch investors, how to build a pitch deck, how to set up a website, what to put in an operations manual, how to land my first clients. The company is now consistently profitable, and I've gone from a laid-off employee to a founder with a team and real revenue. Keystone opened up a completely different future for me.\"",
+    body: "\"被裁员当天，我只剩40天时间找新工作。我四处碰壁，身份带来的压力巨大。Keystone在这段紧张的时间窗口内帮我完成了公司注册，迅速稳定了我的身份。但他们并没有止步于解决身份问题——从如何向投资人推介、如何制作路演材料，到如何搭建网站、运营手册该写什么、如何拿下第一批客户，他们一路陪伴我搭建业务。公司现在持续盈利，我也从一名被裁员工，变成了拥有团队和真实营收的创始人。Keystone为我打开了一个完全不同的未来。\"",
   },
 ];
 
 export default function Testimonials() {
   return (
     <TabbedTestimonials
-      title="What Our Clients Say About Us"
+      title="客户真实评价"
       stories={testimonials}
     />
   );

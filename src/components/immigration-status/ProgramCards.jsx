@@ -6,57 +6,57 @@ import SectionHeading from "@/components/common/SectionHeading";
 const modules = [
   {
     icon: FileSearch,
-    title: "Registration & Filing Readiness",
+    title: "注册与递交准备",
     description:
-      "We walk you through the Cap Registration / Transfer process and policy landscape, then register your USCIS Organizational or Employer Account correctly the first time.",
+      "我们为您详解抽签注册/转移流程与政策环境，并一次性正确完成USCIS机构或雇主账户注册。",
     items: [
-      "Registration process & policy interpretation consultation",
-      "Document checklist covering company and personal materials",
-      "USCIS Organizational / Employer Account registration",
-      "Registration filing guidance and key-step reminders",
+      "注册流程与政策解读咨询",
+      "涵盖公司与个人材料的文件清单",
+      "USCIS机构/雇主账户注册",
+      "注册递交指导与关键步骤提醒",
     ],
   },
   {
     icon: Briefcase,
-    title: "Position & Job Description Design",
+    title: "职位与岗位描述设计",
     description:
-      "We match the role to your professional background and the company's real business, then design a job description built to withstand review.",
+      "我们根据您的专业背景与公司真实业务匹配职位，并设计经得起审查的岗位描述。",
     items: [
-      "Position matching based on background and business scope",
-      "\"Job Duties + SOC Proposal\" document, finalized over two consultations",
-      "Company business scope and position relevance analysis",
+      "基于背景与业务范围的职位匹配",
+      "《岗位职责+SOC分类建议》文档，通过两次咨询定稿",
+      "公司业务范围与职位相关性分析",
     ],
   },
   {
     icon: Users2,
-    title: "Founder-Led Employer-Employee Relationship Compliance",
+    title: "创始人主导的雇佣关系合规",
     description:
-      "We structure the compliance framework that shows a genuine, USCIS-recognized employment relationship, including the added scrutiny that applies when you're both the sponsor and the beneficiary.",
+      "我们搭建能够证明真实、获USCIS认可的雇佣关系的合规框架，涵盖您既是担保方又是受益人时所面临的额外审查。",
     items: [
-      "Employer-employee relationship compliance structuring (2 consultations)",
-      "Independent hiring, firing, and pay-setting authority documented for founder-led sponsors",
-      "Corporate governance separation guidance (board or officer oversight) where a self-sponsored structure requires it",
+      "雇佣关系合规架构搭建（2次咨询）",
+      "为创始人担保方记录独立的招聘、解雇与薪资决定权",
+      "在自雇架构需要时，提供公司治理分离指导（董事会或高管监督）",
     ],
   },
   {
     icon: HandshakeIcon,
-    title: "Petition Prep & Attorney Coordination",
+    title: "申请材料准备与律师协调",
     description:
-      "We prepare the company-side materials and guide communication with your immigration attorney through filing.",
+      "我们准备公司端材料，并指导您与移民律师沟通，直至完成递交。",
     items: [
-      "Petition company-materials preparation (2 consultations)",
-      "Guidance communicating with counsel and submitting materials (3 consultations, plus Q&A while pending)",
-      "Connection to a professional immigration attorney for petition filing, where applicable",
+      "申请公司材料准备（2次咨询）",
+      "与律师沟通及材料提交指导（3次咨询，加上待审期间的持续答疑）",
+      "在适用情况下，为您对接专业移民律师完成申请递交",
     ],
   },
   {
     icon: Landmark,
-    title: "Long-Term Pathway Planning",
+    title: "长期路径规划",
     description:
-      "For clients thinking beyond their current visa, we introduce the employment-based green card landscape.",
+      "对于希望超越现有签证做长远打算的客户，我们会介绍职业类绿卡的整体路径。",
     items: [
-      "EB-2 / EB-3 basic policy interpretation, with ongoing policy updates",
-      "Dedicated consultation on the EB-2 / EB-3 process and major stages",
+      "EB-2/EB-3基础政策解读，并持续更新政策动态",
+      "针对EB-2/EB-3流程与主要阶段的专属咨询",
     ],
   },
 ];
@@ -67,8 +67,8 @@ export default function ProgramCards() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="What's Included"
-          description="From registration through petition filing and a look ahead to long-term green card planning, every module below is scoped to a specific stage of the process."
+          title="服务内容"
+          description="从注册到申请递交，再到展望长期绿卡规划，以下每个模块都对应流程中的一个具体阶段。"
         />
 
         <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -97,7 +97,7 @@ export default function ProgramCards() {
                   ))}
                 </ul>
                 <Link to="/contact" className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-primary">
-                  Talk to an Expert Today
+                  立即咨询专家
                   <ArrowUpRight className="h-4 w-4" />
                 </Link>
               </motion.div>

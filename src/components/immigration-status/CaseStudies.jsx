@@ -4,23 +4,23 @@ import ImagePlaceholder from "@/components/common/ImagePlaceholder";
 
 const cases = [
   {
-    tag: "Position & Petition Planning",
-    title: "H-1B Petition Planning",
-    headline: "Helped 300+ Clients Build Petition-Ready Positions",
-    tags: ["Job Description Design", "Registration", "Employer Compliance", "Attorney Coordination"],
+    tag: "职位与申请规划",
+    title: "H-1B申请规划",
+    headline: "已帮助300多位客户搭建具备申请条件的职位",
+    tags: ["岗位描述设计", "注册", "雇主合规", "律师协调"],
     paragraphs: [
-      "Whether a client is transferring an existing H-1B, registering for the first time, or building a role around a founder-owned company, we start with the same question: does this position genuinely require this person? From there we design the job duties and SOC classification, structure the employer-employee relationship, and prepare the company-side materials counsel needs to file.",
-      "To date, we've helped more than 300 clients build positions that held up through registration, RFEs, and final adjudication.",
+      "无论客户是在转移现有H-1B、首次注册，还是围绕创始人自有公司搭建职位，我们始终从同一个问题出发：这份职位是否真的需要这个人？在此基础上，我们设计岗位职责与SOC分类，搭建雇佣关系架构，并准备好律师递交所需的公司端材料。",
+      "迄今为止，我们已帮助300多位客户搭建出经得起注册、补件通知乃至最终裁决考验的职位。",
     ],
     sourceFile: "helen-cramer-ljXkKfbOlXs-unsplash.jpg",
   },
   {
-    tag: "Long-Term Pathway Planning",
-    title: "Employment-Based Green Card Planning",
-    headline: "Mapped EB-2 / EB-3 Pathways Alongside an Active H-1B Case",
-    tags: ["EB-2 / EB-3", "Long-Term Planning", "Policy Interpretation"],
+    tag: "长期路径规划",
+    title: "职业类绿卡规划",
+    headline: "在H-1B案件推进的同时，规划好EB-2/EB-3路径",
+    tags: ["EB-2/EB-3", "长期规划", "政策解读"],
     paragraphs: [
-      "For clients who want to see past their current visa, we introduce the EB-2 / EB-3 employment-based green card process early, walking through the major stages and how they interact with an existing H-1B timeline. Clients leave with a realistic view of what comes next and when to start planning for it.",
+      "对于希望超越现有签证做长远打算的客户，我们会及早介绍EB-2/EB-3职业类绿卡流程，详解主要阶段及其与现有H-1B时间线的衔接方式。客户由此能清楚了解接下来的走向，以及何时该开始规划。",
     ],
     sourceFile: "javier-miranda-AlJ9TQqeCV0-unsplash.jpg",
   },
@@ -30,7 +30,7 @@ export default function CaseStudies() {
   return (
     <section className="bg-white py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title="Keystone Strategies Success Stories" />
+        <SectionHeading align="left" title="Keystone Strategies 成功案例" />
 
         <div className="mt-16 space-y-16">
           {cases.map((c, i) => (

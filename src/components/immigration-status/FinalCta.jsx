@@ -3,21 +3,20 @@ import CompactCta from "@/components/common/CompactCta";
 export default function FinalCta() {
   return (
     <CompactCta
-      title="Build the Position Before You File the Petition"
+      title="在递交申请之前，先把职位搭建到位"
       description={
         <>
           <p>
-            A rushed job description or an unclear employer relationship is one of the most common reasons a
-            petition draws extra scrutiny. Getting the position right first makes everything downstream, filing,
-            RFE response, adjudication, move faster and with less risk.
+            仓促拟定的岗位描述或不清晰的雇佣关系，是申请招致额外审查最常见的原因之一。
+            先把职位做对，此后无论是递交、补件回复还是最终裁决，都能进展得更快、风险更低。
           </p>
           <p>
-            Keystone Strategies structures the position and compliance framework, then coordinates directly with
-            immigration counsel through filing, so the business and legal sides of your case move together.
+            Keystone Strategies 负责搭建职位与合规框架，随后直接与移民律师协调完成递交，
+            让您案件的商业与法律两端能够同步推进。
           </p>
         </>
       }
-      ctaLabel="Book a Petition Planning Consultation"
+      ctaLabel="预约申请规划咨询"
     />
   );
 }
