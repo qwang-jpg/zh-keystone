@@ -5,23 +5,21 @@ export default function StemHero() {
     <ServiceHero
       title={
         <>
-          Secure STEM OPT Status.
+          稳获STEM OPT身份。
           <br />
-          Compliant. Protected.
+          合规、有保障。
         </>
       }
-      subtitle="STEM OPT Status Protection Program"
+      subtitle="STEM OPT就绪计划"
       description={
         <>
-          STEM OPT is more than an extension application. It requires the right employer, the
-          right employment structure, and the right compliance framework working together.
-          Keystone Strategies helps international STEM graduates build the employer, employment,
-          training, documentation, and ongoing compliance structure needed to move forward with
-          STEM OPT — connecting employer eligibility, E-Verify, employment structure, Form I-983,
-          the STEM OPT application, and ongoing compliance into one coordinated solution.
+          STEM OPT不仅仅是一份延期申请。它需要正确的雇主、正确的雇佣架构，以及正确的合规框架
+          协同运作。Keystone Strategies帮助国际STEM毕业生搭建推进STEM OPT所需的雇主、雇佣、培训、
+          文件与持续合规架构——将雇主资格、E-Verify、雇佣架构、I-983表格、STEM OPT申请与持续合规，
+          整合为一套协同的解决方案。
         </>
       }
-      ctaLabel="Get My STEM OPT Assessment"
+      ctaLabel="获取我的STEM OPT评估"
     />
   );
 }

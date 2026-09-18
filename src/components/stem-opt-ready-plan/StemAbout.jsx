@@ -5,21 +5,21 @@ import { cn } from "@/lib/utils";
 const principles = [
   {
     icon: Link2,
-    title: "Employer, Employment & Training — Connected",
+    title: "雇主、雇佣与培训——环环相扣",
     description:
-      "We connect employer eligibility, E-Verify, position design, Form I-983, and ongoing compliance into one structured path.",
+      "我们将雇主资格、E-Verify、职位设计、I-983表格与持续合规，串联为一条结构化的路径。",
   },
   {
     icon: ShieldAlert,
-    title: "Built Around Your Situation",
+    title: "围绕您的实际情况搭建",
     description:
-      "Rather than treating each requirement as a separate task, every piece is designed around your actual employer and career situation.",
+      "我们不会把每项要求当作孤立的任务处理，而是围绕您真实的雇主与职业状况设计每一个环节。",
   },
   {
     icon: AlertTriangle,
-    title: "One Weak Link Can Affect Everything",
+    title: "一个薄弱环节足以影响全局",
     description:
-      "Our goal is to make sure the pieces are built to work together, so your status stays protected throughout the process.",
+      "我们的目标是确保各个环节能够协同运作，让您的身份在整个过程中始终受到保障。",
   },
 ];
 
@@ -30,8 +30,8 @@ export default function StemAbout() {
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
           <SectionHeading
             align="left"
-            title="About the STEM OPT Status Protection Program"
-            description="Keystone Strategies helps international STEM graduates build the employer, employment, training, documentation, and ongoing compliance structure needed to move forward with STEM OPT — not just the extension application itself."
+            title="关于STEM OPT身份保障计划"
+            description="Keystone Strategies帮助国际STEM毕业生搭建推进STEM OPT所需的雇主、雇佣、培训、文件与持续合规架构——而不仅仅是完成延期申请本身。"
             className="mx-0 max-w-none"
           />
 

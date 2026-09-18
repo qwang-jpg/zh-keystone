@@ -7,70 +7,70 @@ import { cn } from "@/lib/utils";
 
 const faqs = [
   {
-    question: "Can I apply for STEM OPT if my current employer is not enrolled in E-Verify?",
+    question: "如果我现在的雇主没有注册E-Verify，我还能申请STEM OPT吗？",
     answer: [
-      "STEM OPT employers must participate in E-Verify.",
-      "If your current employer is not enrolled, the first step is to confirm whether they are willing to enroll and support your STEM OPT application.",
-      "If they are unable or unwilling to do so, Keystone can help you evaluate alternative employment solutions based on your timeline and situation.",
+      "STEM OPT雇主必须参与E-Verify。",
+      "如果您现在的雇主尚未注册，第一步是确认他们是否愿意注册并支持您的STEM OPT申请。",
+      "如果他们无法或不愿意这样做，Keystone可以根据您的时间线与实际情况，帮您评估其他雇佣方案。",
     ],
   },
   {
-    question: "What if I was laid off and my unemployment clock is already running?",
+    question: "如果我被裁员、失业计时已经启动了怎么办？",
     answer: [
-      "The first priority is understanding how much unemployment time you have remaining and how quickly a new qualifying employment structure needs to be established.",
-      "Keystone will assess your current status, timeline, and employer situation, then identify the most appropriate path forward.",
-      "The earlier you act, the more flexibility you may have.",
+      "首要任务是了解您还剩多少失业时间，以及需要多快搭建出新的合规雇佣架构。",
+      "Keystone会评估您当前的身份、时间线与雇主情况，然后确定最合适的推进路径。",
+      "越早行动，您可能拥有的灵活空间就越大。",
     ],
   },
   {
-    question: "Can a startup or newly formed company support STEM OPT?",
+    question: "初创公司或新成立的公司能支持STEM OPT吗？",
     answer: [
-      "Yes, if the employer meets the applicable STEM OPT requirements.",
-      "A company's age or size is not, by itself, the determining factor.",
-      "The employer must be able to support a legitimate STEM OPT employment relationship, including E-Verify participation, qualifying employment, appropriate supervision and training, sufficient resources and personnel, and compliance with the Form I-983 training plan.",
+      "可以，只要该雇主满足适用的STEM OPT要求。",
+      "公司成立时间长短或规模大小，本身并非决定性因素。",
+      "雇主必须能够支撑真实合法的STEM OPT雇佣关系，包括参与E-Verify、符合条件的雇佣、适当的监督与培训、充足的资源与人员，以及遵守I-983培训计划的相关要求。",
     ],
   },
   {
-    question: "Can I use my own company for STEM OPT?",
+    question: "我能用自己的公司申请STEM OPT吗？",
     answer: [
-      "Potentially, but the structure must satisfy STEM OPT requirements.",
-      "Simply owning or forming a company is not enough. The company must be able to act as the employer, provide genuine supervision and training, and have an authorized employer representative other than the student complete the employer-side certifications.",
-      "Keystone can assess and structure the employment arrangement based on your specific situation.",
+      "有可能，但架构必须满足STEM OPT的相关要求。",
+      "仅仅拥有或创办一家公司是不够的。该公司必须能够真正作为雇主运作，提供真实的监督与培训，并由学生本人以外的授权雇主代表完成雇主端的各项认证。",
+      "Keystone可以根据您的具体情况评估并搭建相应的雇佣安排。",
     ],
   },
   {
-    question: "How early should I start preparing for STEM OPT?",
+    question: "我应该多早开始准备STEM OPT？",
     answer: [
-      "As early as possible, especially if your employer is not yet E-Verify enrolled or your employment structure still needs to be established.",
-      "Starting earlier gives you more time to address employer, position, supervision, documentation, and filing requirements before your deadline becomes restrictive.",
+      "越早越好，尤其是如果您的雇主尚未注册E-Verify，或者您的雇佣架构还有待搭建。",
+      "更早启动能让您有更多时间在截止日期变得紧迫之前，处理好雇主、职位、监督、文件与申请等各项要求。",
     ],
   },
   {
-    question: "What if my employer or employment situation changes during STEM OPT?",
+    question: "如果STEM OPT期间我的雇主或雇佣情况发生变化怎么办？",
     answer: [
-      "Employer changes and certain material changes to the training arrangement may require updated reporting or a new Form I-983.",
-      "Keystone can help you evaluate the change and update the employment and compliance structure when necessary.",
+      "更换雇主，以及培训安排中的某些重大变更，可能需要更新申报或重新提交I-983表格。",
+      "Keystone可以帮您评估这些变化，并在必要时更新雇佣与合规架构。",
     ],
   },
   {
-    question: "Does Keystone provide protection until my STEM OPT is approved?",
+    question: "Keystone会提供保障直到我的STEM OPT获批吗？",
     answer: [
-      "Yes.",
-      "For clients enrolled in the applicable program, our service agreement provides protection through STEM OPT approval, subject to the terms and responsibilities stated in the contract.",
-      "Our support does not end after company setup, E-Verify enrollment, Form I-983 preparation, or application submission. We support the covered process through STEM OPT approval.",
+      "会的。",
+      "对于加入相应计划的客户，我们的服务协议会提供保障，直至STEM OPT获批，具体以合同中列明的条款与责任为准。",
+      "我们的支持不会在公司搭建、E-Verify注册、I-983准备或申请递交后就结束。我们会持续支持相关流程，直至STEM OPT获批。",
     ],
   },
   {
-    question: "Can Keystone help me plan for H-1B after STEM OPT?",
+    question: "Keystone能帮我规划STEM OPT之后的H-1B吗？",
     answer: [
-      "Yes.",
-      "STEM OPT can provide valuable time to build U.S. work experience and prepare for the next stage of your immigration strategy.",
+      "可以。",
+      "STEM OPT能为您争取宝贵的时间，用于积累美国工作经验，并为移民策略的下一阶段做准备。",
       <>
-        Keystone also provides separate H-1B and employment-based green card planning services,
-        including the{" "}
-        <strong className="font-semibold text-keystone-ink">H-1B Infinity Plan</strong>.
+        Keystone还提供独立的H-1B与职业类绿卡规划服务，
+        包括{" "}
+        <strong className="font-semibold text-keystone-ink">H-1B无限续航计划</strong>。
       </>,
-      "STEM OPT protects your current path. The right strategy should also prepare for what comes next.",
+      "STEM OPT保障的是您当下的路径。而正确的策略，也应该为下一步做好准备。",
     ],
   },
 ];
@@ -83,7 +83,7 @@ export default function StemFaq() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="What You Should Know Before Building Your STEM OPT Path"
+          title="搭建STEM OPT路径之前，您应该了解的事项"
         />
 
         <div className="mt-12 grid grid-cols-1 gap-2.5 md:grid-cols-2">
@@ -124,7 +124,7 @@ export default function StemFaq() {
 
         <div className="mt-10 text-center">
           <Button asChild>
-            <Link to="/contact">Still have questions? Get answers &gt;&gt;</Link>
+            <Link to="/contact">还有更多问题？获取解答 &gt;&gt;</Link>
           </Button>
         </div>
       </div>

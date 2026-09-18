@@ -5,32 +5,32 @@ import ImagePlaceholder from "@/components/common/ImagePlaceholder";
 const requirements = [
   {
     number: "01",
-    title: "Employer Eligibility",
+    title: "雇主资格",
     description:
-      "Your employer needs the appropriate structure, business operations, and resources to support a real STEM OPT employment relationship.",
+      "您的雇主需要具备合适的架构、业务运营与资源，以支撑真实的STEM OPT雇佣关系。",
   },
   {
     number: "02",
-    title: "E-Verify Participation",
-    description: "The employer must meet the applicable E-Verify and STEM OPT participation requirements.",
+    title: "E-Verify参与",
+    description: "雇主必须满足适用的E-Verify与STEM OPT参与要求。",
   },
   {
     number: "03",
-    title: "Degree-to-Role Alignment",
+    title: "学位与职位对应",
     description:
-      "The position needs a clear relationship to the qualifying STEM degree and should reflect how your academic background will be applied and developed through the role.",
+      "职位需要与符合条件的STEM学位存在清晰关联，并体现您的学术背景将如何在该岗位中得到应用与发展。",
   },
   {
     number: "04",
-    title: "Supervision & Training Structure",
+    title: "监督与培训架构",
     description:
-      "STEM OPT is structured practical training. The employment arrangement should support genuine supervision, professional development, training, feedback, and evaluation throughout the STEM OPT period.",
+      "STEM OPT是结构化的实践培训。雇佣安排应在整个STEM OPT期间支持真实的监督、职业发展、培训、反馈与评估。",
   },
   {
     number: "05",
-    title: "Application & Ongoing Compliance",
+    title: "申请与持续合规",
     description:
-      "Form I-983, employer information, school reporting, STEM OPT application materials, and ongoing employment records should all reflect one consistent and supportable employment structure.",
+      "I-983表格、雇主信息、学校申报、STEM OPT申请材料以及持续的雇佣记录，都应体现同一套一致且经得起支撑的雇佣架构。",
   },
 ];
 
@@ -39,14 +39,13 @@ export default function EligibilityRequirements() {
     <section className="bg-white py-20 md:py-28">
       <div className="container">
         <SectionHeading
-          title="STEM OPT Requires More Than an Offer Letter"
+          title="STEM OPT需要的不只是一封Offer信"
           align="left"
           className="mx-0"
         />
 
         <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
-          A viable STEM OPT strategy depends on multiple pieces working together &mdash; employer,
-          position, supervision, training, and ongoing practice.
+          一套可行的STEM OPT策略，取决于雇主、职位、监督、培训与持续实践等多个环节能否协同运作。
         </p>
 
         <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-[1.15fr_1fr] lg:items-start">
@@ -82,10 +81,10 @@ export default function EligibilityRequirements() {
             />
             <div className="mt-4 rounded-2xl bg-keystone-ink p-6">
               <p className="text-sm font-semibold leading-relaxed text-white">
-                One weak link can affect the entire STEM OPT strategy.
+                一个薄弱环节，足以影响整个STEM OPT策略。
               </p>
               <p className="mt-2 text-sm leading-relaxed text-white/70">
-                Keystone helps make sure the pieces are built to work together.
+                Keystone帮助确保各个环节能够协同运作。
               </p>
             </div>
           </div>

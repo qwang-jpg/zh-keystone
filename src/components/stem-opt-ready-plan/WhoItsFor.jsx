@@ -6,26 +6,26 @@ import SectionHeading from "@/components/common/SectionHeading";
 const situations = [
   {
     icon: Building2,
-    title: "Your Current Employer Cannot Support STEM OPT",
+    title: "现任雇主无法支持STEM OPT",
     description:
-      "May not participate in E-Verify, be unfamiliar with STEM OPT, or lack the compliance structure needed.",
+      "可能未参与E-Verify、对STEM OPT不熟悉，或缺乏所需的合规架构。",
   },
   {
     icon: ArrowLeftRight,
-    title: "You Were Laid Off or Need to Change Employers",
+    title: "您被裁员或需要更换雇主",
     description:
-      "Unemployment days, reporting requirements, and application timing all need addressing at once.",
+      "失业天数、申报要求与申请时机，都需要同时兼顾处理。",
   },
   {
     icon: Clock,
-    title: "Your STEM OPT Deadline Is Approaching",
+    title: "STEM OPT截止日期临近",
     description:
-      "You may qualify but still lack an employment arrangement capable of supporting the application in time.",
+      "您可能符合资格，但仍缺乏能够及时支撑申请的雇佣安排。",
   },
   {
     icon: ShieldCheck,
-    title: "You Need a More Sustainable Employment Structure",
-    description: "A compliant structure that gives greater stability for your longer-term U.S. career.",
+    title: "您需要更可持续的雇佣架构",
+    description: "一套合规架构，为您更长远的美国职业发展提供更稳固的保障。",
   },
 ];
 
@@ -35,8 +35,8 @@ export default function WhoItsFor() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="Your STEM OPT Deadline Doesn't Wait for the Perfect Employer"
-          description="STEM OPT challenges often begin before the application itself. Whatever the situation, the real challenge is rarely just one form — it is making sure your employer, position, training structure, documentation, and timeline all work together."
+          title="STEM OPT截止日期不会等待理想雇主的出现"
+          description="STEM OPT的挑战往往在申请本身之前就已经开始。无论您处于哪种情况，真正的难点很少只是一份表格——而是确保雇主、职位、培训架构、文件与时间线能够协同运作。"
           className="max-w-3xl mx-0"
         />
 
@@ -59,7 +59,7 @@ export default function WhoItsFor() {
                 to="/contact"
                 className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-primary"
               >
-                Get Free Consultation
+                获取免费咨询
                 <ArrowUpRight className="h-3 w-3" strokeWidth={2.5} />
               </Link>
             </motion.div>
@@ -67,10 +67,10 @@ export default function WhoItsFor() {
         </div>
 
         <p className="mt-12 text-center text-base font-semibold leading-relaxed text-keystone-ink">
-          The goal isn&rsquo;t simply to complete a STEM OPT application.
+          目标不仅仅是完成一份STEM OPT申请。
           <br className="hidden sm:block" />{" "}
           <span className="font-medium text-muted-foreground">
-            The goal is to build a structure that can support your status.
+            目标是搭建一套能够支撑您身份的完整架构。
           </span>
         </p>
       </div>

@@ -6,66 +6,66 @@ import { cn } from "@/lib/utils";
 
 const tabs = [
   {
-    title: "Employer Setup & Eligibility",
-    intro: "Build the employer foundation required to support STEM OPT employment.",
+    title: "雇主搭建与资格",
+    intro: "搭建支撑STEM OPT雇佣所需的雇主基础。",
     items: [
-      "Company and employer structure",
-      "EIN and employer registration support",
-      "E-Verify enrollment support",
-      "Business infrastructure setup",
-      "Employer compliance framework",
-      "Operational readiness guidance",
+      "公司与雇主架构",
+      "EIN与雇主注册支持",
+      "E-Verify注册支持",
+      "企业基础设施搭建",
+      "雇主合规框架",
+      "运营就绪指导",
     ],
-    resultLabel: "The Objective",
+    resultLabel: "目标",
     result:
-      "Not simply to create an entity, but to establish an employer structure capable of supporting a legitimate employment relationship.",
+      "不仅仅是创建一个实体，而是搭建能够支撑合法雇佣关系的雇主架构。",
   },
   {
-    title: "Employment & Supervision Structure",
-    intro: "Turn the employer into a functioning STEM OPT employment environment.",
+    title: "雇佣与监督架构",
+    intro: "把雇主打造成一个真正运作的STEM OPT雇佣环境。",
     items: [
-      "Degree-to-role alignment",
-      "Position and responsibility design",
-      "Supervisor structure",
-      "Employment documentation",
-      "Onboarding framework",
-      "Payroll and employment-process guidance",
-      "Training and performance-management framework",
+      "学位与职位对应",
+      "职位与职责设计",
+      "主管架构",
+      "雇佣文件",
+      "入职框架",
+      "薪资与雇佣流程指导",
+      "培训与绩效管理框架",
     ],
-    resultLabel: "The Objective",
-    result: "Every component should reflect how the employee will actually work, develop, and be supervised.",
+    resultLabel: "目标",
+    result: "每一个环节都应真实反映员工将如何实际工作、成长与接受监督。",
   },
   {
-    title: "STEM OPT Application Support",
-    intro: "Translate the employment structure into a clear and consistent STEM OPT application.",
+    title: "STEM OPT申请支持",
+    intro: "把雇佣架构转化为一份清晰、一致的STEM OPT申请。",
     items: [
-      "Form I-983 Training Plan support",
-      "Degree-to-position alignment",
-      "Training goals and objectives",
-      "Supervision and evaluation framework",
-      "Application document checklist",
-      "Form I-765 preparation guidance",
-      "School and DSO process guidance",
-      "Pre-submission consistency review",
+      "I-983培训计划支持",
+      "学位与职位对应",
+      "培训目标与目的",
+      "监督与评估框架",
+      "申请文件清单",
+      "I-765表格准备指导",
+      "学校与DSO流程指导",
+      "递交前一致性审核",
     ],
-    resultLabel: "The Objective",
-    result: "The application is the documentation of the structure behind it — not a substitute for that structure.",
+    resultLabel: "目标",
+    result: "申请材料是背后架构的书面记录——而不是用来替代这套架构的东西。",
   },
   {
-    title: "Ongoing Status & Employer Compliance",
-    intro: "Continue protecting the structure after STEM OPT begins.",
+    title: "持续身份与雇主合规",
+    intro: "在STEM OPT开始后，持续保护这套架构。",
     items: [
-      "Employer reporting guidance",
-      "Material-change guidance",
-      "I-983 evaluation support",
-      "Employment documentation guidance",
-      "Payroll and operational compliance guidance",
-      "Employer-change support",
-      "Ongoing status planning",
-      "Future immigration strategy",
+      "雇主申报指导",
+      "重大变更指导",
+      "I-983评估支持",
+      "雇佣文件指导",
+      "薪资与运营合规指导",
+      "更换雇主支持",
+      "持续身份规划",
+      "未来移民策略",
     ],
-    resultLabel: "The Objective",
-    result: "Because STEM OPT compliance does not end when the application is filed.",
+    resultLabel: "目标",
+    result: "因为STEM OPT合规不会在申请递交后就结束。",
   },
 ];
 
@@ -78,8 +78,8 @@ export default function WhatYoullGet() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="One Program. A Complete STEM OPT Support Framework."
-          description="Keystone coordinates the employer, employment, application, and compliance components needed to build a sustainable STEM OPT solution."
+          title="一套计划，一整套完整的STEM OPT支持体系"
+          description="Keystone统筹雇主、雇佣、申请与合规各个环节，搭建可持续的STEM OPT解决方案。"
         />
 
         <div className="mt-10 flex flex-wrap gap-x-6 gap-y-2 border-b border-border">

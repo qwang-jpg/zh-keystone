@@ -1,58 +1,54 @@
 import SectionHeading from "@/components/common/SectionHeading";
 
 const support = [
-  "Employer Structure",
+  "雇主架构",
   "EIN",
   "E-Verify",
-  "Degree Alignment",
-  "Supervision Framework",
-  "Form I-983",
-  "School Docs",
-  "Application Prep",
+  "学位对应",
+  "监督框架",
+  "I-983表格",
+  "学校文件",
+  "申请准备",
 ];
 
 export default function CaseShare() {
   return (
     <section className="bg-keystone-mist py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title="When Time Is Limited, Structure Matters" />
+        <SectionHeading align="left" title="时间有限时，架构才是关键" />
 
         <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-[1.3fr_1fr] lg:items-start">
           <div className="rounded-2xl bg-white p-9 shadow-[0_1px_2px_rgba(16,36,31,.03),0_12px_28px_-10px_rgba(16,36,31,.1)]">
             <h3 className="text-lg font-bold leading-snug text-keystone-ink md:text-xl">
-              From an Unexpected Layoff to a Structured STEM OPT Path
+              从突如其来的裁员，到结构化的STEM OPT路径
             </h3>
 
-            <p className="mt-6 text-xs font-bold uppercase tracking-wider text-primary">The Situation</p>
+            <p className="mt-6 text-xs font-bold uppercase tracking-wider text-primary">面临的情况</p>
             <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
-              A STEM graduate faced an unexpected layoff while approaching an important STEM OPT
-              timeline. Without the previous employment arrangement, multiple pieces needed to be
-              rebuilt quickly &mdash; not just the application itself.
+              一位STEM毕业生在临近重要的STEM OPT时间节点时，突然遭遇裁员。失去原有的雇佣安排后，
+              多个环节都需要迅速重建——而不仅仅是申请本身。
             </p>
 
-            <p className="mt-5 text-xs font-bold uppercase tracking-wider text-primary">The Challenge</p>
+            <p className="mt-5 text-xs font-bold uppercase tracking-wider text-primary">面临的挑战</p>
             <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
-              The client needed an appropriate employer structure, E-Verify participation, a
-              degree-related position, supervision and training framework, Form I-983
-              documentation, school coordination, and STEM OPT application preparation. All of
-              these components needed to align within a limited period.
+              客户需要合适的雇主架构、E-Verify参与、与学位相关的职位、监督与培训框架、I-983文件、
+              学校协调，以及STEM OPT申请准备。所有这些环节都需要在有限的时间内协调一致。
             </p>
 
             <p className="mt-6 text-sm italic leading-relaxed text-muted-foreground">
-              This is the difference between completing individual tasks and managing the entire
-              STEM OPT solution.
+              这正是"完成单项任务"与"统筹整套STEM OPT解决方案"之间的区别。
             </p>
           </div>
 
           <div className="flex flex-col gap-5">
             <div className="rounded-2xl bg-keystone-ink p-7">
-              <span className="block text-4xl font-bold leading-none text-white">10 Days</span>
+              <span className="block text-4xl font-bold leading-none text-white">10天</span>
               <span className="mt-2 block text-xs leading-relaxed text-white/55">
-                From initial engagement to a structured STEM OPT filing path.
+                从最初接洽到搭建出结构化的STEM OPT申请路径。
               </span>
             </div>
             <div className="rounded-2xl bg-white p-6 shadow-[0_1px_2px_rgba(16,36,31,.03),0_12px_28px_-10px_rgba(16,36,31,.1)]">
-              <p className="text-xs font-bold uppercase tracking-wider text-primary">Keystone Support</p>
+              <p className="text-xs font-bold uppercase tracking-wider text-primary">Keystone提供的支持</p>
               <div className="mt-3.5 flex flex-wrap gap-2">
                 {support.map((s) => (
                   <span

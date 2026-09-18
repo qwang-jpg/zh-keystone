@@ -6,7 +6,7 @@ const steps = [
   { label: "OPT", current: false },
   { label: "STEM OPT", current: true },
   { label: "H-1B", current: false },
-  { label: "Green Card", current: false },
+  { label: "绿卡", current: false },
 ];
 
 export default function InfinityPlanCrossLink() {
@@ -15,13 +15,13 @@ export default function InfinityPlanCrossLink() {
       <div className="container">
         <div className="rounded-3xl bg-keystone-mist px-8 py-16 text-center md:px-14">
           <h2 className="mx-auto max-w-3xl text-2xl font-bold leading-tight text-keystone-ink md:text-3xl">
-            STEM OPT Is the Next Step &mdash; Not the Final Step
+            STEM OPT是下一步——而非终点
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-sm leading-relaxed text-muted-foreground md:text-base">
-            For many international professionals, STEM OPT creates something extremely valuable:{" "}
-            <strong className="font-bold text-keystone-ink">time.</strong> Time to build U.S. work
-            experience, strengthen your professional profile, develop a more sustainable
-            employment structure, and prepare for the next stage of your immigration strategy.
+            对许多国际专业人才而言，STEM OPT创造了一样极其宝贵的资源：{" "}
+            <strong className="font-bold text-keystone-ink">时间。</strong>
+            用这段时间积累美国工作经验、提升个人履历、打造更可持续的雇佣架构，
+            并为移民策略的下一阶段做好准备。
           </p>
 
           <div className="relative mx-auto mt-14 max-w-2xl">
@@ -31,7 +31,7 @@ export default function InfinityPlanCrossLink() {
                 <div key={s.label} className="flex w-[110px] flex-col items-center gap-3">
                   {s.current && (
                     <span className="-mt-6 rounded-full bg-primary/10 px-2.5 py-1 text-2xs font-bold uppercase tracking-wider text-primary">
-                      You Are Here
+                      您在这里
                     </span>
                   )}
                   <span
@@ -56,13 +56,12 @@ export default function InfinityPlanCrossLink() {
           </div>
 
           <p className="mx-auto mt-14 max-w-3xl text-sm leading-relaxed text-muted-foreground md:text-base">
-            Your STEM OPT solution should solve today&rsquo;s status problem without losing sight
-            of what comes next. For clients preparing beyond STEM OPT, we also provide dedicated
-            support for H-1B and employment-based green card planning.
+            您的STEM OPT方案应在解决当下身份问题的同时，不忘着眼于下一步。对于希望规划
+            STEM OPT之后路径的客户，我们也提供专门的H-1B与职业类绿卡规划支持。
           </p>
           <Button asChild size="lg" className="mt-8">
             <Link to="/h-1b-status-protection-program">
-              Explore H-1B Infinity Plan
+              了解H-1B无限续航计划
               <ArrowRight className="h-4 w-4 shrink-0" />
             </Link>
           </Button>

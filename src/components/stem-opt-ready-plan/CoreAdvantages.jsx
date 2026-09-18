@@ -5,21 +5,21 @@ import SectionHeading from "@/components/common/SectionHeading";
 const pillars = [
   {
     icon: Target,
-    title: "Outcome-Driven Protection",
+    title: "以结果为导向的保障",
     description:
-      "Our service is structured around your overall STEM OPT outcome rather than disconnected administrative tasks, with commitments documented in the service agreement.",
+      "我们的服务围绕您整体的STEM OPT结果构建，而非零散的行政任务，相关承诺均在服务协议中明确列明。",
   },
   {
     icon: LifeBuoy,
-    title: "End-to-End Status Support",
+    title: "端到端的身份支持",
     description:
-      "STEM OPT is an ongoing status, not a single event. Support extends from employer readiness through application preparation, reporting, and employer changes.",
+      "STEM OPT是一段持续的身份状态，而非一次性事件。支持贯穿雇主就绪、申请准备、申报及更换雇主的全过程。",
   },
   {
     icon: UserCheck,
-    title: "Proven Experience",
+    title: "经过验证的实战经验",
     description:
-      "Long-term U.S. education and career experience combined with practical experience supporting international, employer-based immigration strategies.",
+      "长期的美国教育与职业经验，结合支持国际人才与雇主类移民策略的实战经验。",
   },
 ];
 
@@ -34,7 +34,7 @@ export default function CoreAdvantages() {
         <SectionHeading
           align="left"
           light
-          title="Built to Secure and Sustain Your STEM OPT Status"
+          title="专为稳固并维持您的STEM OPT身份而搭建"
           className="max-w-2xl mx-0"
         />
 

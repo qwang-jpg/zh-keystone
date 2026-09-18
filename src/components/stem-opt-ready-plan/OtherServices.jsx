@@ -5,26 +5,26 @@ import ImagePlaceholder from "@/components/common/ImagePlaceholder";
 
 const services = [
   {
-    title: "STEM OPT Employer Compliance Training",
+    title: "STEM OPT雇主合规",
     description:
-      "Once your application is filed, we help make sure the employer side, job description, supervision, and ongoing status maintenance, stays genuinely compliant for the life of your extension.",
-    cta: "Explore STEM OPT Employer Compliance Training",
+      "申请递交后，我们帮您确保雇主一方、岗位描述、监督安排与持续身份维护，在整个延期期间都真正保持合规。",
+    cta: "了解STEM OPT雇主合规",
     href: "/stem-opt-employer-compliance-training",
     sourceFile: "thomas-habr-wprOCzLIEYI-unsplash.jpg",
   },
   {
-    title: "Employment Visa Position & Petition Planning",
+    title: "自雇型H-1B规划",
     description:
-      "When you're ready to plan your next step after STEM OPT, we help structure the position and petition strategy for H-1B and other employment-based visas.",
-    cta: "Explore Employment Visa Position & Petition Planning",
+      "当您准备规划STEM OPT之后的下一步时，我们帮您搭建面向H-1B及其他职业类签证的职位与申请策略。",
+    cta: "了解自雇型H-1B规划",
     href: "/employment-visa-position-petition-planning",
     sourceFile: "sam-jotham-sutharson-pjjVerDno5Q-unsplash.jpg",
   },
   {
-    title: "H-1B Status Protection Program",
+    title: "H-1B身份保障计划",
     description:
-      "Our flagship end-to-end plan to secure H-1B status and keep your career moving without Sponsor dependency.",
-    cta: "Explore the H-1B Status Protection Program",
+      "我们的旗舰端到端方案，助您稳获H-1B身份，让职业发展不再依赖雇主担保。",
+    cta: "了解H-1B身份保障计划",
     href: "/h-1b-status-protection-program",
     sourceFile: null,
   },
@@ -36,8 +36,8 @@ export default function OtherServices() {
       <div className="container">
         <SectionHeading
           align="left"
-          title="Other STEM OPT & H-1B Services"
-          description="Application support is one part of the picture, here's what most clients pair it with before and after filing."
+          title="其他STEM OPT与H-1B服务"
+          description="申请支持只是整体方案的一部分，以下是大多数客户在递交前后会一并选择的服务。"
         />
 
         <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-3">

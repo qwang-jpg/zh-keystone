@@ -3,16 +3,15 @@ import CompactCta from "@/components/common/CompactCta";
 export default function FinalCta() {
   return (
     <CompactCta
-      title="Don't Wait Until Your Timeline Becomes Your Limitation"
+      title="不要等到时间线成为您的限制"
       description={
         <p>
-          Every STEM OPT situation is different. Your degree, employer, position, unemployment
-          timeline, filing deadline, and long-term plans all affect what the right solution looks
-          like. Start with a structured assessment — we&rsquo;ll help you identify what needs to
-          be built, what needs to be corrected, and what needs to happen next.
+          每一种STEM OPT情况都各不相同。您的学位、雇主、职位、失业时间线、申请截止日期与长期规划，
+          都会影响什么才是正确的解决方案。从一次结构化评估开始——我们会帮您理清需要搭建什么、
+          需要纠正什么，以及接下来该做什么。
         </p>
       }
-      ctaLabel="Get My STEM OPT Assessment"
+      ctaLabel="获取我的STEM OPT评估"
     />
   );
 }

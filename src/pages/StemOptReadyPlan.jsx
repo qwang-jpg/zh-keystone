@@ -20,8 +20,8 @@ export default function StemOptReadyPlan() {
   return (
     <PageLayout>
       <Seo
-        title="STEM OPT Status Protection Program"
-        description="Keystone Strategies helps international STEM graduates build the employer, employment, training, documentation, and ongoing compliance structure needed to secure and maintain STEM OPT status."
+        title="STEM OPT就绪计划"
+        description="Keystone Strategies 帮助国际STEM毕业生搭建获得并维持STEM OPT身份所需的雇主、雇佣、培训、文件与持续合规架构。"
         path="/stem-opt-ready-plan"
       />
       <StemHero />
@@ -31,8 +31,8 @@ export default function StemOptReadyPlan() {
       <EligibilityRequirements />
       <WhatYoullGet />
       <CompactCta
-        title="Protection should be part of the service — not just a promise made during the sales process."
-        ctaLabel="Book Your Consultation"
+        title="保障应该是服务本身的一部分——而不只是销售阶段的一句承诺。"
+        ctaLabel="预约您的咨询"
       />
       <ServiceWorkflow />
       <CaseShare />
