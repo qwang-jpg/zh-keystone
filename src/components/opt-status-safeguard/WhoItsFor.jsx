@@ -6,28 +6,28 @@ import SectionHeading from "@/components/common/SectionHeading";
 const audiences = [
   {
     number: "01",
-    title: "About to Start or Already on OPT Without a Job in Your Field",
+    title: "即将开始或已在OPT期间，尚未找到对口工作",
     description:
-      "Your first year of OPT is about to begin or already underway, and you urgently need a genuine job that meets OPT standards — with reasonable duties closely matched to your field of study — to avoid an unemployment-period crisis.",
-    cta: "Book a Job Placement Consultation",
+      "您的OPT第一年即将开始或已经启动，急需一份符合OPT标准的真实工作——职责需与专业方向紧密对口——以避免陷入失业期危机。",
+    cta: "预约求职安置咨询",
   },
   {
     number: "02",
-    title: "Laid Off or Had Your Contract Ended During OPT — Racing the Unemployment Clock",
-    description: "You've been laid off or dismissed during OPT and urgently need a new position or interim solution to keep your cumulative unemployment time within the policy limit and maintain lawful status.",
-    cta: "Book an Unemployment Deadline Rescue",
+    title: "OPT期间被裁员或合同终止——正在与失业计时赛跑",
+    description: "您在OPT期间遭遇裁员或解雇，急需新的工作机会或过渡方案，以确保累计失业时长不超过政策限制，维持合法身份。",
+    cta: "预约失业计时紧急救援咨询",
   },
   {
     number: "03",
-    title: "Planning a STEM OPT Application, But Your Current Employer Isn't Compliant",
-    description: "You're planning to apply for a STEM OPT extension, but your OPT employer doesn't meet the requirements — putting your future extension application at risk of running into obstacles and jeopardizing your status.",
-    cta: "Book a New Employer Consultation",
+    title: "计划申请STEM OPT，但现任雇主不符合要求",
+    description: "您计划申请STEM OPT延期，但目前的OPT雇主不符合相关要求——这可能让您未来的延期申请遭遇障碍，危及身份安全。",
+    cta: "预约更换雇主咨询",
   },
   {
     number: "04",
-    title: "Planning to Stay in the U.S. Long Term and Need Expert Guidance",
-    description: "You're looking for a systematic plan that covers status continuity, H-1B sponsor eligibility, and immigration pathway planning — ensuring key deadlines line up smoothly with policy windows.",
-    cta: "Book a Long-Term Planning Consultation",
+    title: "计划长期留美，需要专业指导",
+    description: "您在寻找一套涵盖身份延续、H-1B担保资格与移民路径规划的系统化方案——确保关键截止日期与政策窗口顺利衔接。",
+    cta: "预约长期规划咨询",
   },
 ];
 
@@ -35,7 +35,7 @@ export default function WhoItsFor() {
   return (
     <section className="bg-keystone-mist py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title="Who Is the OPT Job Placement Assurance Plan For?" />
+        <SectionHeading align="left" title="OPT就业保障计划适合哪些人？" />
 
         <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2">
           {audiences.map((a, i) => (

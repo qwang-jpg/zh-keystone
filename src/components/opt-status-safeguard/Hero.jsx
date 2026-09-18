@@ -7,19 +7,18 @@ export default function Hero() {
         <>
           Keystone Strategies
           <br />
-          OPT Job Placement Assurance Plan
+          OPT就业保障计划
         </>
       }
-      subtitle="A One-Stop Solution for OPT Unemployment Deadline Pressure"
+      subtitle="一站式解决OPT失业计时压力"
       description={
         <>
-          Compliant OPT unemployment relief — Keystone Strategies focuses on providing lawful, compliant
-          solutions for graduates in their OPT unemployment period, covering genuine job placement, end-to-end
-          OPT application guidance, filing support, and long-term status planning consulting — ensuring a smooth
-          status transition and a stable foundation for future STEM OPT, H‑1B, and immigration applications.
+          合规化解OPT失业困境——Keystone Strategies专注于为处于OPT失业期的毕业生提供合法合规的解决方案，
+          涵盖真实工作安置、端到端的OPT申请指导、递交支持，以及长期身份规划咨询——确保身份平稳过渡，
+          并为未来的STEM OPT、H-1B及移民申请打下稳固基础。
         </>
       }
-      ctaLabel="Book Your 1-on-1 Assessment Now"
+      ctaLabel="立即预约一对一评估"
     />
   );
 }

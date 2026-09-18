@@ -29,7 +29,7 @@ export default function SuccessCases() {
   return (
     <section className="bg-white py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title="OPT Job Placement Assurance Plan — Success Cases" />
+        <SectionHeading align="left" title="OPT就业保障计划 — 成功案例" />
 
         <div className="relative mx-auto mt-14 max-w-xl">
           <AnimatePresence mode="wait">
@@ -42,7 +42,7 @@ export default function SuccessCases() {
             >
               <ImagePlaceholder
                 sourceFile={screenshots[index]}
-                label={`Success Case Screenshot ${index + 1} / ${screenshots.length}`}
+                label={`成功案例截图 ${index + 1} / ${screenshots.length}`}
                 aspect="aspect-[4/3]"
               />
             </motion.div>
@@ -52,7 +52,7 @@ export default function SuccessCases() {
             <button
               onClick={() => go(-1)}
               className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-keystone-ink transition-colors hover:border-primary hover:text-primary"
-              aria-label="Previous case"
+              aria-label="上一个案例"
             >
               <ChevronLeft className="h-5 w-5" />
             </button>
@@ -61,7 +61,7 @@ export default function SuccessCases() {
                 <button
                   key={s}
                   onClick={() => setIndex(i)}
-                  aria-label={`Show case screenshot ${i + 1}`}
+                  aria-label={`显示案例截图 ${i + 1}`}
                   className={cn(
                     "h-2 w-2 rounded-full transition-all",
                     i === index ? "w-6 bg-primary" : "bg-border"
@@ -72,7 +72,7 @@ export default function SuccessCases() {
             <button
               onClick={() => go(1)}
               className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-keystone-ink transition-colors hover:border-primary hover:text-primary"
-              aria-label="Next case"
+              aria-label="下一个案例"
             >
               <ChevronRight className="h-5 w-5" />
             </button>

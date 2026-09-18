@@ -5,21 +5,21 @@ import ImagePlaceholder from "@/components/common/ImagePlaceholder";
 const features = [
   {
     icon: Search,
-    title: "Genuine OPT Job Placement Resources",
+    title: "真实的OPT就业安置资源",
     description:
-      "Backed by a network of 500+ incubated and partner companies offering 2,000+ genuine positions, we get you into compliant roles quickly, with verifiable work experience that keeps your OPT status legally intact.",
+      "依托500多家孵化与合作企业组成的网络，提供2,000多个真实岗位，我们帮您快速进入合规职位，获得经得起核验的工作经历，让您的OPT身份合法保持有效。",
   },
   {
     icon: Handshake,
-    title: "Quality Sponsorship Opportunities",
+    title: "优质担保机会",
     description:
-      "We refuse any form of illegal placement. Through a network of genuine companies both qualified and willing to sponsor STEM OPT/H‑1B, we connect clients with real positions that support long-term career growth.",
+      "我们拒绝任何形式的非法安置。通过一个既符合资质、又真心愿意担保STEM OPT/H-1B的真实企业网络，我们为客户对接支持长期职业发展的真实岗位。",
   },
   {
     icon: Route,
-    title: "Diverse Pathways to Stay in the U.S.",
+    title: "多元化的留美路径",
     description:
-      "We offer legal self-employment and entrepreneurship advisory, career advancement support, investment-based immigration assessment, and employment-based immigration planning, tailoring a compliant strategy that gives clients diverse, sustainable pathways to remain in the U.S.",
+      "我们提供合法的自雇与创业咨询、职业发展支持、投资类移民评估，以及职业类移民规划，为客户量身定制合规策略，提供多元、可持续的留美路径。",
   },
 ];
 
@@ -35,15 +35,13 @@ export default function AboutProgram() {
             transition={{ duration: 0.5 }}
           >
             <h2 className="text-3xl font-bold leading-tight text-keystone-ink md:text-4xl">
-              About the OPT Job Search Safeguard Plan
+              关于OPT求职保障计划
             </h2>
             <p className="mt-5 leading-relaxed text-muted-foreground">
-              <strong className="text-keystone-ink">The OPT Job Search Safeguard Plan</strong> is a systematic
-              service built by Keystone Strategies for international students on OPT, drawing on our established
-              employer partner network and hundreds of incubated companies. We provide genuine, compliant job
-              placement support, end-to-end compliant status transition services, and ongoing connections to
-              H‑1B sponsors and multiple immigration pathways, helping clients maintain uninterrupted status while
-              fully elevating their careers.
+              <strong className="text-keystone-ink">OPT求职保障计划</strong>
+              是Keystone Strategies专为持OPT身份的国际学生打造的系统化服务，依托我们成熟的雇主合作网络
+              及数百家孵化企业。我们提供真实合规的就业安置支持、端到端的合规身份过渡服务，
+              并持续对接H-1B担保方与多元移民路径，帮助客户在全面提升职业发展的同时，保持身份不中断。
             </p>
           </motion.div>
 

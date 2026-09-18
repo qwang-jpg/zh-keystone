@@ -7,26 +7,26 @@ import ImagePlaceholder from "@/components/common/ImagePlaceholder";
 const items = [
   {
     number: "01",
-    title: "2,000+ Real OPT Job Openings, Covering Over 95% of Fields of Study",
+    title: "2,000多个真实OPT岗位，覆盖95%以上的专业方向",
     body:
-      "Keystone helps students quickly resolve status issues during the unemployment countdown — matching you with 2,000+ real job openings through a network of 500 partner companies, spanning technology, consulting, data analysis, project management, and more. We ensure your career path closely matches your academic background, with formal offers available in as fast as 48 hours. Every position comes from a genuinely operating company with real hiring needs, ensuring your employment record stays fully lawful and compliant.",
-    cta: "Get Job Placement Resources",
+      "Keystone帮助学生在失业倒计时期间快速解决身份问题——通过500家合作企业组成的网络，为您匹配2,000多个真实岗位，涵盖科技、咨询、数据分析、项目管理等众多领域。我们确保您的职业路径与学术背景紧密契合，最快48小时即可拿到正式offer。每一个岗位都来自真实运营、拥有真实用人需求的企业，确保您的就业记录完全合法合规。",
+    cta: "获取就业安置资源",
     sourceFile: "radission-us-_XeQ8XEWb4Q-unsplash.jpg",
   },
   {
     number: "02",
-    title: "Build a Genuine Work History and Unlock Full-Time Opportunities",
+    title: "积累真实工作经历，解锁全职机会",
     body:
-      "Through our partner company network, Keystone connects you with lawful positions backed by real hiring needs, so you can maintain lawful status while gaining hands-on work experience, building your skills, and strengthening your resume. This work history holds up under future background checks, adds real career value, and can lead to full-time opportunities — creating long-term career growth potential for you.",
-    cta: "Get the Complete OPT Application Guide",
+      "通过我们的合作企业网络，Keystone为您对接由真实用人需求支撑的合法岗位，让您在维持合法身份的同时，积累实战工作经验、提升技能、丰富简历。这段工作经历经得起未来背景调查的考验，为您的职业发展增添真实价值，也可能转化为全职机会——为您创造长期的职业成长空间。",
+    cta: "获取完整OPT申请指南",
     sourceFile: "sigmund-Fa9b57hffnM-unsplash.jpg",
   },
   {
     number: "03",
-    title: "Access to STEM OPT and H‑1B Sponsor Employer Resources",
+    title: "对接STEM OPT与H-1B担保雇主资源",
     body:
-      "Once your compliant OPT status is secured, Keystone draws on our partner company network to connect you with positions at companies that have genuine hiring needs and a willingness to sponsor — helping you lawfully pursue STEM OPT and, later, H‑1B. We are committed to eliminating any form of illegal fee-for-sponsorship arrangement; every position is genuine and career-oriented. For clients with long-term plans to stay in the U.S., we also offer consulting on immigration pathways such as EB‑2/EB‑3, helping you advance your career while moving steadily toward long-term lawful U.S. residency.",
-    cta: "Get the Sponsor Employer List",
+      "一旦您的合规OPT身份得到保障，Keystone将依托合作企业网络，为您对接拥有真实用人需求、并愿意提供担保的企业，帮助您合法推进STEM OPT，进而迈向H-1B。我们始终致力于杜绝任何形式的非法付费担保安排；每一个岗位都真实存在且以职业发展为导向。对于计划长期留美的客户，我们也提供EB-2/EB-3等移民路径的咨询，帮助您在推进职业发展的同时，稳步迈向长期合法居留。",
+    cta: "获取担保雇主名单",
     sourceFile: "william-bout-TbTgtx7kmes-unsplash.jpg",
   },
 ];
@@ -35,7 +35,7 @@ export default function WhatYoullAchieve() {
   return (
     <section className="bg-white py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title={<>Choose the OPT Job Placement Assurance Plan<br />What You'll Get</>} />
+        <SectionHeading align="left" title={<>选择OPT就业保障计划<br />您将获得什么</>} />
 
         <div className="mt-14 space-y-16">
           {items.map((it, i) => (

@@ -17,8 +17,8 @@ export default function OptStatusSafeguard() {
   return (
     <PageLayout>
       <Seo
-        title="OPT Job Placement Assurance Plan — Compliant OPT Unemployment Relief"
-        description="Keystone Strategies focuses on providing lawful, compliant solutions for graduates in their OPT unemployment period, covering genuine job placement, OPT application guidance, and long-term status planning."
+        title="OPT就业保障计划 — 合规解决OPT失业困境"
+        description="Keystone Strategies 专注于为处于OPT失业期的毕业生提供合法合规的解决方案，涵盖真实工作安置、OPT申请指导及长期身份规划。"
         path="/opt-status-safeguard"
       />
       <Hero />

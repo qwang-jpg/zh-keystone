@@ -7,29 +7,24 @@ export default function ComplianceClosing() {
     <section className="relative overflow-hidden bg-keystone-ink py-24">
       <div className="absolute inset-0 bg-keystone-gradient opacity-15" />
       <div className="container relative mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold leading-tight text-white md:text-4xl">Compliant OPT Employment Starts Now</h2>
+        <h2 className="text-3xl font-bold leading-tight text-white md:text-4xl">合规的OPT就业，从现在开始</h2>
         <p className="mt-6 text-sm leading-relaxed text-white/70 md:text-base">
-          The Keystone OPT Job Search Safeguard Plan is built for students about to start OPT, or already on OPT
-          but struggling to find a compliant employer as their status approaches expiration. With 500+ partner
-          companies and 2,000+ genuine positions, we can deliver an offer in as little as 48 hours, connecting you
-          quickly with real employers. A dedicated advisor guides your OPT application one-on-one from start to
-          finish, ensuring your status stays compliant and your paperwork is complete and accurate.
+          Keystone OPT求职保障计划专为即将开始OPT、或已在OPT期间但随着身份临近到期仍难以找到合规雇主的学生打造。
+          凭借500多家合作企业与2,000多个真实岗位，我们最快可在48小时内为您送上offer，快速对接真实雇主。
+          专属顾问将从始至终一对一指导您的OPT申请，确保身份合规，材料完整准确。
         </p>
         <p className="mt-4 text-sm leading-relaxed text-white/70 md:text-base">
-          Even more important, we provide access to ongoing sponsor-employer resources so your transition from OPT
-          to H-1B proceeds smoothly, planning ahead to reduce risk and open a long-term path to staying in the
-          U.S. Whether you've been laid off and are racing the unemployment clock, or you're just starting OPT and
-          need a compliant position, Keystone offers a complete, end-to-end solution.
+          更重要的是，我们提供持续的担保雇主资源，让您从OPT到H-1B的过渡顺利推进，提前规划以降低风险，
+          开辟长期留美之路。无论您是遭遇裁员、正与失业计时赛跑，还是刚刚开始OPT、需要一份合规工作，
+          Keystone都能提供完整的端到端解决方案。
         </p>
         <p className="mt-4 text-sm leading-relaxed text-white/70 md:text-base">
-          We pledge to refuse any form of illegal placement, protecting every client's career development and
-          legal status. Our commitment is to be a steadfast partner throughout your professional journey in the
-          U.S., solving immediate employment and status challenges while building a solid foundation for your
-          long-term career.
+          我们承诺拒绝任何形式的非法安置，保护每一位客户的职业发展与合法身份。我们致力于成为您在美国职业旅程中
+          坚定可靠的伙伴，既解决眼前的就业与身份难题，也为您的长期职业发展打下坚实基础。
         </p>
         <Button asChild size="lg" className="mt-8 bg-white text-keystone-ink hover:bg-white/90">
           <Link to="/contact">
-            Get Your OPT Position Now
+            立即获取您的OPT职位
             <ArrowRight className="h-4 w-4" />
           </Link>
         </Button>

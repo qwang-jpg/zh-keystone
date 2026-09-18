@@ -9,135 +9,135 @@ import { cn } from "@/lib/utils";
 // separate content) — deduplicated to one entry per question here.
 const faqs = [
   {
-    q: "When can I earliest apply for OPT, and when does the window close?",
+    q: "OPT最早什么时候可以申请？申请窗口什么时候关闭？",
     a: (
       <p>
-        The OPT application window runs <strong>from 90 days before your Program End Date through 60 days after it</strong>. The "Program End Date" is
-        <strong> the Program End Date listed on your I‑20</strong>. If a student does not submit an OPT application <strong>within 60 days of graduation</strong>
-        , USCIS will treat OPT eligibility as automatically forfeited, and F-1 student status will lapse as well.
+        OPT申请窗口为<strong>项目结束日期（Program End Date）前90天至之后60天</strong>。这里的"项目结束日期"
+        指<strong>I-20上标注的项目结束日期</strong>。如果学生未能在<strong>毕业后60天内</strong>
+        递交OPT申请，USCIS将视为自动放弃OPT资格，F-1学生身份也将随之失效。
       </p>
     ),
   },
   {
-    q: "How many days of unemployment are allowed during OPT?",
+    q: "OPT期间允许多少天失业？",
     a: (
       <p>
-        <strong>Total unemployment time cannot exceed 90 days.</strong>
+        <strong>累计失业时长不得超过90天。</strong>
       </p>
     ),
   },
   {
-    q: "Is self-employment allowed on OPT?",
+    q: "OPT期间是否允许自雇？",
     a: (
       <>
         <p>
-          <strong>Yes, self-employment is allowed</strong>, but the following conditions must be met:
+          <strong>是的，允许自雇</strong>，但必须满足以下条件：
         </p>
         <ul className="mt-2 list-disc space-y-1 pl-5">
-          <li>The business you start must be directly related to your degree field.</li>
-          <li>You must work full-time for the company (20+ hours per week).</li>
-          <li>The company must be genuinely operating, and you must be able to document that you are actively engaged in field-related work (contracts, invoices, work samples, client records, etc.).</li>
-          <li>You must still comply with all OPT reporting requirements (updating your SEVP record, address, employer information, etc.).</li>
+          <li>您创办的企业必须与您的学位专业方向直接相关。</li>
+          <li>您必须全职为该公司工作（每周20小时以上）。</li>
+          <li>公司必须是真实运营的实体，且您必须能够提供证明自己正积极从事专业相关工作的材料（合同、发票、工作成果、客户记录等）。</li>
+          <li>您仍必须遵守所有OPT申报要求（更新SEVP记录、地址、雇主信息等）。</li>
         </ul>
       </>
     ),
   },
   {
-    q: "How is Keystone Strategies' OPT Status Safeguard Plan different from other OPT services?",
+    q: "Keystone Strategies的OPT身份保障计划与其他OPT服务有何不同？",
     a: (
       <p>
-        Of course. For clients who plan to pursue STEM OPT, we use our employer network to line up sponsor
-        connections in advance, ensuring a smooth transition into a STEM OPT position once your initial OPT ends.
+        当然可以。对于计划申请STEM OPT的客户，我们会提前通过雇主网络对接担保资源，
+        确保您在首次OPT结束后能够顺利过渡到STEM OPT职位。
       </p>
     ),
   },
   {
-    q: "What are the eligibility requirements for OPT?",
+    q: "申请OPT需要满足哪些资格条件？",
     a: (
       <>
-        <p>Under DHS (Department of Homeland Security) regulations, applying for Post-completion OPT requires meeting the following:</p>
+        <p>根据美国国土安全部（DHS）的规定，申请毕业后OPT（Post-completion OPT）需满足以下条件：</p>
         <ul className="mt-2 list-disc space-y-1 pl-5">
           <li>
-            You must have completed <strong>at least one full academic year of full-time study</strong> (3 quarters/2 semesters) at a SEVP-certified school while in F-1 status;
+            必须以F-1身份在获SEVP认证的学校完成<strong>至少一个完整学年的全日制学习</strong>（3个季度制学期/2个学期制学期）；
           </li>
           <li>
-            Your program of study <strong>must not be an "English as a Second Language (ESL)" course</strong>;
+            所学专业<strong>不得为"英语作为第二语言（ESL）"课程</strong>；
           </li>
           <li>
-            The work you apply to do <strong>must be directly related to your major field of study</strong> (for details, see the{" "}
+            申请从事的工作<strong>必须与主修专业方向直接相关</strong>（详情请参阅{" "}
             <a
               href="https://www.ice.gov/doclib/sevis/pdf/optDirectlyRelatedGuidance.pdf"
               target="_blank"
               rel="noreferrer"
               className="text-primary underline"
             >
-              SEVP policy guidance
+              SEVP政策指南
             </a>
-            );
+            ）；
           </li>
           <li>
-            You <strong>must not have already used up all of your OPT at your current education level;</strong>
+            <strong>不得已用尽当前教育阶段的全部OPT额度；</strong>
           </li>
           <li>
-            You <strong>must not have been authorized for 12 months or more of full-time Curricular Practical Training (CPT).</strong>
+            <strong>不得已获得12个月及以上的全日制课程实习培训（CPT）授权。</strong>
           </li>
         </ul>
       </>
     ),
   },
   {
-    q: "How is OPT unemployment time calculated?",
+    q: "OPT失业时长是如何计算的？",
     a: (
       <>
         <p>
-          OPT unemployment time is counted <strong>starting from the Start Date printed on your EAD (Employment Authorization Document):</strong>
+          OPT失业时长<strong>从您的EAD（工作授权卡）上标注的起始日期开始计算：</strong>
         </p>
         <ul className="mt-2 list-disc space-y-1 pl-5">
-          <li>Every day you are not in compliant employment counts toward your unemployment total.</li>
+          <li>每一天未处于合规就业状态，都将计入失业总时长。</li>
           <li>
-            <strong>Unemployment days accumulate cumulatively</strong> — if you find a job and later lose it again, the count simply continues adding up.
+            <strong>失业天数是累计计算的</strong>——如果您找到工作后又再次失业，计时会继续累加，而非重新开始。
           </li>
-          <li>Once the limit is exceeded, F-1 status is automatically terminated.</li>
+          <li>一旦超出限额，F-1身份将自动终止。</li>
         </ul>
-        <p className="mt-3">We recommend the following two ways to check how many unemployment days you have left:</p>
+        <p className="mt-3">我们建议通过以下两种方式查询您剩余的失业天数：</p>
         <ul className="mt-2 list-disc space-y-1 pl-5">
           <li>
-            <strong>Ask your DSO how many unemployment days you've accumulated:</strong> only your DSO can access the{" "}
+            <strong>向您的国际学生顾问（DSO）询问已累计的失业天数：</strong>只有DSO才能访问SEVIS系统中的{" "}
             <a
               href="https://studyinthestates.dhs.gov/sevis-help-hub/student-records/fm-student-employment/unemployment-counter"
               target="_blank"
               rel="noreferrer"
               className="text-primary underline"
             >
-              Unemployment Counter
-            </a>{" "}
-            in SEVIS, and they can tell you exactly how many days you've used.
+              失业计数器
+            </a>
+            ，他们可以准确告诉您已使用的天数。
           </li>
           <li>
-            <strong>Cross-check your own employer records in the SEVP Portal:</strong>
-            Starting from the OPT start date shown on your EAD, any day without employment during that period counts as an unemployment day. Note in particular that changing jobs or being laid off during OPT also counts toward your unemployment days until you have a new employer.
+            <strong>在SEVP系统中核对自己的雇主记录：</strong>
+            从EAD上标注的OPT起始日期开始，该期间内任何没有工作的日子都将计为失业天数。请特别注意，
+            OPT期间更换工作或遭遇裁员，在您找到新雇主之前，同样会计入失业天数。
           </li>
         </ul>
       </>
     ),
   },
   {
-    q: "My unemployment days are almost used up — can Keystone Strategies help?",
+    q: "我的失业天数快用完了，Keystone Strategies能帮忙吗？",
     a: (
       <p>
-        Yes. We offer a fast-matching service specifically for clients racing the unemployment clock during OPT,
-        capable of delivering an offer in as little as 48 hours to solve the problem of not being able to find an
-        employer. We help you get onboarded within your status grace period so your status doesn't lapse. Contact
-        us now — let's save your unemployment window.
+        可以。我们专门为在OPT期间与失业计时赛跑的客户提供快速匹配服务，最快48小时即可送上offer，
+        解决找不到雇主的难题。我们会帮您在身份宽限期内完成入职，确保身份不失效。立即联系我们——
+        让我们一起抢救您的失业窗口期。
       </p>
     ),
   },
   {
-    q: "If I plan to apply for STEM OPT later, can Keystone Strategies provide STEM OPT status protection?",
+    q: "如果我计划以后申请STEM OPT，Keystone Strategies能提供STEM OPT身份保障吗？",
     a: (
       <p>
-        Of course. For clients who plan to pursue STEM OPT, we use our employer network to line up sponsor
-        connections in advance, ensuring a smooth transition into a STEM OPT position once your initial OPT ends.
+        当然可以。对于计划申请STEM OPT的客户，我们会提前通过雇主网络对接担保资源，
+        确保您在首次OPT结束后能够顺利过渡到STEM OPT职位。
       </p>
     ),
   },
@@ -149,7 +149,7 @@ export default function FaqSection() {
   return (
     <section className="bg-white py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title="OPT Application FAQ" />
+        <SectionHeading align="left" title="OPT申请常见问题" />
 
         <div className="mx-auto mt-14 max-w-3xl divide-y divide-border rounded-2xl border border-border">
           {faqs.map((item, i) => {
@@ -179,7 +179,7 @@ export default function FaqSection() {
 
         <div className="mt-10 text-center">
           <Link to="/contact" className="text-sm font-semibold text-primary hover:underline">
-            Have more questions? Get answers &gt;&gt;
+            还有更多问题？获取解答 &gt;&gt;
           </Link>
         </div>
       </div>

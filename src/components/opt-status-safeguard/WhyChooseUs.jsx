@@ -4,34 +4,34 @@ import TabbedFeatureList from "@/components/common/TabbedFeatureList";
 const advantages = [
   {
     icon: ShieldCheck,
-    title: "One-Stop Solution for Status and Compliant Employment",
+    title: "一站式解决身份与合规就业",
     description:
-      "Keystone provides OPT job search support with a focus on long-term follow-through, connecting clients with genuine, compliant positions through our partner employer network. From there, we help clients access quality STEM OPT/H-1B sponsorship opportunities, refusing any form of illegal placement, so we truly solve employment and status challenges together and deliver an integrated \"status + career + long-term growth\" service.",
+      "Keystone提供注重长期跟进的OPT求职支持，通过合作雇主网络为客户对接真实合规的岗位。在此基础上，我们进一步帮助客户获得优质的STEM OPT/H-1B担保机会，拒绝任何形式的非法安置，真正做到就业与身份问题一并解决，提供\"身份+职业+长期发展\"的一体化服务。",
   },
   {
     icon: Building2,
-    title: "500+ Partner Employer Network and Incubated Companies",
+    title: "500多家合作雇主与孵化企业网络",
     description:
-      "Keystone has built a network of 500 partner companies through startup incubation and advisory support, together offering 2,000+ genuine positions across technology, consulting, data analytics, project management, and more. This lets clients take up compliant employment at real companies, protecting their status while building the experience and skills that strengthen their long-term career competitiveness.",
+      "Keystone通过创业孵化与咨询支持，搭建起一个由500家合作企业组成的网络，共同提供2,000多个真实岗位，涵盖科技、咨询、数据分析、项目管理等众多领域。这让客户能够在真实企业中从事合规工作，在保护身份的同时，积累提升长期职业竞争力所需的经验与技能。",
   },
   {
     icon: Briefcase,
-    title: "Self-Employment Support with Seamless Status Continuity",
+    title: "无缝衔接身份延续的自雇支持",
     description:
-      "Drawing on our top-tier expertise in startup advisory and corporate services, Keystone helps clients who want to start a business legally form a company and structure it for compliance, ensuring real business operations that also satisfy status requirements. We not only help clients extend their status securely through the entrepreneurship pathway, but also incorporate employment-based immigration planning, laying a solid foundation for future career growth and status transition.",
+      "凭借在创业咨询与企业服务领域的顶尖专业能力，Keystone帮助希望创业的客户合法注册公司并搭建合规架构，确保真实的业务运营同时满足身份要求。我们不仅帮助客户通过创业路径安全延续身份，还会纳入职业类移民规划，为未来的职业发展与身份过渡打下坚实基础。",
   },
   {
     icon: Award,
-    title: "Elite Advisory Team Overseeing Every Step",
+    title: "精英顾问团队全程监督每一步",
     description:
-      "Keystone works alongside leading immigration attorneys and top advisory consultants who rigorously oversee every step, from company formation to status document review, ensuring full legal compliance throughout and maintaining a near-100% approval rate. We not only reduce our clients' status risk, but also provide systematic, professional support that safeguards their long-term stability and growth in the U.S.",
+      "Keystone与顶尖移民律师及资深顾问团队紧密合作，从公司注册到身份文件审核，严格监督每一个环节，确保全程合法合规，并保持接近100%的获批率。我们不仅降低客户的身份风险，更提供系统化、专业化的支持，保障客户在美国的长期稳定与发展。",
   },
 ];
 
 export default function WhyChooseUs() {
   return (
     <TabbedFeatureList
-      title={<>OPT Job Search Safeguard Plan<br />Core Advantages</>}
+      title={<>OPT求职保障计划<br />核心优势</>}
       items={advantages}
     />
   );

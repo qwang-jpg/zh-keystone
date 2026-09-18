@@ -7,7 +7,7 @@ export default function ServiceProcess() {
   return (
     <section className="bg-white py-14 md:py-16">
       <div className="container">
-        <SectionHeading align="left" title="OPT Job Placement Assurance Plan — Service Process" />
+        <SectionHeading align="left" title="OPT就业保障计划 — 服务流程" />
       </div>
     </section>
   );

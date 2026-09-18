@@ -3,8 +3,8 @@ import CompactCta from "@/components/common/CompactCta";
 export default function MidCta() {
   return (
     <CompactCta
-      title="Racing the Unemployment Clock? Secure Your OPT Status + Real Work Experience + a Path to Full-Time Employment!"
-      ctaLabel="Get Your OPT Job Placement Now"
+      title="正在与失业计时赛跑？同时锁定OPT身份、真实工作经验与全职机会之路！"
+      ctaLabel="立即获取OPT就业安置"
     />
   );
 }
