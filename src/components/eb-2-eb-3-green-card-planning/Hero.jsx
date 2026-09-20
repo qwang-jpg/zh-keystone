@@ -3,16 +3,14 @@ import ServiceHero from "@/components/common/ServiceHero";
 export default function Hero() {
   return (
     <ServiceHero
-      title="EB-2 / EB-3 绿卡规划"
-      subtitle="为长期绿卡路径进行雇主与职位规划"
+      title="EB路径规划项目"
+      subtitle="您的绿卡之路，不该只押注在一位雇主的时间表上。"
       description={
         <>
-          一份EB-2或EB-3申请的成败，早在PERM或I-140递交之前，就已经取决于背后的雇主与职位架构。
-          无论担保方是一家成熟企业，还是您自己创办的公司，我们都会搭建担保职位、为雇主一方做好
-          PERM劳工证的准备工作，并在整个递交过程中与移民律师直接协调。
+          EB路径规划项目帮助国际专业人才搭建推进EB-2/EB-3职业类绿卡路径所需的雇主架构、职位体系、运营记录与长期支持体系。从公司注册、雇主搭建，到市场工资认定（PWD）与PERM协调、I-140雇主就绪，再到持续运营，我们帮助您把每一个阶段串联进一条完整的路径。
         </>
       }
-      ctaLabel="预约绿卡规划咨询"
+      ctaLabel="预约免费EB路径评估"
     />
   );
 }
