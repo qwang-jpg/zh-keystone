@@ -1,5 +1,5 @@
-import ServiceWhyKeystone from "@/components/common/ServiceWhyKeystone";
+import WhyKeystone from "@/components/home/WhyKeystone";
 
-export default function WhyKeystone() {
-  return <ServiceWhyKeystone />;
+export default function EVerifyEmployerAccountSetupWhyKeystone() {
+  return <WhyKeystone />;
 }
