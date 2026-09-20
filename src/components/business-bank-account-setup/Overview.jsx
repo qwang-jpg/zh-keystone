@@ -1,25 +1,14 @@
-import ServiceOverview from "@/components/common/ServiceOverview";
-
-const stats = [
-  { value: "$500", label: "典型新账户现金奖励金额" },
-  { value: "1", label: "次咨询即可准备好全部材料" },
-  { value: "100%", label: "支持远程开户" },
-];
-
-const checklist = [
-  "避免个人与公司资金混用——这是引发IRS审查以及\"揭开公司面纱\"责任风险的常见诱因",
-  "选择真正支持非居民创始人和远程开户的银行",
-  "开户通话前，银行要求的所有材料均已备齐",
-  "抓住可获得的新账户现金奖励，而不是白白错过",
-];
+import PlanAbout from "@/components/common/PlanAbout";
 
 export default function Overview() {
   return (
-    <ServiceOverview
-      title="企业银行账户为何刻不容缓"
-      description="EIN与公司注册文件只是打开了大门——真正让公司能够运营、收款并保持合规的，是一个专属的企业银行账户。"
-      checklist={checklist}
-      stats={stats}
+    <PlanAbout
+      heading="企业银行账户为何刻不容缓"
+      highlight="无需SSN，无需前往网点——只需一个随时可用的已注资账户。"
+      paragraphs={[
+        "美国公司需要一个专属的企业账户来接收付款、支付费用、保持清晰的公司记录，并实现与股东个人财务的独立运营。对于国际创始人而言，如果没有SSN、无法前往美国银行网点，或不清楚哪些银行能够支持公司的股权架构，企业银行开户往往会变得更加复杂。",
+        "Keystone帮助您扫清这些障碍，为您匹配美国主要银行的开户方案，而非仅限金融科技公司账户，并在所需公司信息备齐后，最快可在24小时内为符合条件的客户安排银行经理面谈。",
+      ]}
     />
   );
 }

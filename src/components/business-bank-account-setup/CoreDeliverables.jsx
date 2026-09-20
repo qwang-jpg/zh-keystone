@@ -1,48 +1,56 @@
-import { ClipboardList, Video, Gift } from "lucide-react";
-import ServiceCoreDeliverables from "@/components/common/ServiceCoreDeliverables";
+import PlanBuildLayers from "@/components/common/PlanBuildLayers";
 
-const deliverables = [
+const layers = [
   {
-    icon: ClipboardList,
     title: "开户前材料与信息准备",
     description:
-      "在您与银行接触之前，我们会收集齐银行会要求的所有公司及个人信息，让开户通话快速高效，而不是临时东拼西凑。",
-    items: [
-      "1次专属银行开户咨询",
-      "共同完成《企业银行信息表》",
-      "整理并备齐公司注册文件、EIN确认信及股权信息",
+      "在银行预约之前，我们会整理企业开户过程中银行通常要求的公司信息及相关材料。",
+    deliverables: [
+      "公司注册文件及EIN记录",
+      "股东及受益所有人信息",
+      "企业地址及联系方式",
+      "业务活动及预期交易详情",
+      "身份证件",
+      "银行要求的其他公司记录",
     ],
+    why: "如果银行经理事先已掌握您的材料与背景信息，就能一次性完成开户，而不必让您来回补交材料。",
   },
   {
-    icon: Video,
     title: "全程指导开户",
-    description:
-      "我们直接与银行客户经理对接，全程指导您（或您指定的代理人）远程或线下完成整个开户流程。",
-    items: [
-      "预约银行经理的线上开户会议",
-      "实时指导完成银行的申请与核验步骤",
-      "企业银行账户完全开通并确认",
+    description: "我们协调整个开户流程，并从头到尾帮助您为银行经理面谈做好准备。",
+    deliverables: [
+      "根据公司情况评估银行开户方案",
+      "协调安排银行经理预约",
+      "符合条件的情况下，最快24小时内可安排预约",
+      "协助准备应对银行常见问题与核验环节",
+      "全程指导开户流程",
+      "如银行要求补充材料，提供后续跟进支持",
     ],
+    why: "如果有熟悉银行要求及其背后原因的人参与通话，开户流程会推进得更快。",
   },
   {
-    icon: Gift,
-    title: "把握新账户奖励",
-    description:
-      "美国各大银行经常为新开企业账户提供现金奖励。我们确保您符合条件并真正拿到奖励，而不会因为条款细则而错失机会。",
-    items: [
-      "提前锁定符合奖励条件的账户与优惠方案",
-      "清楚说明达标所需的活动要求",
-      "典型奖励金额区间：400-500美元",
+    title: "账户激活与奖励支持",
+    description: "账户获批后，我们会帮助您了解激活并开始使用账户所需完成的剩余步骤。",
+    deliverables: [
+      "账户激活指导",
+      "跟进借记卡寄送情况",
+      "实体卡通常在账户开通后约一周内送达",
+      "梳理可申请的新账户优惠活动",
+      "指导达标所需的存款、交易或其他优惠条件",
+      "提醒相关达标截止日期",
     ],
+    why: "奖励优惠有截止日期且附带条款细则——当您专注于完成开户时，很容易忽略这些细节。",
   },
 ];
 
 export default function CoreDeliverables() {
   return (
-    <ServiceCoreDeliverables
-      description="以下每一项服务，都覆盖从材料准备到账户成功注资运营的全过程——而不只是为您引荐一位银行经理。"
-      items={deliverables}
-      columns="lg:grid-cols-3"
+    <PlanBuildLayers
+      title="从材料准备到账户注资运营"
+      intro="每一次服务都以同一个目标为核心：帮助您以最高效的方式，从一家刚成立的公司，迈向一段可用的美国企业银行关系。"
+      layers={layers}
+      note="银行优惠活动、审批决定及奖励发放，均以相关金融机构的资格要求及条款为准。"
+      tabsLabel="银行开户流程"
     />
   );
 }
