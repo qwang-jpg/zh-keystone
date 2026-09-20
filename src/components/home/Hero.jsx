@@ -25,9 +25,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-4xl font-bold leading-[1.1] text-white sm:text-5xl md:text-6xl"
           >
-            规划您的身份。
+            复杂问题
             <br />
-            成就您的未来。
+            系统解决
           </motion.h1>
 
           <motion.p
