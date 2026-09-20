@@ -24,7 +24,7 @@ export default function InfinityPlanCrossLink() {
             并为移民策略的下一阶段做好准备。
           </p>
 
-          <div className="relative mx-auto mt-14 max-w-2xl">
+          <div className="relative mx-auto mt-14 max-w-4xl">
             <div className="absolute left-5 right-5 top-[9px] h-px bg-keystone-ink/10" aria-hidden="true" />
             <div className="relative flex items-start justify-between">
               {steps.map((s) => (

@@ -1,9 +1,4 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import { ChevronDown } from "lucide-react";
-import SectionHeading from "@/components/common/SectionHeading";
-import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
 const faqs = [
   {
@@ -27,7 +22,7 @@ const faqs = [
     answer: [
       "可以，只要该雇主满足适用的STEM OPT要求。",
       "公司成立时间长短或规模大小，本身并非决定性因素。",
-      "雇主必须能够支撑真实合法的STEM OPT雇佣关系，包括参与E-Verify、符合条件的雇佣、适当的监督与培训、充足的资源与人员，以及遵守I-983培训计划的相关要求。",
+      "雇主必须能够支撑真实合法的STEM OPT雇佣关系，包括参与E-Verify、符合条件的雇佣、适当的监督与培训、充足的资源与人员，以及遵守I-983表格培训计划的相关要求。",
     ],
   },
   {
@@ -57,7 +52,7 @@ const faqs = [
     answer: [
       "会的。",
       "对于加入相应计划的客户，我们的服务协议会提供保障，直至STEM OPT获批，具体以合同中列明的条款与责任为准。",
-      "我们的支持不会在公司搭建、E-Verify注册、I-983准备或申请递交后就结束。我们会持续支持相关流程，直至STEM OPT获批。",
+      "我们的支持不会在公司搭建、E-Verify注册、I-983表格准备或申请递交后就结束。我们会持续支持相关流程，直至STEM OPT获批。",
     ],
   },
   {
@@ -66,8 +61,7 @@ const faqs = [
       "可以。",
       "STEM OPT能为您争取宝贵的时间，用于积累美国工作经验，并为移民策略的下一阶段做准备。",
       <>
-        Keystone还提供独立的H-1B与职业类绿卡规划服务，
-        包括{" "}
+        Keystone还提供独立的H-1B与职业类绿卡规划服务，包括{" "}
         <strong className="font-semibold text-keystone-ink">H-1B无限续航计划</strong>。
       </>,
       "STEM OPT保障的是您当下的路径。而正确的策略，也应该为下一步做好准备。",
@@ -76,58 +70,12 @@ const faqs = [
 ];
 
 export default function StemFaq() {
-  const [openIndex, setOpenIndex] = useState(null);
-
   return (
-    <section className="bg-keystone-mist py-20 md:py-28">
-      <div className="container">
-        <SectionHeading
-          align="left"
-          title="搭建STEM OPT路径之前，您应该了解的事项"
-        />
-
-        <div className="mt-12 grid grid-cols-1 gap-2.5 md:grid-cols-2">
-          {faqs.map((faq, i) => {
-            const isOpen = openIndex === i;
-            return (
-              <div
-                key={faq.question}
-                className={cn(
-                  "overflow-hidden rounded-2xl border-l-[3px] bg-white shadow-[0_1px_2px_rgba(16,36,31,.03),0_8px_20px_-10px_rgba(16,36,31,.1)] transition-colors",
-                  isOpen ? "border-l-primary" : "border-l-transparent"
-                )}
-              >
-                <button
-                  onClick={() => setOpenIndex(isOpen ? null : i)}
-                  aria-expanded={isOpen}
-                  className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
-                >
-                  <span className="text-sm font-semibold text-keystone-ink md:text-base">{faq.question}</span>
-                  <ChevronDown
-                    className={cn(
-                      "h-4 w-4 shrink-0 text-primary transition-transform",
-                      isOpen && "rotate-180"
-                    )}
-                  />
-                </button>
-                {isOpen && (
-                  <div className="space-y-3 px-6 pb-5 text-sm leading-relaxed text-muted-foreground">
-                    {faq.answer.map((paragraph, idx) => (
-                      <p key={idx}>{paragraph}</p>
-                    ))}
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </div>
-
-        <div className="mt-10 text-center">
-          <Button asChild>
-            <Link to="/contact">还有更多问题？获取解答 &gt;&gt;</Link>
-          </Button>
-        </div>
-      </div>
-    </section>
+    <ServiceFaqSection
+      title="搭建STEM OPT路径之前，您应该了解的事项"
+      faqs={faqs}
+      background="mist"
+      ctaLabel="还有更多问题？获取解答 >>"
+    />
   );
 }

@@ -36,13 +36,12 @@ const steps = [
 
 export default function ServiceWorkflow() {
   return (
-    <section className="bg-white py-20 md:py-28">
+    <section id="service-workflow" className="bg-white py-20 md:py-28">
       <div className="container">
         <SectionHeading
           align="left"
           title="从身份风险到可持续的STEM OPT架构"
           description="每位客户的起点各不相同。我们首先了解您目前所处的位置，找出缺失的环节，再围绕您实际的时间线与目标，搭建雇佣与合规架构。"
-          className="mx-0 max-w-none"
         />
 
         <div className="relative mt-14 pl-[60px]">

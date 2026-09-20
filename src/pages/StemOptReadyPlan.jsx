@@ -3,18 +3,18 @@ import Seo from "@/components/common/Seo";
 import CompactCta from "@/components/common/CompactCta";
 import StemHero from "@/components/stem-opt-ready-plan/StemHero";
 import StemStats from "@/components/stem-opt-ready-plan/StemStats";
-import EligibilityRequirements from "@/components/stem-opt-ready-plan/EligibilityRequirements";
 import StemAbout from "@/components/stem-opt-ready-plan/StemAbout";
 import WhoItsFor from "@/components/stem-opt-ready-plan/WhoItsFor";
 import CoreAdvantages from "@/components/stem-opt-ready-plan/CoreAdvantages";
 import WhatYoullGet from "@/components/stem-opt-ready-plan/WhatYoullGet";
+import WhyKeystone from "@/components/home/WhyKeystone";
+import StemSuccessStories from "@/components/stem-opt-ready-plan/StemSuccessStories";
 import ServiceWorkflow from "@/components/stem-opt-ready-plan/ServiceWorkflow";
 import CaseShare from "@/components/stem-opt-ready-plan/CaseShare";
-import SuccessfulCase from "@/components/stem-opt-ready-plan/SuccessfulCase";
+import EvidenceGallery from "@/components/our-cases/EvidenceGallery";
 import InfinityPlanCrossLink from "@/components/stem-opt-ready-plan/InfinityPlanCrossLink";
 import StemFaq from "@/components/stem-opt-ready-plan/StemFaq";
 import FinalCta from "@/components/stem-opt-ready-plan/FinalCta";
-import OtherServices from "@/components/stem-opt-ready-plan/OtherServices";
 
 export default function StemOptReadyPlan() {
   return (
@@ -28,20 +28,25 @@ export default function StemOptReadyPlan() {
       <StemStats />
       <StemAbout />
       <WhoItsFor />
-      <EligibilityRequirements />
+      <CompactCta
+        title="您目前的情况能否支撑一套合规的STEM OPT架构？"
+        description={<p>从评估您的雇主、职位、培训计划、身份与时间线开始。</p>}
+        ctaLabel="获取我的STEM OPT评估"
+      />
+      <ServiceWorkflow />
       <WhatYoullGet />
+      <WhyKeystone />
       <CompactCta
         title="保障应该是服务本身的一部分——而不只是销售阶段的一句承诺。"
         ctaLabel="预约您的咨询"
       />
-      <ServiceWorkflow />
-      <CaseShare />
-      <SuccessfulCase />
+      <StemSuccessStories />
       <CoreAdvantages />
+      <CaseShare />
+      <EvidenceGallery />
       <InfinityPlanCrossLink />
       <StemFaq />
       <FinalCta />
-      <OtherServices />
     </PageLayout>
   );
 }
