@@ -7,5 +7,5 @@ const stats = [
 ];
 
 export default function StatsBar() {
-  return <AnimatedStatsBar stats={stats} />;
+  return <AnimatedStatsBar stats={stats} className="bg-keystone-mist" />;
 }

@@ -1,16 +1,12 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import { ChevronDown } from "lucide-react";
-import SectionHeading from "@/components/common/SectionHeading";
-import { cn } from "@/lib/utils";
+import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
 // The WordPress export duplicated every accordion answer as flat trailing
 // text right after each accordion widget (an editor-rendering artifact, not
 // separate content) — deduplicated to one entry per question here.
 const faqs = [
   {
-    q: "STEM OPT最早什么时候可以申请？整个流程什么时候结束？",
-    a: (
+    question: "STEM OPT最早什么时候可以申请？整个流程什么时候结束？",
+    answer: (
       <>
         <p>申请STEM OPT延期时，必须同时满足以下三项时间限制：</p>
         <ul className="mt-2 list-disc space-y-1 pl-5">
@@ -29,8 +25,8 @@ const faqs = [
     ),
   },
   {
-    q: "STEM OPT期间允许多少天失业？",
-    a: (
+    question: "STEM OPT期间允许多少天失业？",
+    answer: (
       <p>
         STEM OPT期间累计的失业天数，会与常规OPT（毕业后OPT）期间已使用的天数合并计算。
         <strong>整个OPT加STEM OPT期间的累计失业天数不得超过150天</strong>，否则将被视为违反F-1身份规定。
@@ -38,25 +34,27 @@ const faqs = [
     ),
   },
   {
-    q: "STEM OPT期间是否允许自雇？",
-    a: (
+    question: "STEM OPT期间是否允许自雇？",
+    answer: (
       <p>
         STEM OPT期间的自雇受到限制。STEM OPT政策的核心是"受监管的雇佣关系"与"以培训为导向的雇主监督"，
         因此所有形式的自雇（包括自己创办公司并自我雇佣、单人所有制公司、远程咨询等类似安排）均被排除在外。
         不过，USCIS并未明确禁止申请人持有公司股权——
-        <strong>只要申请人不是雇主本人、不是I-983的签署方，也不是自己监督自己的工作，
-        就有可能搭建出一种被USCIS认可为合规的"自雇"形式</strong>
+        <strong>
+          只要申请人不是雇主本人、不是I-983的签署方，也不是自己监督自己的工作，
+          就有可能搭建出一种被USCIS认可为合规的"自雇"形式
+        </strong>
         。请直接联系我们，探讨如何搭建合规架构。
       </p>
     ),
   },
   {
-    q: "Keystone Strategies是否能在未来协助办理H-1B、绿卡申请等其他移民服务？",
-    a: <p>当然可以。我们为有H-1B及移民需求的客户提供持续服务，依托我们的雇主资源网络及顶尖顾问与律师团队，为您规划顺利合规的留美路径。</p>,
+    question: "Keystone Strategies是否能在未来协助办理H-1B、绿卡申请等其他移民服务？",
+    answer: <p>当然可以。我们为有H-1B及移民需求的客户提供持续服务，依托我们的雇主资源网络及顶尖顾问与律师团队，为您规划顺利合规的留美路径。</p>,
   },
   {
-    q: "申请STEM OPT需要满足哪些条件？",
-    a: (
+    question: "申请STEM OPT需要满足哪些条件？",
+    answer: (
       <ul className="list-disc space-y-2 pl-5">
         <li>
           <strong>必须目前持有有效的初次OPT（毕业后OPT）身份</strong>。
@@ -66,8 +64,8 @@ const faqs = [
           <ul className="mt-2 list-disc space-y-1 pl-5">
             <li>所使用的学位必须是学士、硕士或博士学位；</li>
             <li>
-              该学位必须来自<strong>获美国教育部认可机构认证的学校</strong>，
-              并<strong>
+              该学位必须来自<strong>获美国教育部认可机构认证的学校</strong>，并
+              <strong>
                 通过{" "}
                 <a
                   href="https://sevp.ice.gov/opt/#/login"
@@ -121,8 +119,8 @@ const faqs = [
     ),
   },
   {
-    q: "STEM OPT失业期是如何计算的？",
-    a: (
+    question: "STEM OPT失业期是如何计算的？",
+    answer: (
       <>
         <p>
           根据政策规定，STEM OPT阶段的累计失业时长不得超过60天。需要特别注意的是，
@@ -150,8 +148,8 @@ const faqs = [
     ),
   },
   {
-    q: "我的失业计时快到期了，Keystone Strategies能帮我吗？",
-    a: (
+    question: "我的失业计时快到期了，Keystone Strategies能帮我吗？",
+    answer: (
       <p>
         可以。如果您的雇主职位尚未合规，或者您需要迅速搭建自己的公司作为真实的STEM OPT雇主，
         我们会优先加快完成岗位描述、监督架构与I-983基础工作，让您能在身份宽限期内完成入职。
@@ -159,12 +157,12 @@ const faqs = [
     ),
   },
   {
-    q: "Keystone的STEM OPT雇主合规培训与其他STEM OPT服务有何不同？",
-    a: (
+    question: "Keystone的STEM OPT雇主合规培训与其他STEM OPT服务有何不同？",
+    answer: (
       <p>
         我们拒绝任何形式的非法挂靠就业。我们不是把您匹配给第三方岗位，而是专注于让您具体职位背后的
-        雇主一方——无论雇主是谁——真正合规：与学位挂钩的真实岗位职责、真实的主管，
-        以及经得起审查的文件记录。
+        雇主一方——无论雇主是谁——真正合规：与学位挂钩的真实岗位职责、真实的主管，以及经得起审查的
+        文件记录。
         {" "}<strong>我们还会与公司注册及移民申请团队直接协调，确保同一套架构能够延续应用到H-1B阶段。</strong>
       </p>
     ),
@@ -172,45 +170,11 @@ const faqs = [
 ];
 
 export default function FaqSection() {
-  const [openIndex, setOpenIndex] = useState(0);
-
   return (
-    <section className="bg-white py-20 md:py-28">
-      <div className="container">
-        <SectionHeading align="left" title="STEM OPT申请常见问题" />
-
-        <div className="mx-auto mt-14 max-w-3xl divide-y divide-border rounded-2xl border border-border">
-          {faqs.map((item, i) => {
-            const open = openIndex === i;
-            return (
-              <div key={item.q}>
-                <button
-                  onClick={() => setOpenIndex(open ? -1 : i)}
-                  aria-expanded={open}
-                  className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
-                >
-                  <span className="text-sm font-semibold text-keystone-ink md:text-base">{item.q}</span>
-                  <ChevronDown
-                    className={cn(
-                      "h-5 w-5 shrink-0 text-primary transition-transform",
-                      open && "rotate-180"
-                    )}
-                  />
-                </button>
-                {open && (
-                  <div className="px-6 pb-6 text-sm leading-relaxed text-muted-foreground">{item.a}</div>
-                )}
-              </div>
-            );
-          })}
-        </div>
-
-        <div className="mt-10 text-center">
-          <Link to="/contact" className="text-sm font-semibold text-primary hover:underline">
-            还有更多问题？点击获取解答 &gt;&gt;
-          </Link>
-        </div>
-      </div>
-    </section>
+    <ServiceFaqSection
+      title="STEM OPT申请常见问题"
+      faqs={faqs}
+      ctaLabel="还有更多问题？点击获取解答 >>"
+    />
   );
 }
