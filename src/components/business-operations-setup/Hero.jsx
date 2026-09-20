@@ -3,16 +3,9 @@ import ServiceHero from "@/components/common/ServiceHero";
 export default function Hero() {
   return (
     <ServiceHero
-      title="公司治理与持续合规"
-      subtitle="让您的治理文件与运营体系始终保持合规有效"
-      description={
-        <>
-          一家纸面上的公司，和一家能够真正运营的公司并不相同。我们负责维护您的公司章程或运营协议、
-          注册代理人与年度申报的合规有效，并处理实际的身份与运营层面事务——域名、邮箱、电话、
-          注册地址、政府备案，以及您真正会用到的合同模板，让企业从第一天起就拥有真实的运营基础设施
-          与清晰的治理记录。
-        </>
-      }
+      title="公司运营搭建"
+      subtitle="让您的公司随时准备好投入运营"
+      description={"公司注册只是第一步。Keystone 帮您在实体之上搭建真正的运营基础设施——包括治理记录、企业身份、公司信息与核心运营文档——让您的企业既能有序开展日常运营，也能为未来发展做好准备。"}
       ctaLabel="预约运营搭建咨询"
     />
   );

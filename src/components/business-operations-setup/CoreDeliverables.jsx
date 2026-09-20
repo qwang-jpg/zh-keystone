@@ -1,62 +1,56 @@
-import { Globe, MapPinned, FileStack, ShieldCheck, Scale } from "lucide-react";
-import ServiceCoreDeliverables from "@/components/common/ServiceCoreDeliverables";
+import PlanBuildLayers from "@/components/common/PlanBuildLayers";
 
-const modules = [
+const layers = [
   {
-    icon: Scale,
     title: "治理文件与合规日历",
-    description: "确保公司的官方治理记录持续有效，随时可供银行、投资人或移民审查官索取。",
-    items: [
-      "股权或管理层变更时，审核并更新运营协议/公司章程",
-      "在公司注册州提供注册代理人服务",
-      "跟踪年度报告与特许经营税续期，并提供申报提醒",
-      "为公司重大决策提供决议与会议记录模板",
+    description: "整理核心公司记录，并让关键的州申报截止日期一目了然。",
+    deliverables: [
+      "运营协议、公司章程、决议及会议记录模板",
+      "注册代理人与州申报信息审核",
+      "年度报告与特许经营税截止日期跟踪",
     ],
+    why: "有序的治理记录与清晰可见的合规日历，正是银行、会计师或投资人在需要时会要求查看的内容。",
   },
   {
-    icon: Globe,
     title: "数字与通信身份",
-    description: "每家企业都需要具备的基础设施，让公司看起来、沟通起来都像一家真实企业。",
-    items: [
-      "首年公司域名注册（1个）及账户搭建",
-      "在您自己的域名下搭建企业邮箱账户",
-      "指导申请企业电话号码",
+    description: "为您的公司搭建一套一致、专业的对外沟通方式。",
+    deliverables: [
+      "首年公司域名注册",
+      "在公司域名下搭建企业邮箱",
+      "企业电话指导与公司联系方式架构",
     ],
+    why: "一致的域名、邮箱与电话形象，往往是客户或银行在认可您的企业之前首先核实的内容。",
   },
   {
-    icon: MapPinned,
     title: "运营地址与政府记录",
-    description: "在公司成长或搬迁过程中，确保注册地址与政府备案信息保持准确。",
-    items: [
-      "运营地址搭建/变更指导",
-      "同步更新州及联邦政府系统中的公司信息",
-      "提供《公司与状态合规维护指南》文档",
+    description: "让您的地址设置与企业信息，与实际运营保持一致。",
+    deliverables: [
+      "运营地址搭建指导",
+      "区分注册代理人地址、邮寄地址与运营地址",
+      "在适用情况下更新州与联邦信息并保存合规记录",
     ],
+    why: "让地址与政府记录始终与实际运营保持一致，可以避免日后在银行业务或申报中出现不一致而带来麻烦。",
   },
   {
-    icon: FileStack,
     title: "核心业务文档模板",
-    description: "您在向客户开票、签署协议、记录团队工时时真正会用到的文档。",
-    items: [
-      "标准客户服务协议模板",
-      "标准公司发票模板",
-      "员工工时记录模板",
+    description: "从实用模板起步，直接调整用于日常业务。",
+    deliverables: [
+      "客户服务协议与发票模板",
+      "公司信头与业务记录模板",
+      "在适用情况下提供雇佣相关记录模板",
     ],
-  },
-  {
-    icon: ShieldCheck,
-    title: "工伤赔偿保险",
-    description: "在问题出现之前，指导您完成法律要求的保险覆盖。",
-    items: ["推荐合适的工伤赔偿保险承保商与渠道", "提供办理流程指导及持续答疑"],
+    why: "从模板出发而非从零开始，能让日常业务文书保持一致，并在每次新增客户或雇员时节省时间。",
   },
 ];
 
 export default function CoreDeliverables() {
   return (
-    <ServiceCoreDeliverables
-      description="五大模块覆盖企业保持合规、日常运营所需的治理记录、基础设施、文档与保险保障。"
-      items={modules}
-      showCta
+    <PlanBuildLayers
+      title="四大模块，让您的公司始终准备好运营"
+      intro="公司注册为您带来一个法律实体。这四大模块搭建起大多数新公司都会忽略的运营层：治理记录、数字身份、地址与政府记录，以及您真正会用到的文档模板。"
+      layers={layers}
+      note="模板用于支持日常业务使用，并非法律意见，也不是由执业律师起草的文件。Keystone 提供运营层面的指导，如需法律审核，可为您推荐合适的执业律师。"
+      tabsLabel="运营搭建流程顺序"
     />
   );
 }
