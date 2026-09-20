@@ -11,7 +11,7 @@ export default function CompactCta({ title, description, ctaLabel, ctaHref = "/c
     <section className={cn("relative overflow-hidden bg-keystone-ink py-12 md:py-14", className)}>
       <div className="absolute inset-0 bg-keystone-gradient opacity-15" />
       <div className="container relative flex flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
-        <div className="max-w-xl">
+        <div className="max-w-3xl">
           <h2 className="text-2xl font-bold leading-tight text-white md:text-3xl">
             {title}
           </h2>

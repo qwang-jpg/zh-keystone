@@ -28,8 +28,8 @@ function formatStat(parsed, t) {
 }
 
 const sizeClasses = {
-  md: "text-3xl md:text-4xl",
-  lg: "text-4xl md:text-5xl",
+  md: "text-2xl md:text-3xl",
+  lg: "text-3xl md:text-4xl",
 };
 
 const gridClasses = {
