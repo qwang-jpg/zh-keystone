@@ -1,55 +1,55 @@
-import { Settings2, MapPinned, ClipboardCheck, FileStack } from "lucide-react";
-import ServiceCoreDeliverables from "@/components/common/ServiceCoreDeliverables";
+import PlanBuildLayers from "@/components/common/PlanBuildLayers";
 
-const deliverables = [
+const layers = [
   {
-    icon: Settings2,
     title: "薪资系统搭建",
     description:
       "我们根据您实际的招聘与发薪周期规划薪资系统搭建，确保公司从第一天起就能合法发放W-2薪资。",
-    items: ["薪资系统开通激活", "从一开始就正确设置发薪周期与员工分类"],
+    deliverables: ["薪资系统开通激活", "从一开始就正确设置发薪周期与员工分类"],
+    why: "从第一天起就采用正确的系统与分类，能够避免在已经运行数个发薪周期之后，被迫进行代价高昂的重建。",
   },
   {
-    icon: MapPinned,
-    title: "州税务与失业保险注册",
+    title: "州薪资税与失业保险注册",
     description:
       "员工实际工作所在的每一个州，都有各自的薪资税与失业保险账户要求。我们会精准识别并为您注册所需的账户。",
-    items: [
+    deliverables: [
       "注册适用的州薪资税账户",
       "注册州失业保险（SUI）账户",
       "覆盖多州及远程办公员工的相关注册",
     ],
+    why: "遗漏必需的州账户注册，是拥有远程或多州团队的公司最常见的薪资合规漏洞之一。",
   },
   {
-    icon: ClipboardCheck,
     title: "薪酬与代扣流程",
     description:
       "我们搭建可重复执行的薪资发放机制：计算薪酬、发放工资、正确代扣税款，并保留经得起审计的记录。",
-    items: [
+    deliverables: [
       "《员工薪酬发放指南》文档",
       "《公司银行账户 — 员工薪资设置》文档",
       "每一次发薪的记录留存流程",
     ],
+    why: "唯有可复用、有据可查的流程才能经得起审计——而每个发薪周期凭记忆临时拼凑的表格做不到这一点。",
   },
   {
-    icon: FileStack,
     title: "工资单与W-2准备",
     description:
       "无论是报税季，还是签证申请或租房申请需要提供工资单时，您的文件都已准备就绪、准确无误。",
-    items: [
+    deliverables: [
       "工资单准备指导",
       "年终W-2准备指导",
       "关键申报截止日期提醒",
     ],
+    why: "准确、齐备的文件，能让签证申请、贷款申请或租房手续不会因为一份材料而卡壳。",
   },
 ];
 
 export default function CoreDeliverables() {
   return (
-    <ServiceCoreDeliverables
-      description="从第一次发薪到年终W-2办理，以下每一项服务都致力于确保您的薪资准确、及时、合规。"
-      items={deliverables}
-      columns="sm:grid-cols-2"
+    <PlanBuildLayers
+      title="从第一次发薪到年终W-2办理"
+      intro="薪资记录是每一份W-2薪资凭证背后的书面依据。以下四个模块将为您搭建公司未来多年赖以运作的系统、注册与文档体系。"
+      layers={layers}
+      tabsLabel="薪资搭建流程"
     />
   );
 }
