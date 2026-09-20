@@ -1,84 +1,20 @@
-import { useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import SectionHeading from "@/components/common/SectionHeading";
-import ImagePlaceholder from "@/components/common/ImagePlaceholder";
-import { cn } from "@/lib/utils";
+import SuccessStories from "@/components/h1b-infinity-plan/SuccessStories";
 
-const screenshots = [
-  "3.png",
-  "6.png",
-  "14.png",
-  "15.png",
-  "18.png",
-  "13.png",
-  "7.png",
-  "19.png",
-  "17.png",
-  "16.png",
-  "2.png",
-];
-
+// Same case-showcase section as the H-1B Infinity Plan and STEM OPT Ready
+// Plan pages, reused as-is with OPT-specific heading copy.
 export default function SuccessCases() {
-  const [index, setIndex] = useState(0);
-
-  const go = (dir) => {
-    setIndex((i) => (i + dir + screenshots.length) % screenshots.length);
-  };
-
   return (
-    <section className="bg-white py-20 md:py-28">
-      <div className="container">
-        <SectionHeading align="left" title="OPT就业保障计划 — 成功案例" />
-
-        <div className="relative mx-auto mt-14 max-w-xl">
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={screenshots[index]}
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -12 }}
-              transition={{ duration: 0.3 }}
-            >
-              <ImagePlaceholder
-                sourceFile={screenshots[index]}
-                label={`成功案例截图 ${index + 1} / ${screenshots.length}`}
-                aspect="aspect-[4/3]"
-              />
-            </motion.div>
-          </AnimatePresence>
-
-          <div className="mt-6 flex items-center justify-center gap-6">
-            <button
-              onClick={() => go(-1)}
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-keystone-ink transition-colors hover:border-primary hover:text-primary"
-              aria-label="上一个案例"
-            >
-              <ChevronLeft className="h-5 w-5" />
-            </button>
-            <div className="flex flex-wrap justify-center gap-2">
-              {screenshots.map((s, i) => (
-                <button
-                  key={s}
-                  onClick={() => setIndex(i)}
-                  aria-label={`显示案例截图 ${i + 1}`}
-                  className={cn(
-                    "h-2 w-2 rounded-full transition-all",
-                    i === index ? "w-6 bg-primary" : "bg-border"
-                  )}
-                />
-              ))}
-            </div>
-            <button
-              onClick={() => go(1)}
-              className="flex h-10 w-10 items-center justify-center rounded-full border border-border text-keystone-ink transition-colors hover:border-primary hover:text-primary"
-              aria-label="下一个案例"
-            >
-              <ChevronRight className="h-5 w-5" />
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
+    <SuccessStories
+      title={
+        <>
+          真实企业。
+          <br />
+          真实的OPT历程。
+        </>
+      }
+      description="不同的起点，真实运营的企业，围绕客户具体情况搭建的雇主架构。"
+      ariaLabel="真实OPT历程案例研究"
+      filterGoal="维持OPT身份"
+    />
   );
 }
