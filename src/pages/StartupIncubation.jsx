@@ -1,11 +1,15 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
+import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/startup-incubation/Hero";
+import StatsBar from "@/components/startup-incubation/StatsBar";
 import ProgramOverview from "@/components/startup-incubation/ProgramOverview";
+import WhoItsFor from "@/components/startup-incubation/WhoItsFor";
 import CoreServiceModules from "@/components/startup-incubation/CoreServiceModules";
+import MidCta from "@/components/startup-incubation/MidCta";
+import CaseStudies from "@/components/startup-incubation/CaseStudies";
 import WhyKeystone from "@/components/startup-incubation/WhyKeystone";
-import Testimonials from "@/components/startup-incubation/Testimonials";
-import IncubationProcess from "@/components/startup-incubation/IncubationProcess";
+import FaqSection from "@/components/startup-incubation/FaqSection";
 import FinalCta from "@/components/startup-incubation/FinalCta";
 
 export default function StartupIncubation() {
@@ -17,11 +21,15 @@ export default function StartupIncubation() {
         path="/company-formation-corporate-structure"
       />
       <Hero />
+      <StatsBar />
       <ProgramOverview />
+      <WhoItsFor />
       <CoreServiceModules />
+      <MidCta />
+      <CaseStudies />
       <WhyKeystone />
-      <Testimonials />
-      <IncubationProcess />
+      <RelatedServices currentHref="/company-formation-corporate-structure" />
+      <FaqSection />
       <FinalCta />
     </PageLayout>
   );
