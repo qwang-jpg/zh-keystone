@@ -35,7 +35,6 @@ export default function CoreAdvantages() {
           align="left"
           light
           title="专为稳固并维持您的STEM OPT身份而搭建"
-          className="max-w-2xl mx-0"
         />
 
         <div className="mt-12 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 md:grid-cols-3">

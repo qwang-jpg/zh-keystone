@@ -8,7 +8,7 @@ export default {
   content: [
     {
       type: `paragraph`,
-      html: `了解更多关于我们<a href="/h-1b-status-protection-program">H-1B自雇服务</a>的信息。自H-1B加权抽签制度实施以来，大多数讨论都集中在两个问题上：<strong>我到底能不能进入抽签池，以及我该不该把工资等级往上提？</strong>从这个角度来看，在当前的加权制度下，自雇确实比传统雇主担保为申请人提供了更大的操作空间。原因并不复杂——它体现在几个非常具体的方面。关于加权抽签的完整解读，请参阅<a href="/insights/h-1b-weighted-selection-guide">我们为OPT学生、应届毕业生及职业初期人士撰写的2026年H-1B加权抽签规则完全指南</a>。`,
+      html: `了解更多关于我们<a href="/h1b-infinity-plan">H-1B自雇服务</a>的信息。自H-1B加权抽签制度实施以来，大多数讨论都集中在两个问题上：<strong>我到底能不能进入抽签池，以及我该不该把工资等级往上提？</strong>从这个角度来看，在当前的加权制度下，自雇确实比传统雇主担保为申请人提供了更大的操作空间。原因并不复杂——它体现在几个非常具体的方面。关于加权抽签的完整解读，请参阅<a href="/insights/h-1b-weighted-selection-guide">我们为OPT学生、应届毕业生及职业初期人士撰写的2026年H-1B加权抽签规则完全指南</a>。`,
     },
     { type: `heading`, level: 2, html: `第一，自雇能确保您真正进入抽签池` },
     {

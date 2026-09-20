@@ -1,69 +1,48 @@
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import SectionHeading from "@/components/common/SectionHeading";
-import ImagePlaceholder from "@/components/common/ImagePlaceholder";
+import PlanBuildLayers from "@/components/common/PlanBuildLayers";
 
-const items = [
+const layers = [
   {
-    number: "01",
-    title: "真正契合学位的岗位描述",
-    body:
-      "我们设计与员工专业方向及公司实际业务真实契合的STEM相关岗位职责与职称，交付一份完整的《岗位描述》文档，可直接支持I-983及未来的申请。",
-    cta: "获取您的岗位描述设计",
-    sourceFile: "radission-us-_XeQ8XEWb4Q-unsplash.jpg",
+    title: "岗位与职责描述设计",
+    description:
+      "我们审核员工的STEM学位与公司的实际业务，设计出真正契合两者、而非表面挂钩的岗位职责与职称。",
+    deliverables: [
+      "员工学位与公司业务审核",
+      "起草契合STEM要求的职称与岗位职责",
+      "完成支持I-983培训计划的《岗位描述》文档",
+    ],
+    why: "岗位描述若不能真正与学位挂钩，是STEM OPT延期中最受审查关注的一环。",
   },
   {
-    number: "02",
-    title: "清晰架构的真实雇佣关系",
-    body:
-      "我们帮您搭建符合STEM OPT要求的真实雇佣关系，配备指定主管及能够体现真实监督的管理架构，而非仅停留在纸面的名义安排。",
-    cta: "搭建您的雇佣关系架构",
-    sourceFile: "Screenshot-2025-07-16-at-16.30.51.png",
+    title: "真实的雇佣关系",
+    description:
+      "我们帮您指定合格的主管，并搭建能够体现真实日常监督的管理架构，而非仅停留在纸面的名义安排。",
+    deliverables: [
+      "指定合格的主管",
+      "确定管理与监督架构",
+      "整理雇佣关系相关文件记录",
+    ],
+    why: "真实、可核验的雇佣关系，是区分合规架构与经不起审查的架构的关键所在。",
   },
   {
-    number: "03",
     title: "持续的STEM OPT身份维护",
-    body:
-      "岗位搭建完成后，我们提供定期的STEM OPT合规跟进与日常答疑支持，确保雇主架构在整个延期期间都经得起审查。",
-    cta: "获取持续合规支持",
-    sourceFile: "william-bout-TbTgtx7kmes-unsplash.jpg",
+    description:
+      "岗位正式生效后，我们持续保持全程参与，确保雇主架构在整个延期期间都经得起审查。",
+    deliverables: [
+      "定期合规跟进",
+      "延期期间的日常答疑支持",
+      "随情况变化审阅相关文件",
+    ],
+    why: "我们的支持不会在岗位搭建完成后就结束——雇佣关系需要随情况变化持续保持合规。",
   },
 ];
 
 export default function WhatYoullAchieve() {
   return (
-    <section className="bg-white py-20 md:py-28">
-      <div className="container">
-        <SectionHeading align="left" title={<>STEM OPT雇主合规培训<br />您将获得什么</>} />
-
-        <div className="mt-14 space-y-16">
-          {items.map((it, i) => (
-            <motion.div
-              key={it.number}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.5 }}
-              className={`grid grid-cols-1 items-center gap-10 lg:grid-cols-2 ${
-                i % 2 === 1 ? "lg:[&>*:first-child]:order-2" : ""
-              }`}
-            >
-              <div>
-                <ImagePlaceholder sourceFile={it.sourceFile} aspect="aspect-[4/3]" />
-              </div>
-              <div>
-                <span className="text-sm font-bold text-primary/50">{it.number}</span>
-                <h3 className="mt-3 text-2xl font-bold leading-snug text-keystone-ink">{it.title}</h3>
-                <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{it.body}</p>
-                <Button asChild className="mt-6">
-                  <Link to="/contact">{it.cta}</Link>
-                </Button>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <PlanBuildLayers
+      title="STEM OPT雇主合规培训涵盖的内容"
+      intro="从岗位描述到持续的身份维护，以下每一层都聚焦于USCIS与DSO真正审查的雇佣关系环节。"
+      layers={layers}
+      tabsLabel="STEM OPT合规模块"
+    />
   );
 }

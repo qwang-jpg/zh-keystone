@@ -1,8 +1,11 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
 import CompactCta from "@/components/common/CompactCta";
+import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/e-verify-employer-account-setup/Hero";
+import StatsBar from "@/components/e-verify-employer-account-setup/StatsBar";
 import Overview from "@/components/e-verify-employer-account-setup/Overview";
+import WhoItsFor from "@/components/e-verify-employer-account-setup/WhoItsFor";
 import CoreDeliverables from "@/components/e-verify-employer-account-setup/CoreDeliverables";
 import WhyKeystone from "@/components/e-verify-employer-account-setup/WhyKeystone";
 import FaqSection from "@/components/e-verify-employer-account-setup/FaqSection";
@@ -16,9 +19,19 @@ export default function EVerifyEmployerAccountSetup() {
         path="/e-verify-employer-account-setup"
       />
       <Hero />
+      <StatsBar />
       <Overview />
+      <WhoItsFor />
       <CoreDeliverables />
       <WhyKeystone />
+      <RelatedServices currentHref="/e-verify-employer-account-setup" />
+      <CompactCta
+        title="别让缺失的公司ID拖慢您的下一次招聘"
+        description={
+          <p>从谅解备忘录到州新员工申报，我们负责整个注册流程，确保您的公司ID在需要之前就已准备就绪。</p>
+        }
+        ctaLabel="开始我的E-Verify注册"
+      />
       <FaqSection />
       <CompactCta
         title="让您的公司具备E-Verify资质"

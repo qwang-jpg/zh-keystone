@@ -1,8 +1,11 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
 import CompactCta from "@/components/common/CompactCta";
+import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/employee-onboarding-compliance/Hero";
+import StatsBar from "@/components/employee-onboarding-compliance/StatsBar";
 import Overview from "@/components/employee-onboarding-compliance/Overview";
+import WhoItsFor from "@/components/employee-onboarding-compliance/WhoItsFor";
 import CoreDeliverables from "@/components/employee-onboarding-compliance/CoreDeliverables";
 import WhyKeystone from "@/components/employee-onboarding-compliance/WhyKeystone";
 import FaqSection from "@/components/employee-onboarding-compliance/FaqSection";
@@ -16,9 +19,21 @@ export default function EmployeeOnboardingCompliance() {
         path="/employee-onboarding-compliance"
       />
       <Hero />
+      <StatsBar />
       <Overview />
+      <WhoItsFor />
       <CoreDeliverables />
       <WhyKeystone />
+      <RelatedServices currentHref="/employee-onboarding-compliance" />
+      <CompactCta
+        title="不要每次招聘都重新搭建入职流程"
+        description={
+          <p>
+            可复用的招聘流程、入职首日所需的文书工作，以及背后的合规保障，一次搭建，此后每一次招聘都可直接沿用。
+          </p>
+        }
+        ctaLabel="搭建我的入职流程"
+      />
       <FaqSection />
       <CompactCta
         title="以正确的方式迎接您的下一位新员工"

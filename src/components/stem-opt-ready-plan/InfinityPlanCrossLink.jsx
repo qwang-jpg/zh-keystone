@@ -24,7 +24,7 @@ export default function InfinityPlanCrossLink() {
             并为移民策略的下一阶段做好准备。
           </p>
 
-          <div className="relative mx-auto mt-14 max-w-2xl">
+          <div className="relative mx-auto mt-14 max-w-4xl">
             <div className="absolute left-5 right-5 top-[9px] h-px bg-keystone-ink/10" aria-hidden="true" />
             <div className="relative flex items-start justify-between">
               {steps.map((s) => (
@@ -60,7 +60,7 @@ export default function InfinityPlanCrossLink() {
             STEM OPT之后路径的客户，我们也提供专门的H-1B与职业类绿卡规划支持。
           </p>
           <Button asChild size="lg" className="mt-8">
-            <Link to="/h-1b-status-protection-program">
+            <Link to="/h1b-infinity-plan">
               了解H-1B无限续航计划
               <ArrowRight className="h-4 w-4 shrink-0" />
             </Link>

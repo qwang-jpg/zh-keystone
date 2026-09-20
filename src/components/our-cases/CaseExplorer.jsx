@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, X } from "lucide-react";
 import { CASES, GOALS, filterCases } from "@/components/our-cases/caseData";
+import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 function FilterPill({ label, active, onClick }) {
@@ -26,7 +27,7 @@ export function CaseCard({ c, onOpen }) {
 
   return (
     <article className="flex flex-col rounded-2xl border border-border bg-white p-6 shadow-sm">
-      <div className="flex items-start justify-between gap-3">
+      <div className="flex flex-wrap items-start justify-between gap-3">
         <div className="flex items-baseline gap-2.5">
           <span className="text-2xl font-bold text-primary/25 md:text-3xl">{c.num}</span>
           <h3 className="text-lg font-bold text-keystone-ink md:text-xl">{c.name}</h3>
@@ -38,18 +39,18 @@ export function CaseCard({ c, onOpen }) {
 
       <p className="mt-3 text-sm font-semibold leading-snug text-keystone-ink md:text-base">{c.summary}</p>
 
-      <div className="mt-4 grid grid-cols-3 gap-px overflow-hidden rounded-xl bg-border">
+      <div className="mt-4 grid grid-cols-1 gap-px overflow-hidden rounded-xl bg-border sm:grid-cols-3">
         <div className="bg-keystone-mist px-3 py-2.5">
           <div className="text-2xs font-bold uppercase tracking-wide text-muted-foreground">抽签结果</div>
-          <div className="mt-0.5 text-sm font-bold text-keystone-ink">{c.attemptShort}</div>
+          <div className="mt-0.5 break-words text-sm font-bold text-keystone-ink">{c.attemptShort}</div>
         </div>
         <div className="bg-keystone-mist px-3 py-2.5">
           <div className="text-2xs font-bold uppercase tracking-wide text-muted-foreground">{durationLabel}</div>
-          <div className="mt-0.5 text-sm font-bold text-keystone-ink">{c.duration}</div>
+          <div className="mt-0.5 break-words text-sm font-bold text-keystone-ink">{c.duration}</div>
         </div>
         <div className="bg-keystone-mist px-3 py-2.5">
           <div className="text-2xs font-bold uppercase tracking-wide text-muted-foreground">财年</div>
-          <div className="mt-0.5 text-sm font-bold text-keystone-ink">{c.season}</div>
+          <div className="mt-0.5 break-words text-sm font-bold text-keystone-ink">{c.season}</div>
         </div>
       </div>
 
@@ -64,14 +65,10 @@ export function CaseCard({ c, onOpen }) {
         ))}
       </div>
 
-      <button
-        type="button"
-        onClick={onOpen}
-        className="mt-5 inline-flex w-fit items-center gap-1.5 rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-keystone-ink"
-      >
+      <Button type="button" onClick={onOpen} size="sm" className="mt-5 w-fit gap-1.5">
         查看完整案例
         <ArrowRight className="h-3.5 w-3.5" />
-      </button>
+      </Button>
     </article>
   );
 }

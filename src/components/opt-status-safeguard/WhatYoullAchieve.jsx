@@ -1,69 +1,61 @@
-import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import SectionHeading from "@/components/common/SectionHeading";
-import ImagePlaceholder from "@/components/common/ImagePlaceholder";
+import PlanBuildLayers from "@/components/common/PlanBuildLayers";
 
-const items = [
+const layers = [
   {
-    number: "01",
-    title: "2,000多个真实OPT岗位，覆盖95%以上的专业方向",
-    body:
-      "Keystone帮助学生在失业倒计时期间快速解决身份问题——通过500家合作企业组成的网络，为您匹配2,000多个真实岗位，涵盖科技、咨询、数据分析、项目管理等众多领域。我们确保您的职业路径与学术背景紧密契合，最快48小时即可拿到正式offer。每一个岗位都来自真实运营、拥有真实用人需求的企业，确保您的就业记录完全合法合规。",
-    cta: "获取就业安置资源",
-    sourceFile: "radission-us-_XeQ8XEWb4Q-unsplash.jpg",
+    title: "工作机会匹配",
+    description: "通过Keystone的企业网络获取工作机会。我们会根据您的学位、经验、职业方向与OPT时间线，在自有的雇主生态中为您匹配合适的岗位。",
+    deliverables: ["500+家合作企业资源", "2,000+个真实工作机会", "最快48小时获得offer"],
+    why: "合适的网络比单纯的数量更重要——能否接触到真实、对口的岗位，才是真正缩短失业计时的关键。",
   },
   {
-    number: "02",
-    title: "积累真实工作经历，解锁全职机会",
-    body:
-      "通过我们的合作企业网络，Keystone为您对接由真实用人需求支撑的合法岗位，让您在维持合法身份的同时，积累实战工作经验、提升技能、丰富简历。这段工作经历经得起未来背景调查的考验，为您的职业发展增添真实价值，也可能转化为全职机会——为您创造长期的职业成长空间。",
-    cta: "获取完整OPT申请指南",
-    sourceFile: "sigmund-Fa9b57hffnM-unsplash.jpg",
+    title: "OPT申请支持",
+    description: "按照清晰的时间线，为您准备OPT申请。",
+    deliverables: [
+      "OPT时间线规划",
+      "DSO与I-20流程指导",
+      "I-765表格填写指导",
+      "申请材料清单",
+      "递交前材料审核",
+      "EAD办理流程指导",
+    ],
+    why: "一份准确、时机得当的申请，能够避免处理延误与补件通知（RFE）侵占您的OPT授权窗口。",
   },
   {
-    number: "03",
-    title: "对接STEM OPT与H-1B担保雇主资源",
-    body:
-      "一旦您的合规OPT身份得到保障，Keystone将依托合作企业网络，为您对接拥有真实用人需求、并愿意提供担保的企业，帮助您合法推进STEM OPT，进而迈向H-1B。我们始终致力于杜绝任何形式的非法付费担保安排；每一个岗位都真实存在且以职业发展为导向。对于计划长期留美的客户，我们也提供EB-2/EB-3等移民路径的咨询，帮助您在推进职业发展的同时，稳步迈向长期合法居留。",
-    cta: "获取担保雇主名单",
-    sourceFile: "william-bout-TbTgtx7kmes-unsplash.jpg",
+    title: "就业与合规支持",
+    description: "确保您的OPT雇佣关系被妥善记录。",
+    deliverables: [
+      "专业与岗位对口性核查",
+      "岗位职责审核",
+      "雇佣文件准备指导",
+      "入职支持",
+      "雇主信息报备指导",
+      "雇佣记录维护",
+      "更换雇主指导",
+    ],
+    why: "只有妥善记录的雇佣关系，才能在SEVIS记录或雇主信息被审查时，切实保护您的身份。",
+  },
+  {
+    title: "职业发展与身份延续",
+    description: "着眼于第一份OPT工作之后的规划。对于正在准备下一阶段的客户，Keystone可以帮助评估：",
+    deliverables: [
+      "STEM OPT申请就绪度",
+      "未来的E-Verify雇主要求",
+      "STEM OPT工作机会",
+      "H-1B担保雇主机会",
+      "职业发展路径选项",
+      "职业类移民规划",
+    ],
+    why: "您的第一份OPT工作只是一块跳板——提前规划下一阶段，能让您的选择始终保持开放，而不是日后从零开始。",
   },
 ];
 
 export default function WhatYoullAchieve() {
   return (
-    <section className="bg-white py-20 md:py-28">
-      <div className="container">
-        <SectionHeading align="left" title={<>选择OPT就业保障计划<br />您将获得什么</>} />
-
-        <div className="mt-14 space-y-16">
-          {items.map((it, i) => (
-            <motion.div
-              key={it.number}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.5 }}
-              className={`grid grid-cols-1 items-center gap-10 lg:grid-cols-2 ${
-                i % 2 === 1 ? "lg:[&>*:first-child]:order-2" : ""
-              }`}
-            >
-              <div>
-                <ImagePlaceholder sourceFile={it.sourceFile} aspect="aspect-[4/3]" />
-              </div>
-              <div>
-                <span className="text-sm font-bold text-primary/50">{it.number}</span>
-                <h3 className="mt-3 text-2xl font-bold leading-snug text-keystone-ink">{it.title}</h3>
-                <p className="mt-4 text-sm leading-relaxed text-muted-foreground">{it.body}</p>
-                <Button asChild className="mt-6">
-                  <Link to="/contact">{it.cta}</Link>
-                </Button>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <PlanBuildLayers
+      title="一个项目，覆盖OPT就业、合规与身份的下一步。"
+      intro="从为您匹配与专业相关的工作机会，到妥善记录雇佣关系、规划身份的下一步——这一整套项目覆盖您OPT全程的每一个环节。"
+      layers={layers}
+      tabsLabel="OPT项目模块"
+    />
   );
 }

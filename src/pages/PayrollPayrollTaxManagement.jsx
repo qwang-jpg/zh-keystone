@@ -1,8 +1,11 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
 import CompactCta from "@/components/common/CompactCta";
+import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/payroll-payroll-tax-management/Hero";
+import StatsBar from "@/components/payroll-payroll-tax-management/StatsBar";
 import Overview from "@/components/payroll-payroll-tax-management/Overview";
+import WhoItsFor from "@/components/payroll-payroll-tax-management/WhoItsFor";
 import CoreDeliverables from "@/components/payroll-payroll-tax-management/CoreDeliverables";
 import WhyKeystone from "@/components/payroll-payroll-tax-management/WhyKeystone";
 import FaqSection from "@/components/payroll-payroll-tax-management/FaqSection";
@@ -16,9 +19,21 @@ export default function PayrollPayrollTaxManagement() {
         path="/payroll-payroll-tax-management"
       />
       <Hero />
+      <StatsBar />
       <Overview />
+      <WhoItsFor />
       <CoreDeliverables />
       <WhyKeystone />
+      <RelatedServices currentHref="/payroll-payroll-tax-management" />
+      <CompactCta
+        title="搭建经得起审查的薪资书面记录"
+        description={
+          <p>
+            系统搭建、州税务注册与符合W-2标准的记录留存，一次到位，同时经得起IRS、州政府部门与USCIS的审查。
+          </p>
+        }
+        ctaLabel="启动我的薪资搭建"
+      />
       <FaqSection />
       <CompactCta
         title="在第一位员工入职前，搭建好薪资体系"

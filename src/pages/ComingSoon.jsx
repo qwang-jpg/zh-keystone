@@ -6,10 +6,10 @@ import Seo from "@/components/common/Seo";
 export default function ComingSoon({ title }) {
   return (
     <PageLayout>
-      <Seo title={title} description={`${title} is being rebuilt and will be available shortly.`} noindex />
+      <Seo title={title} description={`${title}页面正在建设中，敬请期待。`} noindex />
       <div className="container py-32 text-center">
         <h1 className="text-3xl font-bold text-keystone-ink md:text-4xl">{title}</h1>
-        <p className="mt-4 text-muted-foreground">This page is being rebuilt and will be available shortly.</p>
+        <p className="mt-4 text-muted-foreground">该页面正在建设中，敬请期待。</p>
       </div>
     </PageLayout>
   );

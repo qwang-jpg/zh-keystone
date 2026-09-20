@@ -37,7 +37,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `想了解更多？<a href="/h-1b-status-protection-program">联系我们获取免费咨询。</a>`,
+      html: `想了解更多？<a href="/h1b-infinity-plan">联系我们获取免费咨询。</a>`,
     },
     { type: `heading`, level: 2, html: `H-1B自雇的要求` },
     { type: `heading`, level: 3, html: `1. 雇主必须满足的要求` },

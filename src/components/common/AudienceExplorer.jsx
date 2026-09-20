@@ -31,12 +31,7 @@ export default function AudienceExplorer({
   return (
     <section id={id} className={cn("border-t border-border bg-keystone-mist py-20 md:py-28", className)}>
       <div className="container">
-        <SectionHeading
-          title={title}
-          description={description}
-          align="left"
-          className="max-w-2xl"
-        />
+        <SectionHeading title={title} description={description} align="left" />
 
         <div className="mt-7 flex flex-wrap gap-2.5">
           {items.map((it, i) => {

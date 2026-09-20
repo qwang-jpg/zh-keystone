@@ -1,107 +1,24 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import { motion, AnimatePresence } from "framer-motion";
-import { Plus, ArrowRight } from "lucide-react";
-import SectionHeading from "@/components/common/SectionHeading";
-import { cn } from "@/lib/utils";
+import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
 export const faqs = [
-  {
-    "q": "公司在办理H-1B申请时需要具备哪些条件？",
-    "a": "企业必须能够支撑一份真实的岗位聘用，并证明该职位背后的运营、工作内容与资源支持。我们协助整理商业计划、注册记录与财务文件，供移民律师评估公司与申请材料。"
-  },
-  {
-    "q": "我能把由自己公司担保的H-1B转移到其他雇主吗？",
-    "a": "可以，只要满足适用的H-1B转移要求。新雇主必须遵循相应的申请流程。我们可以协助整理律师所需的公司与薪资记录。"
-  },
-  {
-    "q": "由所有者担保的H-1B申请是否占用年度名额？",
-    "a": "拥有申请方公司本身并不会使申请自动豁免抽签名额。受名额限制的申请仍需遵循适用的年度注册与抽签流程；具体是否适用豁免，应由律师评估您的案件情况后判断。"
-  },
-  {
-    "q": "职位应如何与我的学历和业务相关联？",
-    "a": "所提供的职位必须符合专业职位（specialty occupation）的资格要求，且您的资历必须与该职位相匹配。您的业务活动与支持文件应能说明该专业岗位的真实需求。我们协助整理职位与业务文件，供律师审核。"
-  },
-  {
-    "q": "公司是否必须雇佣其他员工？",
-    "a": "并不存在\"仅因H-1B受益人拥有公司股权，就必须额外雇佣员工\"的一刀切要求。企业仍需具备可信的运营计划，并有能力履行相应的雇佣与薪资义务。您具体的架构应与律师一同审核确认。"
-  },
-  {
-    "q": "如果USCIS发出补件通知（RFE）该怎么办？",
-    "a": "补件通知是要求提供更多信息，并不等同于拒绝。问题可能涉及身份历史、企业运营，或该职位的真实需求。我们协助整理公司记录，并与您的律师协调完成回复。"
-  },
-  {
-    "q": "加入该计划是否需要我已经有现成的创业想法？",
-    "a": "在首次评估之前，您并不需要有一份完整成型的商业计划。我们会根据您的背景与目标，帮您探索可行的方向。该计划要求的是一家真实的企业，以及一个符合相关要求的职位。"
-  },
-  {
-    "q": "如果我在首次注册周期未被抽中会怎样？",
-    "a": "只要您与公司仍符合条件，就可以为之后的注册周期做准备。维持合法身份与工作授权是另一项独立的要求；注册或拥有公司股权本身并不会延长两者的有效期。我们会协助您与移民律师一同审视接下来的步骤。"
-  }
+  { question: "H-1B无限续航计划适合哪些人？", answer: "H-1B无限续航计划专为希望通过真实的美国企业与雇主架构探索H-1B路径的合格专业人士设计。这可能包括面临担保不确定性的H-1B专业人士、提前规划的OPT或STEM OPT专业人士、正在搭建美国企业的创始人，以及正在准备雇主转换的专业人士。个人是否符合资格，取决于具体的移民、雇佣、企业与时间安排情况。" },
+  { question: "我自己名下的公司可以为我担保H-1B吗？", answer: "在满足适用的移民与雇佣要求的前提下，受益人拥有的公司可以支持H-1B申请。仅凭公司所有权并不足够。企业本身、专业职位、雇佣架构、运营情况及支持证明材料，都需要作为整体案件策略的一部分加以评估。" },
+  { question: "我需要已经拥有一家正在运营的企业吗？", answer: "不一定。有些客户加入H-1B无限续航计划时已拥有现成的企业，也有些客户是从一个可行的商业构想开始的。合适的起点取决于您的背景、时间线、拟定职位、商业模式与移民情况。" },
+  { question: "仅仅注册一家公司，是否足以支持H-1B申请？", answer: "不足以。公司注册只是第一层。一个可信的H-1B雇主，需要的不仅仅是一个注册实体。企业需要具备合法的运营模式、专业职位、雇佣基础设施、运营活动及支持文件。H-1B无限续航计划旨在共同搭建这些层面。" },
+  { question: "Keystone为公司提供哪些搭建服务？", answer: "根据服务范围的不同，Keystone可为企业提供公司注册、治理架构、雇主搭建、品牌与运营形象、人力资源与薪资基础设施、雇佣合规、企业运营、文件整理、证明材料梳理，以及H-1B案件就绪等方面的支持。具体服务范围以委托协议为准。" },
+  { question: "移民法律事务如何处理？", answer: "Keystone专注于H-1B无限续航计划中企业、雇主、运营、合规及案件就绪相关的工作内容。移民法律分析、法律意见及申请递交在必要时与合格移民律师协调完成。这使雇主方基础设施与移民策略能够在整个过程中保持一致。" },
+  { question: "如果USCIS发出补件通知（RFE）该怎么办？", answer: "如果USCIS要求补充证明材料，Keystone会继续在委托范围内为雇主方与企业文件提供支持，并与移民律师协调公司所需提供的相关证明材料。具体的回复策略取决于补件通知中提出的问题及个案的具体情况。" },
+  { question: "我应该提前多久开始准备？", answer: "越早开始准备，企业就有越多时间建立支撑雇主身份所需的基础设施与运营历史。公司注册可以相对较快完成，但企业运营、雇佣基础设施、财务记录及支持文件的建立需要时间积累。合适的时间安排取决于您当前的身份、企业就绪程度及拟定的H-1B策略。" },
+  { question: "Keystone是否保证H-1B获批？", answer: "最终的审批决定由USCIS作出，因此Keystone无法控制或保证H-1B申请一定获批。Keystone所承诺的，是我们对客户所作出的服务承诺。我们的责任、持续支持内容及适用的保障机制，均在委托协议中明确规定，我们会在相应服务期内按照这些合同承诺持续为客户提供支持。" },
+  { question: "H-1B获批之后会发生什么？", answer: "获批并不意味着雇主关系或公司合规责任的结束。企业应继续按照现有商业模式运营，保持适当的雇佣与企业记录，并履行适用的雇主义务。Keystone在相应服务期内的持续支持内容，以委托协议为准。" },
 ];
 
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState(null);
-
   return (
-    <section id="h1b-faq" className="scroll-mt-24 bg-white py-20 md:py-28">
-      <div className="container">
-        <SectionHeading
-          align="left"
-          title="H-1B自雇 常见问题"
-        />
-
-        <div className="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-4 md:grid-cols-2">
-          {faqs.map((item, i) => {
-            const isOpen = openIndex === i;
-            return (
-              <div
-                key={item.q}
-                className="overflow-hidden rounded-2xl border border-border bg-keystone-mist"
-              >
-                <button
-                  onClick={() => setOpenIndex(isOpen ? null : i)}
-                  aria-expanded={isOpen}
-                  className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
-                >
-                  <span className="text-sm font-semibold text-keystone-ink">{item.q}</span>
-                  <Plus
-                    className={cn(
-                      "h-4 w-4 flex-shrink-0 text-primary transition-transform",
-                      isOpen && "rotate-45"
-                    )}
-                  />
-                </button>
-                <AnimatePresence initial={false}>
-                  {isOpen && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.25 }}
-                      className="overflow-hidden"
-                    >
-                      <p className="px-6 pb-5 text-sm leading-relaxed text-muted-foreground">
-                        {item.a}
-                      </p>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            );
-          })}
-        </div>
-
-        <div className="mt-10 text-center">
-          <Link
-            to="/contact"
-            className="inline-flex items-center gap-1 text-sm font-semibold text-primary hover:underline"
-          >
-            还有更多问题？获取解答
-            <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
-      </div>
-    </section>
+    <ServiceFaqSection
+      title="您需要了解的问题"
+      description="在决定下一步之前，先了解适配性、具体工作内容与各方责任。"
+      faqs={faqs}
+    />
   );
 }

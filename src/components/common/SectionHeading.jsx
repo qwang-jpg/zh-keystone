@@ -10,7 +10,9 @@ export default function SectionHeading({
   return (
     <div
       className={cn(
-        "max-w-2xl",
+        // A title alone stays tight; once a description paragraph joins it,
+        // the block gets more room so the body copy doesn't wrap too early.
+        description ? "max-w-3xl" : "max-w-2xl",
         align === "center" && "mx-auto text-center",
         className
       )}

@@ -1,72 +1,44 @@
-import { useState } from "react";
-import { Plus, Minus } from "lucide-react";
-import SectionHeading from "@/components/common/SectionHeading";
-import { cn } from "@/lib/utils";
+import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
 export const faqs = [
   {
     question: "你们是会计师事务所吗？能帮我报税吗？",
-    answer:
-      "我们不是会计师事务所。Keystone根据您公司的发展阶段与架构，提供战略性的财务与税务顾问服务。我们帮助识别风险、设计框架，并在需要报税与合规办理时，为您对接持牌CPA合作伙伴。",
+    answer: "Keystone为企业提供记账、财务管理、税务筹划支持与申报协调服务。\n\n我们可以根据贵公司的财务结构、运营情况、记录与即将到来的各项要求，给出切实可行的建议。但Keystone提供的指导并不构成持牌专业人士出具的正式CPA意见、法律意见或税务意见。\n\n当某项税务申报、税务立场、会计判定或其他事项需要CPA或持牌税务专业人士处理时，我们可以与您现有的专业顾问协调，或为您推荐合适的CPA、会计师、律师或税务专业人士进一步审阅。",
   },
   {
     question: "如果我的公司已经有会计了，还需要你们的服务吗？",
-    answer:
-      "我们的介入时机在会计日常操作之前，从合规与移民规划的角度搭建战略性财务框架。我们的角色是对您会计工作的补充，同时支持业务成长与法律合规两个方面。",
+    answer: "有可能仍然需要。\n\n会计师或CPA通常主要负责账目审核、报税准备或特定的会计事项。Keystone的角色可以覆盖更广泛的财务管理流程——包括记账整理、截止日期管理、公司续期规划、财务记录整理，以及公司与外部专业人士之间的协调对接。\n\n如果您已经有会计师或CPA，我们可以与他们协同合作，而不是取而代之。",
   },
   {
-    question: "什么阶段应该考虑财务战略咨询？",
-    answer:
-      "越早越好。我们在公司注册前、注册中及注册后都能提供量身定制的支持，帮助您规避初创阶段的风险，并为未来节省大量调整成本。",
+    question: "如果公司业务量很小，还需要记账吗？",
+    answer: "即使业务活动有限，公司也应当为其收入、支出、银行交易、股东出资以及其他财务活动保留有序的记录。\n\n从一套简单但持续的记账流程开始，可以让日后的年度申报、报税准备、企业银行业务、薪资发放、融资，以及未来的财务审阅工作，在公司成长过程中变得更加轻松。",
+  },
+  {
+    question: "Keystone能帮我了解公司适用哪些税务与年度申报要求吗？",
+    answer: "可以。\n\n我们可以根据贵公司的架构、注册所在州、经营地点与业务活动，帮您梳理可能适用的常见联邦、州及公司层面申报要求。\n\n如果具体处理方式取决于正式的税务或法律解释，我们会建议就该问题与相关持牌专业人士进行确认。",
+  },
+  {
+    question: "我应该在什么阶段考虑财务管理支持？",
+    answer: "理想情况下，财务管理应从公司开始运营、产生收支起就同步进行。\n\n尽早搭建好记账结构、财务记录与申报日历，可以避免公司日后需要重新梳理数月的交易记录。\n\n即使公司已经开始运营，Keystone也可以介入，帮助整理现有记录并建立起更清晰的后续流程。",
+  },
+  {
+    question: "Keystone能与我的薪资服务商、会计师或CPA协调对接吗？",
+    answer: "可以。\n\n在与服务范围相关的情况下，Keystone可以帮助整理薪资服务商、记账人员、会计师或CPA所需的信息，并在各方之间协调沟通。\n\n当薪资、员工报销、税务申报、公司记录与记账需要保持一致时，这项协调尤为重要。",
   },
   {
     question: "这是一次性服务，还是长期合作？",
-    answer:
-      "我们同时提供一次性战略咨询与长期合作两种模式。许多客户会在业务成长过程中，持续保留我们提供记账监督与年度合规日历管理服务。",
+    answer: "两种方式都可以。\n\n有些公司只需要在搭建记账体系、财务记录与年度申报日历时获得一次性支持。\n\n也有公司更倾向于长期获得记账协调、财务审阅、公司续期、报税准备，以及与外部会计或税务专业人士沟通方面的持续支持。\n\n具体服务范围可以根据公司所处阶段与运营需求来确定。",
   },
 ];
 
 export default function FaqSection() {
-  const [openIndex, setOpenIndex] = useState(0);
-
   return (
-    <section className="bg-keystone-mist py-20 md:py-28">
-      <div className="container">
-        <SectionHeading
-          align="left"
-          title="Keystone Strategies 财务顾问 — 常见问题"
-        />
-
-        <div className="mx-auto mt-12 max-w-3xl space-y-4">
-          {faqs.map((faq, i) => {
-            const isOpen = openIndex === i;
-            return (
-              <div key={faq.question} className="overflow-hidden rounded-2xl border border-border bg-white">
-                <button
-                  type="button"
-                  onClick={() => setOpenIndex(isOpen ? -1 : i)}
-                  aria-expanded={isOpen}
-                  className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
-                >
-                  <span className="text-sm font-semibold text-keystone-ink md:text-base">
-                    {i + 1}. {faq.question}
-                  </span>
-                  {isOpen ? (
-                    <Minus className="h-5 w-5 shrink-0 text-primary" />
-                  ) : (
-                    <Plus className="h-5 w-5 shrink-0 text-primary" />
-                  )}
-                </button>
-                <div className={cn("grid transition-all", isOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]")}>
-                  <div className="overflow-hidden">
-                    <p className="px-6 pb-5 text-sm leading-relaxed text-muted-foreground">{faq.answer}</p>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </section>
+    <ServiceFaqSection
+      title="理清您的财务下一步"
+      description="了解我们能提供哪些帮助、如何与您的会计师协作，以及合适的启动时机。"
+      faqs={faqs.map((faq) => ({ question: faq.question, answer: faq.answer.split("\n\n") }))}
+      background="mist"
+      ctaLabel="沟通您公司的具体需求 >>"
+    />
   );
 }

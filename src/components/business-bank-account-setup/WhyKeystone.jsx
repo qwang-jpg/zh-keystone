@@ -1,5 +1,9 @@
-import ServiceWhyKeystone from "@/components/common/ServiceWhyKeystone";
+import WhyKeystone from "@/components/home/WhyKeystone";
 
-export default function WhyKeystone() {
-  return <ServiceWhyKeystone />;
+// Source content is explicit: reuse the exact same "Why Keystone Strategies"
+// section used on the Homepage (same title, competency titles, statistics,
+// descriptions, order, and carousel behavior) rather than a page-specific
+// version.
+export default function BusinessBankAccountWhyKeystone() {
+  return <WhyKeystone />;
 }

@@ -30,8 +30,9 @@ const languages = [
   { code: "EN", label: "English", href: "https://keystonestrategies.us/", external: true },
 ];
 
-export default function Header() {
+export default function Header({ ctaLabel = "预约免费咨询" }) {
   const location = useLocation();
+  const expandedCta = ctaLabel !== "预约免费咨询";
   const [scrolled, setScrolled] = useState(false);
   const [scrollPct, setScrollPct] = useState(0);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -107,7 +108,7 @@ export default function Header() {
           <img src={logo} alt="Keystone Strategies" className="h-10 w-auto md:h-11" />
         </Link>
 
-        <div className="hidden lg:flex flex-1 items-center justify-end gap-8">
+        <div className={cn("hidden flex-1 items-center justify-end gap-8", expandedCta ? "xl:flex" : "lg:flex")}>
           <nav className="flex items-center gap-8">
             <div
               ref={servicesRef}
@@ -275,13 +276,13 @@ export default function Header() {
             </div>
 
             <Button asChild size="default">
-              <Link to="/contact">预约免费咨询</Link>
+              <Link to="/contact">{ctaLabel}</Link>
             </Button>
           </div>
         </div>
 
         <button
-          className="lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-md text-keystone-ink"
+          className={cn("inline-flex h-10 w-10 items-center justify-center rounded-md text-keystone-ink", expandedCta ? "xl:hidden" : "lg:hidden")}
           onClick={() => setMobileOpen((v) => !v)}
           aria-label="切换导航菜单"
         >
@@ -297,7 +298,7 @@ export default function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="lg:hidden max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-border bg-white">
+        <div className={cn("max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-border bg-white", expandedCta ? "xl:hidden" : "lg:hidden")}>
           <nav className="container flex flex-col py-4">
             <button
               className="flex items-center justify-between py-3 text-base font-medium text-keystone-ink/80 border-b border-border/60"
@@ -349,7 +350,7 @@ export default function Header() {
 
             <Button asChild className="mt-4 w-full">
               <Link to="/contact" onClick={() => setMobileOpen(false)}>
-                预约免费咨询
+                {ctaLabel}
               </Link>
             </Button>
 

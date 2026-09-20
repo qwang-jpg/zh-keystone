@@ -1,51 +1,55 @@
-import { Palette, LayoutTemplate, Search, Rocket } from "lucide-react";
-import ServiceCoreDeliverables from "@/components/common/ServiceCoreDeliverables";
+import PlanBuildLayers from "@/components/common/PlanBuildLayers";
 
-const modules = [
+const layers = [
   {
-    icon: Palette,
-    title: "品牌形象设计",
-    description: "从第一天起就能专业代表您公司的基础标志与视觉形象设计。",
-    items: [
-      "公司标志文件，最多支持3轮反馈与修改",
-      "核心配色方案与字体选择",
-      "一页纸《品牌规范手册》，涵盖标志使用、配色与字体规范",
+    title: "品牌形象与视觉体系",
+    description: "为您的网站与业务物料，打造统一一致的视觉形象。",
+    deliverables: [
+      "公司标志设计，最多支持3轮反馈与修改",
+      "配色方案、字体、视觉风格及一页纸《品牌规范手册》",
       "名片与邮件签名设计",
     ],
+    why: "统一的视觉形象，是让您的企业在每一个触点上都能被辨认出来的关键，而不只是体现在网站上。",
   },
   {
-    icon: LayoutTemplate,
-    title: "网站架构与搭建",
-    description: "根据公司实际业务范围与服务内容，进行完整的网站规划、内容架构与搭建。",
-    items: [
-      "网站架构设计与内容/结构搭建",
-      "完整的网站内容规划与撰写制作",
-      "适配桌面端与移动端的响应式设计",
+    title: "网站架构、UI/UX与搭建",
+    description: "围绕您的企业、受众与服务，规划并搭建一个完整的网站。",
+    deliverables: [
+      "页面层级、用户动线设计与网站内容撰写",
+      "与品牌统一的UI/UX设计及完整响应式网站搭建",
+      "配备联系与咨询功能的桌面端与移动端布局",
     ],
+    why: "真正围绕您实际受众与服务搭建的网站，才能把访客转化为咨询，而不是让他们感到困惑而离开。",
   },
   {
-    icon: Search,
     title: "SEO与搜索可见性",
-    description: "帮助网站真正被搜索引擎发现并收录的技术基础配置。",
-    items: [
-      "页面标题、元描述及基础页面SEO配置",
-      "搜索引擎收录与网站地图提交",
-      "指导设置Google企业档案",
+    description: "从规划阶段起，就将搜索可见性融入网站建设。",
+    deliverables: [
+      "搜索友好的网站结构、页面标题、元描述及标题层级",
+      "页面关键词优化、图片替代文本与媒体优化",
+      "XML网站地图、索引配置，以及适用情况下的Google企业档案指导",
     ],
+    why: "从规划阶段就融入的SEO，远比网站上线后再临时补做优化更有效。",
   },
   {
-    icon: Rocket,
     title: "上线与公司简介",
-    description: "网站正式上线前的最终审核，以及一份可直接对外分享的精美简介文档。",
-    items: ["上线前客户审核", "网站正式上线", "完整的公司简介文档"],
+    description: "对各设备端体验进行审核，并为企业上线做好准备。",
+    deliverables: [
+      "上线前网站审核，以及桌面端/移动端质量检查",
+      "网站上线支持",
+      "可用于网站之外场景的最终公司简介文档",
+    ],
+    why: "精心打磨的上线过程，加上一份独立的公司简介文档，能让您在面对银行、合作伙伴或投资人时，拿出的不只是一个网址。",
   },
 ];
 
 export default function CoreDeliverables() {
   return (
-    <ServiceCoreDeliverables
-      description="从可复用的品牌形象体系，到上线即具备SEO能力的网站，再到一份可分享的公司简介。"
-      items={modules}
+    <PlanBuildLayers
+      title="四大连接模块，从品牌形象到正式上线"
+      intro="您的标志、网站与搜索可见性，应当讲述同一个连贯的故事。这四大模块端到端搭建这个故事，从视觉形象一直延伸到完全响应式、具备搜索能力的网站。"
+      layers={layers}
+      tabsLabel="品牌与网站搭建流程"
     />
   );
 }

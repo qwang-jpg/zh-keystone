@@ -30,35 +30,27 @@ import approvalPerm2 from "@/assets/our-cases/approval-perm-2.png";
 // This theme is never served from its site's domain root (see
 // functions.php), so images must be imported from src/assets/ like every
 // other real image in this codebase — not referenced by an absolute
-// "/images/..." path, which would 404. To replace a pending preview below,
-// drop the file into src/assets/our-cases/, add an
-// `import x from "@/assets/our-cases/<file>"` above, and set `src: x`
-// on that entry.
+// "/images/..." path, which would 404.
+//
+// Rendered at half the standard card height (`compact`) so more brochures
+// are visible in the row at once.
 const brochureRow = {
   title: "企业宣传资料案例精选",
   note: "真实客户企业的宣传册样张，以低分辨率预览展示，保护客户隐私。",
+  compact: true,
   images: [
     { src: brochureSustainabilityConsulting, label: "可持续发展咨询宣传册" },
     { src: brochureTablewareEcommerce, label: "全球餐具品牌宣传册" },
     { src: brochureFinanceConsulting, label: "财务顾问宣传册" },
-    { sourceFile: "music-studio-brochure.jpg", label: "音乐工作室宣传册" },
     { src: brochureUiUxDesign, label: "设计工作室宣传册" },
     { src: brochureSupplyChainWarehousing, label: "仓储与供应链宣传册" },
   ],
 };
 
-// Filenames stripped of host/path and WordPress size-suffixes per the
-// image-placeholder rule; alt text from the source <img> tags is kept as
-// each placeholder's label. Entries with `src` are real assets dropped into
-// src/assets/our-cases/; the rest are still-pending originals.
 const documentRows = [
   {
     title: "公司注册文件",
     images: [
-      { sourceFile: "01.jpeg", label: "01" },
-      { sourceFile: "02.jpeg", label: "02" },
-      { sourceFile: "03.jpeg", label: "03" },
-      { sourceFile: "04.jpeg", label: "04" },
       { src: registrationCalifornia, label: "加利福尼亚州 — 公司注册证书" },
       { src: registrationTexas, label: "德克萨斯州 — 备案证明" },
       { src: registrationIllinois, label: "伊利诺伊州 — 公司注册证书" },
@@ -72,18 +64,6 @@ const documentRows = [
   {
     title: "H-1B获批 — I-797批准通知书",
     images: [
-      { sourceFile: "2024-1.png", label: "2024-1" },
-      { sourceFile: "2024-2.png", label: "2024-2" },
-      { sourceFile: "2024-3.png", label: "2024-3" },
-      { sourceFile: "2024-4.png", label: "2024-4" },
-      { sourceFile: "2024-5.png", label: "2024-5" },
-      { sourceFile: "2024-6.png", label: "2024-6" },
-      { sourceFile: "2024-7.png", label: "2024-7" },
-      { sourceFile: "2024-8.png", label: "2024-8" },
-      { sourceFile: "2025-1.png", label: "H-1B注册与抽签指南" },
-      { sourceFile: "2025-2.png", label: "2025-2" },
-      { sourceFile: "2025-3.png", label: "2025-3" },
-      { sourceFile: "2025-4.png", label: "2025-4" },
       { src: approvalI797a, label: "I-797A批准通知书" },
       { src: approvalI797b, label: "I-797B批准通知书" },
     ],
@@ -101,12 +81,11 @@ const documentRows = [
 ];
 
 // Rows alternate scroll direction so the strip reads as a wall, not a
-// single conveyor belt. Speed is scaled to how many cards are in the row
-// so every strip moves at roughly the same visual pace per card.
+// single conveyor belt. MarqueeRow derives its own scroll speed from the
+// row's measured pixel width, so every row moves at the same visual pace.
 const rows = [brochureRow, ...documentRows].map((row, idx) => ({
   ...row,
   direction: idx % 2 === 0 ? "right" : "left",
-  speed: Math.max(row.images.length * 6, 26),
 }));
 
 function EvidenceLightbox({ item, onClose }) {
@@ -159,9 +138,13 @@ function EvidenceLightbox({ item, onClose }) {
   );
 }
 
-export default function EvidenceGallery({ h1bOnly = false }) {
-  const visibleRows = h1bOnly
-    ? rows.slice(0, 3).map((row) => ({ ...row, images: row.images.filter((image) => image.src) }))
+export default function EvidenceGallery({ h1bOnly = false, permOnly = false, formationOnly = false }) {
+  const visibleRows = permOnly
+    ? rows.filter((row) => row.title === "H-1B之外 — PERM与I-140获批")
+    : formationOnly
+    ? rows.filter((row) => row.title === brochureRow.title || row.title === "公司注册文件")
+    : h1bOnly
+    ? rows.slice(0, 3)
     : rows;
   const [lightbox, setLightbox] = useState(null);
 
@@ -170,8 +153,7 @@ export default function EvidenceGallery({ h1bOnly = false }) {
       <div className="container">
         <h2 className="text-xl font-bold text-keystone-ink md:text-2xl">存档证明材料</h2>
         <p className="mt-1.5 max-w-2xl text-sm text-muted-foreground">
-          以下为低分辨率预览，客户身份信息已在源头处理。每一行独立滚动——悬停可暂停，
-          点击文件可查看大图。
+          以下为低分辨率预览，客户身份信息已在源头处理。每一行独立滚动——点击文件可查看大图。
         </p>
       </div>
 
@@ -191,15 +173,14 @@ export default function EvidenceGallery({ h1bOnly = false }) {
             <MarqueeRow
               items={row.images}
               direction={row.direction}
-              speed={row.speed}
               ariaLabel={row.title}
               className="mt-5"
               renderItem={(img) => (
                 <EvidenceCard
                   src={img.src}
-                  sourceFile={img.sourceFile}
                   label={img.label}
-                  onClick={img.src ? () => setLightbox(img) : undefined}
+                  compact={row.compact}
+                  onClick={() => setLightbox(img)}
                 />
               )}
             />
