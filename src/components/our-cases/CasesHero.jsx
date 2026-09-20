@@ -38,7 +38,7 @@ export default function CasesHero() {
           transition={{ duration: 0.6, delay: 0.15 }}
           className="mt-4 max-w-2xl text-lg font-semibold text-keystone-green md:text-xl"
         >
-          自雇型H-1B · 19个真实案例存档
+          自雇型H-1B · 18个真实案例存档
         </motion.p>
 
         <motion.p

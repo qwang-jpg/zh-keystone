@@ -72,7 +72,7 @@ export default function AboutTestimonials() {
             <span>
               <span className="block text-sm font-bold text-keystone-ink">查看完整案例档案</span>
               <span className="mt-1 block text-xs text-muted-foreground">
-                19个有据可查的自雇型H-1B案例
+                18个有据可查的自雇型H-1B案例
               </span>
             </span>
             <ArrowUpRight className="h-4 w-4 shrink-0 text-primary" />

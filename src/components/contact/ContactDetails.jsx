@@ -17,9 +17,9 @@ export default function ContactDetails() {
             <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-keystone-gradient">
               <Icon className="h-5 w-5 text-white" strokeWidth={1.75} />
             </div>
-            <div>
+            <div className="min-w-0">
               <p className="text-xs font-semibold uppercase tracking-widest text-primary">{d.label}</p>
-              <p className="mt-1 text-base font-medium text-keystone-ink">{d.value}</p>
+              <p className="mt-1 break-words text-base font-medium text-keystone-ink">{d.value}</p>
             </div>
           </div>
         );
