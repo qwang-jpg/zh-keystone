@@ -1,94 +1,56 @@
-import { Link } from "react-router-dom";
-import { BookOpen, CalendarClock, FileSpreadsheet, Handshake, ArrowUpRight } from "lucide-react";
-import SectionHeading from "@/components/common/SectionHeading";
+import PlanBuildLayers from "@/components/common/PlanBuildLayers";
 
-const services = [
+const layers = [
   {
-    icon: BookOpen,
     title: "初创企业记账与会计体系搭建",
-    description:
-      "我们帮您搭建适合初创阶段企业的基础记账与财务管理结构，确保账目从第一天起就保持清晰、经得起审查。",
-    items: [
-      "科目表与会计软件搭建（QuickBooks或Xero）",
-      "《初创企业基础财务管理指南》文档",
-      "一套您真正能够坚持执行的每月记录与对账习惯",
+    description: "从干净整洁的账目和统一的业务记录流程开始。",
+    deliverables: [
+      "记账平台、科目表与银行账户连接",
+      "交易分类与每月对账",
+      "整理好、可供会计师或CPA审阅的记录",
     ],
+    why: "从第一天起就保持一致的记账流程，会让此后的每一次申报与财务决策都更加高效。",
   },
   {
-    icon: CalendarClock,
     title: "年度报税与公司续期规划",
-    description:
-      "我们将适用于贵实体的年度报税、公司续期及配套财务文件要求，整理成一份统一的合规日历。",
-    items: [
-      "《年度报税与公司续期流程指南》文档",
-      "提前一年规划好的关键合规截止日期日历",
-      "降低错过申报或丧失良好信誉状态的风险",
+    description: "通过一份清晰的年度日程，明确知道该申报什么、何时申报。",
+    deliverables: [
+      "联邦与州税务申报日历",
+      "年度报告、公司续期及适用的特许经营税",
+      "文件清单与临近截止日期的提醒",
     ],
+    why: "错过续期或申报，问题往往不在文件本身，而在于没有提前知道日期即将到来。",
   },
   {
-    icon: FileSpreadsheet,
     title: "联邦与州税务申报协调",
-    description:
-      "我们梳理出真正适用于您实体类型的联邦与州税务义务，确保不会等到截止日期过后才发现问题。",
-    items: [
-      "根据贵实体的税务选择（1120、1120-S或1065表格）协调联邦申报",
-      "跟踪州特许经营税与年度报告截止日期",
-      "在业务活动需要时，提供销售税注册指导",
+    description: "将合适的记录整理给您的税务专业人士，并推动申报流程持续进行。",
+    deliverables: [
+      "账目审核与配套文件准备",
+      "CPA协调与后续信息补充请求",
+      "申报进度与截止日期跟踪",
     ],
+    why: "申报延误通常来自记录缺失，而非申报表本身——我们会在问题变得紧迫之前先补上这个缺口。",
   },
   {
-    icon: Handshake,
     title: "持续财务顾问与CPA协调",
-    description:
-      "记账与申报只是基础，而非终点。我们会在企业成长过程中持续参与，并直接与您的CPA及会计团队协调对接。",
-    items: [
-      "直接与会计师事务所协调会计、审计与监管申报事宜",
-      "在适合您税务情况时提供S-corp选择指导",
-      "随着营收、团队规模或架构变化，定期跟进回访",
+    description: "随着企业成长，让您的财务记录与专业支持始终保持衔接。",
+    deliverables: [
+      "定期记录审阅与记账问题处理",
+      "与会计师、CPA及薪资服务商的协调对接",
+      "为招聘、融资与商业决策准备好相关记录",
     ],
+    why: "企业成长过程中，财务流程也需要同步跟上，而不是变成一年一度的临时补救。",
   },
 ];
 
 export default function StrategicServices() {
   return (
-    <section className="bg-keystone-mist py-20 md:py-28">
-      <div className="container">
-        <SectionHeading
-          align="left"
-          title="服务内容"
-          description="从您每月都会用到的记账系统，到确保公司保持良好信誉状态的合规日历与CPA协调。"
-        />
-
-        <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2">
-          {services.map((s) => {
-            const Icon = s.icon;
-            return (
-              <div key={s.title} className="flex flex-col rounded-2xl border border-border bg-white p-7">
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-keystone-gradient">
-                  <Icon className="h-6 w-6 text-white" strokeWidth={1.75} />
-                </div>
-                <h3 className="mt-5 text-lg font-bold text-keystone-ink">{s.title}</h3>
-                <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">{s.description}</p>
-                <ul className="mt-4 space-y-2">
-                  {s.items.map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-sm text-keystone-ink/80">
-                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-                <Link
-                  to="/contact"
-                  className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-primary"
-                >
-                  立即咨询专家
-                  <ArrowUpRight className="h-4 w-4" />
-                </Link>
-              </div>
-            );
-          })}
-        </div>
-      </div>
-    </section>
+    <PlanBuildLayers
+      title="核心服务模块"
+      intro="四大环环相扣的支持领域，让您的账目、申报与财务协调始终保持井然有序。"
+      layers={layers}
+      note="具体支持内容会根据贵公司的实际情况调整。正式的税务立场、CPA意见及持牌专业人士的判定，仍由相应的合格专业人士负责作出。"
+      tabsLabel="财务管理搭建顺序"
+    />
   );
 }
