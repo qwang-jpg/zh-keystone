@@ -25,7 +25,7 @@ const plans = [
     description:
       "H-1B无限续航计划为在美人才提供从公司注册到身份合规的一站式解决方案——帮助您合法创业、无限次参与H-1B抽签，摆脱对雇主担保的依赖与身份焦虑。",
     cta: "了解H-1B无限续航计划",
-    href: "/h-1b-status-protection-program",
+    href: "/h1b-infinity-plan",
     sourceFile: "nicolas-jehly-VwIF0Ls7LVo-unsplash.jpg",
   },
 ];

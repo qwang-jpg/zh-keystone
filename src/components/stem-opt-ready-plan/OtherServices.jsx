@@ -25,7 +25,7 @@ const services = [
     description:
       "我们的旗舰端到端方案，助您稳获H-1B身份，让职业发展不再依赖雇主担保。",
     cta: "了解H-1B身份保障计划",
-    href: "/h-1b-status-protection-program",
+    href: "/h1b-infinity-plan",
     sourceFile: null,
   },
 ];

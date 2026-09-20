@@ -139,7 +139,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `<strong>还在为找不到STEM OPT雇主而焦虑？不要在等待中让身份中断。</strong><strong>我们已经帮助近百位客户通过合规的STEM OPT"自雇"方式成功延长身份。</strong>从搭建公司架构，到完成I-983，再到递交I-765，我们在每一步都提供一对一指导，<strong>部分客户最快10天就收到了受理通知。</strong>STEM OPT只是第一步——我们同样为H-1B自雇申请提供系统化的解决方案，确保您的身份规划能够顺畅衔接每一个阶段，<strong>让您拥有无限次H-1B抽签机会。</strong>了解更多关于我们H-1B自雇服务的信息：<a href="/h-1b-status-protection-program">H-1B无限计划</a>，或<a href="/contact">联系我们获取免费咨询</a>。`,
+      html: `<strong>还在为找不到STEM OPT雇主而焦虑？不要在等待中让身份中断。</strong><strong>我们已经帮助近百位客户通过合规的STEM OPT"自雇"方式成功延长身份。</strong>从搭建公司架构，到完成I-983，再到递交I-765，我们在每一步都提供一对一指导，<strong>部分客户最快10天就收到了受理通知。</strong>STEM OPT只是第一步——我们同样为H-1B自雇申请提供系统化的解决方案，确保您的身份规划能够顺畅衔接每一个阶段，<strong>让您拥有无限次H-1B抽签机会。</strong>了解更多关于我们H-1B自雇服务的信息：<a href="/h1b-infinity-plan">H-1B无限计划</a>，或<a href="/contact">联系我们获取免费咨询</a>。`,
     },
   ],
 };

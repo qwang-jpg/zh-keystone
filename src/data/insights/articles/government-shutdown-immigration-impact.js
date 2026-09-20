@@ -8,7 +8,7 @@ export default {
   content: [
     {
       type: `paragraph`,
-      html: `<a href="/h-1b-status-protection-program">获取免费的H-1B自雇咨询</a> 自2025年10月1日起，美国联邦政府正式进入"部分停摆"状态，俗称政府"停摆"。本轮<a href="https://www.bbc.com/news/articles/crrj1znp0pyo" rel="noopener noreferrer" target="_blank">美国政府停摆</a>的导火索是<strong>国会未能在新财年开始前通过临时拨款法案</strong>。由于民主党与共和党在支出水平、政策附加条款与预算优先事项上陷入长期僵局，联邦政府依法必须暂停部分运作，直至新的拨款获得授权。许多正在办理H-1B、OPT/STEM OPT、绿卡或签证申请的人立刻开始担心：<strong>我的申请会被延误吗？USCIS会停止审理案件吗？PERM会彻底停摆吗？H-1B申请会大范围延误吗？出行会受影响吗？</strong>本文将帮助您快速理清哪些机构已经停摆、哪些仍在正常运作，以及您是否属于"受影响"群体。`,
+      html: `<a href="/h1b-infinity-plan">获取免费的H-1B自雇咨询</a> 自2025年10月1日起，美国联邦政府正式进入"部分停摆"状态，俗称政府"停摆"。本轮<a href="https://www.bbc.com/news/articles/crrj1znp0pyo" rel="noopener noreferrer" target="_blank">美国政府停摆</a>的导火索是<strong>国会未能在新财年开始前通过临时拨款法案</strong>。由于民主党与共和党在支出水平、政策附加条款与预算优先事项上陷入长期僵局，联邦政府依法必须暂停部分运作，直至新的拨款获得授权。许多正在办理H-1B、OPT/STEM OPT、绿卡或签证申请的人立刻开始担心：<strong>我的申请会被延误吗？USCIS会停止审理案件吗？PERM会彻底停摆吗？H-1B申请会大范围延误吗？出行会受影响吗？</strong>本文将帮助您快速理清哪些机构已经停摆、哪些仍在正常运作，以及您是否属于"受影响"群体。`,
     },
     { type: `heading`, level: 2, html: `哪些与移民相关的机构受到停摆影响，哪些基本不受影响？` },
     {

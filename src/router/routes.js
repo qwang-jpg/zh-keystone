@@ -15,7 +15,7 @@ export const routes = [
   { path: "/employment-visa-position-petition-planning", slug: "immigration-status-planning", title: "Employment Visa Position & Petition Planning" },
   { path: "/business-tax-financial-management", slug: "financial-advisory", title: "Business Tax & Financial Management" },
   { path: "/company-formation-corporate-structure", slug: "startup-incubation", title: "Company Formation & Corporate Structure" },
-  { path: "/h-1b-status-protection-program", slug: "h-1b-infinity-plan", title: "H-1B Status Protection Program" },
+  { path: "/h1b-infinity-plan", slug: "h-1b-infinity-plan", title: "H-1B Status Protection Program" },
   { path: "/stem-opt-ready-plan", slug: "stem-opt-ready-plan", title: "STEM OPT Status Protection Program" },
   { path: "/opt-status-safeguard", slug: "opt-status-safeguard", title: "OPT Status Safeguard" },
   { path: "/stem-opt-employer-compliance-training", slug: "stem-opt-status-safeguard", title: "STEM OPT Employer Compliance Training" },
@@ -39,7 +39,8 @@ export const redirects = [
   { from: "/immigration-status-planning", to: "/employment-visa-position-petition-planning" },
   { from: "/financial-advisory", to: "/business-tax-financial-management" },
   { from: "/startup-incubation", to: "/company-formation-corporate-structure" },
-  { from: "/h-1b-infinity-plan", to: "/h-1b-status-protection-program" },
+  { from: "/h-1b-infinity-plan", to: "/h1b-infinity-plan" },
+  { from: "/h-1b-status-protection-program", to: "/h1b-infinity-plan" },
   { from: "/form-i-983-training-plan-application-support", to: "/stem-opt-ready-plan" },
   { from: "/stem-opt-status-safeguard", to: "/stem-opt-employer-compliance-training" },
 ];

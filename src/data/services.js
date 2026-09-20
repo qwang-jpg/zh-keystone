@@ -105,7 +105,7 @@ export const serviceGroups = [
 export const featuredServices = [
   {
     label: "H-1B无限续航计划",
-    href: "/h-1b-status-protection-program",
+    href: "/h1b-infinity-plan",
     description:
       "通过合规的雇主规划与持续支持，助您获取并长期维持H-1B身份的结构化方案。",
   },
