@@ -1,19 +1,14 @@
-import ServiceOverview from "@/components/common/ServiceOverview";
-
-const checklist = [
-  "一套看起来像真实、成熟企业的品牌标志与视觉形象",
-  "品牌规范手册与核心物料（如名片、邮件签名），确保品牌形象处处保持一致",
-  "一个真正体现运营中企业形象的网站，而非占位页面",
-  "清晰说明公司业务的内容与网站结构",
-  "上线即具备SEO基础配置的响应式网站",
-];
+import PlanAbout from "@/components/common/PlanAbout";
 
 export default function Overview() {
   return (
-    <ServiceOverview
-      title="您的网站往往是所有人首先查看的地方"
-      description="无论是研究您的客户、审核账户申请的银行，还是评估申请材料的USCIS官员，都会在线上搜索您的公司。我们确保他们查到的内容，能够真正佐证您的故事。"
-      checklist={checklist}
+    <PlanAbout
+      heading="您的品牌与网站，决定了外界如何理解您的企业"
+      highlight="不是一个孤立的标志或占位网站，而是围绕企业本身搭建的统一形象。"
+      paragraphs={[
+        "专业的品牌与线上形象，能让客户、合作伙伴、金融机构及其他第三方，清晰了解您的公司是谁、从事什么业务，以及如何对外展示自己。",
+        "我们为您搭建统一的视觉形象、一致的品牌规范，以及一个内容清晰、用户动线明确的完整企业官网，并从上线之初就配备响应式设计与SEO基础。",
+      ]}
     />
   );
 }
