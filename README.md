@@ -74,7 +74,7 @@ Routes are declared once in `src/router/routes.js` and mapped to components in `
 | `/employment-visa-position-petition-planning` | Employment Visa Position & Petition Planning |
 | `/business-tax-financial-management` | Business Tax & Financial Management |
 | `/company-formation-corporate-structure` | Company Formation & Corporate Structure |
-| `/h-1b-status-protection-program` | H-1B Status Protection Program |
+| `/h1b-infinity-plan` | H-1B Status Protection Program |
 | `/stem-opt-ready-plan` | STEM OPT Status Protection Program |
 | `/opt-status-safeguard` | OPT Status Safeguard |
 | `/stem-opt-employer-compliance-training` | STEM OPT Employer Compliance Training |
@@ -90,9 +90,9 @@ Routes are declared once in `src/router/routes.js` and mapped to components in `
 | `/contact` | Contact Us |
 | `/privacy-policy` | Privacy Policy |
 
-Six routes were renamed from their original WordPress slugs to URLs that better match the page content; the old slugs still resolve via redirects in `src/router/routes.js` (e.g. `/startup-incubation` → `/company-formation-corporate-structure`), so existing links/bookmarks/search results keep working.
+Several routes were renamed from their original WordPress slugs to URLs that better match the page content; the old slugs still resolve via redirects declared in `src/router/routes.js` (e.g. `/startup-incubation` → `/company-formation-corporate-structure`), so existing links/bookmarks/search results keep working.
 
-All pages are lazy-loaded per route (`React.lazy` in `App.jsx`) so the initial bundle only ships Home's own code.
+All pages are lazy-loaded per route (`React.lazy` in `App.jsx`) so the initial bundle only ships Home's own code. A catch-all `*` route renders `NotFound` for any URL that isn't one of the declared routes or redirects above.
 
 ## Development
 
