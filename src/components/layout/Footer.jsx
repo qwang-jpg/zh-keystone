@@ -3,7 +3,7 @@ import { Phone, Mail, Clock } from "lucide-react";
 import logo from "@/assets/Logo.png";
 
 const services = [
-  { label: "H-1B身份保障计划", href: "/h1b-infinity-plan" },
+  { label: "H-1B无限续航计划", href: "/h1b-infinity-plan" },
   { label: "STEM OPT就绪计划", href: "/stem-opt-ready-plan" },
   { label: "成功案例", href: "/our-cases" },
 ];
