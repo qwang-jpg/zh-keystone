@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://keystonestrategies.us/sitemap.xml
+Sitemap: https://pathway.keystonestrategies.us/sitemap.xml
