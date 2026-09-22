@@ -22,12 +22,12 @@ export default function StemHero() {
           </h1>
           <p className="mt-7 max-w-[615px] text-[.94rem] leading-[1.7] text-[#c8d5cc] min-[541px]:text-base">
             Keystone帮助国际STEM毕业生搭建获得并维持STEM OPT身份所需的雇主、雇佣与合规架构——将雇主搭建、
-            培训文件、STEM OPT申请与持续合规，整合为一套协同的项目。
+            培训文件、STEM OPT申请与持续合规，整合为一套完整的服务方案。
           </p>
           <div className="mt-8 flex flex-col items-stretch gap-[23px] min-[541px]:flex-row min-[541px]:flex-wrap min-[541px]:items-center">
             <Button asChild size="lg" className="w-full bg-white text-keystone-ink hover:bg-white/90 min-[541px]:w-auto">
               <Link to="/contact">
-                获取我的STEM OPT评估
+                获取 STEM OPT 初步评估
                 <ArrowRight size={17} aria-hidden="true" />
               </Link>
             </Button>
@@ -35,7 +35,7 @@ export default function StemHero() {
               href="#service-workflow"
               className="inline-flex w-full items-center justify-center gap-2.5 rounded-sm text-[.79rem] font-semibold text-[#e1eadf] underline-offset-[5px] hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#12352b] min-[541px]:w-auto"
             >
-              了解项目如何运作 <ArrowDown size={17} aria-hidden="true" />
+              查看服务流程 <ArrowDown size={17} aria-hidden="true" />
             </a>
           </div>
           <p className="mt-[26px] border-t border-t-[#3b594b] pt-[22px] text-[.66rem] tracking-[.015em] text-[#aec2b4] min-[541px]:text-[.7rem] min-[801px]:mt-9">
@@ -77,7 +77,7 @@ export default function StemHero() {
             })}
           </ol>
           <div className="flex justify-between gap-[15px] pt-6 text-[.68rem] text-[#b8cabb]">
-            <span>一套协同的项目。</span>
+            <span>一套完整的服务方案。</span>
             <span>专为持续合规而搭建。</span>
           </div>
         </div>

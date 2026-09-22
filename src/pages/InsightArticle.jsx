@@ -66,7 +66,7 @@ export default function InsightArticle() {
             className="inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground hover:text-primary"
           >
             <ArrowLeft className="h-4 w-4" />
-            返回行业洞察
+            返回专业洞察
           </Link>
 
           <span className="mt-6 inline-flex w-fit items-center rounded-full bg-primary/10 px-3 py-1 text-2xs font-semibold uppercase tracking-wide text-primary">

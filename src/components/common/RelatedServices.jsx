@@ -18,7 +18,7 @@ export default function RelatedServices({ currentHref, title, description }) {
       <div className="container">
         <SectionHeading
           align="left"
-          title={title ?? `更多${group.heading}服务`}
+          title={title ?? `相关服务：${group.heading}`}
           description={description ?? group.summary}
         />
 

@@ -52,8 +52,8 @@ export default function AboutIntro() {
             className="flex flex-col gap-4"
           >
             <p className="leading-relaxed text-muted-foreground">
-              我们提供的不只是解决方案，更是帮助客户重塑决策框架。在日益复杂多变的全球环境中，
-              Keystone帮助客户识别关键变量、搭建可执行的运营架构，并确保长期、稳定的发展路径。
+              我们不仅提供方案，也帮助客户梳理决策依据。在日益复杂多变的全球环境中，
+              Keystone 帮助客户识别影响决策的关键因素、建立可执行的运营体系，并规划长期、稳定的发展方向。
             </p>
             <p className="leading-relaxed text-muted-foreground">
               我们的客户涵盖国际人才、初创企业、教育机构、科技公司、投资机构以及区域行业平台。

@@ -4,7 +4,7 @@ export const faqs = [
   {
     question: "公司完成注册后，具体包含哪些内容？",
     answer: [
-      "公司运营搭建聚焦于法律注册完成之后所需的基础设施。",
+      "公司运营搭建服务聚焦于公司注册后所需的运营基础。",
       "根据您的具体需求，这可能包括治理记录、合规跟踪、企业域名与邮箱搭建、企业电话支持、运营地址指导、政府记录更新，以及日常运营中会用到的实用文档模板。",
     ],
   },
@@ -59,7 +59,7 @@ export const faqs = [
 export default function FaqSection() {
   return (
     <ServiceFaqSection
-      title="从注册到运营的更清晰路径"
+      title="公司运营常见问题"
       description="了解公司完成注册后，所需的记录、地址设置与日常运营体系。"
       faqs={faqs}
       ctaLabel="沟通您公司的具体需求"

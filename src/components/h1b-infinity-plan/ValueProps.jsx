@@ -9,12 +9,12 @@ const pillars = [
   },
   {
     icon: ShieldCheck,
-    title: "雇主基础设施",
+    title: "雇主体系",
     description: "建立一家正常运营的美国雇主所需具备的雇佣关系、薪资、人力资源、合规、文件与运营体系。",
   },
   {
     icon: FileCheck2,
-    title: "H-1B案件就绪",
+    title: "H-1B 申请准备",
     description: "在与合格律师协调移民流程之前，先理顺公司、专业职位、雇佣架构与支持文件之间的一致性。",
   },
 ];

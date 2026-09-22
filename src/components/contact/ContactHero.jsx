@@ -3,7 +3,7 @@ export default function ContactHero() {
     <section className="bg-keystone-ink py-20 md:py-28">
       <div className="container text-center">
         <h1 className="mx-auto max-w-2xl text-3xl font-bold leading-tight text-white md:text-5xl">
-          开始搭建您的可执行战略
+          与我们一起明确下一步方案
         </h1>
         <p className="mx-auto mt-5 max-w-2xl text-sm leading-relaxed text-white/70 md:text-base">
           无论您是在规划移民路径、筹备新的创业项目，还是需要企业法律与税务方面的指导，

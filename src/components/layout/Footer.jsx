@@ -3,14 +3,14 @@ import { Phone, Mail, Clock } from "lucide-react";
 import logo from "@/assets/Logo.png";
 
 const services = [
-  { label: "H-1B无限续航计划", href: "/h1b-infinity-plan" },
-  { label: "STEM OPT就绪计划", href: "/stem-opt-ready-plan" },
-  { label: "成功案例", href: "/our-cases" },
+  { label: "H-1B Infinity Plan", href: "/h1b-infinity-plan" },
+  { label: "STEM OPT Ready Plan", href: "/stem-opt-ready-plan" },
+  { label: "客户案例", href: "/our-cases" },
 ];
 
 const explore = [
   { label: "关于我们", href: "/about-us" },
-  { label: "行业洞察", href: "/insights" },
+  { label: "专业洞察", href: "/insights" },
   { label: "客户门户", href: "/client-portal" },
   { label: "联系我们", href: "/contact" },
 ];
@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="lg:col-span-1">
           <img src={logo} alt="Keystone Strategies" className="h-8 w-auto brightness-0 invert" />
           <p className="mt-3 text-sm leading-relaxed text-white/60">
-            为在美国打拼未来的国际专业人才，提供一体化的移民、雇主合规与商业支持。
+            为在美国发展事业的国际专业人才，提供一体化的移民、雇主合规与商业支持。
           </p>
         </div>
 

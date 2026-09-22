@@ -5,24 +5,24 @@ import SectionHeading from "@/components/common/SectionHeading";
 
 const services = [
   {
-    title: "STEM OPT就绪计划",
+    title: "STEM OPT Ready Plan",
     description:
-      "STEM OPT就绪计划是一套一站式合规方案，帮助专业人士通过自雇合法延长STEM OPT身份，同时放心参与H-1B抽签。",
-    cta: "了解STEM OPT就绪计划",
+      "STEM OPT Ready Plan 是一套一站式合规方案，帮助专业人士通过自雇合法延长STEM OPT身份，同时放心参与H-1B抽签。",
+    cta: "了解 STEM OPT Ready Plan",
     href: "/stem-opt-ready-plan",
   },
   {
     title: "STEM OPT身份保障计划",
     description:
-      "通过我们成熟的雇主网络及上百家孵化企业的资源，Keystone Strategies为处于STEM OPT期间的国际学生提供真实合规的岗位与端到端的身份过渡支持。",
+      "通过我们成熟的雇主网络及上百家孵化企业的资源，Keystone Strategies为处于STEM OPT期间的国际学生提供真实合规的岗位与全流程的身份过渡支持。",
     cta: "了解STEM OPT身份保障计划",
     href: "/stem-opt-employer-compliance-training",
   },
   {
-    title: "OPT身份保障计划",
+    title: "OPT Status Protection Program",
     description:
-      "通过我们成熟的合作雇主网络及上百家孵化企业的资源，Keystone Strategies为处于OPT期间的国际学生提供真实合规的岗位与端到端的身份过渡支持。",
-    cta: "了解OPT身份保障计划",
+      "通过我们成熟的合作雇主网络及上百家孵化企业的资源，Keystone Strategies为处于OPT期间的国际学生提供真实合规的岗位与全流程的身份过渡支持。",
+    cta: "了解 OPT Status Protection Program",
     href: "/opt-status-safeguard",
   },
 ];

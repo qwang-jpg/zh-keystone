@@ -46,8 +46,8 @@ const layers = [
 export default function CoreDeliverables() {
   return (
     <PlanBuildLayers
-      title="从材料准备到账户注资运营"
-      intro="每一次服务都以同一个目标为核心：帮助您以最高效的方式，从一家刚成立的公司，迈向一段可用的美国企业银行关系。"
+      title="从开户材料准备到账户启用"
+      intro="我们的目标是帮助新成立的公司高效推进开户流程，建立可用于实际业务的美国企业银行账户。"
       layers={layers}
       note="银行优惠活动、审批决定及奖励发放，均以相关金融机构的资格要求及条款为准。"
       tabsLabel="银行开户流程"

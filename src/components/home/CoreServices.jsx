@@ -28,7 +28,7 @@ export default function CoreServices() {
         <div className="flex flex-wrap items-end justify-between gap-7">
           <SectionHeading
             title="我们的服务"
-            description="从公司注册到长期身份保障，我们的服务专业且高效地覆盖您旅程的每一个阶段。"
+            description="从公司注册到长期身份保障，我们提供专业指导与执行支持，衔接各阶段的需求。"
             align="left"
             className="max-w-xl"
           />

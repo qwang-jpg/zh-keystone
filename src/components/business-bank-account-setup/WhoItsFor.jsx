@@ -31,7 +31,7 @@ const audiences = [
 export default function WhoItsFor() {
   return (
     <PlanAudienceGrid
-      title="为需要一次做对银行开户的创始人而设计"
+      title="适合希望顺利完成企业开户的创始人"
       items={audiences}
       ctaLabel="预约银行开户咨询"
     />

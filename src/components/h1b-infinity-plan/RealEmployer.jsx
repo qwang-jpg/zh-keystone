@@ -11,7 +11,7 @@ const principles = [
   {
     icon: Users,
     title: "真实雇主",
-    description: "由真实的雇佣关系、薪资、人力资源、合规与运营基础设施支撑。",
+    description: "由真实的雇佣关系、薪资、人力资源、合规与运营体系支撑。",
   },
   {
     icon: UserCheck,
@@ -55,7 +55,7 @@ export default function RealEmployer() {
         </div>
 
         <p className="mt-10 max-w-2xl text-sm leading-relaxed text-white/55">
-          H-1B无限续航计划围绕可持续的雇主基础设施而设计——而非仅为移民申请临时制作的文件。
+          H-1B Infinity Plan 围绕可持续的雇主体系而设计——而非仅为移民申请临时制作的文件。
         </p>
       </div>
     </section>

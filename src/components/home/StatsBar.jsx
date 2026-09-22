@@ -4,7 +4,7 @@ const stats = [
   { target: 1200, suffix: "+", label: "位客户获得移民与商业支持" },
   { target: 80, suffix: "+", label: "家企业获科技、教育、电商领域孵化支持" },
   { target: 60, suffix: "+", label: "位跨领域顾问参与每一次服务" },
-  { target: 84.8, suffix: "%", label: "长期客户续约率", decimals: true },
+  { target: 84.8, suffix: "%", label: "长期客户留存率", decimals: true },
 ];
 
 function format({ target, suffix, decimals }, t) {

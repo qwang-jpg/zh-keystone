@@ -20,7 +20,7 @@ export default function CaseShare() {
         <div className="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-[1.3fr_1fr] lg:items-start">
           <div className="rounded-2xl bg-white p-9 shadow-[0_1px_2px_rgba(16,36,31,.03),0_12px_28px_-10px_rgba(16,36,31,.1)]">
             <h3 className="text-lg font-bold leading-snug text-keystone-ink md:text-xl">
-              从突如其来的裁员，到结构化的STEM OPT路径
+              遭遇裁员后，重新规划 STEM OPT 申请
             </h3>
 
             <p className="mt-6 text-xs font-bold uppercase tracking-wider text-primary">面临的情况</p>
@@ -44,7 +44,7 @@ export default function CaseShare() {
             <div className="rounded-2xl bg-keystone-ink p-7">
               <span className="block text-4xl font-bold leading-none text-white">10天</span>
               <span className="mt-2 block text-xs leading-relaxed text-white/55">
-                从最初接洽到搭建出结构化的STEM OPT申请路径。
+                从最初接洽到形成系统的 STEM OPT 申请方案。
               </span>
             </div>
             <div className="rounded-2xl bg-white p-6 shadow-[0_1px_2px_rgba(16,36,31,.03),0_12px_28px_-10px_rgba(16,36,31,.1)]">

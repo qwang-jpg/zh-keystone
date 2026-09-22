@@ -15,7 +15,7 @@ export default function ComplianceClosing() {
           </p>
         </>
       }
-      ctaLabel="获取我的OPT评估"
+      ctaLabel="获取 OPT 初步评估"
     />
   );
 }

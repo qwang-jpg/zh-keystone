@@ -9,7 +9,7 @@ const layers = [
   },
   {
     title: "OPT申请支持",
-    description: "按照清晰的时间线，为您准备OPT申请。",
+    description: "按申请时间安排，为 OPT 申请准备提供支持。",
     deliverables: [
       "OPT时间线规划",
       "DSO与I-20流程指导",
@@ -18,7 +18,7 @@ const layers = [
       "递交前材料审核",
       "EAD办理流程指导",
     ],
-    why: "一份准确、时机得当的申请，能够避免处理延误与补件通知（RFE）侵占您的OPT授权窗口。",
+    why: "准确、及时地准备申请，有助于减少审理延误或补件通知（RFE）对 OPT 时间安排的影响。",
   },
   {
     title: "就业与合规支持",
@@ -38,7 +38,7 @@ const layers = [
     title: "职业发展与身份延续",
     description: "着眼于第一份OPT工作之后的规划。对于正在准备下一阶段的客户，Keystone可以帮助评估：",
     deliverables: [
-      "STEM OPT申请就绪度",
+      "STEM OPT 申请准备情况",
       "未来的E-Verify雇主要求",
       "STEM OPT工作机会",
       "H-1B担保雇主机会",
@@ -52,7 +52,7 @@ const layers = [
 export default function WhatYoullAchieve() {
   return (
     <PlanBuildLayers
-      title="一个项目，覆盖OPT就业、合规与身份的下一步。"
+      title="覆盖 OPT 就业、合规与后续规划"
       intro="从为您匹配与专业相关的工作机会，到妥善记录雇佣关系、规划身份的下一步——这一整套项目覆盖您OPT全程的每一个环节。"
       layers={layers}
       tabsLabel="OPT项目模块"

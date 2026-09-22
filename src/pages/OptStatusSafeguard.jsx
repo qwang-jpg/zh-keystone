@@ -18,7 +18,7 @@ export default function OptStatusSafeguard() {
   return (
     <PageLayout>
       <Seo
-        title="OPT身份保障计划 — 以真实工作，守护您的OPT身份"
+        title="OPT Status Protection Program — 以真实工作，守护您的OPT身份"
         description="Keystone Strategies通过与专业相关的真实工作机会及系统化的OPT支持，帮助国际毕业生管理OPT失业风险——500+家合作企业资源，2,000+个真实工作机会。"
         path="/opt-status-safeguard"
       />

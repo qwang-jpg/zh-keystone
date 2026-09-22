@@ -3,7 +3,7 @@ import PlanBuildLayers from "@/components/common/PlanBuildLayers";
 const layers = [
   {
     title: "初创企业记账与会计体系搭建",
-    description: "从干净整洁的账目和统一的业务记录流程开始。",
+    description: "从清晰、准确的账目和统一的业务记录流程开始。",
     deliverables: [
       "记账平台、科目表与银行账户连接",
       "交易分类与每月对账",
@@ -23,7 +23,7 @@ const layers = [
   },
   {
     title: "联邦与州税务申报协调",
-    description: "将合适的记录整理给您的税务专业人士，并推动申报流程持续进行。",
+    description: "整理税务专业人士所需的记录，协调推进申报流程。",
     deliverables: [
       "账目审核与配套文件准备",
       "CPA协调与后续信息补充请求",
@@ -46,8 +46,8 @@ const layers = [
 export default function StrategicServices() {
   return (
     <PlanBuildLayers
-      title="核心服务模块"
-      intro="四大环环相扣的支持领域，让您的账目、申报与财务协调始终保持井然有序。"
+      title="核心服务内容"
+      intro="四项相互衔接的服务，帮助您有序管理账目、申报与财务协调。"
       layers={layers}
       note="具体支持内容会根据贵公司的实际情况调整。正式的税务立场、CPA意见及持牌专业人士的判定，仍由相应的合格专业人士负责作出。"
       tabsLabel="财务管理搭建顺序"

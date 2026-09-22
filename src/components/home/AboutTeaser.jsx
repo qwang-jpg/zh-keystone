@@ -19,15 +19,15 @@ export default function AboutTeaser() {
             关于 Keystone Strategies
           </h2>
           <p className="mt-5 leading-relaxed text-muted-foreground">
-            Keystone Strategies 致力于帮助全球人才与创业者，在美国建立持久的根基与职业发展轨迹。
+            Keystone Strategies 致力于帮助全球人才与创业者，在美国扎根，发展事业。
           </p>
           <p className="mt-4 leading-relaxed text-muted-foreground">
             我们将对美国移民路径、商业发展及行业特定挑战的深刻理解，与超过500个成功案例及7年的实战经验相结合。
-            我们的目标是设计定制化、合规的解决方案，简化复杂流程、减少弯路，加速您通往成功的道路。
+            我们根据客户情况制定合规方案，简化复杂流程、减少弯路，帮助客户推进事业发展。
           </p>
           <Button asChild variant="outline" className="mt-8">
             <Link to="/about-us">
-              了解更多关于我们
+              了解 Keystone
               <ArrowRight className="h-4 w-4" />
             </Link>
           </Button>

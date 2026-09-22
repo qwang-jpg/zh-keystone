@@ -12,9 +12,9 @@ const allServiceLinks = [
 ];
 
 const navLinks = [
-  { label: "成功案例", href: "/our-cases" },
+  { label: "客户案例", href: "/our-cases" },
   { label: "关于我们", href: "/about-us" },
-  { label: "行业洞察", href: "/insights" },
+  { label: "专业洞察", href: "/insights" },
 ];
 
 // Separate from the marketing nav above: this is a login entry point for

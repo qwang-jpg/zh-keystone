@@ -19,7 +19,7 @@ const audiences = [
   },
   {
     icon: Hourglass,
-    title: "希望在身份变得紧迫之前就开始规划",
+    title: "希望在身份期限临近前开始规划",
     description: "您目前持有F-1、OPT、STEM OPT、H-1B或其他身份，希望提早了解自己的长期绿卡路径。",
   },
   {
@@ -32,7 +32,7 @@ const audiences = [
 export default function WhoItsFor() {
   return (
     <PlanAudienceGrid
-      title="为希望在长期美国路径中掌握更多主动权的专业人才而设计"
+      title="适合希望主动规划长期留美安排的专业人士"
       items={audiences}
       ctaLabel="预约免费EB路径评估"
       bottomText="涉及拥有或控制潜在担保雇主的案件，需要移民律师进行个案法律审查。"

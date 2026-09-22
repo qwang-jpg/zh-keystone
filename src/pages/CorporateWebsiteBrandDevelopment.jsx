@@ -25,7 +25,7 @@ export default function CorporateWebsiteBrandDevelopment() {
     <PageLayout>
       <Seo
         title="企业官网与品牌形象建设"
-        description="Keystone Strategies 为您设计品牌标志，并端到端搭建公司官网，从架构与内容规划到SEO配置与上线全程负责。"
+        description="Keystone Strategies 为您设计品牌标志，并全流程搭建公司官网，从架构与内容规划到SEO配置与上线全程负责。"
         path="/corporate-website-brand-development"
         jsonLd={faqJsonLd}
       />

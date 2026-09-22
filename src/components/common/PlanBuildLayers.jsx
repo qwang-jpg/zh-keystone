@@ -118,7 +118,7 @@ export default function PlanBuildLayers({ title, intro, layers, note, tabsLabel 
                 <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-[rgba(243,245,241,.78)] p-6 text-center backdrop-blur-[6px]">
                   <Lock size={20} className="text-[#426647]" aria-hidden="true" />
                   <p className="max-w-[320px] text-[.85rem] leading-[1.7] text-[#3a4a3e]">
-                    该层的完整搭建细节将由我们的团队在策略咨询通话后与您分享。
+                    本模块的详细服务内容将在咨询后由团队向您介绍。
                   </p>
                   <Link
                     to="/contact"
@@ -146,7 +146,7 @@ export default function PlanBuildLayers({ title, intro, layers, note, tabsLabel 
             )}
             {layer.why && (
               <div className="mt-[23px] border-t border-t-[#dbe2d9] pt-[23px]">
-                <h4 className="text-[.68rem] font-bold uppercase tracking-[.12em] text-[#426647]">为什么重要</h4>
+                <h4 className="text-[.68rem] font-bold uppercase tracking-[.12em] text-[#426647]">这项服务的作用</h4>
                 <p className="mt-[10px] text-[.87rem] leading-[1.7] text-[#506153]">{layer.why}</p>
               </div>
             )}

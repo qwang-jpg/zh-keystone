@@ -3,7 +3,7 @@ import ServiceHero from "@/components/common/ServiceHero";
 export default function Hero() {
   return (
     <ServiceHero
-      title="STEM OPT雇主合规"
+      title="STEM OPT 雇主合规培训"
       subtitle="为STEM OPT学生提供真实合规的雇主岗位"
       description={
         <>

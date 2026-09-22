@@ -3,7 +3,7 @@ import ServiceHero from "@/components/common/ServiceHero";
 export default function Hero() {
   return (
     <ServiceHero
-      title="OPT身份保障计划"
+      title="OPT Status Protection Program"
       subtitle="以真实工作，守护您的OPT身份"
       description={
         <>
@@ -11,7 +11,7 @@ export default function Hero() {
           让您在积累真实工作经验的同时，始终保持合规。
         </>
       }
-      ctaLabel="获取我的OPT评估"
+      ctaLabel="获取 OPT 初步评估"
     />
   );
 }

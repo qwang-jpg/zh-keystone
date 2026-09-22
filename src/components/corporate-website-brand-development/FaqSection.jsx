@@ -40,7 +40,7 @@ export const faqs = [
     ],
   },
   {
-    question: "这个网站能否作为公司辅助业务文件的一部分使用？",
+    question: "网站能否作为公司业务的支持材料？",
     answer: [
       "是的。",
       "您的网站可以成为用于展示公司业务、运营、服务与品牌的整体业务材料的一部分。",
@@ -60,7 +60,7 @@ export const faqs = [
 export default function FaqSection() {
   return (
     <ServiceFaqSection
-      title="在开始搭建前，先把细节讲清楚"
+      title="品牌与网站常见问题"
       description="了解我们的工作流程、项目范围，以及在为您搭建品牌与网站过程中可以期待的具体内容。"
       faqs={faqs}
       ctaLabel="沟通您公司的具体需求"

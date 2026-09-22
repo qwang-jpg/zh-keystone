@@ -10,7 +10,7 @@ export default function CasesCta() {
           走出真正属于您自己的职业与人生道路。
         </p>
       }
-      ctaLabel="预约咨询，开启您的H-1B无限续航计划"
+      ctaLabel="预约咨询，开启您的 H-1B Infinity Plan"
     />
   );
 }

@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: "如果我在OPT期间被裁员怎么办？",
-    answer: "一旦符合条件的雇佣关系终止，失业天数可能会重新开始累积。Keystone可以帮您核算剩余的时间线，并根据您的学术与职业背景，为您匹配相关的工作机会。",
+    answer: "一旦符合条件的雇佣关系终止，失业天数可能会重新开始累积。Keystone可以帮您核算剩余失业天数，并根据您的学术与职业背景，为您匹配相关的工作机会。",
   },
   {
     question: "OPT期间可以自雇吗？",
@@ -42,5 +42,5 @@ const faqs = [
 ];
 
 export default function FaqSection() {
-  return <ServiceFaqSection title="搭建OPT就业路径前，您应该了解的问题" faqs={faqs} />;
+  return <ServiceFaqSection title="OPT 就业与身份常见问题" faqs={faqs} />;
 }

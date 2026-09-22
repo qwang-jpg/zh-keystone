@@ -11,7 +11,7 @@ const audiences = [
   {
     icon: AlertTriangle,
     title: "遭遇裁员，或雇佣关系已经终止",
-    description: "意外的雇佣变动，可能让您的OPT时间线瞬间变得万分紧迫。",
+    description: "意外的雇佣变动，可能让您的 OPT 时间安排变得紧迫。",
   },
   {
     icon: Route,
@@ -30,7 +30,7 @@ export default function WhoItsFor() {
     <PlanAudienceGrid
       title="您的90天失业计时，不会为您等待。"
       items={audiences}
-      ctaLabel="获取我的OPT评估"
+      ctaLabel="获取 OPT 初步评估"
       bottomText="在失业计时成为限制因素之前，尽快锁定与专业相关的工作机会。"
     />
   );

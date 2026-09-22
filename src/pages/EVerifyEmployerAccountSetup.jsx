@@ -34,8 +34,8 @@ export default function EVerifyEmployerAccountSetup() {
       />
       <FaqSection />
       <CompactCta
-        title="让您的公司具备E-Verify资质"
-        description={<p>我们负责注册、账户配置与培训引导，确保您的公司ID在需要之前就已经签发就绪。</p>}
+        title="完成公司 E-Verify 注册"
+        description={<p>我们负责注册、账户配置与培训引导，确保您的公司ID在需要之前就已取得并可使用。</p>}
         ctaLabel="为我的公司注册E-Verify"
       />
     </PageLayout>

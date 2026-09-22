@@ -46,8 +46,8 @@ const layers = [
 export default function CoreDeliverables() {
   return (
     <PlanBuildLayers
-      title="四大连接模块，从品牌形象到正式上线"
-      intro="您的标志、网站与搜索可见性，应当讲述同一个连贯的故事。这四大模块端到端搭建这个故事，从视觉形象一直延伸到完全响应式、具备搜索能力的网站。"
+      title="四项核心服务，从品牌设计到网站上线"
+      intro="标志、网站与搜索展示应保持一致。我们将品牌视觉设计、响应式网站开发、SEO 和上线支持相互衔接，完整呈现企业的业务与形象。"
       layers={layers}
       tabsLabel="品牌与网站搭建流程"
     />

@@ -3,7 +3,7 @@ import CompactCta from "@/components/common/CompactCta";
 export default function FinalCta() {
   return (
     <CompactCta
-      title="不要等到时间线成为您的限制"
+      title="不要等到申请时间紧迫才开始准备"
       description={
         <p>
           每一种STEM OPT情况都各不相同。您的学位、雇主、职位、失业时间线、申请截止日期与长期规划，
@@ -11,7 +11,7 @@ export default function FinalCta() {
           需要纠正什么，以及接下来该做什么。
         </p>
       }
-      ctaLabel="获取我的STEM OPT评估"
+      ctaLabel="获取 STEM OPT 初步评估"
     />
   );
 }

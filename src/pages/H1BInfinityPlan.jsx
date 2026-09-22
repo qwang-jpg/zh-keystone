@@ -24,7 +24,7 @@ const faqJsonLd = {
 export default function H1BInfinityPlan() {
   return (
     <PageLayout>
-      <Seo title="H-1B无限续航计划 — 打造您H-1B之路背后的雇主" description="通过H-1B无限续航计划搭建真正的美国雇主：企业基础、雇主基础设施、运营证明材料，并与合格移民律师协调对接。" path="/h1b-infinity-plan" jsonLd={faqJsonLd} />
+      <Seo title="H-1B Infinity Plan — 打造您H-1B之路背后的雇主" description="通过 H-1B Infinity Plan 搭建真正的美国雇主：企业基础、雇主体系、运营证明材料，并与合格移民律师协调对接。" path="/h1b-infinity-plan" jsonLd={faqJsonLd} />
       <Hero />
       <StatsBar />
       <AboutPlan />

@@ -62,7 +62,7 @@ const faqs = [
       "STEM OPT能为您争取宝贵的时间，用于积累美国工作经验，并为移民策略的下一阶段做准备。",
       <>
         Keystone还提供独立的H-1B与职业类绿卡规划服务，包括{" "}
-        <strong className="font-semibold text-keystone-ink">H-1B无限续航计划</strong>。
+        <strong className="font-semibold text-keystone-ink">H-1B Infinity Plan</strong>。
       </>,
       "STEM OPT保障的是您当下的路径。而正确的策略，也应该为下一步做好准备。",
     ],
@@ -72,10 +72,10 @@ const faqs = [
 export default function StemFaq() {
   return (
     <ServiceFaqSection
-      title="搭建STEM OPT路径之前，您应该了解的事项"
+      title="STEM OPT 常见问题"
       faqs={faqs}
       background="mist"
-      ctaLabel="还有更多问题？获取解答 >>"
+      ctaLabel="还有其他问题？联系顾问"
     />
   );
 }

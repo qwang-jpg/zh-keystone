@@ -11,9 +11,9 @@ const pillars = [
   },
   {
     icon: LifeBuoy,
-    title: "端到端的身份支持",
+    title: "全流程的身份支持",
     description:
-      "STEM OPT是一段持续的身份状态，而非一次性事件。支持贯穿雇主就绪、申请准备、申报及更换雇主的全过程。",
+      "STEM OPT 需要持续维护，不能只完成一次申请。支持贯穿雇主准备、申请准备、申报及更换雇主的全过程。",
   },
   {
     icon: UserCheck,
@@ -34,7 +34,7 @@ export default function CoreAdvantages() {
         <SectionHeading
           align="left"
           light
-          title="专为稳固并维持您的STEM OPT身份而搭建"
+          title="为获得并维持 STEM OPT 身份提供支持"
         />
 
         <div className="mt-12 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 md:grid-cols-3">

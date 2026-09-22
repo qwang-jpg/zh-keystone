@@ -45,7 +45,7 @@ const testimonials = [
 export default function AboutTestimonials() {
   return (
     <TabbedTestimonials
-      title="客户真实评价"
+      title="客户评价"
       description="这里的每一个故事，都是Keystone真实服务过的客户经历。"
       stories={testimonials}
       renderSide={({ index, total }) => (

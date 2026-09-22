@@ -78,7 +78,7 @@ export default function Testimonials() {
       <div className="container">
         <div className="flex flex-wrap items-end justify-between gap-7">
           <SectionHeading
-            title="客户真实评价"
+            title="客户评价"
             description="五段真实历程，见证客户从起点到今天的转变，点击查看每一个故事。"
             align="left"
             className="max-w-2xl"

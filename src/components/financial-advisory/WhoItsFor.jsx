@@ -19,7 +19,7 @@ const audiences = [
   },
   {
     icon: Users2,
-    title: "已有CPA、但仍需要一层协调机制的公司",
+    title: "已有 CPA，但仍需要协调支持的公司",
     description: "您已经聘请了会计师或CPA，但记账、申报材料准备与专业沟通之间还没有连成一套统一的工作流程。",
   },
 ];
@@ -27,7 +27,7 @@ const audiences = [
 export default function WhoItsFor() {
   return (
     <PlanAudienceGrid
-      title="为希望财务真正井然有序，而不只是完成申报的企业而设计"
+      title="适合需要系统管理财务的企业"
       items={audiences}
       ctaLabel="预约财务评估咨询"
     />

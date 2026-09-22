@@ -10,15 +10,15 @@ export default function STEMCrossSell() {
           想延长STEM OPT，但没有雇主？
         </h2>
         <h3 className="text-lg font-semibold text-primary">
-          STEM OPT就绪计划帮您搞定！
+          了解 STEM OPT Ready Plan
         </h3>
         <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
-          STEM OPT就绪计划帮助国际毕业生统筹雇主搭建、培训计划文件与持续的企业运营。
+          STEM OPT Ready Plan 帮助国际毕业生统筹雇主搭建、培训计划文件与持续的企业运营。
           我们帮助您准备好真实的培训机会，并在符合条件时为未来的H-1B注册做好规划。
         </p>
         <Button asChild className="mt-2 h-auto whitespace-normal py-3 text-center">
           <Link to="/stem-opt-ready-plan">
-            了解更多STEM OPT就绪计划
+            了解更多 STEM OPT Ready Plan
             <ArrowRight className="h-4 w-4 shrink-0" />
           </Link>
         </Button>

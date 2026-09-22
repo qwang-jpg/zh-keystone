@@ -29,7 +29,7 @@ const layers = [
       "各州具体的公示要求",
       "针对实体办公场所与远程办公场景的公示指导",
     ],
-    why: "遗漏一项法定公示，是成长中的雇主最容易出现、也最本可避免的合规漏洞之一。",
+    why: "遗漏一项法定公示，是成长中的雇主最容易出现、也最容易避免的合规漏洞之一。",
   },
   {
     title: "员工分类审核",
@@ -46,7 +46,7 @@ const layers = [
 export default function CoreDeliverables() {
   return (
     <PlanBuildLayers
-      title="四大模块，护航招聘之间的每一天"
+      title="四项核心服务，完善日常用工制度"
       intro="入职只是让一位员工开始工作。这四大模块搭建起此后规范每一位员工的制度、公示与分类审核。"
       layers={layers}
       tabsLabel="职场合规搭建流程"

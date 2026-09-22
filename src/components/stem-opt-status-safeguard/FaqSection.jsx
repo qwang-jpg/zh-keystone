@@ -5,7 +5,7 @@ import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 // separate content) — deduplicated to one entry per question here.
 const faqs = [
   {
-    question: "STEM OPT最早什么时候可以申请？整个流程什么时候结束？",
+    question: "STEM OPT 最早何时申请？最迟何时递交？",
     answer: (
       <>
         <p>申请STEM OPT延期时，必须同时满足以下三项时间限制：</p>
@@ -174,7 +174,7 @@ export default function FaqSection() {
     <ServiceFaqSection
       title="STEM OPT申请常见问题"
       faqs={faqs}
-      ctaLabel="还有更多问题？点击获取解答 >>"
+      ctaLabel="还有其他问题？联系顾问"
     />
   );
 }

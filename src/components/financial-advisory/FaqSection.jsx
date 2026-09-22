@@ -34,11 +34,11 @@ export const faqs = [
 export default function FaqSection() {
   return (
     <ServiceFaqSection
-      title="理清您的财务下一步"
+      title="财务管理常见问题"
       description="了解我们能提供哪些帮助、如何与您的会计师协作，以及合适的启动时机。"
       faqs={faqs.map((faq) => ({ question: faq.question, answer: faq.answer.split("\n\n") }))}
       background="mist"
-      ctaLabel="沟通您公司的具体需求 >>"
+      ctaLabel="咨询公司的财务管理需求"
     />
   );
 }

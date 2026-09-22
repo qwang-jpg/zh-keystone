@@ -5,7 +5,7 @@ const layers = [
     title: "实体选择与注册策略",
     description: "我们会根据您计划运营业务的方式，帮您确定合适的实体类型、注册州及股权架构。",
     deliverables: [
-      "LLC或公司架构选择",
+      "LLC 或 Corporation 架构选择",
       "注册州建议",
       "公司名称初步查册与可用性确认",
     ],
@@ -19,7 +19,7 @@ const layers = [
       "跟踪公司成立进度",
       "递交确认与已批准的成立文件",
     ],
-    why: "干净、准确递交的注册文件，能避免拖慢后续所有环节的延误与更正。",
+    why: "准确、完整的注册文件，能避免拖慢后续所有环节的延误与更正。",
   },
   {
     title: "成立与治理文件",
@@ -46,7 +46,7 @@ const layers = [
 export default function CoreServiceModules() {
   return (
     <PlanBuildLayers
-      title="核心服务模块"
+      title="核心服务内容"
       intro="以下每个模块，都覆盖公司注册的一个关键阶段——从选择正确的架构，到完成您此后业务运营将持续依赖的文件与档案。"
       layers={layers}
       note="实体架构 → 州注册递交 → 治理文件 → EIN与档案"

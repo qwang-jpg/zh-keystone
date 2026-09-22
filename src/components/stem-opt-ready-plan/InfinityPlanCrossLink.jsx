@@ -61,7 +61,7 @@ export default function InfinityPlanCrossLink() {
           </p>
           <Button asChild size="lg" className="mt-8">
             <Link to="/h1b-infinity-plan">
-              了解H-1B无限续航计划
+              了解 H-1B Infinity Plan
               <ArrowRight className="h-4 w-4 shrink-0" />
             </Link>
           </Button>

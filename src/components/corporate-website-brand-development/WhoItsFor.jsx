@@ -4,7 +4,7 @@ import PlanAudienceGrid from "@/components/common/PlanAudienceGrid";
 const audiences = [
   {
     icon: Palette,
-    title: "您的品牌形象还不像一家企业",
+    title: "您的品牌形象尚未统一",
     description:
       "您的标志、配色与物料是零散拼凑而成，没有品牌规范来确保它们在网站与业务文件中保持一致。",
   },
@@ -16,7 +16,7 @@ const audiences = [
   },
   {
     icon: Search,
-    title: "您的网站没有为搜索而搭建",
+    title: "您的网站缺少搜索优化基础",
     description:
       "如果没有从一开始就配置好搜索友好的结构与SEO基础，潜在客户会更难在网上找到您的公司。",
   },
@@ -24,14 +24,14 @@ const audiences = [
     icon: Rocket,
     title: "您需要赶在下一场重要会面前上线",
     description:
-      "融资、合作或银行沟通即将到来，您需要一个能让企业看起来真实可信的网站与公司简介。",
+      "融资、合作或银行沟通即将到来，您需要一个能够完整呈现公司业务与专业形象的网站和公司简介。",
   },
 ];
 
 export default function WhoItsFor() {
   return (
     <PlanAudienceGrid
-      title="专为业务规模已超出线上形象的创始人打造"
+      title="适合需要让线上形象跟上业务发展的创始人"
       items={audiences}
       ctaLabel="预约网站与品牌咨询"
     />

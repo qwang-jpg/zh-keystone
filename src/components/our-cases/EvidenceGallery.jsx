@@ -153,7 +153,7 @@ export default function EvidenceGallery({ h1bOnly = false, permOnly = false, for
       <div className="container">
         <h2 className="text-xl font-bold text-keystone-ink md:text-2xl">存档证明材料</h2>
         <p className="mt-1.5 max-w-2xl text-sm text-muted-foreground">
-          以下为低分辨率预览，客户身份信息已在源头处理。每一行独立滚动——点击文件可查看大图。
+          以下展示低分辨率文件预览，客户身份信息已作匿名处理。可滚动查看各组文件，点击查看大图。
         </p>
       </div>
 

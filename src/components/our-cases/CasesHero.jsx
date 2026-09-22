@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const stats = [
   { value: "7年", label: "身份与商业规划实战经验" },
   { value: "1,200+", label: "位客户获得移民与商业支持" },
-  { value: "84.8%", label: "长期客户续约率" },
+  { value: "84.8%", label: "长期客户留存率" },
   { value: "100%", label: "已完成递交案件的获批率" },
 ];
 

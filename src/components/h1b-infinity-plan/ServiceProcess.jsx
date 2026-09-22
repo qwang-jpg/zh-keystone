@@ -4,16 +4,16 @@ import SectionHeading from "@/components/common/SectionHeading";
 const stages = [
   { number: "1", title: "H-1B评估", description: "评估您的移民身份、专业背景、商业构想、时间安排及潜在的H-1B策略。" },
   { number: "2", title: "企业与雇主架构设计", description: "确定公司架构、商业模式、拟定的专业职位及雇主框架。" },
-  { number: "3", title: "基础设施搭建", description: "建立公司的业务、人力资源、薪资、合规、品牌及运营基础设施。" },
-  { number: "4", title: "H-1B就绪与法律协调", description: "整理雇主方文件，并与合格移民律师协调移民申请流程。" },
-  { number: "5", title: "持续雇主支持", description: "根据委托协议约定，在申请递交后及（如适用）获批后，持续为运营与合规基础设施提供支持。" },
+  { number: "3", title: "企业与雇佣体系搭建", description: "建立公司的业务、人力资源、薪资、合规、品牌及运营体系。" },
+  { number: "4", title: "H-1B 申请准备与法律协调", description: "整理雇主方文件，并与合格移民律师协调移民申请流程。" },
+  { number: "5", title: "持续雇主支持", description: "根据委托协议约定，在申请递交后及（如适用）获批后，持续为运营与合规体系提供支持。" },
 ];
 
 export default function ServiceProcess() {
   return (
     <section id="service-process" className="bg-white py-20 md:py-28">
       <div className="container">
-        <SectionHeading align="left" title="H-1B无限续航计划如何运作" />
+        <SectionHeading align="left" title="H-1B Infinity Plan 如何运作" />
 
         <div className="relative mt-14 pl-[60px]">
           <div className="absolute bottom-8 left-5 top-2 w-px bg-border" aria-hidden="true" />

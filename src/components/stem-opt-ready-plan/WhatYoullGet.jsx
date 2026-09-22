@@ -8,19 +8,19 @@ const layers = [
       "公司与雇主架构",
       "EIN与雇主注册支持",
       "E-Verify注册支持",
-      "企业基础设施搭建",
+      "企业运营基础搭建",
       "雇主合规框架",
-      "运营就绪指导",
+      "运营准备指导",
     ],
     why: "不仅仅是创建一个实体，而是搭建能够支撑合法雇佣关系的雇主架构。",
   },
   {
     title: "雇佣与监督架构",
-    description: "把雇主打造成一个真正运作的STEM OPT雇佣环境。",
+    description: "为 STEM OPT 员工建立实际运作的雇佣与监督安排。",
     deliverables: [
       "学位与职位对应",
       "职位与职责设计",
-      "主管架构",
+      "主管与汇报关系",
       "雇佣文件",
       "入职框架",
       "薪资与雇佣流程指导",
@@ -45,7 +45,7 @@ const layers = [
   },
   {
     title: "持续身份与雇主合规",
-    description: "在STEM OPT开始后，持续保护这套架构。",
+    description: "在 STEM OPT 开始后，持续支持雇主与雇佣体系的合规运作。",
     deliverables: [
       "雇主申报指导",
       "重大变更指导",
@@ -64,7 +64,7 @@ export default function WhatYoullGet() {
   return (
     <PlanBuildLayers
       title="我们与您共同搭建的内容"
-      intro="一套合规的STEM OPT架构是分层搭建的。该项目搭建获得并维持您STEM OPT身份所需的雇主、雇佣、申请与合规基础设施。"
+      intro="本计划从雇主、雇佣、申请与持续合规四个方面，搭建获得并维持 STEM OPT 身份所需的体系。"
       layers={layers}
       note="服务范围与持续支持以合作协议为准。STEM OPT申请材料的递交将与您学校的DSO协调，并在适用情况下与专业移民律师协作。"
       tabsLabel="STEM OPT搭建流程"

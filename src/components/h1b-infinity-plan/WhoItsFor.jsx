@@ -10,7 +10,7 @@ const audiences = [
   {
     icon: ArrowLeftRight,
     title: "面临担保不确定性的H-1B专业人士",
-    description: "您目前持有H-1B身份，但由于裁员、更换雇主、长期担保受限或其他雇佣情况，现有的担保正变得不再确定。",
+    description: "您目前持有H-1B身份，但由于裁员、更换雇主、长期担保受限或其他雇佣情况，现有雇主能否继续提供担保变得不确定。",
   },
   {
     icon: Building2,
@@ -27,9 +27,9 @@ const audiences = [
 export default function WhoItsFor() {
   return (
     <PlanAudienceGrid
-      title="专为希望更好地掌控自己H-1B之路的专业人士打造"
+      title="适合希望主动规划 H-1B 的专业人士"
       items={audiences}
-      ctaLabel="申请评估"
+      ctaLabel="获取初步评估"
       bottomText="资格取决于个人情况、企业本身、拟定职位、雇佣架构与移民策略等因素。"
     />
   );

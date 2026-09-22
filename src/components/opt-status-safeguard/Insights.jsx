@@ -25,7 +25,7 @@ export default function Insights() {
 
         <div className="mt-10 text-center">
           <Link to="/insights" className="inline-flex items-center gap-1 text-sm font-semibold text-primary">
-            查看更多OPT行业洞察
+            查看更多OPT专业洞察
             <ArrowUpRight className="h-4 w-4" />
           </Link>
         </div>

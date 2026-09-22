@@ -41,7 +41,7 @@ export default function Insights() {
   return (
     <PageLayout>
       <Seo
-        title="行业洞察 — 移民、H-1B与OPT指南"
+        title="专业洞察 — 移民、H-1B与OPT指南"
         description="面向国际专业人才的实用指南、政策解读与真实案例，涵盖OPT、STEM OPT、H-1B自雇与移民策略。"
         path="/insights"
       />
@@ -83,8 +83,8 @@ export default function Insights() {
                 type="search"
                 value={query}
                 onChange={(e) => handleQueryChange(e.target.value)}
-                placeholder="搜索行业洞察..."
-                aria-label="搜索行业洞察"
+                placeholder="搜索专业洞察..."
+                aria-label="搜索专业洞察"
                 className="w-full rounded-full border border-border bg-white py-2.5 pl-10 pr-4 text-sm text-keystone-ink placeholder:text-muted-foreground focus:border-primary focus:outline-none"
               />
             </div>

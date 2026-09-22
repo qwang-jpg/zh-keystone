@@ -44,7 +44,7 @@ export default function AboutHero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-5 max-w-xl text-base leading-relaxed text-white/70 md:text-lg"
           >
-            为在美国打拼未来的全球人才与创业者提供全周期解决方案——从移民策略到公司注册与雇主架构设计。
+            为在美国发展事业的国际人才与创业者提供全流程支持，涵盖移民策略、公司注册与雇主架构设计。
           </motion.p>
 
           <motion.div
@@ -55,7 +55,7 @@ export default function AboutHero() {
           >
             <Button asChild size="lg" className="bg-white text-keystone-ink hover:bg-white/90">
               <Link to="/contact">
-                预约服务
+                预约咨询
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>

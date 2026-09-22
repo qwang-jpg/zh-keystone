@@ -20,7 +20,7 @@ export default function StemOptReadyPlan() {
   return (
     <PageLayout>
       <Seo
-        title="STEM OPT身份保障计划"
+        title="STEM OPT Ready Plan"
         description="Keystone Strategies 帮助国际STEM毕业生搭建获得并维持STEM OPT身份所需的雇主、雇佣、培训、文件与持续合规架构。"
         path="/stem-opt-ready-plan"
       />
@@ -31,7 +31,7 @@ export default function StemOptReadyPlan() {
       <CompactCta
         title="您目前的情况能否支撑一套合规的STEM OPT架构？"
         description={<p>从评估您的雇主、职位、培训计划、身份与时间线开始。</p>}
-        ctaLabel="获取我的STEM OPT评估"
+        ctaLabel="获取 STEM OPT 初步评估"
       />
       <ServiceWorkflow />
       <WhatYoullGet />

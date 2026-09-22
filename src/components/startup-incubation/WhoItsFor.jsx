@@ -27,7 +27,7 @@ const audiences = [
 export default function WhoItsFor() {
   return (
     <PlanAudienceGrid
-      title="为需要的远不止一份注册代办服务的创始人而设计"
+      title="适合既要完成注册，也要规划公司架构的创始人"
       items={audiences}
       ctaLabel="预约免费注册咨询"
     />

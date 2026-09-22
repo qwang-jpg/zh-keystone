@@ -104,15 +104,15 @@ export const serviceGroups = [
 // service section.
 export const featuredServices = [
   {
-    label: "H-1B无限续航计划",
+    label: "H-1B Infinity Plan",
     href: "/h1b-infinity-plan",
     description:
       "通过合规的雇主规划与持续支持，助您获取并长期维持H-1B身份的结构化方案。",
   },
   {
-    label: "STEM OPT就绪计划",
+    label: "STEM OPT Ready Plan",
     href: "/stem-opt-ready-plan",
     description:
-      "面向雇主就绪的解决方案，支持合规的STEM OPT就业与延期需求。",
+      "协助雇主做好准备，支持合规的 STEM OPT 就业与延期申请。",
   },
 ];

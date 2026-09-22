@@ -21,8 +21,8 @@ const layers = [
   },
   {
     title: "公司ID签发",
-    description: "作为贵公司的E-Verify标识符交付，可直接用于I-983表格、聘用信及各类申请材料。",
-    deliverables: ["签发有效的公司ID", "可用于I-983表格与聘用信", "可用于移民申请材料"],
+    description: "取得公司专属的 E-Verify Company ID，供 I-983 表格、聘用信及申请材料引用。",
+    deliverables: ["取得已签发的有效 Company ID", "可用于I-983表格与聘用信", "可用于移民申请材料"],
     why: "公司ID是后续每一份表格与申请材料都会用到的编号——必须在需要之前就已就绪。",
   },
   {
@@ -37,7 +37,7 @@ const layers = [
 export default function CoreDeliverables() {
   return (
     <PlanBuildLayers
-      title="从谅解备忘录到公司ID就绪"
+      title="从 MOU 准备到取得 Company ID"
       intro="E-Verify注册是公司层面的一次性流程，但每个阶段都有各自的要求。我们会陪伴贵公司完成每一步，并同步处理第一位新员工入职所伴随的独立州新员工申报义务。"
       layers={layers}
       tabsLabel="E-Verify注册流程顺序"

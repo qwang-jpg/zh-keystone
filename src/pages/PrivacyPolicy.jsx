@@ -14,98 +14,98 @@ import Seo from "@/components/common/Seo";
 // publishing, particularly the retention section.
 const sections = [
   {
-    heading: "Overview",
-    body: [
-      "This Privacy Policy explains how Keystone Strategies (\"Keystone Strategies,\" \"we,\" \"us,\" or \"our\") collects, uses, shares, and protects personal information in connection with our website and the services we provide to clients. It applies to visitors to keystonestrategies.us and to individuals and businesses we work with as clients.",
-    ],
+    "heading": "概述",
+    "body": [
+      "本隐私政策说明 Keystone Strategies（以下简称“我们”）如何在运营网站及向客户提供服务的过程中收集、使用、共享和保护个人信息。本政策适用于 keystonestrategies.us 的访问者，以及与我们合作的个人和企业客户。"
+    ]
   },
   {
-    heading: "Information We Collect",
-    body: [
-      "Information you submit to us directly. When you fill out our contact or consultation form, we collect the information you provide, such as your name, email address, and the details of your inquiry.",
-      "Information collected once you become a client. If you engage us for immigration, tax, or business services, we and our secure Client Portal collect the additional information needed to complete that engagement — for example, identity and immigration status details, employment and business records, financial information, and any documents or materials you upload or share with your case team.",
-      "Information collected automatically. Like most websites, we use Google Analytics to understand how visitors use our site — for example, pages viewed, time on site, general location derived from IP address, and browser or device type. This is aggregate usage data, not information tied to your name unless you've also submitted a form.",
-    ],
+    "heading": "我们收集的信息",
+    "body": [
+      "您直接提供的信息。当您填写联系或咨询表单时，我们会收集您提供的信息，例如姓名、邮箱地址及咨询内容。",
+      "您成为客户后收集的信息。如果您委托我们提供移民、税务或商业服务，我们及安全客户门户会收集完成该项委托所需的其他信息，例如身份与移民状态信息、雇佣与企业记录、财务信息，以及您上传或向服务团队提供的文件和材料。",
+      "自动收集的信息。与大多数网站一样，我们使用 Google Analytics 了解访问者如何使用网站，例如浏览的页面、停留时间、根据 IP 地址推测的大致位置，以及浏览器或设备类型。这些属于汇总的网站使用数据，除非您同时提交过表单，否则不会与您的姓名关联。"
+    ]
   },
   {
-    heading: "How We Use Your Information",
-    body: [
-      "We use the information we collect to respond to your inquiries, schedule and deliver consultations, provide the immigration, tax, and business services you've engaged us for, communicate with you about your case or engagement, meet our legal and professional record-keeping obligations, and understand and improve how our website is used.",
-    ],
+    "heading": "我们如何使用您的信息",
+    "body": [
+      "我们使用所收集的信息回复咨询、安排和提供咨询服务、履行您委托的移民、税务及商业服务、就案件或服务事项与您沟通、履行法律及专业规范要求的记录保存义务，以及了解和改善网站的使用体验。"
+    ]
   },
   {
-    heading: "How We Share Your Information",
-    body: [
-      "We do not sell your personal information, and we do not share it with third parties for their own marketing purposes.",
-      "We only share your information: with your consent; with service providers who help us operate our business (such as our Client Portal platform and Google Analytics), who are only permitted to use it to provide that service to us; with government agencies or other parties strictly where necessary to complete the specific service you've engaged us for (for example, filing a petition on your behalf); or where required by law, court order, or to protect our legal rights.",
-    ],
+    "heading": "我们如何共享您的信息",
+    "body": [
+      "我们不会出售您的个人信息，也不会将其提供给第三方用于第三方自身的营销目的。",
+      "我们仅在以下情况下共享您的信息：获得您的同意；向协助我们运营业务的服务提供商（例如客户门户平台和 Google Analytics）提供信息，且其仅可为向我们提供相应服务而使用这些信息；仅在完成您委托的特定服务所必需时，向政府机构或其他相关方提供信息（例如代表您递交申请）；或者为遵守法律、法院命令或保护我们的合法权利而提供信息。"
+    ]
   },
   {
-    heading: "Data Retention and Deletion",
-    body: [
-      "We retain client information for as long as we're actively providing services to you. Once an engagement is complete and you've let us know you don't anticipate needing further services from us, we delete your personal information from our active systems, except where we're required to retain certain records for a defined period under applicable law or professional record-keeping obligations (for example, tax or immigration-related recordkeeping requirements).",
-      "If you've only submitted an inquiry through our contact form and haven't become a client, we retain that information only for as long as needed to respond to you and follow up.",
-    ],
+    "heading": "信息保存与删除",
+    "body": [
+      "在持续向您提供服务期间，我们会保留客户信息。服务完成且您告知我们预计不再需要后续服务后，我们会从正在使用的系统中删除您的个人信息；但适用法律或专业记录保存义务要求在规定期限内保留的特定记录除外，例如税务或移民相关记录。",
+      "如果您仅通过联系表单提交咨询，尚未成为客户，我们只会在回复和跟进咨询所需的时间内保留相关信息。"
+    ]
   },
   {
-    heading: "Cookies and Third-Party Analytics",
-    body: [
-      "We use Google Analytics, which uses cookies and similar technologies to collect information about how visitors use our website. Google may use this data in accordance with its own privacy policy, available at https://policies.google.com/privacy.",
-      "You can opt out of Google Analytics tracking using the Google Analytics Opt-out Browser Add-on, or control cookies generally through your browser settings.",
-    ],
+    "heading": "Cookie 与第三方分析服务",
+    "body": [
+      "我们使用 Google Analytics，通过 Cookie 及类似技术收集访问者使用网站的信息。Google 可能依据其自身隐私政策使用这些数据，其政策网址为 https://policies.google.com/privacy。",
+      "您可以使用 Google Analytics 停用浏览器插件（Google Analytics Opt-out Browser Add-on）退出其跟踪，也可以通过浏览器设置管理 Cookie。"
+    ]
   },
   {
-    heading: "Data Security",
-    body: [
-      "We use reasonable administrative, technical, and physical safeguards to protect the personal information we hold, including restricting access to client information to the team members working on your matter. No method of transmission or storage is completely secure, so we can't guarantee absolute security.",
-    ],
+    "heading": "信息安全",
+    "body": [
+      "我们采取合理的管理、技术和物理保护措施，保护所持有的个人信息，包括将客户信息的访问权限限制在处理该客户事务的团队成员范围内。任何传输或存储方式都无法做到完全安全，因此我们不能保证绝对安全。"
+    ]
   },
   {
-    heading: "Your Choices and Rights",
-    body: [
-      "You can ask us what personal information we hold about you, request that we correct it, or request that we delete it, subject to the record-keeping exceptions described above. You can also opt out of any non-essential email communications from us at any time. Depending on where you live, you may have additional rights under applicable law. To exercise any of these rights, contact us using the information below.",
-    ],
+    "heading": "您的选择与权利",
+    "body": [
+      "您可以询问我们持有哪些与您有关的个人信息，要求更正信息，或要求删除信息，但上述记录保存例外仍然适用。您也可以随时选择不再接收我们的非必要邮件。根据您居住的地区，适用法律可能赋予您其他权利。如需行使这些权利，请通过下方联系方式与我们联系。"
+    ]
   },
   {
-    heading: "Children's Privacy",
-    body: [
-      "Our website and services are intended for adults and are not directed at children. We do not knowingly collect personal information from children.",
-    ],
+    "heading": "儿童隐私",
+    "body": [
+      "我们的网站与服务面向成年人，并非面向儿童。我们不会在知情的情况下收集儿童的个人信息。"
+    ]
   },
   {
-    heading: "Changes to This Policy",
-    body: [
-      "We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, operational, or regulatory reasons. We'll post the updated version on this page with a new \"last updated\" date.",
-    ],
+    "heading": "本政策的变更",
+    "body": [
+      "我们可能不时更新本隐私政策，以反映业务实践的变化，或满足法律、运营及监管方面的需要。更新后的版本会发布在本页面，并标注新的“最后更新”日期。"
+    ]
   },
   {
-    heading: "Contact Us",
-    body: [
-      "If you have questions about this Privacy Policy or how we handle your information, contact us at contact@keystonestrategies.us or +1 (646) - 294 - 7091.",
-    ],
-  },
+    "heading": "联系我们",
+    "body": [
+      "如对本隐私政策或我们处理信息的方式有任何疑问，请发送邮件至 contact@keystonestrategies.us，或致电 +1 (646) - 294 - 7091。"
+    ]
+  }
 ];
 
-const lastUpdated = "September 13, 2026";
+const lastUpdated = "2026年9月13日";
 
 export default function PrivacyPolicy() {
   return (
     <PageLayout>
       <Seo
-        title="Privacy Policy"
-        description="Keystone Strategies' privacy policy, covering what data we collect, how it's used, and the rights you have over your personal information."
+        title="隐私政策"
+        description="Keystone Strategies 隐私政策：了解我们收集哪些信息、如何使用这些信息，以及您对个人信息享有的权利。"
         path="/privacy-policy"
       />
       <section className="bg-keystone-ink py-16 md:py-20">
         <div className="container text-center">
-          <h1 className="text-3xl font-bold text-white md:text-4xl">Privacy Policy</h1>
+          <h1 className="text-3xl font-bold text-white md:text-4xl">隐私政策</h1>
         </div>
       </section>
 
       <section className="bg-white py-16 md:py-20">
         <div className="container max-w-3xl space-y-10 text-sm leading-relaxed text-muted-foreground">
           <p className="text-xs font-medium uppercase tracking-wide text-keystone-ink/50">
-            Last updated: {lastUpdated}
+            最后更新： {lastUpdated}
           </p>
 
           {sections.map((s) => (

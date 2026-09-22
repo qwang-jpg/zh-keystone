@@ -55,7 +55,7 @@ export default function RealEmployer() {
         </div>
 
         <p className="mt-10 max-w-2xl text-sm leading-relaxed text-white/55">
-          EB路径规划项目围绕可持续的雇主架构而设计，而不是为了一次移民递交临时拼凑出的文书。
+          EB Pathway Program 围绕可持续的雇主架构而设计，而不是为了一次移民递交临时拼凑出的文书。
         </p>
       </div>
     </section>

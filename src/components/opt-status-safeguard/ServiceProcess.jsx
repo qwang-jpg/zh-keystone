@@ -15,7 +15,7 @@ const stages = [
   {
     number: "3",
     title: "匹配对口的工作机会",
-    description: "我们利用Keystone的企业与岗位网络，为您匹配合适的工作机会。对于身份紧急、条件符合的客户，最快可在48小时内送上offer。",
+    description: "我们利用Keystone的企业与岗位网络，为您匹配合适的工作机会。对于时间紧迫且符合条件的客户，最快可在 48 小时内获得 offer。",
   },
   {
     number: "4",
