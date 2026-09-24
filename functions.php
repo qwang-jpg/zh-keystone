@@ -83,18 +83,101 @@ function keystone_add_module_type($tag, $handle)
 add_filter('script_loader_tag', 'keystone_add_module_type', 10, 2);
 
 /**
- * React Router owns front-end routing, so a URL WordPress doesn't
- * recognize (e.g. /about-us if no matching Page exists) must still
- * render the app with an HTTP 200, not WordPress's default 404.
+ * Route manifest written by the Vite build (see routeManifestPlugin in
+ * vite.config.js): every path the React app renders, plus legacy slugs
+ * that permanently moved. Returns null if the build output is missing.
  */
-function keystone_force_200_for_app_routes()
+function keystone_route_manifest()
 {
-	if (is_admin() || (defined('REST_REQUEST') && REST_REQUEST) || wp_doing_ajax()) {
+	static $manifest = false;
+	if (false === $manifest) {
+		$path = KEYSTONE_DIST_DIR . '/routes.json';
+		$data = file_exists($path) ? json_decode(file_get_contents($path), true) : null;
+		$manifest = (is_array($data) && isset($data['routes'], $data['redirects'])) ? $data : null;
+	}
+	return $manifest;
+}
+
+/**
+ * The request path relative to the site's home URL, without a trailing
+ * slash ("/" for the front page), to match the paths in routes.json.
+ */
+function keystone_request_path()
+{
+	$path = wp_parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+	$path = is_string($path) ? rawurldecode($path) : '/';
+	$home = wp_parse_url(home_url('/'), PHP_URL_PATH);
+	$home = is_string($home) ? rtrim($home, '/') : '';
+	if ('' !== $home && 0 === strpos($path, $home)) {
+		$path = substr($path, strlen($home));
+	}
+	return '/' . trim($path, '/');
+}
+
+/**
+ * React Router owns front-end routing, so WordPress has no record of the
+ * app's URLs. Runs before WordPress's own canonical redirects and:
+ * - serves the build's sitemap.xml at the site root;
+ * - answers legacy slugs with a real 301 (the client-side <Navigate> in
+ *   routes.js is only a fallback for crawlers that never see this);
+ * - returns 200 for app routes and a real 404 for anything else, so the
+ *   React "Page not found" screen isn't indexed as a live page.
+ */
+function keystone_handle_app_routes()
+{
+	if (is_admin() || (defined('REST_REQUEST') && REST_REQUEST) || wp_doing_ajax() || is_feed() || is_robots()) {
 		return;
 	}
-	status_header(200);
+
+	$manifest = keystone_route_manifest();
+	if (null === $manifest) {
+		// No build output to check against: keep every URL rendering the app.
+		status_header(200);
+		return;
+	}
+
+	$path = keystone_request_path();
+
+	if ('/sitemap.xml' === $path && file_exists(KEYSTONE_DIST_DIR . '/sitemap.xml')) {
+		status_header(200);
+		header('Content-Type: application/xml; charset=UTF-8');
+		readfile(KEYSTONE_DIST_DIR . '/sitemap.xml');
+		exit;
+	}
+
+	if (isset($manifest['redirects'][$path])) {
+		wp_safe_redirect(home_url($manifest['redirects'][$path]), 301);
+		exit;
+	}
+
+	if (in_array($path, $manifest['routes'], true)) {
+		status_header(200);
+	} elseif (is_404()) {
+		// Still renders index.php (the app), which shows its own 404 page.
+		status_header(404);
+	}
 }
-add_action('template_redirect', 'keystone_force_200_for_app_routes');
+add_action('template_redirect', 'keystone_handle_app_routes', 0);
+
+/**
+ * WordPress's built-in sitemap only lists WP posts/pages, none of which
+ * exist for this theme; the build's sitemap.xml (served above) replaces it.
+ */
+add_filter('wp_sitemaps_enabled', '__return_false');
+
+/**
+ * public/robots.txt would only be copied into the theme's dist/ folder,
+ * never served from the domain root, so point crawlers at the sitemap from
+ * WordPress's own (virtual) robots.txt instead.
+ */
+function keystone_robots_txt($output, $public)
+{
+	if ($public) {
+		$output .= "\nSitemap: " . esc_url_raw(home_url('/sitemap.xml')) . "\n";
+	}
+	return $output;
+}
+add_filter('robots_txt', 'keystone_robots_txt', 10, 2);
 
 /**
  * Basic theme supports.
@@ -102,6 +185,5 @@ add_action('template_redirect', 'keystone_force_200_for_app_routes');
 function keystone_theme_setup()
 {
 	add_theme_support('title-tag');
-	add_theme_support('post-thumbnails');
 }
 add_action('after_setup_theme', 'keystone_theme_setup');

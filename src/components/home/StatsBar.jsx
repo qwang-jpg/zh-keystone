@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCountUp } from "@/lib/useCountUp";
 
 const stats = [
   { target: 1200, suffix: "+", label: "位客户获得移民与商业支持" },
@@ -13,20 +13,7 @@ function format({ target, suffix, decimals }, t) {
 }
 
 export default function StatsBar() {
-  const [t, setT] = useState(0);
-
-  useEffect(() => {
-    const start = performance.now();
-    const duration = 1400;
-    let raf;
-    const step = (now) => {
-      const raw = Math.min(1, (now - start) / duration);
-      setT(1 - Math.pow(1 - raw, 3));
-      if (raw < 1) raf = requestAnimationFrame(step);
-    };
-    raf = requestAnimationFrame(step);
-    return () => cancelAnimationFrame(raf);
-  }, []);
+  const t = useCountUp();
 
   return (
     <section className="border-b border-border bg-white">

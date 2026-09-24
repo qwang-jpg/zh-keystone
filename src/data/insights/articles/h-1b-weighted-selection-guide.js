@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-weighted-selection-guide`,
-  title: `2026年H-1B加权抽签规则完全指南：写给OPT学生与应届毕业生`,
-  description: `全面解读2026年基于工资等级的H-1B加权抽签规则，分析哪些群体受影响最大，并为OPT学生、应届毕业生与职业初期人士提供实用应对策略。`,
-  category: `政策解读`,
-  date: `2025-10-10`,
-  readingTime: `11分钟阅读`,
   content: [
     {
       type: `paragraph`,

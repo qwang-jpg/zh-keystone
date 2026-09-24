@@ -1,6 +1,6 @@
 import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
-const faqs = [
+export const faqs = [
   {
     question: "我可以在没有SSN的情况下开设美国企业银行账户吗？",
     answer: [

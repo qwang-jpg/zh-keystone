@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-prevailing-wage-level-guide`,
-  title: `如何查询您的H-1B工资等级：自雇市场工资指南`,
-  description: `一份实用指南，讲解什么是H-1B市场工资（Prevailing Wage）、如何查询自己的工资等级，以及如何为自雇申请设定并记录合规的薪资。`,
-  category: `指南`,
-  date: `2025-08-19`,
-  readingTime: `12分钟阅读`,
   content: [
     {
       type: `paragraph`,

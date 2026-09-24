@@ -3,26 +3,26 @@ import { AnimatePresence, motion } from "framer-motion";
 import { X } from "lucide-react";
 import EvidenceCard from "@/components/our-cases/EvidenceCard";
 import MarqueeRow from "@/components/our-cases/MarqueeRow";
-import brochureFinanceConsulting from "@/assets/our-cases/brochure-finance-consulting.png";
-import brochureSustainabilityConsulting from "@/assets/our-cases/brochure-sustainability-consulting.png";
-import brochureUiUxDesign from "@/assets/our-cases/brochure-ui-ux-design.png";
-import brochureSupplyChainWarehousing from "@/assets/our-cases/brochure-supply-chain-warehousing.png";
-import brochureTablewareEcommerce from "@/assets/our-cases/brochure-tableware-ecommerce.png";
-import registrationCalifornia from "@/assets/our-cases/registration-california.png";
-import registrationIllinois from "@/assets/our-cases/registration-illinois.png";
-import registrationTexas from "@/assets/our-cases/registration-texas.png";
-import registrationGeorgia from "@/assets/our-cases/registration-georgia.png";
-import registrationMassachusetts from "@/assets/our-cases/registration-massachusetts.png";
-import registrationNewJersey from "@/assets/our-cases/registration-new-jersey.png";
-import registrationNewYork from "@/assets/our-cases/registration-new-york.png";
-import registrationDc from "@/assets/our-cases/registration-district-of-columbia.png";
-import approvalI797a from "@/assets/our-cases/approval-i797a-h1b.png";
-import approvalI797b from "@/assets/our-cases/approval-i797b-h1b.png";
-import approvalI140_1 from "@/assets/our-cases/approval-i140-1.png";
-import approvalI140_2 from "@/assets/our-cases/approval-i140-2.png";
-import approvalI140_3 from "@/assets/our-cases/approval-i140-3.png";
-import approvalPerm1 from "@/assets/our-cases/approval-perm-1.png";
-import approvalPerm2 from "@/assets/our-cases/approval-perm-2.png";
+import brochureFinanceConsulting from "@/assets/our-cases/brochure-finance-consulting.webp";
+import brochureSustainabilityConsulting from "@/assets/our-cases/brochure-sustainability-consulting.webp";
+import brochureUiUxDesign from "@/assets/our-cases/brochure-ui-ux-design.webp";
+import brochureSupplyChainWarehousing from "@/assets/our-cases/brochure-supply-chain-warehousing.webp";
+import brochureTablewareEcommerce from "@/assets/our-cases/brochure-tableware-ecommerce.webp";
+import registrationCalifornia from "@/assets/our-cases/registration-california.webp";
+import registrationIllinois from "@/assets/our-cases/registration-illinois.webp";
+import registrationTexas from "@/assets/our-cases/registration-texas.webp";
+import registrationGeorgia from "@/assets/our-cases/registration-georgia.webp";
+import registrationMassachusetts from "@/assets/our-cases/registration-massachusetts.webp";
+import registrationNewJersey from "@/assets/our-cases/registration-new-jersey.webp";
+import registrationNewYork from "@/assets/our-cases/registration-new-york.webp";
+import registrationDc from "@/assets/our-cases/registration-district-of-columbia.webp";
+import approvalI797a from "@/assets/our-cases/approval-i797a-h1b.webp";
+import approvalI797b from "@/assets/our-cases/approval-i797b-h1b.webp";
+import approvalI140_1 from "@/assets/our-cases/approval-i140-1.webp";
+import approvalI140_2 from "@/assets/our-cases/approval-i140-2.webp";
+import approvalI140_3 from "@/assets/our-cases/approval-i140-3.webp";
+import approvalPerm1 from "@/assets/our-cases/approval-perm-1.webp";
+import approvalPerm2 from "@/assets/our-cases/approval-perm-2.webp";
 
 // Low-resolution previews of client-built company brochures, one per case.
 // Client-identifying details are scrubbed at the source.
@@ -35,6 +35,7 @@ import approvalPerm2 from "@/assets/our-cases/approval-perm-2.png";
 // Rendered at half the standard card height (`compact`) so more brochures
 // are visible in the row at once.
 const brochureRow = {
+  id: "brochures",
   title: "企业宣传资料案例精选",
   note: "真实客户企业的宣传册样张，以低分辨率预览展示，保护客户隐私。",
   compact: true,
@@ -49,6 +50,7 @@ const brochureRow = {
 
 const documentRows = [
   {
+    id: "registrations",
     title: "公司注册文件",
     images: [
       { src: registrationCalifornia, label: "加利福尼亚州 — 公司注册证书" },
@@ -62,6 +64,7 @@ const documentRows = [
     ],
   },
   {
+    id: "h1b-approvals",
     title: "H-1B获批 — I-797批准通知书",
     images: [
       { src: approvalI797a, label: "I-797A批准通知书" },
@@ -69,6 +72,7 @@ const documentRows = [
     ],
   },
   {
+    id: "green-card-approvals",
     title: "H-1B之外 — PERM与I-140获批",
     images: [
       { src: approvalPerm1, label: "PERM劳工证，已批准" },
@@ -138,14 +142,15 @@ function EvidenceLightbox({ item, onClose }) {
   );
 }
 
-export default function EvidenceGallery({ h1bOnly = false, permOnly = false, formationOnly = false }) {
-  const visibleRows = permOnly
-    ? rows.filter((row) => row.title === "H-1B之外 — PERM与I-140获批")
-    : formationOnly
-    ? rows.filter((row) => row.title === brochureRow.title || row.title === "公司注册文件")
-    : h1bOnly
-    ? rows.slice(0, 3)
-    : rows;
+// Pages that only need part of the evidence wall pick rows by `id`.
+const rowIdsFor = {
+  permOnly: ["green-card-approvals"],
+  formationOnly: ["brochures", "registrations"],
+};
+
+export default function EvidenceGallery({ permOnly = false, formationOnly = false }) {
+  const ids = permOnly ? rowIdsFor.permOnly : formationOnly ? rowIdsFor.formationOnly : null;
+  const visibleRows = ids ? rows.filter((row) => ids.includes(row.id)) : rows;
   const [lightbox, setLightbox] = useState(null);
 
   return (
@@ -160,7 +165,7 @@ export default function EvidenceGallery({ h1bOnly = false, permOnly = false, for
       <div className="mt-10 flex flex-col gap-12">
         {visibleRows.map((row) => (
           <motion.div
-            key={row.title}
+            key={row.id}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-60px" }}

@@ -1,5 +1,6 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
+import { buildFaqJsonLd } from "@/lib/seo";
 import CompactCta from "@/components/common/CompactCta";
 import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/eb-2-eb-3-green-card-planning/Hero";
@@ -10,7 +11,7 @@ import RealEmployer from "@/components/eb-2-eb-3-green-card-planning/RealEmploye
 import Framework from "@/components/eb-2-eb-3-green-card-planning/Framework";
 import CaseStudies from "@/components/eb-2-eb-3-green-card-planning/CaseStudies";
 import WhyKeystone from "@/components/eb-2-eb-3-green-card-planning/WhyKeystone";
-import FaqSection from "@/components/eb-2-eb-3-green-card-planning/FaqSection";
+import FaqSection, { faqs } from "@/components/eb-2-eb-3-green-card-planning/FaqSection";
 
 export default function Eb2Eb3GreenCardPlanning() {
   return (
@@ -19,6 +20,7 @@ export default function Eb2Eb3GreenCardPlanning() {
         title="EB路径规划项目 — 搭建雇主、积累证据、走通绿卡路径"
         description="Keystone的EB路径规划项目，帮助国际专业人才搭建推进EB-2/EB-3职业类绿卡路径所需的雇主架构、职位体系与运营记录。"
         path="/eb-2-eb-3-green-card-planning"
+        jsonLd={buildFaqJsonLd(faqs)}
       />
       <Hero />
       <StatsBar />

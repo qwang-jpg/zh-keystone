@@ -45,15 +45,6 @@ export default function ArticleContent({ content }) {
             </ListTag>
           );
         }
-        if (block.type === "quote") {
-          return (
-            <blockquote
-              key={i}
-              className="mt-6 border-l-4 border-primary/40 bg-keystone-mist py-3 pl-5 pr-4 text-base italic leading-relaxed text-keystone-ink"
-              dangerouslySetInnerHTML={{ __html: block.html }}
-            />
-          );
-        }
         return (
           <p
             key={i}

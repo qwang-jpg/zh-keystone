@@ -1,10 +1,4 @@
 export default {
-  slug: `understanding-cap-gap`,
-  title: `理解Cap-Gap：在不失去身份的前提下衔接OPT与H-1B`,
-  description: `一份关于2025年H-1B现代化最终规则下Cap-Gap延期的完整指南，涵盖资格条件、时间安排、旅行规则，以及收到补件通知时该如何应对。`,
-  category: `指南`,
-  date: `2025-07-09`,
-  readingTime: `6分钟阅读`,
   content: [
     {
       type: `paragraph`,
@@ -17,7 +11,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `2025年1月17日，DHS正式实施了<a href="https://www.federalregister.gov/documents/2024/12/18/2024-29354/modernizing-h-1b-requirements-providing-flexibility-in-the-f-1-program-and-program-improvementsH-1B" rel="noopener noreferrer" target="_blank">H-1B现代化最终规则</a>，对Cap-Gap的有效期做出如下调整：`,
+      html: `2025年1月17日，DHS正式实施了<a href="https://www.federalregister.gov/documents/2024/12/18/2024-29354/modernizing-h-1b-requirements-providing-flexibility-in-the-f-1-program-and-program-improvements" rel="noopener noreferrer" target="_blank">H-1B现代化最终规则</a>，对Cap-Gap的有效期做出如下调整：`,
     },
     {
       type: `list`,

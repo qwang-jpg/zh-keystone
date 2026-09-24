@@ -1,5 +1,6 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
+import { buildFaqJsonLd } from "@/lib/seo";
 import CompactCta from "@/components/common/CompactCta";
 import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/business-operations-setup/Hero";
@@ -10,16 +11,6 @@ import CoreDeliverables from "@/components/business-operations-setup/CoreDeliver
 import WhyKeystone from "@/components/home/WhyKeystone";
 import FaqSection, { faqs } from "@/components/business-operations-setup/FaqSection";
 
-const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: faqs.map((faq) => ({
-    "@type": "Question",
-    name: faq.question,
-    acceptedAnswer: { "@type": "Answer", text: Array.isArray(faq.answer) ? faq.answer.join(" ") : faq.answer },
-  })),
-};
-
 export default function BusinessOperationsSetup() {
   return (
     <PageLayout>
@@ -27,7 +18,7 @@ export default function BusinessOperationsSetup() {
         title="公司运营搭建"
         description="公司注册完成后，整理好治理记录、企业身份、运营地址、政府记录与核心文档模板。"
         path="/business-operations-setup"
-        jsonLd={faqJsonLd}
+        jsonLd={buildFaqJsonLd(faqs)}
       />
       <Hero />
       <StatsBar />

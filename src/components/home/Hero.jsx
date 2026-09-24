@@ -93,7 +93,7 @@ export default function Hero() {
           className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
         <div className="absolute inset-x-6 bottom-6 rounded-xl bg-keystone-ink/70 px-4 py-3 text-sm font-semibold text-white backdrop-blur sm:inset-x-10">
-          500个成功案例 · 7年实战经验
+          500+成功案例 · 7年实战经验
         </div>
       </motion.div>
     </section>

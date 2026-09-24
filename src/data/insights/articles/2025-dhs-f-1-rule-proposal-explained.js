@@ -1,10 +1,4 @@
 export default {
-  slug: `2025-dhs-f-1-rule-proposal-explained`,
-  title: `2025年DHS关于F-1身份的拟议规则：学生应了解的5大关键变化`,
-  description: `解读DHS 2025年拟议规则——以固定入境期限取代F-1/J-1的Duration of Status，以及该规则一旦生效可能对OPT、STEM OPT与研究生造成的影响。`,
-  category: `政策解读`,
-  date: `2025-09-26`,
-  readingTime: `14分钟阅读`,
   content: [
     {
       type: `paragraph`,

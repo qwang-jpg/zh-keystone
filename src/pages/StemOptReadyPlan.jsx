@@ -1,5 +1,6 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
+import { buildFaqJsonLd } from "@/lib/seo";
 import CompactCta from "@/components/common/CompactCta";
 import StemHero from "@/components/stem-opt-ready-plan/StemHero";
 import StemStats from "@/components/stem-opt-ready-plan/StemStats";
@@ -13,7 +14,7 @@ import ServiceWorkflow from "@/components/stem-opt-ready-plan/ServiceWorkflow";
 import CaseShare from "@/components/stem-opt-ready-plan/CaseShare";
 import EvidenceGallery from "@/components/our-cases/EvidenceGallery";
 import InfinityPlanCrossLink from "@/components/stem-opt-ready-plan/InfinityPlanCrossLink";
-import StemFaq from "@/components/stem-opt-ready-plan/StemFaq";
+import StemFaq, { faqs } from "@/components/stem-opt-ready-plan/StemFaq";
 import FinalCta from "@/components/stem-opt-ready-plan/FinalCta";
 
 export default function StemOptReadyPlan() {
@@ -23,6 +24,7 @@ export default function StemOptReadyPlan() {
         title="STEM OPT身份保障计划"
         description="Keystone Strategies 帮助国际STEM毕业生搭建获得并维持STEM OPT身份所需的雇主、雇佣、培训、文件与持续合规架构。"
         path="/stem-opt-ready-plan"
+        jsonLd={buildFaqJsonLd(faqs)}
       />
       <StemHero />
       <StemStats />

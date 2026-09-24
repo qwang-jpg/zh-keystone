@@ -8,7 +8,6 @@ export const serviceGroups = [
     cta: "了解身份规划服务",
     summary:
       "OPT与STEM OPT雇主合规、创始人主导的H-1B架构设计，以及长期绿卡规划。",
-    sourceFile: "pouria-UENYI2DL1RA-unsplash.jpg",
     items: [
       {
         label: "OPT身份与就业支持",
@@ -38,7 +37,6 @@ export const serviceGroups = [
     cta: "了解企业架构服务",
     summary:
       "涵盖公司注册、银行开户、财税体系、公司治理与品牌建设，打造真实运营的美国企业。",
-    sourceFile: "helen-cramer-ljXkKfbOlXs-unsplash.jpg",
     items: [
       {
         label: "公司注册与架构设计",
@@ -73,7 +71,6 @@ export const serviceGroups = [
     cta: "了解劳工合规服务",
     summary:
       "涵盖雇主注册、招聘体系、薪资管理与职场制度合规。",
-    sourceFile: "traf-4k3jBXHMEwo-unsplash.jpg",
     items: [
       {
         label: "雇佣资格与雇主注册",

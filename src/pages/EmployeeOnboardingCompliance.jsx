@@ -1,5 +1,6 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
+import { buildFaqJsonLd } from "@/lib/seo";
 import CompactCta from "@/components/common/CompactCta";
 import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/employee-onboarding-compliance/Hero";
@@ -8,7 +9,7 @@ import Overview from "@/components/employee-onboarding-compliance/Overview";
 import WhoItsFor from "@/components/employee-onboarding-compliance/WhoItsFor";
 import CoreDeliverables from "@/components/employee-onboarding-compliance/CoreDeliverables";
 import WhyKeystone from "@/components/employee-onboarding-compliance/WhyKeystone";
-import FaqSection from "@/components/employee-onboarding-compliance/FaqSection";
+import FaqSection, { faqs } from "@/components/employee-onboarding-compliance/FaqSection";
 
 export default function EmployeeOnboardingCompliance() {
   return (
@@ -17,6 +18,7 @@ export default function EmployeeOnboardingCompliance() {
         title="招聘与入职体系"
         description="Keystone Strategies 为每一位新员工搭建标准化的招聘流程与合规入职体系，从offer审批到I-9与W-4表格办理，并配套美国基础雇佣合规指南。"
         path="/employee-onboarding-compliance"
+        jsonLd={buildFaqJsonLd(faqs)}
       />
       <Hero />
       <StatsBar />

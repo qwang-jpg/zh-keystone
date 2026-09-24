@@ -1,10 +1,4 @@
 export default {
-  slug: `opt-i765-form-guide`,
-  title: `OPT表格I-765指南（2026版）：EAD逐项填写说明与常见错误`,
-  description: `一份关于OPT申请I-765表格的完整逐项填写指南，涵盖所需材料、EAD申请费用、审理时间，以及最容易导致延误或补件通知的常见错误。`,
-  category: `指南`,
-  date: `2025-07-29`,
-  readingTime: `10分钟阅读`,
   content: [
     {
       type: `paragraph`,
@@ -28,7 +22,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `- 您的新I-20 - 护照信息页 - F-1签证页 - 您最近一次的I-94记录 - 一张在过去30天内拍摄、符合<a href="https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/employment-and-tax/optional-practical-training/photo-requirements-for-ead-application.html?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">规定要求</a>的照片（上传前可以使用<a href="https://tsg.phototool.state.gov/photo" rel="noopener noreferrer" target="_blank">官方工具</a>处理照片）- 此前所有EAD卡、I-20、CPT I-20等类似文件的副本 - 最新版本的<a href="https://www.uscis.gov/i-765" rel="noopener noreferrer" target="_blank">I-765表格</a>`,
+      html: `- 您的新I-20 - 护照信息页 - F-1签证页 - 您最近一次的I-94记录 - 一张在过去30天内拍摄、符合<a href="https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/employment-and-tax/optional-practical-training/photo-requirements-for-ead-application.html" rel="noopener noreferrer" target="_blank">规定要求</a>的照片（上传前可以使用<a href="https://tsg.phototool.state.gov/photo" rel="noopener noreferrer" target="_blank">官方工具</a>处理照片）- 此前所有EAD卡、I-20、CPT I-20等类似文件的副本 - 最新版本的<a href="https://www.uscis.gov/i-765" rel="noopener noreferrer" target="_blank">I-765表格</a>`,
     },
     { type: `list`, ordered: false, items: [`邮寄递交`] },
     {
@@ -50,7 +44,7 @@ export default {
       type: `list`,
       ordered: false,
       items: [
-        `"您在美国的邮寄地址"是USCIS用来邮寄您的EAD卡及所有正式通知的地址。请确保地址准确，并且您在接下来的几个月内能够可靠地收到邮件——<strong>邮寄地址不完整或不准确，可能导致您始终收不到EAD卡或重要通知。同时请注意，如果搬家，必须在搬家后10天内更新地址（</strong><a href="https://www.uscis.gov/addresschange?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank"><strong>参见地址更新指南</strong></a><strong>）。</strong>如果您使用他人的地址收件，必须在"代收人姓名"（In Care of Name）一栏正确填写该人的姓名。`,
+        `"您在美国的邮寄地址"是USCIS用来邮寄您的EAD卡及所有正式通知的地址。请确保地址准确，并且您在接下来的几个月内能够可靠地收到邮件——<strong>邮寄地址不完整或不准确，可能导致您始终收不到EAD卡或重要通知。同时请注意，如果搬家，必须在搬家后10天内更新地址（</strong><a href="https://www.uscis.gov/addresschange" rel="noopener noreferrer" target="_blank"><strong>参见地址更新指南</strong></a><strong>）。</strong>如果您使用他人的地址收件，必须在"代收人姓名"（In Care of Name）一栏正确填写该人的姓名。`,
         `在"您在美国的实际居住地址"一栏，如果您在"邮寄地址"中填写的是他人地址，请在这里填写您本人真实的居住地址。`,
         `在"其他信息"部分，外籍登记号（通常简称为A-Number或A#）是美国国土安全部（DHS）为部分非美国公民分配的一个身份编号。<strong>首次申请OPT的申请人通常没有A-Number，可以留空。</strong>如果您已有A-Number，通常会出现在此前的移民文件上，例如绿卡、EAD卡、I-140批准通知书、I-485收据、庇护申请（I-589），或DACA/TPS相关文件。`,
         `第13-15项涉及您的社会安全号码（SSN）。如果您已有SSN，请准确填写。如果没有，您可以选择在本次EAD申请中一并申请SSN。不过根据以往经验，部分首次申请EAD时勾选了同时申请SSN的申请人，最终并未如期收到SSN卡。如果您遇到这种情况：<br/>- 请致电社会安全局（SSA），电话1-800-772-1213，确认SSN是否已经生成；<br/>- 如果尚未生成，或邮寄失败，建议携带护照、I-20与原始EAD卡，前往附近的SSA办公室现场重新申请——可通过<a href="https://secure.ssa.gov/locator" rel="noopener noreferrer" target="_blank">SSA网点查询工具</a>找到离您最近的办公室。`,

@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-visa-guide-fy2027`,
-  title: `2026年（FY2027）H-1B签证指南：政策更新、抽签规则与申请流程`,
-  description: `一份写给国际学生的FY2027 H-1B完整指南：最新政策变化、加权抽签、逐步申请流程，以及补件通知、Cap-Gap与转移方面的常见误区。`,
-  category: `政策解读`,
-  date: `2025-10-24`,
-  readingTime: `10分钟阅读`,
   content: [
     {
       type: `paragraph`,

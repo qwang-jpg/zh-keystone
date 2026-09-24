@@ -1,10 +1,4 @@
 export default {
-  slug: `stem-opt-application-complete-guide`,
-  title: `2026年STEM OPT申请完全指南：资格条件、时间安排与I-983填写技巧`,
-  description: `逐步讲解STEM OPT延期流程——资格条件、递交截止日期、雇主要求、I-983表格，以及如何避免最常见的递交错误。`,
-  category: `指南`,
-  date: `2025-07-28`,
-  readingTime: `7分钟阅读`,
   content: [
     {
       type: `paragraph`,
@@ -130,7 +124,7 @@ export default {
     { type: `paragraph`, html: `- 您的I-94出入境记录` },
     {
       type: `paragraph`,
-      html: `- 您目前的EAD卡 - 您的新I-20 - STEM学位的成绩单 - STEM学位证书副本 - 已签署的I-765表格 - 一张符合<a href="https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/employment-and-tax/optional-practical-training/photo-requirements-for-ead-application.html?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">USCIS照片要求</a>的照片（上传前可以使用<a href="https://tsg.phototool.state.gov/photo" rel="noopener noreferrer" target="_blank">官方照片工具</a>处理）- 支付在线申请费用：470美元`,
+      html: `- 您目前的EAD卡 - 您的新I-20 - STEM学位的成绩单 - STEM学位证书副本 - 已签署的I-765表格 - 一张符合<a href="https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/employment-and-tax/optional-practical-training/photo-requirements-for-ead-application.html" rel="noopener noreferrer" target="_blank">USCIS照片要求</a>的照片（上传前可以使用<a href="https://tsg.phototool.state.gov/photo" rel="noopener noreferrer" target="_blank">官方照片工具</a>处理）- 支付在线申请费用：470美元`,
     },
     { type: `list`, ordered: false, items: [`<strong>邮寄递交</strong>`] },
     { type: `paragraph`, html: `（1）下载最新版本的I-765表格，填写并签字。` },

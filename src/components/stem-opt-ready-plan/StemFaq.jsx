@@ -1,6 +1,6 @@
 import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
-const faqs = [
+export const faqs = [
   {
     question: "如果我现在的雇主没有注册E-Verify，我还能申请STEM OPT吗？",
     answer: [

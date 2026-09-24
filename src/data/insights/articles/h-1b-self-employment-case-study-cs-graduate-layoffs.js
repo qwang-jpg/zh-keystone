@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-self-employment-case-study-cs-graduate-layoffs`,
-  title: `H-1B自雇案例：一位被裁员的CS毕业生如何经STEM OPT走向H-1B`,
-  description: `一位计算机科学毕业生在OPT期间被裁员后，通过H-1B自雇重启OPT计时、成功获得STEM OPT，并在首次参与H-1B抽签时中签。`,
-  category: `案例分享`,
-  date: `2025-09-26`,
-  readingTime: `13分钟阅读`,
   content: [
     {
       type: `paragraph`,

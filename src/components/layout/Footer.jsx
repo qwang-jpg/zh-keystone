@@ -78,7 +78,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container py-4 flex flex-col-reverse gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-white/40">
-            © {new Date().getFullYear()} Keystone Strategies 版权所有
+            © {new Date().getFullYear()} Keystone Strategies 版权所有。过往案例结果不代表对未来结果的保证。
           </p>
           <Link to="/privacy-policy" className="text-xs text-white/40 hover:text-white transition-colors">
             隐私政策

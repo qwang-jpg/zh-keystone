@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-weighted-selection-self-employment-advantage`,
-  title: `为什么H-1B自雇在加权抽签制度下更具优势`,
-  description: `随着USCIS开始按工资等级对H-1B抽签加权，相较于传统雇主担保，自雇能让申请人对抽签参与、工时结构与工资等级定位拥有更多掌控权。`,
-  category: `政策解读`,
-  date: `2026-02-02`,
-  readingTime: `4分钟阅读`,
   content: [
     {
       type: `paragraph`,

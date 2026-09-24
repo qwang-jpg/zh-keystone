@@ -1,6 +1,6 @@
 import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
-const faqs = [
+export const faqs = [
   {
     question: "EB路径规划项目到底是什么？",
     answer: [

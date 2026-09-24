@@ -41,7 +41,7 @@ export default function ContactDetails() {
         <div>
           <p className="text-xs font-semibold uppercase tracking-widest text-primary">微信</p>
           <div className="mt-2 w-28 overflow-hidden rounded-xl border border-border">
-            <img src={wechatQr} alt="扫码添加我们的微信" className="aspect-square w-full object-cover" />
+            <img src={wechatQr} alt="扫码添加我们的微信" loading="lazy" className="aspect-square w-full object-cover" />
           </div>
         </div>
       </div>

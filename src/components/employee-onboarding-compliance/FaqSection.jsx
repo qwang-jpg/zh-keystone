@@ -1,6 +1,6 @@
 import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
-const faqs = [
+export const faqs = [
   {
     question: "雇佣新员工后，多久需要完成I-9表格？",
     answer:

@@ -1,10 +1,4 @@
 export default {
-  slug: `government-shutdown-immigration-impact`,
-  title: `政府停摆如何影响OPT、H-1B、绿卡与签证办理`,
-  description: `一份实用解读，说明联邦政府停摆期间哪些移民机构仍正常运作、哪些受到影响，以及OPT、H-1B与绿卡申请人在停摆期间应该怎么做。`,
-  category: `政策解读`,
-  date: `2025-10-02`,
-  readingTime: `7分钟阅读`,
   content: [
     {
       type: `paragraph`,
@@ -22,7 +16,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `<strong><a href="https://www.e-verify.gov/?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">E-Verify</a></strong><strong>（雇主电子核验系统）</strong>在停摆初期也一度受到影响，<strong>但目前已恢复正常运作！</strong>`,
+      html: `<strong><a href="https://www.e-verify.gov/" rel="noopener noreferrer" target="_blank">E-Verify</a></strong><strong>（雇主电子核验系统）</strong>在停摆初期也一度受到影响，<strong>但目前已恢复正常运作！</strong>`,
     },
     { type: `heading`, level: 3, html: `2. 仍在运作的机构：USCIS、学生身份系统（SEVP）、领事馆与大使馆` },
     {

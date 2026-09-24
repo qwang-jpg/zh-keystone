@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
+import { useCountUp } from "@/lib/useCountUp";
 
 // Parses a display value like "2,000+", "48h", or "84.8%" into a numeric
 // target plus the surrounding formatting, so the number can be counted up
@@ -43,20 +43,7 @@ const gridClasses = {
 // bordered, translucent grid meant to sit inside a dark hero section instead
 // of the default bright bordered strip.
 export default function AnimatedStatsBar({ stats, size = "md", variant = "light", className }) {
-  const [t, setT] = useState(0);
-
-  useEffect(() => {
-    const start = performance.now();
-    const duration = 1400;
-    let raf;
-    const step = (now) => {
-      const raw = Math.min(1, (now - start) / duration);
-      setT(1 - Math.pow(1 - raw, 3));
-      if (raw < 1) raf = requestAnimationFrame(step);
-    };
-    raf = requestAnimationFrame(step);
-    return () => cancelAnimationFrame(raf);
-  }, []);
+  const t = useCountUp();
 
   const hasIcons = stats.some((s) => s.icon);
 

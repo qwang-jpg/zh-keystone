@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-self-employment-complete-guide`,
-  title: `H-1B自雇完全指南`,
-  description: `一份关于H-1B自雇的分步指南：USCIS最新规则、雇主与雇员的资格要求、从公司成立到获批的完整流程，以及真实成功案例。`,
-  category: `指南`,
-  date: `2025-06-30`,
-  readingTime: `12分钟阅读`,
   content: [
     {
       type: `paragraph`,

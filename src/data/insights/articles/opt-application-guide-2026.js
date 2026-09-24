@@ -1,10 +1,4 @@
 export default {
-  slug: `opt-application-guide-2026`,
-  title: `2026年OPT申请完全指南`,
-  description: `一份关于2026年OPT申请流程的全面讲解：资格条件、逐步时间安排、每一种合法的工作类型，以及最需要避免的合规错误。`,
-  category: `指南`,
-  date: `2025-07-07`,
-  readingTime: `13分钟阅读`,
   content: [
     {
       type: `paragraph`,
@@ -100,7 +94,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `– 新I-20&nbsp;&nbsp;&nbsp;&nbsp;– 护照信息页&nbsp;&nbsp;&nbsp;&nbsp;– F-1签证页&nbsp;&nbsp;&nbsp;&nbsp;– 最近一次的I-94&nbsp;&nbsp;&nbsp;&nbsp;– 一张在过去30天内拍摄、符合<a href="https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/employment-and-tax/optional-practical-training/photo-requirements-for-ead-application.html?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">规定标准</a>的照片（上传前可使用<a href="https://tsg.phototool.state.gov/photo" rel="noopener noreferrer" target="_blank">官方工具</a>处理照片）&nbsp;&nbsp;&nbsp;&nbsp;– 此前所有EAD卡、I-20、CPT I-20等的副本&nbsp;&nbsp;&nbsp;&nbsp;– <a href="https://www.uscis.gov/sites/default/files/document/forms/i-765.pdf?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">I-765表格</a>`,
+      html: `– 新I-20&nbsp;&nbsp;&nbsp;&nbsp;– 护照信息页&nbsp;&nbsp;&nbsp;&nbsp;– F-1签证页&nbsp;&nbsp;&nbsp;&nbsp;– 最近一次的I-94&nbsp;&nbsp;&nbsp;&nbsp;– 一张在过去30天内拍摄、符合<a href="https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/employment-and-tax/optional-practical-training/photo-requirements-for-ead-application.html" rel="noopener noreferrer" target="_blank">规定标准</a>的照片（上传前可使用<a href="https://tsg.phototool.state.gov/photo" rel="noopener noreferrer" target="_blank">官方工具</a>处理照片）&nbsp;&nbsp;&nbsp;&nbsp;– 此前所有EAD卡、I-20、CPT I-20等的副本&nbsp;&nbsp;&nbsp;&nbsp;– <a href="https://www.uscis.gov/sites/default/files/document/forms/i-765.pdf" rel="noopener noreferrer" target="_blank">I-765表格</a>`,
     },
     {
       type: `paragraph`,

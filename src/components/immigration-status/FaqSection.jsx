@@ -1,6 +1,6 @@
 import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
-const faqs = [
+export const faqs = [
   {
     question: "职业签证职位与申请规划具体包括哪些服务？",
     answer: [

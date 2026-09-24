@@ -1,10 +1,4 @@
 export default {
-  slug: `opt-unemployment-survival-guide`,
-  title: `OPT失业生存指南`,
-  description: `关于OPT 90天失业计时的完整解读：如何计算、六种合法维持就业的方式，以及自雇如何帮助您保住身份。`,
-  category: `指南`,
-  date: `2025-07-08`,
-  readingTime: `10分钟阅读`,
   content: [
     {
       type: `paragraph`,

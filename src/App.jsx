@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { routes, redirects } from "@/router/routes";
+import ErrorBoundary from "@/components/common/ErrorBoundary";
 
 // React Router doesn't reset scroll position on navigation by default, so
 // without this, clicking a nav link while scrolled down on the current page
@@ -40,11 +41,9 @@ const EVerifyEmployerAccountSetup = lazy(() => import("@/pages/EVerifyEmployerAc
 const EmployeeOnboardingCompliance = lazy(() => import("@/pages/EmployeeOnboardingCompliance"));
 const Eb2Eb3GreenCardPlanning = lazy(() => import("@/pages/Eb2Eb3GreenCardPlanning"));
 const EmployeePoliciesWorkplaceCompliance = lazy(() => import("@/pages/EmployeePoliciesWorkplaceCompliance"));
-const ComingSoon = lazy(() => import("@/pages/ComingSoon"));
 const NotFound = lazy(() => import("@/pages/NotFound"));
 
-// Add an entry here as each page is built; anything not listed falls back
-// to the ComingSoon placeholder so routes never 404.
+// Every route in router/routes.js needs an entry here (keyed by its slug).
 const pageComponents = {
   home: Home,
   contact: Contact,
@@ -70,21 +69,17 @@ const pageComponents = {
   "employee-policies-workplace-compliance": EmployeePoliciesWorkplaceCompliance,
 };
 
-export default function App() {
+// Keyed on the pathname so an error on one page is cleared by navigating
+// to another instead of sticking around for the rest of the session.
+function AppRoutes() {
+  const { pathname } = useLocation();
   return (
-    <BrowserRouter>
-      <ScrollToTop />
+    <ErrorBoundary key={pathname}>
       <Suspense fallback={null}>
         <Routes>
           {routes.map((r) => {
             const Page = pageComponents[r.slug];
-            return (
-              <Route
-                key={r.path}
-                path={r.path}
-                element={Page ? <Page /> : <ComingSoon title={r.title} />}
-              />
-            );
+            return <Route key={r.path} path={r.path} element={<Page />} />;
           })}
           {redirects.map((r) => (
             <Route key={r.from} path={r.from} element={<Navigate to={r.to} replace />} />
@@ -93,6 +88,15 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
+    </ErrorBoundary>
+  );
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <ScrollToTop />
+      <AppRoutes />
     </BrowserRouter>
   );
 }

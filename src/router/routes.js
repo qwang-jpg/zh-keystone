@@ -1,6 +1,8 @@
 // Route map mirrors the original WordPress site's URL/slug structure 1:1,
-// so existing SEO paths are preserved. Only "home" is implemented so far;
-// the rest render a PageLayout placeholder until built page-by-page.
+// so existing SEO paths are preserved. Each slug maps to a page component
+// in App.jsx. The build also turns this file into dist/sitemap.xml and
+// dist/routes.json (see vite.config.js), so a route added here is picked
+// up by the sitemap and by functions.php's 200/404/301 handling.
 //
 // A handful of routes below were renamed so the URL matches what the page
 // actually covers (e.g. "startup-incubation" -> the "Company Formation &
@@ -32,9 +34,9 @@ export const routes = [
   { path: "/privacy-policy", slug: "privacy-policy", title: "Privacy Policy" },
 ];
 
-// Legacy URLs being renamed above. Kept alive as redirects to the new
-// canonical path so old links, bookmarks, and indexed search results still
-// resolve to the right page instead of 404ing or showing a mismatched URL.
+// Legacy URLs being renamed above. functions.php answers these with a real
+// 301 to the new canonical path; the client-side redirect in App.jsx only
+// covers in-app navigation and the dev server.
 export const redirects = [
   { from: "/immigration-status-planning", to: "/employment-visa-position-petition-planning" },
   { from: "/financial-advisory", to: "/business-tax-financial-management" },

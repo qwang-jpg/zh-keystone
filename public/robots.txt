@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://pathway.keystonestrategies.us/sitemap.xml

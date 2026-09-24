@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-self-employment-rfe-case-study`,
-  title: `H-1B自雇补件案例：在美8年，Day-1 CPT三年，60天内获批`,
-  description: `一个真实的H-1B自雇案例：三次抽签落空、多年依靠Day-1 CPT维持身份后，申请人收到质疑其身份历史与岗位真实性的补件通知——最终在60天内获批。`,
-  category: `案例分享`,
-  date: `2025-11-18`,
-  readingTime: `9分钟阅读`,
   content: [
     {
       type: `paragraph`,
