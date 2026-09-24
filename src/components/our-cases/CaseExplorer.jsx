@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowRight, X } from "lucide-react";
 import { CASES, GOALS, filterCases } from "@/components/our-cases/caseData";
@@ -22,7 +22,7 @@ function FilterPill({ label, active, onClick }) {
   );
 }
 
-export function CaseCard({ c, onOpen }) {
+function CaseCard({ c, onOpen }) {
   const durationLabel = c.outcome.includes("中签") ? "签约 → 中签" : "签约 → 获批";
 
   return (
@@ -73,8 +73,28 @@ export function CaseCard({ c, onOpen }) {
   );
 }
 
-export function CaseDrawer({ caseData, onClose }) {
-  const [full, setFull] = useState(false);
+function CaseDrawer({ caseData, onClose }) {
+  // Tracks which case has its full story expanded, so opening a different
+  // case always starts collapsed (the drawer itself stays mounted).
+  const [fullFor, setFullFor] = useState(null);
+  const full = caseData !== null && fullFor === caseData.num;
+  const closeRef = useRef(null);
+
+  // Modal behavior while open: Escape closes, the page behind doesn't
+  // scroll, and focus moves into the drawer.
+  useEffect(() => {
+    if (!caseData) return undefined;
+    const onKeyDown = (e) => {
+      if (e.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", onKeyDown);
+    document.body.style.overflow = "hidden";
+    closeRef.current?.focus();
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [caseData, onClose]);
 
   return (
     <AnimatePresence>
@@ -90,6 +110,9 @@ export function CaseDrawer({ caseData, onClose }) {
             className="absolute inset-0 bg-keystone-ink/50"
           />
           <motion.div
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="case-drawer-title"
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
@@ -102,10 +125,13 @@ export function CaseDrawer({ caseData, onClose }) {
                   <p className="text-xs font-semibold uppercase tracking-wide text-keystone-green">
                     案例{caseData.num} · {caseData.season}
                   </p>
-                  <h3 className="mt-1.5 text-2xl font-bold text-white">{caseData.name}</h3>
+                  <h3 id="case-drawer-title" className="mt-1.5 text-2xl font-bold text-white">
+                    {caseData.name}
+                  </h3>
                   <p className="mt-1 text-sm text-white/65">{caseData.meta}</p>
                 </div>
                 <button
+                  ref={closeRef}
                   type="button"
                   onClick={onClose}
                   aria-label="关闭案例"
@@ -150,22 +176,27 @@ export function CaseDrawer({ caseData, onClose }) {
                 <p className="mt-2 text-sm leading-relaxed text-keystone-ink">{caseData.result}</p>
               </div>
 
-              <button
-                type="button"
-                onClick={() => setFull((f) => !f)}
-                className="w-fit rounded-lg border border-border px-4 py-2 text-xs font-semibold text-keystone-ink transition-colors hover:border-primary hover:text-primary"
-              >
-                {full ? "收起完整故事" : "查看完整故事"}
-              </button>
+              {/* Not every case has a long-form write-up (e.g. Client A). */}
+              {caseData.paragraphs?.length > 0 && (
+                <>
+                  <button
+                    type="button"
+                    onClick={() => setFullFor(full ? null : caseData.num)}
+                    className="w-fit rounded-lg border border-border px-4 py-2 text-xs font-semibold text-keystone-ink transition-colors hover:border-primary hover:text-primary"
+                  >
+                    {full ? "收起完整故事" : "查看完整故事"}
+                  </button>
 
-              {full && (
-                <div className="flex flex-col gap-3.5 border-t border-border pt-4">
-                  {caseData.paragraphs.map((p, idx) => (
-                    <p key={idx} className="text-sm leading-relaxed text-muted-foreground">
-                      {p}
-                    </p>
-                  ))}
-                </div>
+                  {full && (
+                    <div className="flex flex-col gap-3.5 border-t border-border pt-4">
+                      {caseData.paragraphs.map((p, idx) => (
+                        <p key={idx} className="text-sm leading-relaxed text-muted-foreground">
+                          {p}
+                        </p>
+                      ))}
+                    </div>
+                  )}
+                </>
               )}
             </div>
           </motion.div>
@@ -178,6 +209,7 @@ export function CaseDrawer({ caseData, onClose }) {
 export default function CaseExplorer() {
   const [goal, setGoal] = useState(null);
   const [openIdx, setOpenIdx] = useState(null);
+  const closeDrawer = useCallback(() => setOpenIdx(null), []);
 
   const list = filterCases(goal);
   const openCase = openIdx === null ? null : CASES[openIdx];
@@ -217,7 +249,7 @@ export default function CaseExplorer() {
         </div>
       </section>
 
-      <CaseDrawer caseData={openCase} onClose={() => setOpenIdx(null)} />
+      <CaseDrawer caseData={openCase} onClose={closeDrawer} />
     </>
   );
 }

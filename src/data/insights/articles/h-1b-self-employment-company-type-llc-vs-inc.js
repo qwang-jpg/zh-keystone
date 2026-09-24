@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-self-employment-company-type-llc-vs-inc`,
-  title: `H-1B自雇：如何在LLC与C-Corp之间做出选择`,
-  description: `一份关于H-1B自雇下LLC与Inc.（C-Corp）架构的实用对比，涵盖治理结构、税务、融资，以及USCIS所期望的合规路径。`,
-  category: `指南`,
-  date: `2025-08-18`,
-  readingTime: `13分钟阅读`,
   content: [
     {
       type: `paragraph`,

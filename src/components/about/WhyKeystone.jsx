@@ -12,7 +12,7 @@ const pillars = [
     facts: [
       { value: "30+", label: "服务行业数量" },
       { value: "7年", label: "实战经验" },
-      { value: "500", label: "成功案例" },
+      { value: "500+", label: "成功案例" },
     ],
   },
   {

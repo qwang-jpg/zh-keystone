@@ -1,10 +1,4 @@
 export default {
-  slug: `stem-opt-i983-form-guide`,
-  title: `STEM OPT自雇I-983填写指南：常见误区与可直接套用的模板`,
-  description: `逐部分讲解STEM OPT自雇的I-983表格填写方法，涵盖雇主信息、主管要求、培训计划细节，以及常见的合规错误。`,
-  category: `指南`,
-  date: `2025-07-28`,
-  readingTime: `8分钟阅读`,
   content: [
     {
       type: `paragraph`,
@@ -16,7 +10,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `<strong>本文将专门讲解如何合规填写I-983表格。</strong><a href="https://www.ice.gov/doclib/sevis/pdf/i983.pdf?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">I-983表格</a>（STEM OPT学生培训计划表）是DHS要求的STEM OPT延期申请核心文件。该表格由学生与雇主共同填写，说明学生的工作职责与技能发展目标、雇主的培训与监督方式，以及绩效评估与报告机制——它是DHS判断该培训项目是否与学生专业直接相关、雇佣关系是否真实的主要依据。对于选择STEM OPT自雇的学生而言，填写I-983往往更加复杂，常见的疑问包括：没有实体办公室是否合规？岗位职责描述过于宽泛是否会引发质疑？谁才应该被列为"主管"，又该如何证明真实存在监督关系？本文结合常见错误与真实案例，逐项拆解I-983表格的关键内容，为您提供清晰、可操作的指导，帮助您在STEM OPT期间顺利通过审查、合规开展自雇。`,
+      html: `<strong>本文将专门讲解如何合规填写I-983表格。</strong><a href="https://www.ice.gov/doclib/sevis/pdf/i983.pdf" rel="noopener noreferrer" target="_blank">I-983表格</a>（STEM OPT学生培训计划表）是DHS要求的STEM OPT延期申请核心文件。该表格由学生与雇主共同填写，说明学生的工作职责与技能发展目标、雇主的培训与监督方式，以及绩效评估与报告机制——它是DHS判断该培训项目是否与学生专业直接相关、雇佣关系是否真实的主要依据。对于选择STEM OPT自雇的学生而言，填写I-983往往更加复杂，常见的疑问包括：没有实体办公室是否合规？岗位职责描述过于宽泛是否会引发质疑？谁才应该被列为"主管"，又该如何证明真实存在监督关系？本文结合常见错误与真实案例，逐项拆解I-983表格的关键内容，为您提供清晰、可操作的指导，帮助您在STEM OPT期间顺利通过审查、合规开展自雇。`,
     },
     { type: `heading`, level: 2, html: `填写I-983之前` },
     { type: `heading`, level: 3, html: `1. 下载最新版本的I-983` },

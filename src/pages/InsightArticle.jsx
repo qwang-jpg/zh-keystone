@@ -26,21 +26,28 @@ export default function InsightArticle() {
   // Only the current article's long-form body is fetched, and only once its
   // page is actually visited — see `loadArticleContent` for why.
   const [content, setContent] = useState(null);
+  const [loadError, setLoadError] = useState(null);
 
   useEffect(() => {
     setContent(null);
     if (!article) return;
     let cancelled = false;
-    loadArticleContent(article.slug).then((c) => {
-      if (!cancelled) setContent(c);
-    });
+    loadArticleContent(article.slug).then(
+      (c) => {
+        if (!cancelled) setContent(c);
+      },
+      (err) => {
+        if (!cancelled) setLoadError(err);
+      }
+    );
     return () => {
       cancelled = true;
     };
   }, [article]);
 
   if (!article) return <NotFound />;
-  if (!content) return null;
+  // Surfaces a failed chunk load to ErrorBoundary instead of loading forever.
+  if (loadError) throw loadError;
 
   const related = getRelatedInsights(article);
   const { previous, next } = getAdjacentInsights(article);
@@ -77,18 +84,25 @@ export default function InsightArticle() {
             {formatInsightDate(article.date)} · {article.readingTime}
           </p>
 
-          <div className="mt-8 lg:grid lg:grid-cols-[240px_minmax(0,1fr)] lg:items-start lg:gap-12">
-            <div className="lg:sticky lg:top-28">
-              <TableOfContents content={content} />
-              <SidebarContactCta />
-            </div>
+          {/* The header above renders from lightweight metadata right away;
+              only the body waits on its chunk (the placeholder keeps the
+              sections below from jumping up and back down meanwhile). */}
+          {content ? (
+            <div className="mt-8 lg:grid lg:grid-cols-[240px_minmax(0,1fr)] lg:items-start lg:gap-12">
+              <div className="lg:sticky lg:top-28">
+                <TableOfContents content={content} />
+                <SidebarContactCta />
+              </div>
 
-            <div className="mt-8 min-w-0 lg:mt-0">
-              <ArticleContent content={content} />
+              <div className="mt-8 min-w-0 lg:mt-0">
+                <ArticleContent content={content} />
 
-              <PrevNextNav previous={previous} next={next} />
+                <PrevNextNav previous={previous} next={next} />
+              </div>
             </div>
-          </div>
+          ) : (
+            <div className="min-h-[60vh]" />
+          )}
         </div>
       </article>
 

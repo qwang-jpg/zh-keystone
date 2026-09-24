@@ -1,10 +1,4 @@
 export default {
-  slug: `opt-self-employment-complete-guide-2026`,
-  title: `2026年OPT自雇完全指南`,
-  description: `一份写给F-1学生的OPT自雇分步指南：公司注册、工资、报税，以及如何在OPT期间提前布局，为未来的H-1B自雇抽签做准备。`,
-  category: `指南`,
-  date: `2025-11-19`,
-  readingTime: `12分钟阅读`,
   content: [
     {
       type: `paragraph`,
@@ -62,7 +56,7 @@ export default {
       items: [
         `在毕业前90天到毕业后60天之间，向学校提交OPT申请。`,
         `学校的DSO会为您签发新的I-20，您必须在收到后30天内向USCIS递交OPT申请（可邮寄或通过<u><a href="https://my.uscis.gov/" rel="noopener noreferrer" target="_blank">在线门户</a></u>递交）。`,
-        `完成并向USCIS递交<u><a href="https://www.uscis.gov/sites/default/files/document/forms/i-765.pdf?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">I-765表格</a></u>及相关材料，支付申请费用（在线递交470美元），并收到受理通知。`,
+        `完成并向USCIS递交<u><a href="https://www.uscis.gov/sites/default/files/document/forms/i-765.pdf" rel="noopener noreferrer" target="_blank">I-765表格</a></u>及相关材料，支付申请费用（在线递交470美元），并收到受理通知。`,
         `等待约2-3个月，收到EAD（工作许可证）——只有当EAD的生效日期到达后，您才能开始工作。`,
       ],
     },

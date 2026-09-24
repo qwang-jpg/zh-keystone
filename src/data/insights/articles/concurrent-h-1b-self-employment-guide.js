@@ -1,10 +1,4 @@
 export default {
-  slug: `concurrent-h-1b-self-employment-guide`,
-  title: `并行H-1B自雇：如何在保住工作的同时安全探索创业`,
-  description: `一份关于并行H-1B自雇的分步指南——一种在保留现有H-1B工作的同时，合法经营自己公司的方式，涵盖资格条件、流程与常见问题。`,
-  category: `指南`,
-  date: `2025-11-18`,
-  readingTime: `9分钟阅读`,
   content: [
     {
       type: `paragraph`,
@@ -13,7 +7,7 @@ export default {
     { type: `heading`, level: 2, html: `什么是并行H-1B雇佣？` },
     {
       type: `paragraph`,
-      html: `在讨论通过并行H-1B实现自雇之前，我们先明确一下<strong><a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/subpart-A/section-214.2?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">并行H-1B雇佣（Concurrent H-1B Employment）</a></strong>本身的含义。并行H-1B指的是这样一种情况：在您持有由某一雇主担保的H-1B身份期间，如果第二家雇主愿意为您递交一份新的H-1B申请，让您能够同时为原雇主与新雇主工作，那么第二家雇主所递交的这份H-1B就被称为"并行H-1B"。在递交并行H-1B申请时，第二家雇主的I-129表格必须标注为"并行雇佣"，并满足所有H-1B要求。一旦申请递交并收到受理通知，您即可开始为第二家雇主工作，无需等待批准。获批后，您原来的雇主成为您的主雇主（Primary H-1B），第二家雇主则成为您的次雇主（Secondary H-1B）。与涉及更换雇主的"H-1B转移"不同，并行H-1B指的是"同时持有两个H-1B雇主"。需要说明的是，并行H-1B并不像"您已经有一个H-1B了，随便加一家公司赚点外快"那么简单。并行H-1B同样需要满足所有H-1B要求，并且<strong>虽然法律上并未限制一个人可以同时持有多少个并行H-1B，但实践中USCIS会重点审查申请人是否能够在合理的时间范围内切实履行两份工作的职责。</strong>举例来说：如果您的并行H-1B与主H-1B岗位都是全职工作，而一份全职工作通常每周约40小时，两份全职工作加起来就是每周80小时——这显然既不合理，也不现实。<strong>正因如此，更常见的并行H-1B安排是：主雇主为全职，第二家雇主为兼职——这样的时间分配更加合理、也更具可操作性。</strong>`,
+      html: `在讨论通过并行H-1B实现自雇之前，我们先明确一下<strong><a href="https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/subpart-A/section-214.2" rel="noopener noreferrer" target="_blank">并行H-1B雇佣（Concurrent H-1B Employment）</a></strong>本身的含义。并行H-1B指的是这样一种情况：在您持有由某一雇主担保的H-1B身份期间，如果第二家雇主愿意为您递交一份新的H-1B申请，让您能够同时为原雇主与新雇主工作，那么第二家雇主所递交的这份H-1B就被称为"并行H-1B"。在递交并行H-1B申请时，第二家雇主的I-129表格必须标注为"并行雇佣"，并满足所有H-1B要求。一旦申请递交并收到受理通知，您即可开始为第二家雇主工作，无需等待批准。获批后，您原来的雇主成为您的主雇主（Primary H-1B），第二家雇主则成为您的次雇主（Secondary H-1B）。与涉及更换雇主的"H-1B转移"不同，并行H-1B指的是"同时持有两个H-1B雇主"。需要说明的是，并行H-1B并不像"您已经有一个H-1B了，随便加一家公司赚点外快"那么简单。并行H-1B同样需要满足所有H-1B要求，并且<strong>虽然法律上并未限制一个人可以同时持有多少个并行H-1B，但实践中USCIS会重点审查申请人是否能够在合理的时间范围内切实履行两份工作的职责。</strong>举例来说：如果您的并行H-1B与主H-1B岗位都是全职工作，而一份全职工作通常每周约40小时，两份全职工作加起来就是每周80小时——这显然既不合理，也不现实。<strong>正因如此，更常见的并行H-1B安排是：主雇主为全职，第二家雇主为兼职——这样的时间分配更加合理、也更具可操作性。</strong>`,
     },
     { type: `heading`, level: 2, html: `并行H-1B的要求是什么？` },
     {

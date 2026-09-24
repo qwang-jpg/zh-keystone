@@ -1,6 +1,6 @@
 import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
-const faqs = [
+export const faqs = [
   {
     question: "员工工作所在的每一个州，我都需要单独的薪资账户吗？",
     answer:

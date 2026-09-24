@@ -1,7 +1,5 @@
 import { useEffect } from "react";
-import { SITE_NAME, SITE_URL, ALTERNATE_LOCALE, ALTERNATE_URL } from "@/lib/seo";
-
-const OG_IMAGE = `${SITE_URL}/Icon.png`;
+import { SITE_NAME, SITE_URL, ALTERNATE_LOCALE, ALTERNATE_URL, siteIconUrl } from "@/lib/seo";
 
 function upsertMeta(attr, key, content) {
   let el = document.head.querySelector(`meta[${attr}="${key}"]`);
@@ -51,6 +49,7 @@ export default function Seo({ title, description, path = "/", noindex = false, j
   useEffect(() => {
     const fullTitle = `${title} | ${SITE_NAME}`;
     const url = `${SITE_URL}${path}`;
+    const image = siteIconUrl();
 
     document.title = fullTitle;
     upsertMeta("name", "description", description);
@@ -61,11 +60,11 @@ export default function Seo({ title, description, path = "/", noindex = false, j
     upsertMeta("property", "og:url", url);
     upsertMeta("property", "og:type", "website");
     upsertMeta("property", "og:site_name", SITE_NAME);
-    upsertMeta("property", "og:image", OG_IMAGE);
+    if (image) upsertMeta("property", "og:image", image);
     upsertMeta("name", "twitter:card", "summary");
     upsertMeta("name", "twitter:title", fullTitle);
     upsertMeta("name", "twitter:description", description);
-    upsertMeta("name", "twitter:image", OG_IMAGE);
+    if (image) upsertMeta("name", "twitter:image", image);
 
     // Points crawlers to the English original of this same page (and vice
     // versa in that site's own Seo.jsx) so the two are treated as

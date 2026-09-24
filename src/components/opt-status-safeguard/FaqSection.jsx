@@ -1,6 +1,6 @@
 import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
-const faqs = [
+export const faqs = [
   {
     question: "申请毕业后OPT，是否需要提前拿到工作offer？",
     answer: [

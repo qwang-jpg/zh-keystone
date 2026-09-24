@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { ArrowRight, Compass } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import aboutKeystoneBackground from "@/assets/background/About-Keystone-background.png";
+import aboutKeystoneBackground from "@/assets/background/About-Keystone-background.webp";
 import heroOfficeImage from "@/assets/background/hero-office-glass-room.webp";
 
 export default function AboutHero() {
@@ -65,7 +65,7 @@ export default function AboutHero() {
               variant="outline"
               className="border-white/30 bg-transparent text-white hover:bg-white/10"
             >
-              <a href="#serve">
+              <a href="#path">
                 看看我们是否适合您
                 <Compass className="h-4 w-4" />
               </a>
@@ -83,7 +83,6 @@ export default function AboutHero() {
             <img
               src={aboutKeystoneBackground}
               alt="Keystone Strategies 前台"
-              loading="lazy"
               draggable={false}
               className="pointer-events-none h-full w-full select-none object-cover transition-transform duration-700 ease-out group-hover:scale-105"
             />
@@ -96,7 +95,6 @@ export default function AboutHero() {
             <img
               src={heroOfficeImage}
               alt="Keystone Strategies 团队办公场景"
-              loading="lazy"
               draggable={false}
               className="pointer-events-none h-full w-full select-none object-cover transition-transform duration-700 ease-out hover:scale-105"
             />

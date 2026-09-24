@@ -1,10 +1,4 @@
 export default {
-  slug: `opt-to-h1b-self-employment-transition`,
-  title: `搭建一家从OPT到H-1B自雇全程适用的公司`,
-  description: `F-1学生如何在OPT一开始就设计出一套合规的公司架构，让其顺利延续到STEM OPT，并最终过渡到H-1B自雇，避免日后代价高昂的重组。`,
-  category: `指南`,
-  date: `2025-07-29`,
-  readingTime: `10分钟阅读`,
   content: [
     {
       type: `paragraph`,

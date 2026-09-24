@@ -905,7 +905,7 @@ export const CASES = [
   },
 ];
 
-export function matchesGoal(c, goal) {
+function matchesGoal(c, goal) {
   if (!goal) return true;
   return c.goals.includes(goal);
 }

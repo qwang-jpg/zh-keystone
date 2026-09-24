@@ -65,7 +65,7 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ["Inter", "system-ui", "-apple-system", "Segoe UI", "sans-serif"],
+        sans: ["Inter Variable", "system-ui", "-apple-system", "Segoe UI", "sans-serif"],
       },
       backgroundImage: {
         "keystone-gradient": "linear-gradient(60deg, #169898 0%, #4fae63 55%, #7cc04a 100%)",

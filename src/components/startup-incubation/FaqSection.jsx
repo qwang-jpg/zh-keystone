@@ -1,6 +1,6 @@
 import ServiceFaqSection from "@/components/common/ServiceFaqSection";
 
-const faqs = [
+export const faqs = [
   {
     question: "我应该如何判断，公司该注册为LLC还是公司（Corporation）？",
     answer: [

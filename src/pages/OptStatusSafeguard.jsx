@@ -1,5 +1,6 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
+import { buildFaqJsonLd } from "@/lib/seo";
 import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/opt-status-safeguard/Hero";
 import StatsBar from "@/components/opt-status-safeguard/StatsBar";
@@ -11,7 +12,7 @@ import MidCta from "@/components/opt-status-safeguard/MidCta";
 import SuccessCases from "@/components/opt-status-safeguard/SuccessCases";
 import WhyKeystone from "@/components/opt-status-safeguard/WhyKeystone";
 import Insights from "@/components/opt-status-safeguard/Insights";
-import FaqSection from "@/components/opt-status-safeguard/FaqSection";
+import FaqSection, { faqs } from "@/components/opt-status-safeguard/FaqSection";
 import ComplianceClosing from "@/components/opt-status-safeguard/ComplianceClosing";
 
 export default function OptStatusSafeguard() {
@@ -21,6 +22,7 @@ export default function OptStatusSafeguard() {
         title="OPT身份保障计划 — 以真实工作，守护您的OPT身份"
         description="Keystone Strategies通过与专业相关的真实工作机会及系统化的OPT支持，帮助国际毕业生管理OPT失业风险——500+家合作企业资源，2,000+个真实工作机会。"
         path="/opt-status-safeguard"
+        jsonLd={buildFaqJsonLd(faqs)}
       />
       <Hero />
       <StatsBar />

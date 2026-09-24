@@ -1,10 +1,4 @@
 export default {
-  slug: `stem-opt-layoff-survival-guide`,
-  title: `STEM OPT裁员生存完全指南`,
-  description: `STEM OPT裁员后该怎么办的分步操作手册：如何计算剩余失业天数、四条合法应对路径，以及一个10天内成功落地身份的真实案例。`,
-  category: `指南`,
-  date: `2025-07-09`,
-  readingTime: `13分钟阅读`,
   content: [
     {
       type: `paragraph`,

@@ -1,5 +1,6 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
+import { buildFaqJsonLd } from "@/lib/seo";
 import CompactCta from "@/components/common/CompactCta";
 import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/corporate-website-brand-development/Hero";
@@ -10,16 +11,6 @@ import CoreDeliverables from "@/components/corporate-website-brand-development/C
 import WhyKeystone from "@/components/home/WhyKeystone";
 import FaqSection, { faqs } from "@/components/corporate-website-brand-development/FaqSection";
 
-const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: faqs.map((faq) => ({
-    "@type": "Question",
-    name: faq.question,
-    acceptedAnswer: { "@type": "Answer", text: Array.isArray(faq.answer) ? faq.answer.join(" ") : faq.answer },
-  })),
-};
-
 export default function CorporateWebsiteBrandDevelopment() {
   return (
     <PageLayout>
@@ -27,7 +18,7 @@ export default function CorporateWebsiteBrandDevelopment() {
         title="企业官网与品牌形象建设"
         description="Keystone Strategies 为您设计品牌标志，并端到端搭建公司官网，从架构与内容规划到SEO配置与上线全程负责。"
         path="/corporate-website-brand-development"
-        jsonLd={faqJsonLd}
+        jsonLd={buildFaqJsonLd(faqs)}
       />
       <Hero />
       <StatsBar />

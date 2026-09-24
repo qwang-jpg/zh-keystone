@@ -56,10 +56,6 @@ export default function Header({ ctaLabel = "预约免费咨询" }) {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  useEffect(() => {
-    setMobileOpen(false);
-  }, []);
-
   // Closes an open dropdown on an outside click/tap or Escape, so the
   // click-to-open trigger (needed for keyboard and touch users) has a way
   // to close again without relying on mouseleave.
@@ -183,32 +179,20 @@ export default function Header({ ctaLabel = "预约免费咨询" }) {
               </div>
             </div>
 
-            {navLinks.map((link) =>
-              link.external ? (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-sm font-medium text-keystone-ink/80 hover:text-primary transition-colors"
-                >
-                  {link.label}
-                </a>
-              ) : (
-                <NavLink
-                  key={link.href}
-                  to={link.href}
-                  className={({ isActive }) =>
-                    cn(
-                      "text-sm font-medium text-keystone-ink/80 hover:text-primary transition-colors",
-                      isActive && "text-primary"
-                    )
-                  }
-                >
-                  {link.label}
-                </NavLink>
-              )
-            )}
+            {navLinks.map((link) => (
+              <NavLink
+                key={link.href}
+                to={link.href}
+                className={({ isActive }) =>
+                  cn(
+                    "text-sm font-medium text-keystone-ink/80 hover:text-primary transition-colors",
+                    isActive && "text-primary"
+                  )
+                }
+              >
+                {link.label}
+              </NavLink>
+            ))}
           </nav>
 
           <div className="flex items-center gap-4">
@@ -282,6 +266,8 @@ export default function Header({ ctaLabel = "预约免费咨询" }) {
         </div>
 
         <button
+          type="button"
+          aria-expanded={mobileOpen}
           className={cn("inline-flex h-10 w-10 items-center justify-center rounded-md text-keystone-ink", expandedCta ? "xl:hidden" : "lg:hidden")}
           onClick={() => setMobileOpen((v) => !v)}
           aria-label="切换导航菜单"
@@ -301,6 +287,8 @@ export default function Header({ ctaLabel = "预约免费咨询" }) {
         <div className={cn("max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-border bg-white", expandedCta ? "xl:hidden" : "lg:hidden")}>
           <nav className="container flex flex-col py-4">
             <button
+              type="button"
+              aria-expanded={mobileServicesOpen}
               className="flex items-center justify-between py-3 text-base font-medium text-keystone-ink/80 border-b border-border/60"
               onClick={() => setMobileServicesOpen((v) => !v)}
             >
@@ -325,28 +313,16 @@ export default function Header({ ctaLabel = "预约免费咨询" }) {
               </div>
             )}
 
-            {navLinks.map((link) =>
-              link.external ? (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="py-3 text-base font-medium text-keystone-ink/80 border-b border-border/60"
-                >
-                  {link.label}
-                </a>
-              ) : (
-                <Link
-                  key={link.href}
-                  to={link.href}
-                  className="py-3 text-base font-medium text-keystone-ink/80 border-b border-border/60"
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              )
-            )}
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                to={link.href}
+                className="py-3 text-base font-medium text-keystone-ink/80 border-b border-border/60"
+                onClick={() => setMobileOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ))}
 
             <Button asChild className="mt-4 w-full">
               <Link to="/contact" onClick={() => setMobileOpen(false)}>

@@ -1,10 +1,9 @@
-// Lightweight metadata for every Insights article — slug, title, description,
-// category, date, readingTime. Deliberately excludes `content` (the long-form
-// body) so pages that only need to list/filter articles (Insights hub,
-// ArticleCard, prev/next/related nav) never pull in all 26 articles' full
-// text. Kept in sync with src/data/insights/articles/*.js by hand — if you
-// add or edit an article's title/description/category/date/readingTime,
-// update the matching entry here too.
+// Metadata for every Insights article — slug, title, description,
+// category, date, readingTime — and the single source for it: the files in
+// src/data/insights/articles/ hold only each article's long-form `content`.
+// Kept separate so pages that only need to list/filter articles (Insights
+// hub, ArticleCard, prev/next/related nav, the build's sitemap) never pull
+// in all 26 articles' full text. `file` names the matching article file.
 export const articleMeta = [
   {
     file: "2025-dhs-f-1-rule-proposal-explained",

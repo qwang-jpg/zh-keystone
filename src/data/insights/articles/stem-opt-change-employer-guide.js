@@ -1,10 +1,4 @@
 export default {
-  slug: `stem-opt-change-employer-guide`,
-  title: `STEM OPT更换雇主指南：审理中与获批后的不同步骤、I-983递交与DSO报备`,
-  description: `一份关于STEM OPT期间更换雇主的完整指南，涵盖延期审理中与获批后更换雇主的区别、失业天数规则、I-983递交，以及DSO报备要求。`,
-  category: `指南`,
-  date: `2025-08-08`,
-  readingTime: `8分钟阅读`,
   content: [
     {
       type: `paragraph`,

@@ -1,10 +1,4 @@
 export default {
-  slug: `stem-opt-self-employment-compliance-guide`,
-  title: `STEM OPT自雇：如何做到合规`,
-  description: `一份关于搭建合规STEM OPT自雇架构的实用指南——E-Verify注册、雇主-雇员关系、I-983要求，以及如何通过学校与USCIS的审查。`,
-  category: `指南`,
-  date: `2025-07-09`,
-  readingTime: `13分钟阅读`,
   content: [
     {
       type: `paragraph`,

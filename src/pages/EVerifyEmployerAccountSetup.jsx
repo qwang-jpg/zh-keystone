@@ -1,5 +1,6 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
+import { buildFaqJsonLd } from "@/lib/seo";
 import CompactCta from "@/components/common/CompactCta";
 import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/e-verify-employer-account-setup/Hero";
@@ -8,7 +9,7 @@ import Overview from "@/components/e-verify-employer-account-setup/Overview";
 import WhoItsFor from "@/components/e-verify-employer-account-setup/WhoItsFor";
 import CoreDeliverables from "@/components/e-verify-employer-account-setup/CoreDeliverables";
 import WhyKeystone from "@/components/e-verify-employer-account-setup/WhyKeystone";
-import FaqSection from "@/components/e-verify-employer-account-setup/FaqSection";
+import FaqSection, { faqs } from "@/components/e-verify-employer-account-setup/FaqSection";
 
 export default function EVerifyEmployerAccountSetup() {
   return (
@@ -17,6 +18,7 @@ export default function EVerifyEmployerAccountSetup() {
         title="雇佣资格与雇主注册"
         description="Keystone Strategies 为您注册并配置企业E-Verify雇主账户——这是每一位STEM OPT雇员入职的必备条件——同时搭建州新员工申报流程，并交付您的公司ID。"
         path="/e-verify-employer-account-setup"
+        jsonLd={buildFaqJsonLd(faqs)}
       />
       <Hero />
       <StatsBar />

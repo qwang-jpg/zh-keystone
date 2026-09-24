@@ -33,13 +33,13 @@ const pillars = [
   {
     icon: Award,
     num: "03",
-    title: "100%成功的H-1B与STEM OPT履历",
+    title: "经过验证的H-1B与STEM OPT履历",
     meta: "执行力 · H-1B · STEM OPT · OPT",
     panelTitle: "以真实客户成果验证实力",
     description:
       "我们的H-1B与OPT/STEM OPT解决方案，均建立在已被真实客户案例反复验证的路径之上。从雇主就绪、雇佣架构设计到持续的合规支持，我们的方法始终围绕实际执行，而非纸上谈兵。",
     facts: [
-      { value: "100%", label: "H-1B与STEM OPT成功率" },
+      { value: "100%", label: "截至目前已递交案例的H-1B与STEM OPT获批率" },
       { value: "200+", label: "已支持H-1B客户案例数" },
       { value: "2", label: "核心职业类身份路径" },
     ],

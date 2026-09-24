@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-self-employment-transfer-guide`,
-  title: `H-1B自雇转移：资格条件、时间安排与风险`,
-  description: `一份关于将H-1B转移到自己公司名下的完整指南：资格条件、不同情况下的最佳时机、适用人群、分步流程，以及常见问题。`,
-  category: `指南`,
-  date: `2025-11-18`,
-  readingTime: `9分钟阅读`,
   content: [
     {
       type: `paragraph`,
@@ -72,7 +66,7 @@ export default {
     { type: `heading`, level: 2, html: `什么是自雇型H-1B转移？` },
     {
       type: `paragraph`,
-      html: `<strong>自雇型H-1B转移指的是，H-1B持有者自己创办一家公司，由该公司作为新雇主，向USCIS递交I-129申请，将此前由原雇主担保的H-1B转移到申请人自己创办的公司名下。</strong>与标准的H-1B转移一样，只要申请人在递交时仍处于有效的H-1B身份中，该流程无需重新参加抽签，也不受年度名额限制。除了转移之外，您还可以选择<a href="https://www.higheredimmigrationportal.org/wp-content/uploads/2025/02/Understanding-Concurrent-H-1Bs.pdf?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">H-1B并行雇佣</a>：保留您现有的H-1B雇主不变，同时由您创办的公司作为"第二雇主"递交一份新的H-1B申请。这样一来，您可以继续为现雇主工作，同时通过自己的公司合法开展创业活动。如果您目前没有紧迫的身份风险、也不想离职，但希望先在业余时间验证一个商业想法，并行雇佣是一种更稳妥、更具过渡性的选择。`,
+      html: `<strong>自雇型H-1B转移指的是，H-1B持有者自己创办一家公司，由该公司作为新雇主，向USCIS递交I-129申请，将此前由原雇主担保的H-1B转移到申请人自己创办的公司名下。</strong>与标准的H-1B转移一样，只要申请人在递交时仍处于有效的H-1B身份中，该流程无需重新参加抽签，也不受年度名额限制。除了转移之外，您还可以选择<a href="https://www.higheredimmigrationportal.org/wp-content/uploads/2025/02/Understanding-Concurrent-H-1Bs.pdf" rel="noopener noreferrer" target="_blank">H-1B并行雇佣</a>：保留您现有的H-1B雇主不变，同时由您创办的公司作为"第二雇主"递交一份新的H-1B申请。这样一来，您可以继续为现雇主工作，同时通过自己的公司合法开展创业活动。如果您目前没有紧迫的身份风险、也不想离职，但希望先在业余时间验证一个商业想法，并行雇佣是一种更稳妥、更具过渡性的选择。`,
     },
     {
       type: `paragraph`,

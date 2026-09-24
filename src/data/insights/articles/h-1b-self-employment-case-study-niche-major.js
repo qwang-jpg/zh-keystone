@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-self-employment-case-study-niche-major`,
-  title: `H-1B自雇案例：从冷门专业、零offer到首轮抽签中签`,
-  description: `一个真实客户案例，展示一位冷门领域毕业生如何通过H-1B自雇保住OPT身份、首次参与抽签即中签，并最终成功获批签证。`,
-  category: `案例分享`,
-  date: `2025-08-26`,
-  readingTime: `11分钟阅读`,
   content: [
     {
       type: `paragraph`,

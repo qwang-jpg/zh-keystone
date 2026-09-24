@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
-export const ASSESSMENT_CTA = "申请H-1B评估";
+const ASSESSMENT_CTA = "申请H-1B评估";
 
 // `light` renders the white-on-dark treatment used for CTAs sitting on the
 // hero/dark sections, matching ServiceHero and CompactCta's convention.

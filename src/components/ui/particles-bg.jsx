@@ -1,6 +1,27 @@
 import { useEffect, useId } from "react";
 import particlesJsUrl from "particles.js/particles.js?url";
 
+// particles.js relies on `arguments.callee`, which strict-mode ES modules
+// forbid, so it must run as a classic script rather than an import. It's
+// loaded once per page load: re-running it resets its global instance list
+// (`window.pJSDom`), orphaning any instance that's still animating.
+let scriptPromise = null;
+function loadParticlesJs() {
+  if (!scriptPromise) {
+    scriptPromise = new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = particlesJsUrl;
+      script.onload = resolve;
+      script.onerror = () => {
+        scriptPromise = null;
+        reject();
+      };
+      document.body.appendChild(script);
+    });
+  }
+  return scriptPromise;
+}
+
 export default function ParticlesBg() {
   // Scoped so multiple instances on a page don't collide on the same DOM id.
   // particles.js builds CSS selectors from this id internally, so React's
@@ -8,12 +29,16 @@ export default function ParticlesBg() {
   const containerId = `particles-js-${useId().replace(/:/g, "")}`;
 
   useEffect(() => {
-    // particles.js relies on `arguments.callee`, which strict-mode ES modules
-    // forbid, so it must run as a classic script rather than an import.
-    const script = document.createElement("script");
-    script.src = particlesJsUrl;
-    script.onload = initParticles;
-    document.body.appendChild(script);
+    // Purely decorative animation: skipped for users who ask for less motion.
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return undefined;
+
+    let cancelled = false;
+    loadParticlesJs().then(
+      () => {
+        if (!cancelled) initParticles();
+      },
+      () => {}
+    );
 
     function initParticles() {
       window.particlesJS(containerId, {
@@ -55,12 +80,14 @@ export default function ParticlesBg() {
       });
     }
 
+    // Destroys only this component's instance. destroypJS() also sets the
+    // global `pJSDom` to null, so the remaining instances are put back.
     return () => {
-      if (window.pJSDom?.length > 0) {
-        window.pJSDom.forEach((p) => p.pJS.fn.vendors.destroypJS());
-        window.pJSDom = [];
-      }
-      script.remove();
+      cancelled = true;
+      const instances = window.pJSDom || [];
+      const own = instances.find((p) => p.pJS.canvas.el.parentElement?.id === containerId);
+      own?.pJS.fn.vendors.destroypJS();
+      window.pJSDom = instances.filter((p) => p !== own);
     };
   }, [containerId]);
 

@@ -1,5 +1,6 @@
 import PageLayout from "@/components/layout/PageLayout";
 import Seo from "@/components/common/Seo";
+import { buildFaqJsonLd } from "@/lib/seo";
 import CompactCta from "@/components/common/CompactCta";
 import RelatedServices from "@/components/common/RelatedServices";
 import Hero from "@/components/business-bank-account-setup/Hero";
@@ -8,7 +9,7 @@ import Overview from "@/components/business-bank-account-setup/Overview";
 import WhoItsFor from "@/components/business-bank-account-setup/WhoItsFor";
 import CoreDeliverables from "@/components/business-bank-account-setup/CoreDeliverables";
 import WhyKeystone from "@/components/business-bank-account-setup/WhyKeystone";
-import FaqSection from "@/components/business-bank-account-setup/FaqSection";
+import FaqSection, { faqs } from "@/components/business-bank-account-setup/FaqSection";
 
 export default function BusinessBankAccountSetup() {
   return (
@@ -17,6 +18,7 @@ export default function BusinessBankAccountSetup() {
         title="企业银行账户开设支持 — 远程开设美国企业银行账户"
         description="Keystone帮助符合条件的创始人在美国主要银行开设企业账户，无需SSN或亲自前往银行网点，服务涵盖从材料准备、账户开通到银行卡寄送的全过程。"
         path="/business-bank-account-setup"
+        jsonLd={buildFaqJsonLd(faqs)}
       />
       <Hero />
       <StatsBar />

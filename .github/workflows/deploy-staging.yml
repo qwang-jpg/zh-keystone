@@ -41,6 +41,8 @@ jobs:
       - name: Verify build output
         run: |
           test -f dist/.vite/manifest.json
+          test -f dist/routes.json
+          test -f dist/sitemap.xml
           test -f functions.php
           test -f index.php
           test -f style.css
@@ -71,6 +73,7 @@ jobs:
             --exclude "jsconfig.json" \
             --exclude "index.html" \
             --exclude "CLAUDE.md" \
+            --exclude "README.md" \
             -e "ssh -p ${{ secrets.SITEGROUND_SSH_PORT }}" \
             ./ \
             ${{ secrets.SITEGROUND_USER }}@${{ secrets.SITEGROUND_HOST }}:${{ secrets.SITEGROUND_DEPLOY_PATH }}

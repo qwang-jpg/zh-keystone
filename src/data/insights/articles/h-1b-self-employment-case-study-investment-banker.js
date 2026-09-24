@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-self-employment-case-study-investment-banker`,
-  title: `H-1B自雇案例：一位投资从业者的无缝H-1B转移之路`,
-  description: `一位交易与投资从业者如何在H-1B自雇规则下创办自己的公司，并在保留原有工作的同时，完成一次完全合规的H-1B转移。`,
-  category: `案例分享`,
-  date: `2025-09-26`,
-  readingTime: `12分钟阅读`,
   content: [
     {
       type: `paragraph`,

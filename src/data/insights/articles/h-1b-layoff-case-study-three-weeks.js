@@ -1,10 +1,4 @@
 export default {
-  slug: `h-1b-layoff-case-study-three-weeks`,
-  title: `H-1B裁员后三周内恢复身份：一个真实的自雇案例`,
-  description: `一个真实客户案例，讲解应对H-1B裁员的全过程——被裁当天该做什么、权衡了哪些身份替代方案，以及自雇如何帮助其在短短三周内获批H-1B转移。`,
-  category: `案例分享`,
-  date: `2025-07-28`,
-  readingTime: `9分钟阅读`,
   content: [
     {
       type: `paragraph`,
@@ -65,7 +59,7 @@ export default {
     },
     {
       type: `paragraph`,
-      html: `如果配偶持有H-1B身份并在美国工作，可以转为<a href="https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations/employment-authorization-for-certain-h-4-dependent-spouses?utm_source=chatgpt.com" rel="noopener noreferrer" target="_blank">H-4</a>家属身份，只要配偶维持有效的H-1B身份，就可以合法留在美国。通常情况下，H-4身份不允许在美工作，除非配偶持续受雇且已获批<a href="https://www.uscis.gov/i-140" rel="noopener noreferrer" target="_blank">I-140</a>——此时H-4持有者可以申请EAD，获批后即可开始工作。然而，我们的客户没有配偶，因此这一选项完全不适用。`,
+      html: `如果配偶持有H-1B身份并在美国工作，可以转为<a href="https://www.uscis.gov/working-in-the-united-states/temporary-workers/h-1b-specialty-occupations/employment-authorization-for-certain-h-4-dependent-spouses" rel="noopener noreferrer" target="_blank">H-4</a>家属身份，只要配偶维持有效的H-1B身份，就可以合法留在美国。通常情况下，H-4身份不允许在美工作，除非配偶持续受雇且已获批<a href="https://www.uscis.gov/i-140" rel="noopener noreferrer" target="_blank">I-140</a>——此时H-4持有者可以申请EAD，获批后即可开始工作。然而，我们的客户没有配偶，因此这一选项完全不适用。`,
     },
     {
       type: `list`,

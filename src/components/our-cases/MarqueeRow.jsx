@@ -50,8 +50,11 @@ export default function MarqueeRow({ items, direction = "left", renderItem, aria
         )}
         style={{ "--marquee-duration": `${duration}s` }}
       >
+        {/* The second copy is visual only: `inert` keeps its clickable
+            cards out of the tab order and the accessibility tree. (React 18
+            passes the attribute through as-is; React 19 expects a boolean.) */}
         {[...items, ...items].map((item, idx) => (
-          <div key={idx} aria-hidden={idx >= items.length ? "true" : undefined}>
+          <div key={idx} inert={idx >= items.length ? "" : undefined}>
             {renderItem(item, idx % items.length)}
           </div>
         ))}
